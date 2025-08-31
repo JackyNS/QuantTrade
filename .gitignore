@@ -226,3 +226,15 @@ tools/**/*.log
 tools/**/temp_*
 tools/**/*_temp.py
 
+
+# ========================
+# Project Organization
+# ========================
+# Archive directory (historical files)
+archive/
+
+# Tools directory outputs
+tools/**/*.log
+tools/**/temp_*
+tools/**/*_temp.py
+

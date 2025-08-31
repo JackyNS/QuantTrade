@@ -1,0 +1,26 @@
+{
+  "timestamp": "2025-09-01T07:11:48.184744",
+  "connection_status": true,
+  "tests_passed": 1,
+  "tests_failed": 2,
+  "results": {
+    "basic_connection": {
+      "status": "success",
+      "client_info": "<uqer.uqer.Client object at 0x108673910>"
+    },
+    "stock_data": {
+      "status": "failed",
+      "error": "No module named 'uqer.api'"
+    },
+    "detailed_functions": {
+      "total_tests": 3,
+      "passed_tests": 0,
+      "success_rate": 0.0
+    }
+  },
+  "summary": {
+    "overall_status": "error",
+    "success_rate": 0.3333333333333333,
+    "total_tests": 3
+  }
+}

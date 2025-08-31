@@ -1,0 +1,29 @@
+{
+  "check_time": "2025-08-31 20:48:59.181618",
+  "token_status": "missing",
+  "permissions": {},
+  "available_apis": [],
+  "data_status": {
+    "directory_exists": true,
+    "total_files": 0,
+    "total_size": 0,
+    "file_types": {
+      "csv": 0,
+      "parquet": 0
+    }
+  },
+  "recommendations": [
+    {
+      "type": "critical",
+      "title": "配置优矿Token",
+      "description": "未找到优矿API Token，请配置后才能使用数据下载功能",
+      "action": "设置环境变量 UQER_TOKEN 或创建配置文件"
+    },
+    {
+      "type": "info",
+      "title": "开始数据下载",
+      "description": "未发现历史数据，建议开始首次全量下载",
+      "action": "运行 python download_uqer_data.py"
+    }
+  ]
+}

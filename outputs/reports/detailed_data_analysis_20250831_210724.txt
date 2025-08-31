@@ -1,0 +1,75 @@
+================================================================================
+📊 本地数据详细分析报告
+================================================================================
+📅 分析时间: 2025-08-31 21:07:24
+
+🎯 数据概览:
+   📁 总文件数: 5,307
+   📈 总股票数: 201
+   📂 目录数: 6
+
+📂 目录详情:
+   cache:
+      📊 文件数: 0
+      📈 股票数: 0
+
+   backtest:
+      📊 文件数: 0
+      📈 股票数: 0
+
+   processed:
+      📊 文件数: 0
+      📈 股票数: 0
+
+   metadata:
+      📊 文件数: 0
+      📈 股票数: 0
+
+   raw:
+      📊 文件数: 5,152
+      📈 股票数: 100
+      📁 daily:
+         文件: 5,152
+         股票: 100
+         大小: 17.5 MB
+
+   strategy:
+      📊 文件数: 155
+      📈 股票数: 101
+      📁 capital_flow:
+         文件: 154
+         股票: 100
+         大小: 4.3 MB
+      📁 market_sentiment:
+         文件: 1
+         股票: 1
+         大小: 0.0 MB
+
+📋 完整股票列表:
+   深市 (61只):
+      000011.SZ 000039.SZ 000561.SZ 000777.SZ 000788.SZ 000818.SZ 000830.SZ 000950.SZ 000978.SZ 000987.SZ
+      000993.SZ 001333.SZ 002148.SZ 002160.SZ 002174.SZ 002362.SZ 002376.SZ 002389.SZ 002404.SZ 002410.SZ
+      002438.SZ 002606.SZ 002612.SZ 002772.SZ 002799.SZ 002809.SZ 002821.SZ 002835.SZ 002941.SZ 002955.SZ
+      002969.SZ 003040.SZ 300042.SZ 300056.SZ 300081.SZ 300095.SZ 300122.SZ 300136.SZ 300240.SZ 300254.SZ
+      300268.SZ 300283.SZ 300532.SZ 300644.SZ 300650.SZ 300678.SZ 300718.SZ 300724.SZ 300730.SZ 300863.SZ
+      300888.SZ 300903.SZ 300917.SZ 301162.SZ 301176.SZ 301189.SZ 301200.SZ 301228.SZ 301348.SZ 301360.SZ
+      301566.SZ
+   沪市 (39只):
+      600048.SH 600060.SH 600262.SH 600276.SH 600289.SH 600510.SH 600538.SH 600706.SH 600712.SH 600909.SH
+      600935.SH 601020.SH 601168.SH 601801.SH 601949.SH 601975.SH 603019.SH 603025.SH 603031.SH 603186.SH
+      603192.SH 603227.SH 603233.SH 603569.SH 603596.SH 603757.SH 603810.SH 603838.SH 603958.SH 603970.SH
+      605118.SH 688002.SH 688016.SH 688189.SH 688200.SH 688228.SH 688566.SH 688599.SH 688758.SH
+   其他 (101只):
+      000011_strategy 000159_strategy 000401_strategy 000617_strategy 000777_strategy 000788_strategy 000818_strategy 000830_strategy 000950_strategy 001333_strategy
+      002148_strategy 002160_strategy 002174_strategy 002216_strategy 002404_strategy 002410_strategy 002438_strategy 002606_strategy 002766_strategy 002772_strategy
+      002799_strategy 002809_strategy 002821_strategy 002835_strategy 002941_strategy 002955_strategy 300095_strategy 300122_strategy 300136_strategy 300240_strategy
+      300254_flow 300254_strategy 300268_strategy 300283_strategy 300320_strategy 300334_strategy 300446_strategy 300452_strategy 300532_flow 300532_strategy
+      300693_strategy 300718_strategy 300724_strategy 300730_strategy 300863_strategy 300877_strategy 300888_strategy 301016_strategy 301162_flow 301162_strategy
+      301176_flow 301176_strategy 301189_strategy 301200_strategy 301228_strategy 301348_strategy 600128_strategy 600262_strategy 600276_strategy 600289_strategy
+      600302_strategy 600458_strategy 600470_strategy 600706_strategy 600712_strategy 600841_strategy 600855_strategy 600869_strategy 600882_strategy 600909_strategy
+      600935_flow 601020_strategy 601168_strategy 601222_strategy 601236_strategy 601801_strategy 603031_strategy 603151_strategy 603179_strategy 603186_strategy
+      603192_strategy 603227_strategy 603233_strategy 603390_strategy 603569_strategy 603596_flow 603596_strategy 603637_strategy 603757_strategy 603810_strategy
+      603838_strategy 603970_strategy 605118_strategy 688002_strategy 688016_strategy 688360_strategy 688566_strategy 688599_strategy 688610_strategy 688638_strategy
+      market_index
+
+================================================================================

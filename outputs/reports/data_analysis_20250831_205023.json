@@ -1,0 +1,1380 @@
+{
+  "analysis_time": "2025-08-31T20:50:23.556943",
+  "token_configured": false,
+  "uqer_connection": false,
+  "data_analysis": {
+    "total_files": 5307,
+    "directories": {
+      "raw/daily": {
+        "file_count": 5152,
+        "file_types": {
+          "csv": 50,
+          "parquet": 0
+        },
+        "total_size_mb": 8.663664817810059,
+        "symbols": "{'603970', '002376', '000978', '300056', '002362', '300718', '300268', '605118', '002438', '002821', '301176', '688599', '600060', '603569', '300240', '300532', '002809', '688228', '000561', '002606', '300917', '300254', '003040', '600048', '600712', '300724', '301360', '301348', '688200', '000788', '002389', '688566', '300283', '301162', '002410', '603958', '600909', '000950', '600935', '300042', '601801', '600706', '603233', '600289', '300730', '603596', '301189', '002835', '603227', '002404'}",
+        "sample_data": [
+          {
+            "name": "688200.csv",
+            "symbol": "688200",
+            "size_mb": 0.2,
+            "modified": "2025-08-30 16:28:56.816671",
+            "rows": 20,
+            "columns": [
+              "secID",
+              "ticker",
+              "secShortName",
+              "exchangeCD",
+              "tradeDate",
+              "preClosePrice",
+              "actPreClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "negMarketValue",
+              "dealAmount",
+              "turnoverRate",
+              "accumAdjFactor",
+              "turnoverValue",
+              "marketValue",
+              "isOpen",
+              "vwap"
+            ],
+            "date_range": {
+              "start": "2020-08-27",
+              "end": "2025-08-29",
+              "days": 1829
+            },
+            "quality": {
+              "missing_rate": 0.0,
+              "duplicate_rows": "0",
+              "numeric_columns": 16
+            }
+          },
+          {
+            "name": "300718.csv",
+            "symbol": "300718",
+            "size_mb": 0.2,
+            "modified": "2025-08-30 16:29:04.919623",
+            "rows": 20,
+            "columns": [
+              "secID",
+              "ticker",
+              "secShortName",
+              "exchangeCD",
+              "tradeDate",
+              "preClosePrice",
+              "actPreClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "negMarketValue",
+              "dealAmount",
+              "turnoverRate",
+              "accumAdjFactor",
+              "turnoverValue",
+              "marketValue",
+              "isOpen",
+              "vwap"
+            ],
+            "date_range": {
+              "start": "2020-08-27",
+              "end": "2025-08-29",
+              "days": 1829
+            },
+            "quality": {
+              "missing_rate": 0.0,
+              "duplicate_rows": "0",
+              "numeric_columns": 16
+            }
+          },
+          {
+            "name": "002821.csv",
+            "symbol": "002821",
+            "size_mb": 0.2,
+            "modified": "2025-08-30 16:29:05.942644",
+            "rows": 20,
+            "columns": [
+              "secID",
+              "ticker",
+              "secShortName",
+              "exchangeCD",
+              "tradeDate",
+              "preClosePrice",
+              "actPreClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "negMarketValue",
+              "dealAmount",
+              "turnoverRate",
+              "accumAdjFactor",
+              "turnoverValue",
+              "marketValue",
+              "isOpen",
+              "vwap"
+            ],
+            "date_range": {
+              "start": "2020-08-27",
+              "end": "2025-08-29",
+              "days": 1829
+            },
+            "quality": {
+              "missing_rate": 0.0,
+              "duplicate_rows": "0",
+              "numeric_columns": 16
+            }
+          }
+        ],
+        "date_info": {
+          "300268": {
+            "start": "2020-08-27",
+            "end": "2025-08-29",
+            "days": 1829
+          },
+          "600935": {
+            "start": "2021-11-26",
+            "end": "2025-08-29",
+            "days": 1373
+          },
+          "301176": {
+            "start": "2022-09-28",
+            "end": "2025-08-29",
+            "days": 1067
+          },
+          "603596": {
+            "start": "2020-08-27",
+            "end": "2025-08-29",
+            "days": 1829
+          },
+          "301162": {
+            "start": "2022-04-29",
+            "end": "2025-08-29",
+            "days": 1219
+          },
+          "300254": {
+            "start": "2020-08-27",
+            "end": "2025-08-29",
+            "days": 1829
+          },
+          "600909": {
+            "start": "2020-08-27",
+            "end": "2025-08-29",
+            "days": 1829
+          },
+          "300532": {
+            "start": "2020-08-27",
+            "end": "2025-08-29",
+            "days": 1829
+          },
+          "688599": {
+            "start": "2020-08-27",
+            "end": "2025-08-29",
+            "days": 1829
+          },
+          "300240": {
+            "start": "2020-08-27",
+            "end": "2025-08-29",
+            "days": 1829
+          },
+          "002389": {
+            "start": "2020-08-27",
+            "end": "2025-08-29",
+            "days": 1829
+          },
+          "002362": {
+            "start": "2020-08-27",
+            "end": "2025-08-29",
+            "days": 1829
+          },
+          "603227": {
+            "start": "2020-08-27",
+            "end": "2025-08-29",
+            "days": 1829
+          },
+          "002404": {
+            "start": "2020-08-27",
+            "end": "2025-08-29",
+            "days": 1829
+          },
+          "600048": {
+            "start": "2020-08-27",
+            "end": "2025-08-29",
+            "days": 1829
+          },
+          "002410": {
+            "start": "2020-08-27",
+            "end": "2025-08-29",
+            "days": 1829
+          },
+          "688566": {
+            "start": "2020-08-27",
+            "end": "2025-08-29",
+            "days": 1829
+          },
+          "603233": {
+            "start": "2020-08-27",
+            "end": "2025-08-29",
+            "days": 1829
+          },
+          "688200": {
+            "start": "2020-08-27",
+            "end": "2025-08-29",
+            "days": 1829
+          },
+          "000561": {
+            "start": "2020-08-27",
+            "end": "2025-08-29",
+            "days": 1829
+          },
+          "002376": {
+            "start": "2020-08-27",
+            "end": "2025-08-29",
+            "days": 1829
+          },
+          "688228": {
+            "start": "2020-08-27",
+            "end": "2025-08-29",
+            "days": 1829
+          },
+          "003040": {
+            "start": "2021-03-22",
+            "end": "2025-08-29",
+            "days": 1622
+          },
+          "301189": {
+            "start": "2021-12-28",
+            "end": "2025-08-29",
+            "days": 1341
+          },
+          "600712": {
+            "start": "2020-08-27",
+            "end": "2025-08-29",
+            "days": 1829
+          },
+          "002438": {
+            "start": "2020-08-27",
+            "end": "2025-08-29",
+            "days": 1829
+          },
+          "605118": {
+            "start": "2020-08-27",
+            "end": "2025-08-29",
+            "days": 1829
+          },
+          "603569": {
+            "start": "2020-08-27",
+            "end": "2025-08-29",
+            "days": 1829
+          },
+          "600060": {
+            "start": "2020-08-27",
+            "end": "2025-08-29",
+            "days": 1829
+          },
+          "600706": {
+            "start": "2020-08-27",
+            "end": "2025-08-29",
+            "days": 1829
+          },
+          "300283": {
+            "start": "2020-08-27",
+            "end": "2025-08-29",
+            "days": 1829
+          },
+          "603958": {
+            "start": "2020-08-27",
+            "end": "2025-08-29",
+            "days": 1829
+          },
+          "600289": {
+            "start": "2020-08-27",
+            "end": "2025-08-29",
+            "days": 1829
+          },
+          "000978": {
+            "start": "2020-08-27",
+            "end": "2025-08-29",
+            "days": 1829
+          },
+          "301360": {
+            "start": "2023-04-25",
+            "end": "2025-08-29",
+            "days": 858
+          },
+          "300718": {
+            "start": "2020-08-27",
+            "end": "2025-08-29",
+            "days": 1829
+          },
+          "002809": {
+            "start": "2020-08-27",
+            "end": "2025-08-29",
+            "days": 1829
+          },
+          "300730": {
+            "start": "2020-08-27",
+            "end": "2025-08-29",
+            "days": 1829
+          },
+          "002821": {
+            "start": "2020-08-27",
+            "end": "2025-08-29",
+            "days": 1829
+          },
+          "000950": {
+            "start": "2020-08-27",
+            "end": "2025-08-29",
+            "days": 1829
+          },
+          "000788": {
+            "start": "2020-08-27",
+            "end": "2025-08-29",
+            "days": 1829
+          },
+          "301348": {
+            "start": "2023-08-10",
+            "end": "2025-08-29",
+            "days": 751
+          },
+          "300056": {
+            "start": "2020-08-27",
+            "end": "2025-08-29",
+            "days": 1829
+          },
+          "601801": {
+            "start": "2020-08-27",
+            "end": "2025-08-29",
+            "days": 1829
+          },
+          "300042": {
+            "start": "2020-08-27",
+            "end": "2025-08-29",
+            "days": 1829
+          },
+          "603970": {
+            "start": "2020-08-27",
+            "end": "2025-08-29",
+            "days": 1829
+          },
+          "300724": {
+            "start": "2020-08-27",
+            "end": "2025-08-29",
+            "days": 1829
+          },
+          "002835": {
+            "start": "2020-08-27",
+            "end": "2025-08-29",
+            "days": 1829
+          },
+          "300917": {
+            "start": "2020-12-21",
+            "end": "2025-08-29",
+            "days": 1713
+          },
+          "002606": {
+            "start": "2020-08-27",
+            "end": "2025-08-29",
+            "days": 1829
+          }
+        },
+        "largest_files": [
+          {
+            "name": "688200.csv",
+            "symbol": "688200",
+            "size_mb": 0.2,
+            "modified": "2025-08-30 16:28:56.816671",
+            "rows": 20,
+            "columns": [
+              "secID",
+              "ticker",
+              "secShortName",
+              "exchangeCD",
+              "tradeDate",
+              "preClosePrice",
+              "actPreClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "negMarketValue",
+              "dealAmount",
+              "turnoverRate",
+              "accumAdjFactor",
+              "turnoverValue",
+              "marketValue",
+              "isOpen",
+              "vwap"
+            ],
+            "date_range": {
+              "start": "2020-08-27",
+              "end": "2025-08-29",
+              "days": 1829
+            },
+            "quality": {
+              "missing_rate": 0.0,
+              "duplicate_rows": "0",
+              "numeric_columns": 16
+            }
+          },
+          {
+            "name": "300718.csv",
+            "symbol": "300718",
+            "size_mb": 0.2,
+            "modified": "2025-08-30 16:29:04.919623",
+            "rows": 20,
+            "columns": [
+              "secID",
+              "ticker",
+              "secShortName",
+              "exchangeCD",
+              "tradeDate",
+              "preClosePrice",
+              "actPreClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "negMarketValue",
+              "dealAmount",
+              "turnoverRate",
+              "accumAdjFactor",
+              "turnoverValue",
+              "marketValue",
+              "isOpen",
+              "vwap"
+            ],
+            "date_range": {
+              "start": "2020-08-27",
+              "end": "2025-08-29",
+              "days": 1829
+            },
+            "quality": {
+              "missing_rate": 0.0,
+              "duplicate_rows": "0",
+              "numeric_columns": 16
+            }
+          },
+          {
+            "name": "002821.csv",
+            "symbol": "002821",
+            "size_mb": 0.2,
+            "modified": "2025-08-30 16:29:05.942644",
+            "rows": 20,
+            "columns": [
+              "secID",
+              "ticker",
+              "secShortName",
+              "exchangeCD",
+              "tradeDate",
+              "preClosePrice",
+              "actPreClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "negMarketValue",
+              "dealAmount",
+              "turnoverRate",
+              "accumAdjFactor",
+              "turnoverValue",
+              "marketValue",
+              "isOpen",
+              "vwap"
+            ],
+            "date_range": {
+              "start": "2020-08-27",
+              "end": "2025-08-29",
+              "days": 1829
+            },
+            "quality": {
+              "missing_rate": 0.0,
+              "duplicate_rows": "0",
+              "numeric_columns": 16
+            }
+          },
+          {
+            "name": "300724.csv",
+            "symbol": "300724",
+            "size_mb": 0.2,
+            "modified": "2025-08-30 16:29:10.177185",
+            "rows": 20,
+            "columns": [
+              "secID",
+              "ticker",
+              "secShortName",
+              "exchangeCD",
+              "tradeDate",
+              "preClosePrice",
+              "actPreClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "negMarketValue",
+              "dealAmount",
+              "turnoverRate",
+              "accumAdjFactor",
+              "turnoverValue",
+              "marketValue",
+              "isOpen",
+              "vwap"
+            ],
+            "date_range": {
+              "start": "2020-08-27",
+              "end": "2025-08-29",
+              "days": 1829
+            },
+            "quality": {
+              "missing_rate": 0.0,
+              "duplicate_rows": "0",
+              "numeric_columns": 16
+            }
+          },
+          {
+            "name": "603596.csv",
+            "symbol": "603596",
+            "size_mb": 0.19,
+            "modified": "2025-08-30 16:28:48.898309",
+            "rows": 20,
+            "columns": [
+              "secID",
+              "ticker",
+              "secShortName",
+              "exchangeCD",
+              "tradeDate",
+              "preClosePrice",
+              "actPreClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "negMarketValue",
+              "dealAmount",
+              "turnoverRate",
+              "accumAdjFactor",
+              "turnoverValue",
+              "marketValue",
+              "isOpen",
+              "vwap"
+            ],
+            "date_range": {
+              "start": "2020-08-27",
+              "end": "2025-08-29",
+              "days": 1829
+            },
+            "quality": {
+              "missing_rate": 0.0,
+              "duplicate_rows": "0",
+              "numeric_columns": 16
+            }
+          }
+        ]
+      },
+      "strategy/capital_flow": {
+        "file_count": 154,
+        "file_types": {
+          "csv": 50,
+          "parquet": 0
+        },
+        "total_size_mb": 2.1289777755737305,
+        "symbols": "{'301200_strategy', '300254_flow', '600712_strategy', '300863_strategy', '603192_strategy', '002216_strategy', '601236_strategy', '600458_strategy', '600869_strategy', '000401_strategy', '600841_strategy', '002174_strategy', '301176_flow', '300724_strategy', '603596_flow', '002410_strategy', '601168_strategy', '603838_strategy', '688016_strategy', '688638_strategy', '600706_strategy', '601222_strategy', '603227_strategy', '600470_strategy', '300136_strategy', '300283_strategy', '300718_strategy', '300446_strategy', '603186_strategy', '000818_strategy', '600289_strategy', '600855_strategy', '300877_strategy', '300730_strategy', '002809_strategy', '300888_strategy', '300240_strategy', '002772_strategy', '002404_strategy', '600276_strategy', '000159_strategy', '300122_strategy', '603179_strategy', '301162_strategy', '603233_strategy', '002835_strategy', '002148_strategy', '688002_strategy', '300268_strategy', '688610_strategy'}",
+        "sample_data": [
+          {
+            "name": "300888_strategy.csv",
+            "symbol": "300888_strategy",
+            "size_mb": 0.05,
+            "modified": "2025-08-28 06:53:44.189657",
+            "rows": 20,
+            "columns": [
+              "ticker",
+              "tradeDate",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverRate",
+              "turnoverValue",
+              "dealAmount",
+              "preClosePrice",
+              "priceChange",
+              "priceChangeRate",
+              "volumeMA5",
+              "volumeMA10",
+              "volumeRatio",
+              "amplitude",
+              "moneyFlow",
+              "moneyFlowMA5",
+              "turnoverMA5",
+              "turnoverRatio",
+              "momentum5",
+              "momentum10"
+            ],
+            "date_range": {
+              "start": "2024-12-23",
+              "end": "2025-08-27",
+              "days": 248
+            },
+            "quality": {
+              "missing_rate": 0.10681818181818181,
+              "duplicate_rows": "0",
+              "numeric_columns": 21
+            }
+          },
+          {
+            "name": "000818_strategy.csv",
+            "symbol": "000818_strategy",
+            "size_mb": 0.05,
+            "modified": "2025-08-28 06:53:38.006345",
+            "rows": 20,
+            "columns": [
+              "ticker",
+              "tradeDate",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverRate",
+              "turnoverValue",
+              "dealAmount",
+              "preClosePrice",
+              "priceChange",
+              "priceChangeRate",
+              "volumeMA5",
+              "volumeMA10",
+              "volumeRatio",
+              "amplitude",
+              "moneyFlow",
+              "moneyFlowMA5",
+              "turnoverMA5",
+              "turnoverRatio",
+              "momentum5",
+              "momentum10"
+            ],
+            "date_range": {
+              "start": "2024-12-23",
+              "end": "2025-08-27",
+              "days": 248
+            },
+            "quality": {
+              "missing_rate": 0.10681818181818181,
+              "duplicate_rows": "0",
+              "numeric_columns": 21
+            }
+          },
+          {
+            "name": "300877_strategy.csv",
+            "symbol": "300877_strategy",
+            "size_mb": 0.04,
+            "modified": "2025-08-28 06:53:55.831330",
+            "rows": 20,
+            "columns": [
+              "ticker",
+              "tradeDate",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverRate",
+              "turnoverValue",
+              "dealAmount",
+              "preClosePrice",
+              "priceChange",
+              "priceChangeRate",
+              "volumeMA5",
+              "volumeMA10",
+              "volumeRatio",
+              "amplitude",
+              "moneyFlow",
+              "moneyFlowMA5",
+              "turnoverMA5",
+              "turnoverRatio",
+              "momentum5",
+              "momentum10"
+            ],
+            "date_range": {
+              "start": "2024-12-23",
+              "end": "2025-08-27",
+              "days": 248
+            },
+            "quality": {
+              "missing_rate": 0.10681818181818181,
+              "duplicate_rows": "0",
+              "numeric_columns": 21
+            }
+          }
+        ],
+        "date_info": {
+          "300888_strategy": {
+            "start": "2024-12-23",
+            "end": "2025-08-27",
+            "days": 248
+          },
+          "300877_strategy": {
+            "start": "2024-12-23",
+            "end": "2025-08-27",
+            "days": 248
+          },
+          "600458_strategy": {
+            "start": "2024-12-23",
+            "end": "2025-08-27",
+            "days": 248
+          },
+          "603233_strategy": {
+            "start": "2024-12-23",
+            "end": "2025-08-27",
+            "days": 248
+          },
+          "688610_strategy": {
+            "start": "2024-12-23",
+            "end": "2025-08-27",
+            "days": 248
+          },
+          "688016_strategy": {
+            "start": "2024-12-23",
+            "end": "2025-08-27",
+            "days": 248
+          },
+          "600841_strategy": {
+            "start": "2024-12-23",
+            "end": "2025-08-27",
+            "days": 248
+          },
+          "300268_strategy": {
+            "start": "2024-12-23",
+            "end": "2025-08-27",
+            "days": 248
+          },
+          "002404_strategy": {
+            "start": "2024-12-23",
+            "end": "2025-08-27",
+            "days": 248
+          },
+          "601222_strategy": {
+            "start": "2024-12-23",
+            "end": "2025-08-27",
+            "days": 248
+          },
+          "300136_strategy": {
+            "start": "2024-12-23",
+            "end": "2025-08-27",
+            "days": 248
+          },
+          "300730_strategy": {
+            "start": "2024-12-23",
+            "end": "2025-08-27",
+            "days": 248
+          },
+          "600706_strategy": {
+            "start": "2024-12-23",
+            "end": "2025-08-27",
+            "days": 248
+          },
+          "603192_strategy": {
+            "start": "2024-12-23",
+            "end": "2025-08-27",
+            "days": 248
+          },
+          "300863_strategy": {
+            "start": "2024-12-23",
+            "end": "2025-08-27",
+            "days": 248
+          },
+          "000401_strategy": {
+            "start": "2024-12-23",
+            "end": "2025-08-27",
+            "days": 248
+          },
+          "603227_strategy": {
+            "start": "2024-12-23",
+            "end": "2025-08-27",
+            "days": 248
+          },
+          "688002_strategy": {
+            "start": "2024-12-23",
+            "end": "2025-08-27",
+            "days": 248
+          },
+          "002809_strategy": {
+            "start": "2024-12-23",
+            "end": "2025-08-27",
+            "days": 248
+          },
+          "301200_strategy": {
+            "start": "2024-12-23",
+            "end": "2025-08-27",
+            "days": 248
+          },
+          "300283_strategy": {
+            "start": "2024-12-23",
+            "end": "2025-08-27",
+            "days": 248
+          },
+          "600855_strategy": {
+            "start": "2024-12-23",
+            "end": "2025-08-27",
+            "days": 248
+          },
+          "000818_strategy": {
+            "start": "2024-12-23",
+            "end": "2025-08-27",
+            "days": 248
+          },
+          "603838_strategy": {
+            "start": "2024-12-23",
+            "end": "2025-08-27",
+            "days": 248
+          },
+          "002410_strategy": {
+            "start": "2024-12-23",
+            "end": "2025-08-27",
+            "days": 248
+          },
+          "002216_strategy": {
+            "start": "2024-12-23",
+            "end": "2025-08-27",
+            "days": 248
+          },
+          "601236_strategy": {
+            "start": "2024-12-23",
+            "end": "2025-08-27",
+            "days": 248
+          },
+          "002148_strategy": {
+            "start": "2024-12-23",
+            "end": "2025-08-27",
+            "days": 248
+          },
+          "601168_strategy": {
+            "start": "2024-12-23",
+            "end": "2025-08-27",
+            "days": 248
+          },
+          "301176_flow": {
+            "start": "2024-01-02",
+            "end": "2025-08-27",
+            "days": 604
+          },
+          "300122_strategy": {
+            "start": "2024-12-23",
+            "end": "2025-08-27",
+            "days": 248
+          },
+          "300724_strategy": {
+            "start": "2024-12-23",
+            "end": "2025-08-27",
+            "days": 248
+          },
+          "600712_strategy": {
+            "start": "2024-12-23",
+            "end": "2025-08-27",
+            "days": 248
+          },
+          "000159_strategy": {
+            "start": "2024-12-23",
+            "end": "2025-08-27",
+            "days": 248
+          },
+          "603186_strategy": {
+            "start": "2024-12-23",
+            "end": "2025-08-27",
+            "days": 248
+          },
+          "603179_strategy": {
+            "start": "2024-12-23",
+            "end": "2025-08-27",
+            "days": 248
+          },
+          "600470_strategy": {
+            "start": "2024-12-23",
+            "end": "2025-08-27",
+            "days": 248
+          },
+          "600289_strategy": {
+            "start": "2024-12-23",
+            "end": "2025-08-27",
+            "days": 248
+          },
+          "600276_strategy": {
+            "start": "2024-12-23",
+            "end": "2025-08-27",
+            "days": 248
+          },
+          "688638_strategy": {
+            "start": "2024-12-23",
+            "end": "2025-08-27",
+            "days": 248
+          },
+          "002835_strategy": {
+            "start": "2024-12-23",
+            "end": "2025-08-27",
+            "days": 248
+          },
+          "300446_strategy": {
+            "start": "2024-12-23",
+            "end": "2025-08-27",
+            "days": 248
+          },
+          "300240_strategy": {
+            "start": "2024-12-23",
+            "end": "2025-08-27",
+            "days": 248
+          },
+          "600869_strategy": {
+            "start": "2024-12-23",
+            "end": "2025-08-27",
+            "days": 248
+          },
+          "002174_strategy": {
+            "start": "2024-12-23",
+            "end": "2025-08-27",
+            "days": 248
+          },
+          "002772_strategy": {
+            "start": "2024-12-23",
+            "end": "2025-08-27",
+            "days": 248
+          },
+          "300718_strategy": {
+            "start": "2024-12-23",
+            "end": "2025-08-27",
+            "days": 248
+          },
+          "603596_flow": {
+            "start": "2024-01-02",
+            "end": "2025-08-27",
+            "days": 604
+          },
+          "301162_strategy": {
+            "start": "2024-12-23",
+            "end": "2025-08-27",
+            "days": 248
+          },
+          "300254_flow": {
+            "start": "2024-01-02",
+            "end": "2025-08-27",
+            "days": 604
+          }
+        },
+        "largest_files": [
+          {
+            "name": "300888_strategy.csv",
+            "symbol": "300888_strategy",
+            "size_mb": 0.05,
+            "modified": "2025-08-28 06:53:44.189657",
+            "rows": 20,
+            "columns": [
+              "ticker",
+              "tradeDate",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverRate",
+              "turnoverValue",
+              "dealAmount",
+              "preClosePrice",
+              "priceChange",
+              "priceChangeRate",
+              "volumeMA5",
+              "volumeMA10",
+              "volumeRatio",
+              "amplitude",
+              "moneyFlow",
+              "moneyFlowMA5",
+              "turnoverMA5",
+              "turnoverRatio",
+              "momentum5",
+              "momentum10"
+            ],
+            "date_range": {
+              "start": "2024-12-23",
+              "end": "2025-08-27",
+              "days": 248
+            },
+            "quality": {
+              "missing_rate": 0.10681818181818181,
+              "duplicate_rows": "0",
+              "numeric_columns": 21
+            }
+          },
+          {
+            "name": "000818_strategy.csv",
+            "symbol": "000818_strategy",
+            "size_mb": 0.05,
+            "modified": "2025-08-28 06:53:38.006345",
+            "rows": 20,
+            "columns": [
+              "ticker",
+              "tradeDate",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverRate",
+              "turnoverValue",
+              "dealAmount",
+              "preClosePrice",
+              "priceChange",
+              "priceChangeRate",
+              "volumeMA5",
+              "volumeMA10",
+              "volumeRatio",
+              "amplitude",
+              "moneyFlow",
+              "moneyFlowMA5",
+              "turnoverMA5",
+              "turnoverRatio",
+              "momentum5",
+              "momentum10"
+            ],
+            "date_range": {
+              "start": "2024-12-23",
+              "end": "2025-08-27",
+              "days": 248
+            },
+            "quality": {
+              "missing_rate": 0.10681818181818181,
+              "duplicate_rows": "0",
+              "numeric_columns": 21
+            }
+          },
+          {
+            "name": "300877_strategy.csv",
+            "symbol": "300877_strategy",
+            "size_mb": 0.04,
+            "modified": "2025-08-28 06:53:55.831330",
+            "rows": 20,
+            "columns": [
+              "ticker",
+              "tradeDate",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverRate",
+              "turnoverValue",
+              "dealAmount",
+              "preClosePrice",
+              "priceChange",
+              "priceChangeRate",
+              "volumeMA5",
+              "volumeMA10",
+              "volumeRatio",
+              "amplitude",
+              "moneyFlow",
+              "moneyFlowMA5",
+              "turnoverMA5",
+              "turnoverRatio",
+              "momentum5",
+              "momentum10"
+            ],
+            "date_range": {
+              "start": "2024-12-23",
+              "end": "2025-08-27",
+              "days": 248
+            },
+            "quality": {
+              "missing_rate": 0.10681818181818181,
+              "duplicate_rows": "0",
+              "numeric_columns": 21
+            }
+          },
+          {
+            "name": "600458_strategy.csv",
+            "symbol": "600458_strategy",
+            "size_mb": 0.04,
+            "modified": "2025-08-28 06:53:53.398541",
+            "rows": 20,
+            "columns": [
+              "ticker",
+              "tradeDate",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverRate",
+              "turnoverValue",
+              "dealAmount",
+              "preClosePrice",
+              "priceChange",
+              "priceChangeRate",
+              "volumeMA5",
+              "volumeMA10",
+              "volumeRatio",
+              "amplitude",
+              "moneyFlow",
+              "moneyFlowMA5",
+              "turnoverMA5",
+              "turnoverRatio",
+              "momentum5",
+              "momentum10"
+            ],
+            "date_range": {
+              "start": "2024-12-23",
+              "end": "2025-08-27",
+              "days": 248
+            },
+            "quality": {
+              "missing_rate": 0.10681818181818181,
+              "duplicate_rows": "0",
+              "numeric_columns": 21
+            }
+          },
+          {
+            "name": "603233_strategy.csv",
+            "symbol": "603233_strategy",
+            "size_mb": 0.04,
+            "modified": "2025-08-28 06:53:12.060031",
+            "rows": 20,
+            "columns": [
+              "ticker",
+              "tradeDate",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverRate",
+              "turnoverValue",
+              "dealAmount",
+              "preClosePrice",
+              "priceChange",
+              "priceChangeRate",
+              "volumeMA5",
+              "volumeMA10",
+              "volumeRatio",
+              "amplitude",
+              "moneyFlow",
+              "moneyFlowMA5",
+              "turnoverMA5",
+              "turnoverRatio",
+              "momentum5",
+              "momentum10"
+            ],
+            "date_range": {
+              "start": "2024-12-23",
+              "end": "2025-08-27",
+              "days": 248
+            },
+            "quality": {
+              "missing_rate": 0.10681818181818181,
+              "duplicate_rows": "0",
+              "numeric_columns": 21
+            }
+          }
+        ]
+      },
+      "strategy/market_sentiment": {
+        "file_count": 1,
+        "file_types": {
+          "csv": 1,
+          "parquet": 0
+        },
+        "total_size_mb": 0.01926708221435547,
+        "symbols": "{'market_index'}",
+        "sample_data": [
+          {
+            "name": "market_index.csv",
+            "symbol": "market_index",
+            "size_mb": 0.02,
+            "modified": "2025-08-28 06:46:27.064597",
+            "rows": 20,
+            "columns": [
+              "ticker",
+              "tradeDate",
+              "closeIndex",
+              "turnoverValue",
+              "CHGPct"
+            ],
+            "date_range": {
+              "start": "2024-01-02",
+              "end": "2025-08-27",
+              "days": 604
+            },
+            "quality": {
+              "missing_rate": 0.0,
+              "duplicate_rows": "0",
+              "numeric_columns": 4
+            }
+          }
+        ],
+        "date_info": {
+          "market_index": {
+            "start": "2024-01-02",
+            "end": "2025-08-27",
+            "days": 604
+          }
+        },
+        "largest_files": [
+          {
+            "name": "market_index.csv",
+            "symbol": "market_index",
+            "size_mb": 0.02,
+            "modified": "2025-08-28 06:46:27.064597",
+            "rows": 20,
+            "columns": [
+              "ticker",
+              "tradeDate",
+              "closeIndex",
+              "turnoverValue",
+              "CHGPct"
+            ],
+            "date_range": {
+              "start": "2024-01-02",
+              "end": "2025-08-27",
+              "days": 604
+            },
+            "quality": {
+              "missing_rate": 0.0,
+              "duplicate_rows": "0",
+              "numeric_columns": 4
+            }
+          }
+        ]
+      }
+    },
+    "file_types": {
+      "csv": 101,
+      "parquet": 0
+    },
+    "total_size_mb": 10.811909675598145,
+    "symbols": [
+      "301200_strategy",
+      "300254_flow",
+      "000978",
+      "300056",
+      "600712_strategy",
+      "002362",
+      "300863_strategy",
+      "300268",
+      "603192_strategy",
+      "002821",
+      "002216_strategy",
+      "600458_strategy",
+      "301176_flow",
+      "603569",
+      "603596_flow",
+      "002410_strategy",
+      "603838_strategy",
+      "000561",
+      "300917",
+      "300724",
+      "300136_strategy",
+      "300283_strategy",
+      "603186_strategy",
+      "600289_strategy",
+      "688566",
+      "300877_strategy",
+      "300888_strategy",
+      "300240_strategy",
+      "301162",
+      "002410",
+      "market_index",
+      "601801",
+      "002404_strategy",
+      "603233",
+      "600289",
+      "600276_strategy",
+      "603596",
+      "603227",
+      "688638_strategy",
+      "688002_strategy",
+      "300268_strategy",
+      "603970",
+      "002376",
+      "300718",
+      "605118",
+      "002438",
+      "601236_strategy",
+      "600869_strategy",
+      "000401_strategy",
+      "301176",
+      "600841_strategy",
+      "002174_strategy",
+      "688599",
+      "600060",
+      "300240",
+      "300532",
+      "002809",
+      "601168_strategy",
+      "688228",
+      "688016_strategy",
+      "600706_strategy",
+      "002606",
+      "601222_strategy",
+      "603227_strategy",
+      "300254",
+      "003040",
+      "600048",
+      "600712",
+      "301360",
+      "600470_strategy",
+      "301348",
+      "688200",
+      "300718_strategy",
+      "000788",
+      "300446_strategy",
+      "000818_strategy",
+      "002389",
+      "600855_strategy",
+      "300283",
+      "300730_strategy",
+      "002809_strategy",
+      "000950",
+      "603958",
+      "600909",
+      "600935",
+      "300042",
+      "002772_strategy",
+      "600706",
+      "300730",
+      "002835",
+      "000159_strategy",
+      "301189",
+      "300122_strategy",
+      "603179_strategy",
+      "301162_strategy",
+      "603233_strategy",
+      "002835_strategy",
+      "002404",
+      "002148_strategy",
+      "300724_strategy",
+      "688610_strategy"
+    ],
+    "date_ranges": {},
+    "data_quality": {}
+  },
+  "summary": {
+    "total_files": 5307,
+    "total_symbols": 101,
+    "total_size_mb": 10.81,
+    "directories": [
+      "raw/daily",
+      "strategy/capital_flow",
+      "strategy/market_sentiment"
+    ]
+  },
+  "recommendations": [
+    {
+      "type": "critical",
+      "title": "配置优矿Token",
+      "description": "需要配置Token才能进行数据更新"
+    },
+    {
+      "type": "success",
+      "title": "数据丰富",
+      "description": "已有5307个数据文件，建议配置自动更新"
+    }
+  ]
+}

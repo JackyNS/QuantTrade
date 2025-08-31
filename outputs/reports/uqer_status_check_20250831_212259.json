@@ -1,0 +1,29 @@
+{
+  "check_time": "2025-08-31 21:22:55.769284",
+  "token_status": "valid",
+  "permissions": {
+    "stock_basic": {
+      "status": "error",
+      "error": "'Client' object has no attribute 'getMktEqud'"
+    },
+    "summary": {}
+  },
+  "available_apis": [],
+  "data_status": {
+    "directory_exists": true,
+    "total_files": 0,
+    "total_size": 0,
+    "file_types": {
+      "csv": 0,
+      "parquet": 0
+    }
+  },
+  "recommendations": [
+    {
+      "type": "info",
+      "title": "开始数据下载",
+      "description": "未发现历史数据，建议开始首次全量下载",
+      "action": "运行 python download_uqer_data.py"
+    }
+  ]
+}

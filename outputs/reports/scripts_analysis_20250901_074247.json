@@ -1,0 +1,1516 @@
+{
+  "timestamp": "2025-09-01T07:42:47.487572",
+  "directory_structure": {
+    "total_files": 37,
+    "total_directories": 8,
+    "file_types": {
+      ".py": 37
+    },
+    "directory_tree": {
+      "__init__.py": {
+        "size": 548,
+        "modified": "2025-08-31T15:27:26.674217"
+      },
+      "reporting": {
+        "weekly_report.py": {
+          "size": 7283,
+          "modified": "2025-08-31T15:34:22.748931"
+        },
+        "daily_report.py": {
+          "size": 683,
+          "modified": "2025-08-31T15:31:05.339033"
+        },
+        "monthly_report.py": {
+          "size": 6462,
+          "modified": "2025-08-31T15:34:22.749075"
+        },
+        "__init__.py": {
+          "size": 364,
+          "modified": "2025-08-31T15:31:05.342957"
+        }
+      },
+      "analysis": {
+        "performance_analysis.py": {
+          "size": 709,
+          "modified": "2025-08-31T15:31:05.338145"
+        },
+        "__init__.py": {
+          "size": 488,
+          "modified": "2025-08-31T15:31:05.342685"
+        },
+        "market_analysis.py": {
+          "size": 4800,
+          "modified": "2025-08-31T15:34:22.747749"
+        },
+        "portfolio_analysis.py": {
+          "size": 5248,
+          "modified": "2025-08-31T15:34:22.747476"
+        },
+        "risk_analysis.py": {
+          "size": 681,
+          "modified": "2025-08-31T15:31:05.337995"
+        }
+      },
+      "optimization": {
+        "optimize_allocation.py": {
+          "size": 4876,
+          "modified": "2025-08-31T15:34:22.748217"
+        },
+        "__init__.py": {
+          "size": 406,
+          "modified": "2025-08-31T15:31:05.342783"
+        },
+        "optimize_params.py": {
+          "size": 701,
+          "modified": "2025-08-31T15:31:05.338285"
+        },
+        "optimize_portfolio.py": {
+          "size": 5370,
+          "modified": "2025-08-31T15:36:23.644976"
+        }
+      },
+      "utils": {
+        "backup.py": {
+          "size": 5641,
+          "modified": "2025-08-31T15:31:05.336869"
+        },
+        "notification.py": {
+          "size": 6413,
+          "modified": "2025-08-31T15:31:05.336427"
+        },
+        "__init__.py": {
+          "size": 354,
+          "modified": "2025-08-31T15:31:05.343043"
+        },
+        "scheduler.py": {
+          "size": 5627,
+          "modified": "2025-08-31T15:31:05.335940"
+        }
+      },
+      "backtest": {
+        "backtest_analysis.py": {
+          "size": 4400,
+          "modified": "2025-08-31T15:34:22.745877"
+        },
+        "backtest_report.py": {
+          "size": 3845,
+          "modified": "2025-08-31T15:34:22.746429"
+        },
+        "batch_backtest.py": {
+          "size": 4272,
+          "modified": "2025-08-31T15:34:22.745669"
+        },
+        "__init__.py": {
+          "size": 476,
+          "modified": "2025-08-31T15:31:05.342484"
+        },
+        "run_backtest.py": {
+          "size": 686,
+          "modified": "2025-08-31T15:31:05.337605"
+        }
+      },
+      "monitoring": {
+        "realtime_monitor.py": {
+          "size": 6509,
+          "modified": "2025-08-31T15:34:22.748513"
+        },
+        "alert_manager.py": {
+          "size": 6855,
+          "modified": "2025-08-31T15:03:56.899026"
+        },
+        "daily_monitor.py": {
+          "size": 681,
+          "modified": "2025-08-31T15:31:05.338687"
+        },
+        "__init__.py": {
+          "size": 475,
+          "modified": "2025-08-31T15:31:05.342870"
+        },
+        "performance_tracker.py": {
+          "size": 6881,
+          "modified": "2025-08-31T15:34:22.748737"
+        }
+      },
+      "screening": {
+        "screening_report.py": {
+          "size": 699,
+          "modified": "2025-08-31T15:31:05.337847"
+        },
+        "run_screening.py": {
+          "size": 690,
+          "modified": "2025-08-31T15:31:05.337726"
+        },
+        "screening_monitor.py": {
+          "size": 4003,
+          "modified": "2025-08-31T15:34:22.746867"
+        },
+        "__init__.py": {
+          "size": 383,
+          "modified": "2025-08-31T15:31:05.342592"
+        }
+      },
+      "strategy": {
+        "strategy_monitor.py": {
+          "size": 3026,
+          "modified": "2025-08-31T15:31:05.335347"
+        },
+        "strategy_scanner.py": {
+          "size": 693,
+          "modified": "2025-08-31T15:31:05.337454"
+        },
+        "run_strategy.py": {
+          "size": 3588,
+          "modified": "2025-08-31T14:56:58.683382"
+        },
+        "__init__.py": {
+          "size": 482,
+          "modified": "2025-08-31T15:31:05.342373"
+        },
+        "strategy_validator.py": {
+          "size": 2847,
+          "modified": "2025-08-31T14:57:25.093424"
+        }
+      }
+    },
+    "size_info": {
+      "total_bytes": 108145,
+      "total_mb": 0.1
+    }
+  },
+  "file_analysis": {
+    "__init__.py": {
+      "file_path": "__init__.py",
+      "size_bytes": 548,
+      "lines_of_code": 28,
+      "imports": [],
+      "functions": [],
+      "classes": [],
+      "main_execution": false,
+      "docstring": "\nscripts_new 模块\n===============\n\n量化交易框架的脚本模块\n\n包含以下子模块:\n- data: 数据管理脚本\n- strategy: 策略脚本\n- backtest: 回测脚本\n- screening: 筛选脚本\n- analysis: 分析脚本\n- optimization: 优化脚本\n- monitoring: 监控脚本\n- reporting: 报告脚本\n- u...",
+      "complexity_score": 0,
+      "last_modified": "2025-08-31T15:27:26.674217"
+    },
+    "reporting/weekly_report.py": {
+      "file_path": "reporting/weekly_report.py",
+      "size_bytes": 7283,
+      "lines_of_code": 166,
+      "imports": [
+        "typing",
+        "sys",
+        "os",
+        "pandas",
+        "datetime",
+        "pathlib",
+        "json",
+        "logging"
+      ],
+      "functions": [
+        "main",
+        "__init__",
+        "collect_weekly_data",
+        "_collect_trades",
+        "_collect_performance",
+        "_collect_market_overview",
+        "_collect_top_movers",
+        "generate_html_report"
+      ],
+      "classes": [
+        "WeeklyReporter"
+      ],
+      "main_execution": true,
+      "docstring": "\n周报生成脚本\n============\n\n生成每周交易报告\n\nAuthor: QuantTrader Team\nDate: 2025-08-31\n",
+      "complexity_score": 10,
+      "last_modified": "2025-08-31T15:34:22.748931"
+    },
+    "reporting/daily_report.py": {
+      "file_path": "reporting/daily_report.py",
+      "size_bytes": 683,
+      "lines_of_code": 27,
+      "imports": [
+        "typing",
+        "logging"
+      ],
+      "functions": [
+        "main",
+        "__init__",
+        "run"
+      ],
+      "classes": [
+        "DailyReporter"
+      ],
+      "main_execution": true,
+      "docstring": "\nDaily Report\n========================================\n\n自动生成的占位文件\n\nAuthor: QuantTrader Team\nDate: 2025-08-31\n",
+      "complexity_score": 5,
+      "last_modified": "2025-08-31T15:31:05.339033"
+    },
+    "reporting/monthly_report.py": {
+      "file_path": "reporting/monthly_report.py",
+      "size_bytes": 6462,
+      "lines_of_code": 171,
+      "imports": [
+        "typing",
+        "sys",
+        "os",
+        "pandas",
+        "matplotlib.pyplot",
+        "datetime",
+        "calendar",
+        "pathlib",
+        "json",
+        "logging"
+      ],
+      "functions": [
+        "main",
+        "__init__",
+        "generate_monthly_report",
+        "_generate_summary",
+        "_analyze_performance",
+        "_analyze_risk",
+        "_analyze_trading_activity",
+        "_generate_recommendations",
+        "create_visualizations",
+        "save_report"
+      ],
+      "classes": [
+        "MonthlyReporter"
+      ],
+      "main_execution": true,
+      "docstring": "\n月报生成脚本\n============\n\n生成详细的月度分析报告\n\nAuthor: QuantTrader Team\nDate: 2025-08-31\n",
+      "complexity_score": 12,
+      "last_modified": "2025-08-31T15:34:22.749075"
+    },
+    "reporting/__init__.py": {
+      "file_path": "reporting/__init__.py",
+      "size_bytes": 364,
+      "lines_of_code": 17,
+      "imports": [
+        "weekly_report",
+        "daily_report",
+        "monthly_report"
+      ],
+      "functions": [],
+      "classes": [],
+      "main_execution": false,
+      "docstring": "\nReporting模块\n",
+      "complexity_score": 0,
+      "last_modified": "2025-08-31T15:31:05.342957"
+    },
+    "analysis/performance_analysis.py": {
+      "file_path": "analysis/performance_analysis.py",
+      "size_bytes": 709,
+      "lines_of_code": 27,
+      "imports": [
+        "typing",
+        "logging"
+      ],
+      "functions": [
+        "main",
+        "__init__",
+        "run"
+      ],
+      "classes": [
+        "PerformanceAnalyzer"
+      ],
+      "main_execution": true,
+      "docstring": "\nPerformance Analysis\n========================================\n\n自动生成的占位文件\n\nAuthor: QuantTrader Team\nDate: 2025-08-31\n",
+      "complexity_score": 5,
+      "last_modified": "2025-08-31T15:31:05.338145"
+    },
+    "analysis/__init__.py": {
+      "file_path": "analysis/__init__.py",
+      "size_bytes": 488,
+      "lines_of_code": 21,
+      "imports": [
+        "performance_analysis",
+        "market_analysis",
+        "portfolio_analysis",
+        "risk_analysis"
+      ],
+      "functions": [],
+      "classes": [],
+      "main_execution": false,
+      "docstring": "\nAnalysis模块\n",
+      "complexity_score": 0,
+      "last_modified": "2025-08-31T15:31:05.342685"
+    },
+    "analysis/market_analysis.py": {
+      "file_path": "analysis/market_analysis.py",
+      "size_bytes": 4800,
+      "lines_of_code": 115,
+      "imports": [
+        "typing",
+        "sys",
+        "os",
+        "pandas",
+        "numpy",
+        "datetime",
+        "logging"
+      ],
+      "functions": [
+        "main",
+        "__init__",
+        "analyze_market_breadth",
+        "_calculate_sentiment",
+        "analyze_sector_rotation",
+        "calculate_market_indicators",
+        "_calculate_rsi"
+      ],
+      "classes": [
+        "MarketAnalyzer"
+      ],
+      "main_execution": true,
+      "docstring": "\n市场分析脚本\n============\n\n分析整体市场状况\n\nAuthor: QuantTrader Team\nDate: 2025-08-31\n",
+      "complexity_score": 9,
+      "last_modified": "2025-08-31T15:34:22.747749"
+    },
+    "analysis/portfolio_analysis.py": {
+      "file_path": "analysis/portfolio_analysis.py",
+      "size_bytes": 5248,
+      "lines_of_code": 133,
+      "imports": [
+        "typing",
+        "sys",
+        "os",
+        "pandas",
+        "numpy",
+        "scipy.optimize",
+        "matplotlib.pyplot",
+        "logging"
+      ],
+      "functions": [
+        "main",
+        "__init__",
+        "calculate_portfolio_metrics",
+        "optimize_portfolio",
+        "calculate_efficient_frontier",
+        "calculate_correlation_matrix",
+        "calculate_var",
+        "neg_sharpe",
+        "portfolio_risk",
+        "return_constraint",
+        "portfolio_risk"
+      ],
+      "classes": [
+        "PortfolioAnalyzer"
+      ],
+      "main_execution": true,
+      "docstring": "\n组合分析脚本\n============\n\n分析投资组合的风险收益特征\n\nAuthor: QuantTrader Team\nDate: 2025-08-31\n",
+      "complexity_score": 13,
+      "last_modified": "2025-08-31T15:34:22.747476"
+    },
+    "analysis/risk_analysis.py": {
+      "file_path": "analysis/risk_analysis.py",
+      "size_bytes": 681,
+      "lines_of_code": 27,
+      "imports": [
+        "typing",
+        "logging"
+      ],
+      "functions": [
+        "main",
+        "__init__",
+        "run"
+      ],
+      "classes": [
+        "RiskAnalyzer"
+      ],
+      "main_execution": true,
+      "docstring": "\nRisk Analysis\n========================================\n\n自动生成的占位文件\n\nAuthor: QuantTrader Team\nDate: 2025-08-31\n",
+      "complexity_score": 5,
+      "last_modified": "2025-08-31T15:31:05.337995"
+    },
+    "optimization/optimize_allocation.py": {
+      "file_path": "optimization/optimize_allocation.py",
+      "size_bytes": 4876,
+      "lines_of_code": 106,
+      "imports": [
+        "typing",
+        "sys",
+        "os",
+        "pandas",
+        "numpy",
+        "scipy.optimize",
+        "logging"
+      ],
+      "functions": [
+        "main",
+        "__init__",
+        "kelly_criterion",
+        "optimize_position_sizes",
+        "risk_budget_allocation",
+        "dynamic_rebalancing"
+      ],
+      "classes": [
+        "AllocationOptimizer"
+      ],
+      "main_execution": true,
+      "docstring": "\n仓位优化脚本\n============\n\n优化资金分配和仓位管理\n\nAuthor: QuantTrader Team\nDate: 2025-08-31\n",
+      "complexity_score": 8,
+      "last_modified": "2025-08-31T15:34:22.748217"
+    },
+    "optimization/__init__.py": {
+      "file_path": "optimization/__init__.py",
+      "size_bytes": 406,
+      "lines_of_code": 17,
+      "imports": [
+        "optimize_allocation",
+        "optimize_params",
+        "optimize_portfolio"
+      ],
+      "functions": [],
+      "classes": [],
+      "main_execution": false,
+      "docstring": "\nOptimization模块\n",
+      "complexity_score": 0,
+      "last_modified": "2025-08-31T15:31:05.342783"
+    },
+    "optimization/optimize_params.py": {
+      "file_path": "optimization/optimize_params.py",
+      "size_bytes": 701,
+      "lines_of_code": 27,
+      "imports": [
+        "typing",
+        "logging"
+      ],
+      "functions": [
+        "main",
+        "__init__",
+        "run"
+      ],
+      "classes": [
+        "ParameterOptimizer"
+      ],
+      "main_execution": true,
+      "docstring": "\nOptimize Params\n========================================\n\n自动生成的占位文件\n\nAuthor: QuantTrader Team\nDate: 2025-08-31\n",
+      "complexity_score": 5,
+      "last_modified": "2025-08-31T15:31:05.338285"
+    },
+    "optimization/optimize_portfolio.py": {
+      "file_path": "optimization/optimize_portfolio.py",
+      "size_bytes": 5370,
+      "lines_of_code": 131,
+      "imports": [
+        "typing",
+        "sys",
+        "os",
+        "pandas",
+        "numpy",
+        "scipy.optimize",
+        "logging",
+        "cvxpy",
+        "warnings"
+      ],
+      "functions": [
+        "main",
+        "__init__",
+        "mean_variance_optimization",
+        "risk_parity_optimization",
+        "black_litterman_optimization",
+        "risk_contribution",
+        "objective"
+      ],
+      "classes": [
+        "PortfolioOptimizer"
+      ],
+      "main_execution": true,
+      "docstring": "\n组合优化脚本\n============\n\n寻找最优投资组合配置\n\nAuthor: QuantTrader Team\nDate: 2025-08-31\n",
+      "complexity_score": 9,
+      "last_modified": "2025-08-31T15:36:23.644976"
+    },
+    "utils/backup.py": {
+      "file_path": "utils/backup.py",
+      "size_bytes": 5641,
+      "lines_of_code": 133,
+      "imports": [
+        "typing",
+        "sys",
+        "os",
+        "shutil",
+        "zipfile",
+        "pathlib",
+        "datetime",
+        "json",
+        "logging"
+      ],
+      "functions": [
+        "main",
+        "__init__",
+        "create_backup",
+        "_add_to_zip",
+        "restore_backup",
+        "list_backups",
+        "clean_old_backups",
+        "get_backup_info"
+      ],
+      "classes": [
+        "BackupManager"
+      ],
+      "main_execution": true,
+      "docstring": "\n数据备份脚本\n============\n\n备份重要数据和配置文件\n\nAuthor: QuantTrader Team\nDate: 2025-08-31\n",
+      "complexity_score": 10,
+      "last_modified": "2025-08-31T15:31:05.336869"
+    },
+    "utils/notification.py": {
+      "file_path": "utils/notification.py",
+      "size_bytes": 6413,
+      "lines_of_code": 169,
+      "imports": [
+        "typing",
+        "sys",
+        "os",
+        "smtplib",
+        "email.mime.text",
+        "email.mime.multipart",
+        "requests",
+        "json",
+        "datetime",
+        "logging"
+      ],
+      "functions": [
+        "main",
+        "__init__",
+        "_load_config",
+        "send_email",
+        "send_webhook",
+        "send_console",
+        "send_notification",
+        "send_trade_alert",
+        "send_daily_summary"
+      ],
+      "classes": [
+        "NotificationManager"
+      ],
+      "main_execution": true,
+      "docstring": "\n通知发送脚本\n============\n\n发送各类通知消息\n\nAuthor: QuantTrader Team\nDate: 2025-08-31\n",
+      "complexity_score": 11,
+      "last_modified": "2025-08-31T15:31:05.336427"
+    },
+    "utils/__init__.py": {
+      "file_path": "utils/__init__.py",
+      "size_bytes": 354,
+      "lines_of_code": 17,
+      "imports": [
+        "backup",
+        "notification",
+        "scheduler"
+      ],
+      "functions": [],
+      "classes": [],
+      "main_execution": false,
+      "docstring": "\nUtils模块\n",
+      "complexity_score": 0,
+      "last_modified": "2025-08-31T15:31:05.343043"
+    },
+    "utils/scheduler.py": {
+      "file_path": "utils/scheduler.py",
+      "size_bytes": 5627,
+      "lines_of_code": 158,
+      "imports": [
+        "typing",
+        "sys",
+        "os",
+        "schedule",
+        "time",
+        "datetime",
+        "subprocess",
+        "threading",
+        "logging",
+        "pathlib"
+      ],
+      "functions": [
+        "main",
+        "__init__",
+        "add_task",
+        "_run_task",
+        "setup_default_tasks",
+        "start",
+        "stop",
+        "get_status",
+        "run_immediate",
+        "run_schedule"
+      ],
+      "classes": [
+        "TaskScheduler"
+      ],
+      "main_execution": true,
+      "docstring": "\n任务调度脚本\n============\n\n管理和执行定时任务\n\nAuthor: QuantTrader Team\nDate: 2025-08-31\n",
+      "complexity_score": 12,
+      "last_modified": "2025-08-31T15:31:05.335940"
+    },
+    "backtest/backtest_analysis.py": {
+      "file_path": "backtest/backtest_analysis.py",
+      "size_bytes": 4400,
+      "lines_of_code": 107,
+      "imports": [
+        "typing",
+        "sys",
+        "os",
+        "pandas",
+        "numpy",
+        "matplotlib.pyplot",
+        "seaborn",
+        "pathlib",
+        "json"
+      ],
+      "functions": [
+        "main",
+        "__init__",
+        "calculate_metrics",
+        "_calculate_downside_volatility",
+        "_calculate_max_drawdown",
+        "_calculate_sharpe_ratio",
+        "_calculate_sortino_ratio",
+        "_calculate_calmar_ratio",
+        "_calculate_profit_factor",
+        "generate_report"
+      ],
+      "classes": [
+        "BacktestAnalyzer"
+      ],
+      "main_execution": true,
+      "docstring": "\n回测分析脚本\n============\n\n深度分析回测结果\n\nAuthor: QuantTrader Team\nDate: 2025-08-31\n",
+      "complexity_score": 12,
+      "last_modified": "2025-08-31T15:34:22.745877"
+    },
+    "backtest/backtest_report.py": {
+      "file_path": "backtest/backtest_report.py",
+      "size_bytes": 3845,
+      "lines_of_code": 100,
+      "imports": [
+        "typing",
+        "sys",
+        "os",
+        "pandas",
+        "matplotlib.pyplot",
+        "datetime",
+        "pathlib",
+        "json"
+      ],
+      "functions": [
+        "main",
+        "__init__",
+        "generate_html_report"
+      ],
+      "classes": [
+        "ReportGenerator"
+      ],
+      "main_execution": true,
+      "docstring": "\n回测报告生成脚本\n================\n\n生成专业的回测报告\n\nAuthor: QuantTrader Team\nDate: 2025-08-31\n",
+      "complexity_score": 5,
+      "last_modified": "2025-08-31T15:34:22.746429"
+    },
+    "backtest/batch_backtest.py": {
+      "file_path": "backtest/batch_backtest.py",
+      "size_bytes": 4272,
+      "lines_of_code": 111,
+      "imports": [
+        "typing",
+        "sys",
+        "os",
+        "core.backtest",
+        "core.config",
+        "pandas",
+        "numpy",
+        "itertools",
+        "concurrent.futures",
+        "json",
+        "logging"
+      ],
+      "functions": [
+        "main",
+        "__init__",
+        "run_single_backtest",
+        "run_parameter_optimization",
+        "run_strategy_comparison"
+      ],
+      "classes": [
+        "BatchBacktester"
+      ],
+      "main_execution": true,
+      "docstring": "\n批量回测脚本\n============\n\n批量运行多个策略回测\n\nAuthor: QuantTrader Team\nDate: 2025-08-31\n",
+      "complexity_score": 7,
+      "last_modified": "2025-08-31T15:34:22.745669"
+    },
+    "backtest/__init__.py": {
+      "file_path": "backtest/__init__.py",
+      "size_bytes": 476,
+      "lines_of_code": 21,
+      "imports": [
+        "backtest_analysis",
+        "backtest_report",
+        "batch_backtest",
+        "run_backtest"
+      ],
+      "functions": [],
+      "classes": [],
+      "main_execution": false,
+      "docstring": "\nBacktest模块\n",
+      "complexity_score": 0,
+      "last_modified": "2025-08-31T15:31:05.342484"
+    },
+    "backtest/run_backtest.py": {
+      "file_path": "backtest/run_backtest.py",
+      "size_bytes": 686,
+      "lines_of_code": 27,
+      "imports": [
+        "typing",
+        "logging"
+      ],
+      "functions": [
+        "main",
+        "__init__",
+        "run"
+      ],
+      "classes": [
+        "BacktestRunner"
+      ],
+      "main_execution": true,
+      "docstring": "\nRun Backtest\n========================================\n\n自动生成的占位文件\n\nAuthor: QuantTrader Team\nDate: 2025-08-31\n",
+      "complexity_score": 5,
+      "last_modified": "2025-08-31T15:31:05.337605"
+    },
+    "monitoring/realtime_monitor.py": {
+      "file_path": "monitoring/realtime_monitor.py",
+      "size_bytes": 6509,
+      "lines_of_code": 168,
+      "imports": [
+        "typing",
+        "sys",
+        "os",
+        "pandas",
+        "time",
+        "datetime",
+        "threading",
+        "queue",
+        "json",
+        "logging",
+        "random"
+      ],
+      "functions": [
+        "main",
+        "__init__",
+        "add_to_watchlist",
+        "start_monitoring",
+        "_monitor_loop",
+        "_get_realtime_data",
+        "_check_conditions",
+        "_alert_handler",
+        "_process_alert",
+        "stop_monitoring",
+        "get_status"
+      ],
+      "classes": [
+        "RealtimeMonitor"
+      ],
+      "main_execution": true,
+      "docstring": "\n实时监控脚本\n============\n\n监控市场和策略的实时状态\n\nAuthor: QuantTrader Team\nDate: 2025-08-31\n",
+      "complexity_score": 13,
+      "last_modified": "2025-08-31T15:34:22.748513"
+    },
+    "monitoring/alert_manager.py": {
+      "file_path": "monitoring/alert_manager.py",
+      "size_bytes": 6855,
+      "lines_of_code": 171,
+      "imports": [
+        "sys",
+        "os",
+        "json",
+        "datetime",
+        "typing",
+        "smtplib",
+        "email.mime.text",
+        "logging"
+      ],
+      "functions": [
+        "main",
+        "__init__",
+        "add_alert_rule",
+        "check_alert_conditions",
+        "_evaluate_rule",
+        "_format_message",
+        "send_notifications",
+        "_send_console_notification",
+        "_send_file_notification",
+        "_send_email_notification",
+        "get_alert_summary"
+      ],
+      "classes": [
+        "AlertManager"
+      ],
+      "main_execution": true,
+      "docstring": "\n告警管理脚本\n============\n\n管理和发送各类告警通知\n\nAuthor: QuantTrader Team\nDate: 2025-08-31\n",
+      "complexity_score": 13,
+      "last_modified": "2025-08-31T15:03:56.899026"
+    },
+    "monitoring/daily_monitor.py": {
+      "file_path": "monitoring/daily_monitor.py",
+      "size_bytes": 681,
+      "lines_of_code": 27,
+      "imports": [
+        "typing",
+        "logging"
+      ],
+      "functions": [
+        "main",
+        "__init__",
+        "run"
+      ],
+      "classes": [
+        "DailyMonitor"
+      ],
+      "main_execution": true,
+      "docstring": "\nDaily Monitor\n========================================\n\n自动生成的占位文件\n\nAuthor: QuantTrader Team\nDate: 2025-08-31\n",
+      "complexity_score": 5,
+      "last_modified": "2025-08-31T15:31:05.338687"
+    },
+    "monitoring/__init__.py": {
+      "file_path": "monitoring/__init__.py",
+      "size_bytes": 475,
+      "lines_of_code": 21,
+      "imports": [
+        "realtime_monitor",
+        "alert_manager",
+        "daily_monitor",
+        "performance_tracker"
+      ],
+      "functions": [],
+      "classes": [],
+      "main_execution": false,
+      "docstring": "\nMonitoring模块\n",
+      "complexity_score": 0,
+      "last_modified": "2025-08-31T15:31:05.342870"
+    },
+    "monitoring/performance_tracker.py": {
+      "file_path": "monitoring/performance_tracker.py",
+      "size_bytes": 6881,
+      "lines_of_code": 170,
+      "imports": [
+        "typing",
+        "sys",
+        "os",
+        "pandas",
+        "numpy",
+        "datetime",
+        "json",
+        "pathlib",
+        "logging"
+      ],
+      "functions": [
+        "main",
+        "__init__",
+        "record_trade",
+        "_update_daily_pnl",
+        "calculate_metrics",
+        "_calculate_sharpe_ratio",
+        "save_performance_report"
+      ],
+      "classes": [
+        "PerformanceTracker"
+      ],
+      "main_execution": true,
+      "docstring": "\n性能跟踪脚本\n============\n\n跟踪和记录策略性能指标\n\nAuthor: QuantTrader Team\nDate: 2025-08-31\n",
+      "complexity_score": 9,
+      "last_modified": "2025-08-31T15:34:22.748737"
+    },
+    "screening/screening_report.py": {
+      "file_path": "screening/screening_report.py",
+      "size_bytes": 699,
+      "lines_of_code": 27,
+      "imports": [
+        "typing",
+        "logging"
+      ],
+      "functions": [
+        "main",
+        "__init__",
+        "run"
+      ],
+      "classes": [
+        "ScreeningReporter"
+      ],
+      "main_execution": true,
+      "docstring": "\nScreening Report\n========================================\n\n自动生成的占位文件\n\nAuthor: QuantTrader Team\nDate: 2025-08-31\n",
+      "complexity_score": 5,
+      "last_modified": "2025-08-31T15:31:05.337847"
+    },
+    "screening/run_screening.py": {
+      "file_path": "screening/run_screening.py",
+      "size_bytes": 690,
+      "lines_of_code": 27,
+      "imports": [
+        "typing",
+        "logging"
+      ],
+      "functions": [
+        "main",
+        "__init__",
+        "run"
+      ],
+      "classes": [
+        "ScreeningRunner"
+      ],
+      "main_execution": true,
+      "docstring": "\nRun Screening\n========================================\n\n自动生成的占位文件\n\nAuthor: QuantTrader Team\nDate: 2025-08-31\n",
+      "complexity_score": 5,
+      "last_modified": "2025-08-31T15:31:05.337726"
+    },
+    "screening/screening_monitor.py": {
+      "file_path": "screening/screening_monitor.py",
+      "size_bytes": 4003,
+      "lines_of_code": 105,
+      "imports": [
+        "typing",
+        "sys",
+        "os",
+        "core.screening",
+        "core.data",
+        "core.config",
+        "pandas",
+        "datetime",
+        "time",
+        "json",
+        "logging"
+      ],
+      "functions": [
+        "main",
+        "__init__",
+        "monitor_conditions",
+        "_check_new_entries",
+        "_send_alert",
+        "_save_monitor_log"
+      ],
+      "classes": [
+        "ScreeningMonitor"
+      ],
+      "main_execution": true,
+      "docstring": "\n筛选监控脚本\n============\n\n实时监控符合筛选条件的股票\n\nAuthor: QuantTrader Team\nDate: 2025-08-31\n",
+      "complexity_score": 8,
+      "last_modified": "2025-08-31T15:34:22.746867"
+    },
+    "screening/__init__.py": {
+      "file_path": "screening/__init__.py",
+      "size_bytes": 383,
+      "lines_of_code": 17,
+      "imports": [
+        "screening_report",
+        "run_screening",
+        "screening_monitor"
+      ],
+      "functions": [],
+      "classes": [],
+      "main_execution": false,
+      "docstring": "\nScreening模块\n",
+      "complexity_score": 0,
+      "last_modified": "2025-08-31T15:31:05.342592"
+    },
+    "strategy/strategy_monitor.py": {
+      "file_path": "strategy/strategy_monitor.py",
+      "size_bytes": 3026,
+      "lines_of_code": 80,
+      "imports": [
+        "typing",
+        "sys",
+        "os",
+        "pandas",
+        "numpy",
+        "datetime",
+        "json",
+        "time",
+        "logging",
+        "pathlib"
+      ],
+      "functions": [
+        "main",
+        "__init__",
+        "check_performance",
+        "_calculate_current_drawdown",
+        "save_monitor_log"
+      ],
+      "classes": [
+        "StrategyMonitor"
+      ],
+      "main_execution": true,
+      "docstring": "\n策略监控脚本\n============\n\n实时监控策略运行状态和性能\n\nAuthor: QuantTrader Team\nDate: 2025-08-31\n",
+      "complexity_score": 7,
+      "last_modified": "2025-08-31T15:31:05.335347"
+    },
+    "strategy/strategy_scanner.py": {
+      "file_path": "strategy/strategy_scanner.py",
+      "size_bytes": 693,
+      "lines_of_code": 27,
+      "imports": [
+        "typing",
+        "logging"
+      ],
+      "functions": [
+        "main",
+        "__init__",
+        "run"
+      ],
+      "classes": [
+        "StrategyScanner"
+      ],
+      "main_execution": true,
+      "docstring": "\nStrategy Scanner\n========================================\n\n自动生成的占位文件\n\nAuthor: QuantTrader Team\nDate: 2025-08-31\n",
+      "complexity_score": 5,
+      "last_modified": "2025-08-31T15:31:05.337454"
+    },
+    "strategy/run_strategy.py": {
+      "file_path": "strategy/run_strategy.py",
+      "size_bytes": 3588,
+      "lines_of_code": 90,
+      "imports": [
+        "sys",
+        "os",
+        "core.strategy",
+        "core.data",
+        "core.config",
+        "pandas",
+        "logging",
+        "datetime",
+        "argparse",
+        "core.strategy",
+        "core.strategy"
+      ],
+      "functions": [
+        "main",
+        "__init__",
+        "load_strategy",
+        "run"
+      ],
+      "classes": [
+        "StrategyRunner"
+      ],
+      "main_execution": true,
+      "docstring": "\n策略运行脚本\n============\n\n执行交易策略并生成信号\n\nAuthor: QuantTrader Team\nDate: 2025-08-31\n",
+      "complexity_score": 6,
+      "last_modified": "2025-08-31T14:56:58.683382"
+    },
+    "strategy/__init__.py": {
+      "file_path": "strategy/__init__.py",
+      "size_bytes": 482,
+      "lines_of_code": 21,
+      "imports": [
+        "strategy_monitor",
+        "strategy_scanner",
+        "run_strategy",
+        "strategy_validator"
+      ],
+      "functions": [],
+      "classes": [],
+      "main_execution": false,
+      "docstring": "\nStrategy模块\n",
+      "complexity_score": 0,
+      "last_modified": "2025-08-31T15:31:05.342373"
+    },
+    "strategy/strategy_validator.py": {
+      "file_path": "strategy/strategy_validator.py",
+      "size_bytes": 2847,
+      "lines_of_code": 72,
+      "imports": [
+        "sys",
+        "os",
+        "pandas",
+        "numpy",
+        "typing",
+        "logging"
+      ],
+      "functions": [
+        "main",
+        "__init__",
+        "validate_signals",
+        "validate_performance",
+        "_calculate_max_drawdown"
+      ],
+      "classes": [
+        "StrategyValidator"
+      ],
+      "main_execution": true,
+      "docstring": "\n策略验证脚本\n============\n\n验证策略的有效性和稳定性\n\nAuthor: QuantTrader Team\nDate: 2025-08-31\n",
+      "complexity_score": 7,
+      "last_modified": "2025-08-31T14:57:25.093424"
+    }
+  },
+  "functionality_mapping": {
+    "data_related": [
+      {
+        "file": "__init__.py",
+        "purpose": "\nscripts_new 模块\n===============\n\n量化交易框架的脚本模块\n\n包含以下子模块:\n- data: 数据管理脚本\n- strategy: 策略脚本\n- backtest: 回",
+        "functions": 0,
+        "size": 28
+      },
+      {
+        "file": "utils/backup.py",
+        "purpose": "\n数据备份脚本\n============\n\n备份重要数据和配置文件\n\nAuthor: QuantTrader Team\nDate: 2025-08-31\n",
+        "functions": 8,
+        "size": 133
+      }
+    ],
+    "analysis_related": [
+      {
+        "file": "reporting/weekly_report.py",
+        "purpose": "\n周报生成脚本\n============\n\n生成每周交易报告\n\nAuthor: QuantTrader Team\nDate: 2025-08-31\n",
+        "functions": 8,
+        "size": 166
+      },
+      {
+        "file": "reporting/daily_report.py",
+        "purpose": "\nDaily Report\n========================================\n\n自动生成的占位文件\n\nAuthor: QuantTrader Team\nDate: 20",
+        "functions": 3,
+        "size": 27
+      },
+      {
+        "file": "reporting/monthly_report.py",
+        "purpose": "\n月报生成脚本\n============\n\n生成详细的月度分析报告\n\nAuthor: QuantTrader Team\nDate: 2025-08-31\n",
+        "functions": 10,
+        "size": 171
+      },
+      {
+        "file": "reporting/__init__.py",
+        "purpose": "\nReporting模块\n",
+        "functions": 0,
+        "size": 17
+      },
+      {
+        "file": "analysis/performance_analysis.py",
+        "purpose": "\nPerformance Analysis\n========================================\n\n自动生成的占位文件\n\nAuthor: QuantTrader Team\n",
+        "functions": 3,
+        "size": 27
+      },
+      {
+        "file": "analysis/__init__.py",
+        "purpose": "\nAnalysis模块\n",
+        "functions": 0,
+        "size": 21
+      },
+      {
+        "file": "analysis/market_analysis.py",
+        "purpose": "\n市场分析脚本\n============\n\n分析整体市场状况\n\nAuthor: QuantTrader Team\nDate: 2025-08-31\n",
+        "functions": 7,
+        "size": 115
+      },
+      {
+        "file": "analysis/portfolio_analysis.py",
+        "purpose": "\n组合分析脚本\n============\n\n分析投资组合的风险收益特征\n\nAuthor: QuantTrader Team\nDate: 2025-08-31\n",
+        "functions": 11,
+        "size": 133
+      },
+      {
+        "file": "analysis/risk_analysis.py",
+        "purpose": "\nRisk Analysis\n========================================\n\n自动生成的占位文件\n\nAuthor: QuantTrader Team\nDate: 2",
+        "functions": 3,
+        "size": 27
+      },
+      {
+        "file": "backtest/backtest_analysis.py",
+        "purpose": "\n回测分析脚本\n============\n\n深度分析回测结果\n\nAuthor: QuantTrader Team\nDate: 2025-08-31\n",
+        "functions": 10,
+        "size": 107
+      },
+      {
+        "file": "backtest/backtest_report.py",
+        "purpose": "\n回测报告生成脚本\n================\n\n生成专业的回测报告\n\nAuthor: QuantTrader Team\nDate: 2025-08-31\n",
+        "functions": 3,
+        "size": 100
+      },
+      {
+        "file": "screening/screening_report.py",
+        "purpose": "\nScreening Report\n========================================\n\n自动生成的占位文件\n\nAuthor: QuantTrader Team\nDate",
+        "functions": 3,
+        "size": 27
+      }
+    ],
+    "setup_related": [
+      {
+        "file": "optimization/__init__.py",
+        "purpose": "\nOptimization模块\n",
+        "functions": 0,
+        "size": 17
+      },
+      {
+        "file": "optimization/optimize_portfolio.py",
+        "purpose": "\n组合优化脚本\n============\n\n寻找最优投资组合配置\n\nAuthor: QuantTrader Team\nDate: 2025-08-31\n",
+        "functions": 7,
+        "size": 131
+      },
+      {
+        "file": "utils/__init__.py",
+        "purpose": "\nUtils模块\n",
+        "functions": 0,
+        "size": 17
+      },
+      {
+        "file": "backtest/__init__.py",
+        "purpose": "\nBacktest模块\n",
+        "functions": 0,
+        "size": 21
+      },
+      {
+        "file": "monitoring/__init__.py",
+        "purpose": "\nMonitoring模块\n",
+        "functions": 0,
+        "size": 21
+      },
+      {
+        "file": "screening/__init__.py",
+        "purpose": "\nScreening模块\n",
+        "functions": 0,
+        "size": 17
+      },
+      {
+        "file": "strategy/__init__.py",
+        "purpose": "\nStrategy模块\n",
+        "functions": 0,
+        "size": 21
+      }
+    ],
+    "maintenance_related": [
+      {
+        "file": "optimization/optimize_allocation.py",
+        "purpose": "\n仓位优化脚本\n============\n\n优化资金分配和仓位管理\n\nAuthor: QuantTrader Team\nDate: 2025-08-31\n",
+        "functions": 6,
+        "size": 106
+      },
+      {
+        "file": "optimization/optimize_params.py",
+        "purpose": "\nOptimize Params\n========================================\n\n自动生成的占位文件\n\nAuthor: QuantTrader Team\nDate:",
+        "functions": 3,
+        "size": 27
+      }
+    ],
+    "unclear_purpose": [
+      {
+        "file": "utils/notification.py",
+        "purpose": "\n通知发送脚本\n============\n\n发送各类通知消息\n\nAuthor: QuantTrader Team\nDate: 2025-08-31\n",
+        "functions": 9,
+        "size": 169
+      },
+      {
+        "file": "utils/scheduler.py",
+        "purpose": "\n任务调度脚本\n============\n\n管理和执行定时任务\n\nAuthor: QuantTrader Team\nDate: 2025-08-31\n",
+        "functions": 10,
+        "size": 158
+      },
+      {
+        "file": "backtest/batch_backtest.py",
+        "purpose": "\n批量回测脚本\n============\n\n批量运行多个策略回测\n\nAuthor: QuantTrader Team\nDate: 2025-08-31\n",
+        "functions": 5,
+        "size": 111
+      },
+      {
+        "file": "backtest/run_backtest.py",
+        "purpose": "\nRun Backtest\n========================================\n\n自动生成的占位文件\n\nAuthor: QuantTrader Team\nDate: 20",
+        "functions": 3,
+        "size": 27
+      },
+      {
+        "file": "monitoring/realtime_monitor.py",
+        "purpose": "\n实时监控脚本\n============\n\n监控市场和策略的实时状态\n\nAuthor: QuantTrader Team\nDate: 2025-08-31\n",
+        "functions": 11,
+        "size": 168
+      },
+      {
+        "file": "monitoring/alert_manager.py",
+        "purpose": "\n告警管理脚本\n============\n\n管理和发送各类告警通知\n\nAuthor: QuantTrader Team\nDate: 2025-08-31\n",
+        "functions": 11,
+        "size": 171
+      },
+      {
+        "file": "monitoring/daily_monitor.py",
+        "purpose": "\nDaily Monitor\n========================================\n\n自动生成的占位文件\n\nAuthor: QuantTrader Team\nDate: 2",
+        "functions": 3,
+        "size": 27
+      },
+      {
+        "file": "monitoring/performance_tracker.py",
+        "purpose": "\n性能跟踪脚本\n============\n\n跟踪和记录策略性能指标\n\nAuthor: QuantTrader Team\nDate: 2025-08-31\n",
+        "functions": 7,
+        "size": 170
+      },
+      {
+        "file": "screening/run_screening.py",
+        "purpose": "\nRun Screening\n========================================\n\n自动生成的占位文件\n\nAuthor: QuantTrader Team\nDate: 2",
+        "functions": 3,
+        "size": 27
+      },
+      {
+        "file": "screening/screening_monitor.py",
+        "purpose": "\n筛选监控脚本\n============\n\n实时监控符合筛选条件的股票\n\nAuthor: QuantTrader Team\nDate: 2025-08-31\n",
+        "functions": 6,
+        "size": 105
+      },
+      {
+        "file": "strategy/strategy_monitor.py",
+        "purpose": "\n策略监控脚本\n============\n\n实时监控策略运行状态和性能\n\nAuthor: QuantTrader Team\nDate: 2025-08-31\n",
+        "functions": 5,
+        "size": 80
+      },
+      {
+        "file": "strategy/strategy_scanner.py",
+        "purpose": "\nStrategy Scanner\n========================================\n\n自动生成的占位文件\n\nAuthor: QuantTrader Team\nDate",
+        "functions": 3,
+        "size": 27
+      },
+      {
+        "file": "strategy/run_strategy.py",
+        "purpose": "\n策略运行脚本\n============\n\n执行交易策略并生成信号\n\nAuthor: QuantTrader Team\nDate: 2025-08-31\n",
+        "functions": 4,
+        "size": 90
+      },
+      {
+        "file": "strategy/strategy_validator.py",
+        "purpose": "\n策略验证脚本\n============\n\n验证策略的有效性和稳定性\n\nAuthor: QuantTrader Team\nDate: 2025-08-31\n",
+        "functions": 5,
+        "size": 72
+      }
+    ]
+  },
+  "duplication_check": {
+    "similar_names": [
+      {
+        "script": "analysis/performance_analysis.py",
+        "tool": "analysis/detailed_data_analysis.py",
+        "similarity_reason": "name_similarity"
+      },
+      {
+        "script": "analysis/performance_analysis.py",
+        "tool": "analysis/root_directory_analysis.py",
+        "similarity_reason": "name_similarity"
+      },
+      {
+        "script": "analysis/market_analysis.py",
+        "tool": "analysis/detailed_data_analysis.py",
+        "similarity_reason": "name_similarity"
+      },
+      {
+        "script": "analysis/market_analysis.py",
+        "tool": "analysis/root_directory_analysis.py",
+        "similarity_reason": "name_similarity"
+      },
+      {
+        "script": "analysis/portfolio_analysis.py",
+        "tool": "analysis/detailed_data_analysis.py",
+        "similarity_reason": "name_similarity"
+      },
+      {
+        "script": "analysis/portfolio_analysis.py",
+        "tool": "analysis/root_directory_analysis.py",
+        "similarity_reason": "name_similarity"
+      },
+      {
+        "script": "analysis/risk_analysis.py",
+        "tool": "analysis/detailed_data_analysis.py",
+        "similarity_reason": "name_similarity"
+      },
+      {
+        "script": "analysis/risk_analysis.py",
+        "tool": "analysis/root_directory_analysis.py",
+        "similarity_reason": "name_similarity"
+      },
+      {
+        "script": "optimization/optimize_allocation.py",
+        "tool": "maintenance/optimize_project_structure.py",
+        "similarity_reason": "name_similarity"
+      },
+      {
+        "script": "optimization/optimize_params.py",
+        "tool": "maintenance/optimize_project_structure.py",
+        "similarity_reason": "name_similarity"
+      },
+      {
+        "script": "optimization/optimize_portfolio.py",
+        "tool": "maintenance/optimize_project_structure.py",
+        "similarity_reason": "name_similarity"
+      },
+      {
+        "script": "backtest/backtest_analysis.py",
+        "tool": "analysis/detailed_data_analysis.py",
+        "similarity_reason": "name_similarity"
+      },
+      {
+        "script": "backtest/backtest_analysis.py",
+        "tool": "analysis/root_directory_analysis.py",
+        "similarity_reason": "name_similarity"
+      },
+      {
+        "script": "monitoring/alert_manager.py",
+        "tool": "data_download/uqer_connection_manager.py",
+        "similarity_reason": "name_similarity"
+      },
+      {
+        "script": "strategy/strategy_monitor.py",
+        "tool": "testing/strategy_validator.py",
+        "similarity_reason": "name_similarity"
+      },
+      {
+        "script": "strategy/strategy_scanner.py",
+        "tool": "testing/strategy_validator.py",
+        "similarity_reason": "name_similarity"
+      },
+      {
+        "script": "strategy/run_strategy.py",
+        "tool": "testing/strategy_validator.py",
+        "similarity_reason": "name_similarity"
+      },
+      {
+        "script": "strategy/strategy_validator.py",
+        "tool": "testing/config_validator.py",
+        "similarity_reason": "name_similarity"
+      },
+      {
+        "script": "strategy/strategy_validator.py",
+        "tool": "testing/data_validator.py",
+        "similarity_reason": "name_similarity"
+      },
+      {
+        "script": "strategy/strategy_validator.py",
+        "tool": "testing/strategy_validator.py",
+        "similarity_reason": "name_similarity"
+      }
+    ],
+    "similar_functions": [],
+    "potential_duplicates": []
+  },
+  "integration_analysis": {},
+  "quality_metrics": {
+    "well_documented": 29,
+    "has_main_guard": 28,
+    "appropriate_size": 19,
+    "clear_structure": 28,
+    "total_files": 37,
+    "quality_issues": [
+      "__init__.py: 缺乏结构化代码",
+      "reporting/__init__.py: 缺乏结构化代码",
+      "analysis/__init__.py: 缺乏结构化代码",
+      "optimization/__init__.py: 缺乏结构化代码",
+      "utils/__init__.py: 缺乏结构化代码",
+      "backtest/__init__.py: 缺乏结构化代码",
+      "monitoring/__init__.py: 缺乏结构化代码",
+      "screening/__init__.py: 缺乏结构化代码",
+      "strategy/__init__.py: 缺乏结构化代码"
+    ],
+    "documentation_rate": 78.4,
+    "main_guard_rate": 75.7,
+    "size_appropriate_rate": 51.4,
+    "structure_rate": 75.7
+  },
+  "recommendations": {
+    "action": "deduplicate",
+    "priority": "high",
+    "reasons": [
+      "与tools目录存在功能重复",
+      "需要消除冗余代码"
+    ],
+    "specific_actions": [
+      "识别重复功能",
+      "合并相似脚本",
+      "统一接口规范"
+    ],
+    "migration_plan": [
+      "1. 详细对比重复脚本功能",
+      "2. 选择最优实现",
+      "3. 合并重复代码",
+      "4. 更新使用文档"
+    ]
+  }
+}

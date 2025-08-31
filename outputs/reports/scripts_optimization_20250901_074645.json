@@ -1,0 +1,210 @@
+{
+  "timestamp": "2025-09-01T07:46:45.189231",
+  "files_to_remove": [
+    {
+      "file": "analysis/performance_analysis.py",
+      "reason": "tools/analysis/ - 基础分析功能重复",
+      "size": 709
+    },
+    {
+      "file": "strategy/strategy_validator.py",
+      "reason": "tools/testing/strategy_validator.py - 完全重复",
+      "size": 2847
+    },
+    {
+      "file": "analysis/risk_analysis.py",
+      "reason": "简单stub，功能不完整",
+      "size": 681
+    },
+    {
+      "file": "optimization/optimize_params.py",
+      "reason": "简单stub，功能不完整",
+      "size": 701
+    },
+    {
+      "file": "reporting/daily_report.py",
+      "reason": "简单stub，功能不完整",
+      "size": 683
+    },
+    {
+      "file": "screening/run_screening.py",
+      "reason": "简单stub，功能不完整",
+      "size": 690
+    },
+    {
+      "file": "screening/screening_report.py",
+      "reason": "简单stub，功能不完整",
+      "size": 699
+    },
+    {
+      "file": "strategy/strategy_scanner.py",
+      "reason": "简单stub，功能不完整",
+      "size": 693
+    },
+    {
+      "file": "monitoring/daily_monitor.py",
+      "reason": "简单stub，功能不完整",
+      "size": 681
+    },
+    {
+      "file": "backtest/run_backtest.py",
+      "reason": "简单stub，功能不完整",
+      "size": 686
+    }
+  ],
+  "directories_to_restructure": {},
+  "files_to_enhance": [
+    {
+      "file": "reporting/weekly_report.py",
+      "current_size": 7283,
+      "enhancement_type": "增强报告功能、添加图表生成"
+    },
+    {
+      "file": "reporting/monthly_report.py",
+      "current_size": 6462,
+      "enhancement_type": "增强报告功能、添加图表生成"
+    },
+    {
+      "file": "analysis/market_analysis.py",
+      "current_size": 4800,
+      "enhancement_type": "增强分析算法、添加机器学习"
+    },
+    {
+      "file": "analysis/portfolio_analysis.py",
+      "current_size": 5248,
+      "enhancement_type": "增强分析算法、添加机器学习"
+    },
+    {
+      "file": "optimization/optimize_allocation.py",
+      "current_size": 4876,
+      "enhancement_type": "改进优化算法、添加约束条件"
+    },
+    {
+      "file": "optimization/optimize_portfolio.py",
+      "current_size": 5370,
+      "enhancement_type": "改进优化算法、添加约束条件"
+    },
+    {
+      "file": "utils/scheduler.py",
+      "current_size": 5627,
+      "enhancement_type": "增强自动化能力、提升可靠性"
+    },
+    {
+      "file": "utils/notification.py",
+      "current_size": 6413,
+      "enhancement_type": "增强自动化能力、提升可靠性"
+    },
+    {
+      "file": "utils/backup.py",
+      "current_size": 5641,
+      "enhancement_type": "增强自动化能力、提升可靠性"
+    },
+    {
+      "file": "monitoring/realtime_monitor.py",
+      "current_size": 6509,
+      "enhancement_type": "增强实时性、添加预警机制"
+    },
+    {
+      "file": "monitoring/alert_manager.py",
+      "current_size": 6855,
+      "enhancement_type": "增强实时性、添加预警机制"
+    },
+    {
+      "file": "monitoring/performance_tracker.py",
+      "current_size": 6881,
+      "enhancement_type": "增强实时性、添加预警机制"
+    },
+    {
+      "file": "backtest/backtest_analysis.py",
+      "current_size": 4400,
+      "enhancement_type": "增强分析算法、添加机器学习"
+    },
+    {
+      "file": "backtest/backtest_report.py",
+      "current_size": 3845,
+      "enhancement_type": "增强报告功能、添加图表生成"
+    },
+    {
+      "file": "backtest/batch_backtest.py",
+      "current_size": 4272,
+      "enhancement_type": "提升回测精度、添加风险指标"
+    },
+    {
+      "file": "screening/screening_monitor.py",
+      "current_size": 4003,
+      "enhancement_type": "代码重构和功能增强"
+    },
+    {
+      "file": "strategy/strategy_monitor.py",
+      "current_size": 3026,
+      "enhancement_type": "代码重构和功能增强"
+    },
+    {
+      "file": "strategy/run_strategy.py",
+      "current_size": 3588,
+      "enhancement_type": "代码重构和功能增强"
+    }
+  ],
+  "new_structure": {
+    "trading/": {
+      "description": "交易执行和管理脚本",
+      "files": [
+        "run_trading.py",
+        "trading_manager.py",
+        "position_manager.py"
+      ]
+    },
+    "automation/": {
+      "description": "自动化任务和调度脚本",
+      "files": [
+        "scheduler.py",
+        "alert_manager.py",
+        "backup.py",
+        "notification.py"
+      ]
+    },
+    "reporting/": {
+      "description": "高级报告生成脚本",
+      "files": [
+        "weekly_report.py",
+        "monthly_report.py",
+        "performance_dashboard.py"
+      ]
+    },
+    "analysis/": {
+      "description": "高级分析和研究脚本",
+      "files": [
+        "market_analysis.py",
+        "portfolio_analysis.py",
+        "sector_analysis.py"
+      ]
+    },
+    "optimization/": {
+      "description": "投资组合和策略优化",
+      "files": [
+        "optimize_allocation.py",
+        "optimize_portfolio.py",
+        "risk_optimization.py"
+      ]
+    },
+    "monitoring/": {
+      "description": "实时监控和预警系统",
+      "files": [
+        "realtime_monitor.py",
+        "performance_tracker.py",
+        "system_monitor.py"
+      ]
+    },
+    "backtest/": {
+      "description": "高级回测和分析系统",
+      "files": [
+        "backtest_engine.py",
+        "batch_backtest.py",
+        "backtest_analysis.py",
+        "backtest_report.py"
+      ]
+    }
+  },
+  "executed": false,
+  "report_generated": "20250901_074645"
+}

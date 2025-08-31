@@ -1,0 +1,14 @@
+{
+  "completed": [],
+  "failed": [
+    "000001.SZ",
+    "000002.SZ"
+  ],
+  "total": 0,
+  "last_update": "2025-08-31T21:19:40.185527",
+  "statistics": {
+    "success_rate": 0.0,
+    "total_downloaded": 0,
+    "avg_download_time": 0.0
+  }
+}

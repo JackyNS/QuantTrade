@@ -1,0 +1,98 @@
+{
+  "test_date": "2025-08-31T15:27:39.273780",
+  "project_root": "/Users/jackstudio/QuantTrade",
+  "scripts_new_path": "/Users/jackstudio/QuantTrade/scripts_new",
+  "total_modules": 22,
+  "success_count": 1,
+  "failed_count": 21,
+  "success_rate": 4.545454545454546,
+  "successful_modules": [
+    "strategy/strategy_validator.py"
+  ],
+  "failed_modules": [
+    {
+      "module": "data_validation.py",
+      "error": "No module named 'scripts_new.data.strategy_data_manager'"
+    },
+    {
+      "module": "data_cleanup.py",
+      "error": "No module named 'scripts_new.data.strategy_data_manager'"
+    },
+    {
+      "module": "download_indicators.py",
+      "error": "No module named 'scripts_new.data.strategy_data_manager'"
+    },
+    {
+      "module": "strategy/run_strategy.py",
+      "error": "name 'Dict' is not defined"
+    },
+    {
+      "module": "strategy/strategy_monitor.py",
+      "error": "name 'Dict' is not defined"
+    },
+    {
+      "module": "backtest/batch_backtest.py",
+      "error": "No module named 'scripts_new.backtest.run_backtest'"
+    },
+    {
+      "module": "backtest/backtest_analysis.py",
+      "error": "No module named 'scripts_new.backtest.run_backtest'"
+    },
+    {
+      "module": "backtest/backtest_report.py",
+      "error": "No module named 'scripts_new.backtest.run_backtest'"
+    },
+    {
+      "module": "screening/screening_monitor.py",
+      "error": "No module named 'scripts_new.screening.run_screening'"
+    },
+    {
+      "module": "analysis/portfolio_analysis.py",
+      "error": "No module named 'scripts_new.analysis.performance_analysis'"
+    },
+    {
+      "module": "analysis/market_analysis.py",
+      "error": "No module named 'scripts_new.analysis.performance_analysis'"
+    },
+    {
+      "module": "optimization/optimize_portfolio.py",
+      "error": "No module named 'scripts_new.optimization.optimize_params'"
+    },
+    {
+      "module": "optimization/optimize_allocation.py",
+      "error": "No module named 'scripts_new.optimization.optimize_params'"
+    },
+    {
+      "module": "monitoring/realtime_monitor.py",
+      "error": "No module named 'scripts_new.monitoring.daily_monitor'"
+    },
+    {
+      "module": "monitoring/alert_manager.py",
+      "error": "No module named 'scripts_new.monitoring.daily_monitor'"
+    },
+    {
+      "module": "monitoring/performance_tracker.py",
+      "error": "No module named 'scripts_new.monitoring.daily_monitor'"
+    },
+    {
+      "module": "reporting/weekly_report.py",
+      "error": "No module named 'scripts_new.reporting.daily_report'"
+    },
+    {
+      "module": "reporting/monthly_report.py",
+      "error": "No module named 'scripts_new.reporting.daily_report'"
+    },
+    {
+      "module": "utils/scheduler.py",
+      "error": "name 'Dict' is not defined"
+    },
+    {
+      "module": "utils/notification.py",
+      "error": "name 'Dict' is not defined"
+    },
+    {
+      "module": "utils/backup.py",
+      "error": "name 'Dict' is not defined"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "test_date": "2025-08-31T15:34:59.724055",
+  "project_root": "/Users/jackstudio/QuantTrade",
+  "scripts_new_path": "/Users/jackstudio/QuantTrade/scripts_new",
+  "total_modules": 33,
+  "success_count": 31,
+  "failed_count": 2,
+  "success_rate": 93.93939393939394,
+  "successful_modules": [
+    "strategy_data_manager.py",
+    "update_daily_wrapper.py",
+    "data_validation.py",
+    "data_cleanup.py",
+    "strategy/run_strategy.py",
+    "strategy/strategy_validator.py",
+    "strategy/strategy_monitor.py",
+    "strategy/strategy_scanner.py",
+    "backtest/run_backtest.py",
+    "backtest/batch_backtest.py",
+    "backtest/backtest_analysis.py",
+    "backtest/backtest_report.py",
+    "screening/run_screening.py",
+    "screening/screening_monitor.py",
+    "screening/screening_report.py",
+    "analysis/performance_analysis.py",
+    "analysis/risk_analysis.py",
+    "analysis/portfolio_analysis.py",
+    "analysis/market_analysis.py",
+    "optimization/optimize_params.py",
+    "optimization/optimize_allocation.py",
+    "monitoring/daily_monitor.py",
+    "monitoring/realtime_monitor.py",
+    "monitoring/alert_manager.py",
+    "monitoring/performance_tracker.py",
+    "reporting/daily_report.py",
+    "reporting/weekly_report.py",
+    "reporting/monthly_report.py",
+    "utils/scheduler.py",
+    "utils/notification.py",
+    "utils/backup.py"
+  ],
+  "failed_modules": [
+    {
+      "module": "download_indicators.py",
+      "error": "cannot import name 'IndicatorDownloader' from 'scripts_new.data.download_indicators' (/Users/jackstudio/QuantTrade/scripts_new/data/download_indicators.py)"
+    },
+    {
+      "module": "optimization/optimize_portfolio.py",
+      "error": "No module named 'cvxpy'"
+    }
+  ]
+}

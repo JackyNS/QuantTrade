@@ -1,0 +1,6 @@
+{
+    "token": "68b9922817ae6273137bda7acba81e293582ba347281dfcc056dcb245b23faf3",
+    "rate_limit": 0.2,
+    "retry_times": 3,
+    "description": "优矿API配置文件"
+}

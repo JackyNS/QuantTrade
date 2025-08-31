@@ -1,0 +1,22 @@
+{
+  "created_time": "2025-08-26 17:08:19",
+  "structure_version": "1.0.0",
+  "directories": {
+    "raw": "原始数据存储",
+    "processed": "处理后数据",
+    "cache": "缓存文件",
+    "metadata": "元数据",
+    "backtest": "回测数据"
+  },
+  "data_format": {
+    "primary": "parquet",
+    "secondary": "csv",
+    "compression": "snappy"
+  },
+  "storage_rules": {
+    "daily_data": "data/raw/daily/{ticker}.parquet",
+    "minute_data": "data/raw/minute/{ticker}_{date}.parquet",
+    "financial_data": "data/raw/financial/{ticker}_financial.parquet",
+    "basic_info": "data/raw/basic_info/stock_info.parquet"
+  }
+}

@@ -1,0 +1,18 @@
+
+# 优矿连接状态报告
+
+## 📊 总体状态
+- **状态**: WARNING
+- **成功率**: 50.0%
+- **通过测试**: 1/2
+- **检查时间**: 2025-09-01T07:05:08.791703
+
+## 🔍 详细结果
+
+### Basic_Connection
+- status: success
+- client_info: <uqer.uqer.Client object at 0x1099f3910>
+
+### Stock_Data
+- status: failed
+- error: No module named 'uqer.api'

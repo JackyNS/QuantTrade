@@ -4,14 +4,11 @@
 
 ## 📁 目录结构
 
-### 📥 **data_download/** (9个工具)
+### 📥 **data_download/** (7个工具)
 数据下载相关的工具和示例脚本。
 
-- `simple_uqer_test.py` - 🔌 优矿API连接测试
-- `test_uqer_connection.py` - 🌐 连接状态检查  
-- `check_uqer_status.py` - ✅ API状态验证
-- `download_data_example.py` - 📥 基础下载示例
-- `simple_download_example.py` - 🎯 简化下载示例
+- `uqer_connection_manager.py` - 🔌 统一连接测试和状态检查 (新)
+- `download_examples.py` - 📥 统一下载示例和教程 (新)
 - `download_uqer_data.py` - 📊 完整数据下载器
 - `stock_only_downloader.py` - 📈 股票数据专用下载器
 - `smart_historical_downloader.py` - 🧠 智能历史数据下载器
@@ -41,23 +38,28 @@
 
 ### 🔌 **测试连接**
 ```bash
-# 测试优矿API连接
-python tools/data_download/simple_uqer_test.py
+# 统一连接测试 (推荐)
+python tools/data_download/uqer_connection_manager.py
 
-# 检查详细连接状态
-python tools/data_download/test_uqer_connection.py
+# 不同测试模式
+python tools/data_download/uqer_connection_manager.py simple    # 简单测试
+python tools/data_download/uqer_connection_manager.py detailed  # 详细测试
+python tools/data_download/uqer_connection_manager.py status    # 状态检查
 ```
 
 ### 📥 **下载数据**
 ```bash
-# 基础数据下载示例
-python tools/data_download/download_data_example.py
+# 统一下载示例 (推荐)
+python tools/data_download/download_examples.py
 
-# 智能历史数据下载  
-python tools/data_download/smart_historical_downloader.py
+# 不同示例模式
+python tools/data_download/download_examples.py simple      # 快速开始
+python tools/data_download/download_examples.py complete    # 完整演示
+python tools/data_download/download_examples.py interactive # 交互引导
 
-# 股票专用数据下载
-python tools/data_download/stock_only_downloader.py
+# 专用下载器
+python tools/data_download/smart_historical_downloader.py   # 智能历史数据
+python tools/data_download/stock_only_downloader.py         # 股票专用数据
 ```
 
 ### 📊 **数据分析**

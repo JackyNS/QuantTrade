@@ -24,9 +24,10 @@ class GitRedundancyChecker:
     def get_git_tracked_files(self):
         """获取Git跟踪的所有文件"""
         try:
-            result = subprocess.run(['git', 'ls-files'], capture_output=True, text=True)
+            result = subprocess.run(['git', 'ls-files'], capture_output=True, text=True, encoding='utf-8')
             if result.returncode == 0:
-                self.git_files = set(result.stdout.strip().split('\n'))
+                files = [f for f in result.stdout.strip().split('\n') if f]
+                self.git_files = set(files)
                 print(f"📊 Git跟踪文件: {len(self.git_files)} 个")
             else:
                 print("❌ 无法获取Git文件列表")

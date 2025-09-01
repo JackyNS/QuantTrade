@@ -1,0 +1,73 @@
+{
+  "portfolio": {
+    "timestamp": "2025-09-01T08:03:59.802241",
+    "initial_capital": 1000000,
+    "current_capital": 967890.37,
+    "total_position_value": 33800.0,
+    "total_value": 1001690.37,
+    "total_profit": 1700.0,
+    "total_return": 0.0016903699999999953,
+    "position_ratio": 0.03374296190947708,
+    "positions_count": 2,
+    "positions_detail": {
+      "000001": {
+        "quantity": 1000,
+        "avg_price": 15.5,
+        "market_price": 16.2,
+        "current_value": 16200.0,
+        "cost_value": 15500.0,
+        "profit": 700.0,
+        "profit_ratio": 0.04516129032258064,
+        "position_ratio": 0.01673743277350719
+      },
+      "000002": {
+        "quantity": 2000,
+        "avg_price": 8.3,
+        "market_price": 8.8,
+        "current_value": 17600.0,
+        "cost_value": 16600.0,
+        "profit": 1000.0,
+        "profit_ratio": 0.060240963855421686,
+        "position_ratio": 0.01818387758109423
+      }
+    }
+  },
+  "trade_history": [
+    {
+      "timestamp": "2025-09-01 08:03:59.802163",
+      "symbol": "000001",
+      "action": "buy",
+      "quantity": 1000,
+      "price": 15.5,
+      "cost": 15500.0,
+      "commission": 4.6499999999999995,
+      "strategy": "test_strategy",
+      "remaining_capital": 984495.35
+    },
+    {
+      "timestamp": "2025-09-01 08:03:59.802164",
+      "symbol": "000002",
+      "action": "buy",
+      "quantity": 2000,
+      "price": 8.3,
+      "cost": 16600.0,
+      "commission": 4.9799999999999995,
+      "strategy": "test_strategy",
+      "remaining_capital": 967890.37
+    }
+  ],
+  "positions": {
+    "000001": {
+      "quantity": 1000,
+      "avg_price": 15.5,
+      "market_price": 16.2,
+      "last_update": "2025-09-01T08:03:59.802206"
+    },
+    "000002": {
+      "quantity": 2000,
+      "avg_price": 8.3,
+      "market_price": 8.8,
+      "last_update": "2025-09-01T08:03:59.802206"
+    }
+  }
+}

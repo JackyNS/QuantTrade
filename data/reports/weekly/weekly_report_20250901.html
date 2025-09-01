@@ -1,0 +1,71 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>周度交易报告</title>
+            <meta charset="utf-8">
+            <style>
+                body { font-family: 'Microsoft YaHei', Arial; margin: 20px; background: #f5f5f5; }
+                .header { background: #2c3e50; color: white; padding: 20px; border-radius: 5px; }
+                .section { background: white; margin: 20px 0; padding: 20px; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+                table { width: 100%; border-collapse: collapse; }
+                th, td { padding: 10px; text-align: left; border-bottom: 1px solid #ddd; }
+                th { background: #34495e; color: white; }
+                .positive { color: #27ae60; font-weight: bold; }
+                .negative { color: #e74c3c; font-weight: bold; }
+                .metric { display: inline-block; margin: 10px 20px; }
+                .metric-value { font-size: 24px; font-weight: bold; }
+                .metric-label { color: #7f8c8d; font-size: 12px; }
+            </style>
+        </head>
+        <body>
+            <div class="header">
+                <h1>周度交易报告</h1>
+                <p>报告期间: 2025-09-01 至 2025-09-07</p>
+                <p>生成时间: 2025-09-01 08:05:27</p>
+            </div>
+            
+            <div class="section">
+                <h2>📊 交易概况</h2>
+                <div class="metric">
+                    <div class="metric-value">45</div>
+                    <div class="metric-label">总交易次数</div>
+                </div>
+                <div class="metric">
+                    <div class="metric-value class="positive">28</div>
+                    <div class="metric-label">盈利交易</div>
+                </div>
+                <div class="metric">
+                    <div class="metric-value class="negative">17</div>
+                    <div class="metric-label">亏损交易</div>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>📈 性能指标</h2>
+                <table>
+                    <tr><td>总收益率</td><td class="positive">3.50%</td></tr>
+                    <tr><td>胜率</td><td>62.0%</td></tr>
+                    <tr><td>盈亏比</td><td>1.85</td></tr>
+                    <tr><td>夏普比率</td><td>1.45</td></tr>
+                </table>
+            </div>
+            
+            <div class="section">
+                <h2>🏆 本周表现最佳</h2>
+                <table>
+                    <tr><th>代码</th><th>名称</th><th>涨幅</th></tr>
+                    <tr><td>000858</td><td>五粮液</td><td class='positive'>8.5%</td></tr><tr><td>000001</td><td>平安银行</td><td class='positive'>7.2%</td></tr><tr><td>000002</td><td>万科A</td><td class='positive'>6.5%</td></tr>
+                </table>
+            </div>
+            
+            <div class="section">
+                <h2>📉 本周表现最差</h2>
+                <table>
+                    <tr><th>代码</th><th>名称</th><th>跌幅</th></tr>
+                    <tr><td>000333</td><td>美的集团</td><td class='negative'>-4.5%</td></tr><tr><td>000100</td><td>TCL科技</td><td class='negative'>-3.8%</td></tr><tr><td>000725</td><td>京东方A</td><td class='negative'>-3.2%</td></tr>
+                </table>
+            </div>
+        </body>
+        </html>
+        

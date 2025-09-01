@@ -1,0 +1,325 @@
+{
+  "analysis_time": "2025-09-01T08:11:29.591983",
+  "project_summary": {
+    "project_name": "QuantTrade",
+    "project_type": "量化交易平台",
+    "project_scale": "大型",
+    "maturity_level": "成熟",
+    "total_files": 25220,
+    "python_files": 3915,
+    "notebooks": 15,
+    "size_mb": 8056.79
+  },
+  "capability_matrix": {
+    "data_acquisition": {
+      "status": "available",
+      "maturity": 40,
+      "components_count": 2,
+      "level": "基础"
+    },
+    "data_processing": {
+      "status": "available",
+      "maturity": 40,
+      "components_count": 2,
+      "level": "基础"
+    },
+    "strategy_development": {
+      "status": "available",
+      "maturity": 80,
+      "components_count": 4,
+      "level": "高级"
+    },
+    "backtesting": {
+      "status": "available",
+      "maturity": 40,
+      "components_count": 2,
+      "level": "基础"
+    },
+    "risk_management": {
+      "status": "missing",
+      "maturity": 0,
+      "components_count": 0,
+      "level": "缺失"
+    },
+    "portfolio_management": {
+      "status": "available",
+      "maturity": 40,
+      "components_count": 2,
+      "level": "基础"
+    },
+    "trading_execution": {
+      "status": "available",
+      "maturity": 20,
+      "components_count": 1,
+      "level": "缺失"
+    },
+    "monitoring_alerting": {
+      "status": "available",
+      "maturity": 40,
+      "components_count": 2,
+      "level": "基础"
+    },
+    "reporting_analysis": {
+      "status": "available",
+      "maturity": 60,
+      "components_count": 3,
+      "level": "中级"
+    }
+  },
+  "recommendations": [
+    {
+      "priority": "high",
+      "category": "testing",
+      "title": "提升测试覆盖率",
+      "description": "建议增加单元测试和集成测试，提升代码质量保证"
+    },
+    {
+      "priority": "medium",
+      "category": "business",
+      "title": "补充核心业务能力",
+      "description": "建议实现缺失的业务能力: risk_management"
+    }
+  ],
+  "detailed_analysis": {
+    "timestamp": "2025-09-01T08:11:29.085002",
+    "project_info": {
+      "name": "QuantTrade",
+      "type": "量化交易平台",
+      "total_files": 25220,
+      "total_python_files": 3915,
+      "total_notebooks": 15,
+      "total_size_mb": 8056.79,
+      "directory_count": 11,
+      "main_directories": [
+        {
+          "name": "tools",
+          "description": "开发和维护工具"
+        },
+        {
+          "name": "core",
+          "description": "核心业务逻辑模块"
+        },
+        {
+          "name": "cache",
+          "description": "缓存文件"
+        },
+        {
+          "name": "archive",
+          "description": "历史文件归档"
+        },
+        {
+          "name": "docs",
+          "description": "项目文档"
+        },
+        {
+          "name": "results",
+          "description": "results 目录"
+        },
+        {
+          "name": "logs",
+          "description": "日志文件"
+        },
+        {
+          "name": "scripts",
+          "description": "业务自动化脚本"
+        },
+        {
+          "name": "data",
+          "description": "数据存储和管理"
+        },
+        {
+          "name": "outputs",
+          "description": "输出结果和报告"
+        },
+        {
+          "name": "notebooks",
+          "description": "研究和开发环境"
+        }
+      ]
+    },
+    "architecture_analysis": {},
+    "business_capabilities": {
+      "data_acquisition": {
+        "status": "available",
+        "components": [
+          "core.data",
+          "tools.data_download"
+        ],
+        "maturity": 40
+      },
+      "data_processing": {
+        "status": "available",
+        "components": [
+          "core.data",
+          "tools.analysis"
+        ],
+        "maturity": 40
+      },
+      "strategy_development": {
+        "status": "available",
+        "components": [
+          "core.strategy",
+          "scripts.optimization",
+          "scripts.screening",
+          "tools.testing"
+        ],
+        "maturity": 80
+      },
+      "backtesting": {
+        "status": "available",
+        "components": [
+          "core.strategy",
+          "scripts.backtest"
+        ],
+        "maturity": 40
+      },
+      "risk_management": {
+        "status": "missing",
+        "components": [],
+        "maturity": 0
+      },
+      "portfolio_management": {
+        "status": "available",
+        "components": [
+          "scripts.optimization",
+          "scripts.trading"
+        ],
+        "maturity": 40
+      },
+      "trading_execution": {
+        "status": "available",
+        "components": [
+          "scripts.trading"
+        ],
+        "maturity": 20
+      },
+      "monitoring_alerting": {
+        "status": "available",
+        "components": [
+          "scripts.automation",
+          "scripts.monitoring"
+        ],
+        "maturity": 40
+      },
+      "reporting_analysis": {
+        "status": "available",
+        "components": [
+          "scripts.reporting",
+          "scripts.analysis",
+          "tools.analysis"
+        ],
+        "maturity": 60
+      }
+    },
+    "technical_capabilities": {
+      "programming_languages": [
+        "Python",
+        "JavaScript"
+      ],
+      "data_processing_libs": [
+        "pandas",
+        "numpy",
+        "scipy"
+      ],
+      "machine_learning_libs": [
+        "scikit-learn",
+        "lightgbm",
+        "xgboost",
+        "torch",
+        "tensorflow"
+      ],
+      "visualization_libs": [
+        "matplotlib",
+        "seaborn",
+        "plotly",
+        "bokeh",
+        "dash"
+      ],
+      "database_support": [
+        "sqlalchemy",
+        "pymongo",
+        "redis"
+      ],
+      "api_integration": [
+        "requests",
+        "aiohttp",
+        "flask"
+      ],
+      "deployment_tools": [],
+      "testing_frameworks": [
+        "pytest"
+      ]
+    },
+    "development_capabilities": {
+      "version_control": true,
+      "documentation": {
+        "status": true,
+        "files": [
+          "README.md",
+          "README.md",
+          "README.md",
+          "README.md",
+          "README.md"
+        ]
+      },
+      "testing": {
+        "status": true,
+        "types": [
+          "tools/testing"
+        ]
+      },
+      "code_quality": {
+        "status": false,
+        "tools": []
+      },
+      "automation": {
+        "status": true,
+        "tools": [
+          "scripts"
+        ]
+      },
+      "templates": {
+        "status": true,
+        "types": [
+          "example_template",
+          "research_template",
+          "development_template",
+          "analysis_template",
+          "tutorial_template"
+        ]
+      }
+    },
+    "operational_capabilities": {},
+    "data_capabilities": {
+      "data_sources": [],
+      "data_formats": [
+        ".csv",
+        ".json",
+        ".parquet"
+      ],
+      "data_storage": [],
+      "data_quality": {
+        "status": true,
+        "tools": [
+          "data_quality_checker"
+        ]
+      },
+      "data_pipeline": {
+        "status": true,
+        "components": [
+          "数据下载工具"
+        ]
+      }
+    },
+    "integration_capabilities": {},
+    "maturity_assessment": {
+      "code_organization": 100,
+      "documentation": 100,
+      "testing_coverage": 50,
+      "automation": 100,
+      "business_completeness": 88.88888888888889,
+      "technical_robustness": 100,
+      "overall": 89.81481481481482
+    }
+  }
+}

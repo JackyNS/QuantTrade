@@ -1,0 +1,23 @@
+{
+  "completed_apis": [
+    "basic_info_EquGet",
+    "basic_info_MktIdxdGet",
+    "basic_info_EquIPOGet",
+    "basic_info_EquIndustryGet",
+    "basic_info_SecIDGet",
+    "basic_info_EquDivGet",
+    "basic_info_EquSplitsGet",
+    "financial_FdmtBSAllLatestGet",
+    "financial_FdmtBSBankAllLatestGet",
+    "financial_FdmtBSInduAllLatestGet"
+  ],
+  "failed_apis": [],
+  "last_update": "2025-09-01T17:55:15.686640",
+  "statistics": {
+    "success_count": 10,
+    "failed_count": 0,
+    "total_records": 3370354,
+    "start_time": "2025-09-01T17:05:52.856037",
+    "estimated_completion": null
+  }
+}

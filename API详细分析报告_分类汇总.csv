@@ -1,0 +1,6 @@
+﻿category,api_count,apis_with_data,data_coverage_rate,total_files,total_size_mb,estimated_total_records
+financial,12,12,100.0,297,1017.915361404419,297000
+special_trading,17,17,100.0,415,202614.70893383026,415000
+basic_info,7,7,100.0,63,441.81640625,63000
+governance,22,22,100.0,627,4041.4912576675415,627000
+additional_apis,7,7,100.0,66,31.380464553833008,66000

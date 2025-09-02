@@ -1,0 +1,82 @@
+================================================================================
+🧪 **QuantTrade系统综合测试报告**
+================================================================================
+📅 测试时间: 2025-09-02 06:55:02
+
+📊 **测试概览:**
+  🎯 总测试数: 5
+  ✅ 通过测试: 4
+  ❌ 失败测试: 1
+  📈 成功率: 80.0%
+
+📋 **项目结构** - ❌ 失败
+    ✅ core - 存在
+    ✅ core/data - 存在
+    ✅ core/strategy - 存在
+    ✅ core/backtest - 存在
+    ✅ core/config - 存在
+    ✅ core/utils - 存在
+    ✅ core/visualization - 存在
+    ✅ data - 存在
+    ❌ scripts_new - 缺失
+    ✅ main.py - 存在
+    ✅ core/__init__.py - 存在
+    ✅ core/data/__init__.py - 存在
+    ✅ core/strategy/__init__.py - 存在
+    ✅ core/backtest/__init__.py - 存在
+    🚨 错误详情:
+      • 缺失目录: scripts_new
+
+📋 **数据访问层** - ✅ 通过
+    ✅ data/final_comprehensive_download: 1485 CSV文件
+    ✅ data/smart_download: 847 CSV文件
+    ✅ data/priority_download: 4176 CSV文件
+    ✅ 数据读取测试: 成功读取 10 行
+    ✅ 数据字段: ['indexID', 'ticker', 'porgFullName', 'secShortName', 'exchangeCD']...
+    📊 数据统计: 约6508个文件, ~0.5GB
+
+📋 **核心模块** - ✅ 通过
+    ✅ 核心模块 (core) - 导入成功
+       📦 包含 49 个公开属性/函数
+    ✅ 数据模块 (core.data) - 导入成功
+       📦 包含 37 个公开属性/函数
+    ✅ 策略模块 (core.strategy) - 导入成功
+       📦 包含 17 个公开属性/函数
+    ✅ 回测模块 (core.backtest) - 导入成功
+       📦 包含 34 个公开属性/函数
+    ✅ 配置模块 (core.config) - 导入成功
+       📦 包含 7 个公开属性/函数
+    ✅ 工具模块 (core.utils) - 导入成功
+       📦 包含 70 个公开属性/函数
+    ✅ 可视化模块 (core.visualization) - 导入成功
+       📦 包含 29 个公开属性/函数
+
+📋 **主程序入口** - ✅ 通过
+    ✅ 发现关键元素: argparse
+    ✅ 发现关键元素: def main
+    ✅ 发现关键元素: __main__
+    ✅ 发现关键元素: validate
+    ✅ 发现关键元素: update-data
+    ✅ 发现关键元素: backtest
+    📋 main.py 文件大小: 19287 字符
+    📋 发现 6/6 个关键元素
+
+📋 **数据可靠性** - ✅ 通过
+    ✅ basic_info: 8 APIs, 64 文件
+       📊 样本数据: 12 列
+    ✅ financial: 13 APIs, 302 文件
+       📊 样本数据: 68 列
+    ✅ special_trading: 20 APIs, 425 文件
+       📊 样本数据: 18 列
+    ✅ governance: 22 APIs, 627 文件
+       📊 样本数据: 15 列
+    ✅ additional_apis: 10 APIs, 67 文件
+       📊 样本数据: 4 列
+    📊 数据总览: 73 APIs, 1485 文件, ~4367.0MB 抽样
+    ✅ API数量达标: 73/71
+    📅 时间覆盖: 2008-2025
+    🚨 错误详情:
+      • 时间覆盖不足: 2008-2025
+
+🟡 **大部分测试通过，需要关注失败的测试项目**
+================================================================================

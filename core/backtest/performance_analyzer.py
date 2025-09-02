@@ -73,7 +73,7 @@ class PerformanceMetrics:
 class PerformanceAnalyzer:
     """性能分析器"""
     
-    def __init__(self, results: Dict):
+    def __init__(self, results: Dict = None):
         """
         初始化性能分析器
         
@@ -83,10 +83,10 @@ class PerformanceAnalyzer:
                 - returns: 收益率序列
                 - transactions: 交易记录
         """
-        self.results = results
-        self.equity_curve = results.get('equity_curve', pd.DataFrame())
-        self.returns = results.get('returns', pd.Series())
-        self.transactions = results.get('transactions', pd.DataFrame())
+        self.results = results or {}
+        self.equity_curve = self.results.get('equity_curve', pd.DataFrame())
+        self.returns = self.results.get('returns', pd.Series())
+        self.transactions = self.results.get('transactions', pd.DataFrame())
         
         # 设置日志
         self.logger = logging.getLogger('PerformanceAnalyzer')

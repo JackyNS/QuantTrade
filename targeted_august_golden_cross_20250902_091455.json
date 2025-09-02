@@ -1,0 +1,52 @@
+{
+  "screening_info": {
+    "timestamp": "2025-09-02T09:14:55.708105",
+    "strategy": "针对性2024年8月黄金交叉筛选",
+    "method": "UQER API + 目标股票池",
+    "total_analyzed": 48,
+    "august_qualified": 2,
+    "recent_potential": 1,
+    "total_interesting": 3,
+    "discovery_rate": "6.2%"
+  },
+  "august_golden_crosses": [
+    {
+      "rank": 1,
+      "stock_code": "688981.XSHG",
+      "august_crosses": 1,
+      "cross_dates": [
+        "2024-08-04"
+      ],
+      "current_position": "bullish",
+      "latest_price": 46.78,
+      "trend_strength": 1.25,
+      "total_golden_crosses": 2
+    },
+    {
+      "rank": 2,
+      "stock_code": "002241.XSHE",
+      "august_crosses": 1,
+      "cross_dates": [
+        "2024-08-04"
+      ],
+      "current_position": "bullish",
+      "latest_price": 20.02,
+      "trend_strength": 10.93,
+      "total_golden_crosses": 1
+    }
+  ],
+  "recent_potential_stocks": [
+    {
+      "rank": 1,
+      "stock_code": "002594.XSHE",
+      "recent_crosses": 1,
+      "recent_dates": [
+        "2024-07-28"
+      ],
+      "current_position": "bullish",
+      "latest_price": 241.1,
+      "trend_strength": 2.15,
+      "total_golden_crosses": 1
+    }
+  ]
+}

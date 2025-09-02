@@ -83,7 +83,6 @@ class BaseStrategy(ABC):
             'new_days_threshold': 60    # 次新股天数阈值
         }
     
-    @abstractmethod
     def calculate_indicators(self, data: pd.DataFrame) -> pd.DataFrame:
         """
         计算技术指标(子类必须实现)

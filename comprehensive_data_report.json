@@ -1,0 +1,1823 @@
+{
+  "executive_summary": {
+    "report_date": "2025-09-02 06:19:14",
+    "overall_stats": {
+      "total_api_interfaces": 69,
+      "total_data_files": 1468,
+      "total_data_size_gb": 203.26885978877542,
+      "average_data_quality": 100.0,
+      "data_categories": 5
+    },
+    "quality_assessment": {
+      "excellent": 5,
+      "good": 0,
+      "fair": 0,
+      "poor": 0
+    },
+    "completeness_summary": {
+      "financial": 80.0,
+      "special_trading": 85.0,
+      "basic_info": 70.0,
+      "governance": 88.0,
+      "additional_apis": 70.0
+    },
+    "top_data_sources": [
+      {
+        "category": "special_trading",
+        "size_gb": 197.8659266931936
+      },
+      {
+        "category": "governance",
+        "size_gb": 3.9467688063159585
+      },
+      {
+        "category": "financial",
+        "size_gb": 0.9940579701215028
+      },
+      {
+        "category": "basic_info",
+        "size_gb": 0.4314613342285156
+      },
+      {
+        "category": "additional_apis",
+        "size_gb": 0.0306449849158525
+      }
+    ]
+  },
+  "api_completeness": {
+    "financial": {
+      "actual_count": 12,
+      "expected_count": 15,
+      "completeness_pct": 80.0,
+      "critical_apis_available": 3,
+      "critical_apis_total": 3,
+      "critical_completeness_pct": 100.0,
+      "api_list": [
+        "fdmtbsbankalllatestget",
+        "fdmtisindualllatestget",
+        "fdmtbsindualllatestget",
+        "fdmtisbankalllatestget",
+        "fdmtindipsget",
+        "fdmtcfbankalllatestget",
+        "fdmtcfindualllatestget",
+        "fdmtcfalllatestget",
+        "fdmtderget",
+        "fdmtisalllatestget"
+      ]
+    },
+    "special_trading": {
+      "actual_count": 17,
+      "expected_count": 20,
+      "completeness_pct": 85.0,
+      "critical_apis_available": 3,
+      "critical_apis_total": 3,
+      "critical_completeness_pct": 100.0,
+      "api_list": [
+        "mktconsbondpremiumget",
+        "mktrankinstr",
+        "mktrankdivyieldget",
+        "fsttotalget",
+        "mktblockdget",
+        "mktranklistsalesget",
+        "equisactivityget",
+        "sechaltget",
+        "vfsttargetget",
+        "fstdetailget"
+      ]
+    },
+    "basic_info": {
+      "actual_count": 7,
+      "expected_count": 10,
+      "completeness_pct": 70.0,
+      "critical_apis_available": 3,
+      "critical_apis_total": 3,
+      "critical_completeness_pct": 100.0,
+      "api_list": [
+        "secidget",
+        "equget",
+        "mktidxdget",
+        "equipoget",
+        "equindustryget",
+        "equdivget",
+        "equsplitsget"
+      ]
+    },
+    "governance": {
+      "actual_count": 22,
+      "expected_count": 25,
+      "completeness_pct": 88.0,
+      "critical_apis_available": 2,
+      "critical_apis_total": 2,
+      "critical_completeness_pct": 100.0,
+      "api_list": [
+        "equshareholdersmeetingget",
+        "equiposharefloatget",
+        "equsharesexcitget",
+        "equpledgeget",
+        "equshtenget",
+        "equchangeplanget",
+        "equfloatshtenget",
+        "equactualcontrollerget",
+        "equstockpledgeget",
+        "equallotget"
+      ]
+    },
+    "additional_apis": {
+      "actual_count": 7,
+      "expected_count": 10,
+      "completeness_pct": 70.0,
+      "critical_apis_available": 2,
+      "critical_apis_total": 2,
+      "critical_completeness_pct": 100.0,
+      "api_list": [
+        "sec_type_region",
+        "fst_total",
+        "equ_fancy_factors_lite",
+        "fst_detail",
+        "sec_type",
+        "industry",
+        "sec_type_rel"
+      ]
+    }
+  },
+  "data_coverage": {
+    "time_coverage": {
+      "financial": [
+        {
+          "api": "fdmtbsbankalllatestget",
+          "file": "year_2023.csv",
+          "date_columns": [
+            "publishDate",
+            "endDate",
+            "endDateRep",
+            "actPubtime"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "fdmtbsbankalllatestget",
+          "file": "year_2022.csv",
+          "date_columns": [
+            "publishDate",
+            "endDate",
+            "endDateRep",
+            "actPubtime"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "fdmtbsbankalllatestget",
+          "file": "year_2020.csv",
+          "date_columns": [
+            "publishDate",
+            "endDate",
+            "endDateRep",
+            "actPubtime"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "fdmtisindualllatestget",
+          "file": "year_2023.csv",
+          "date_columns": [
+            "publishDate",
+            "endDate",
+            "endDateRep",
+            "actPubtime"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "fdmtisindualllatestget",
+          "file": "year_2022.csv",
+          "date_columns": [
+            "publishDate",
+            "endDate",
+            "endDateRep",
+            "actPubtime"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "fdmtisindualllatestget",
+          "file": "year_2020.csv",
+          "date_columns": [
+            "publishDate",
+            "endDate",
+            "endDateRep",
+            "actPubtime"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "fdmtbsindualllatestget",
+          "file": "year_2007.backup.csv",
+          "date_columns": [
+            "publishDate",
+            "endDate",
+            "endDateRep",
+            "actPubtime"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "fdmtbsindualllatestget",
+          "file": "year_2002.backup.csv",
+          "date_columns": [
+            "publishDate",
+            "endDate",
+            "endDateRep",
+            "actPubtime"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "fdmtbsindualllatestget",
+          "file": "year_2023.csv",
+          "date_columns": [
+            "publishDate",
+            "endDate",
+            "endDateRep",
+            "actPubtime"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "fdmtisbankalllatestget",
+          "file": "year_2023.csv",
+          "date_columns": [
+            "publishDate",
+            "endDate",
+            "endDateRep",
+            "actPubtime"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "fdmtisbankalllatestget",
+          "file": "year_2022.csv",
+          "date_columns": [
+            "publishDate",
+            "endDate",
+            "endDateRep",
+            "actPubtime"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "fdmtisbankalllatestget",
+          "file": "year_2020.csv",
+          "date_columns": [
+            "publishDate",
+            "endDate",
+            "endDateRep",
+            "actPubtime"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "fdmtindipsget",
+          "file": "year_2023.csv",
+          "date_columns": [
+            "endDate"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "fdmtindipsget",
+          "file": "year_2022.csv",
+          "date_columns": [
+            "endDate"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "fdmtindipsget",
+          "file": "year_2020.csv",
+          "date_columns": [
+            "endDate"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "fdmtcfbankalllatestget",
+          "file": "year_2023.csv",
+          "date_columns": [
+            "publishDate",
+            "endDate",
+            "endDateRep",
+            "actPubtime"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "fdmtcfbankalllatestget",
+          "file": "year_2022.csv",
+          "date_columns": [
+            "publishDate",
+            "endDate",
+            "endDateRep",
+            "actPubtime"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "fdmtcfbankalllatestget",
+          "file": "year_2020.csv",
+          "date_columns": [
+            "publishDate",
+            "endDate",
+            "endDateRep",
+            "actPubtime"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "fdmtcfindualllatestget",
+          "file": "year_2023.csv",
+          "date_columns": [
+            "publishDate",
+            "endDate",
+            "endDateRep",
+            "actPubtime"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "fdmtcfindualllatestget",
+          "file": "year_2022.csv",
+          "date_columns": [
+            "publishDate",
+            "endDate",
+            "endDateRep",
+            "actPubtime"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "fdmtcfindualllatestget",
+          "file": "year_2020.csv",
+          "date_columns": [
+            "publishDate",
+            "endDate",
+            "endDateRep",
+            "actPubtime"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "fdmtcfalllatestget",
+          "file": "year_2023.csv",
+          "date_columns": [
+            "publishDate",
+            "endDate",
+            "endDateRep",
+            "actPubtime"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "fdmtcfalllatestget",
+          "file": "year_2022.csv",
+          "date_columns": [
+            "publishDate",
+            "endDate",
+            "endDateRep",
+            "actPubtime"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "fdmtcfalllatestget",
+          "file": "year_2020.csv",
+          "date_columns": [
+            "publishDate",
+            "endDate",
+            "endDateRep",
+            "actPubtime"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "fdmtderget",
+          "file": "year_2023.csv",
+          "date_columns": [
+            "endDate"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "fdmtderget",
+          "file": "year_2022.csv",
+          "date_columns": [
+            "endDate"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "fdmtderget",
+          "file": "year_2020.csv",
+          "date_columns": [
+            "endDate"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "fdmtisalllatestget",
+          "file": "year_2023.csv",
+          "date_columns": [
+            "publishDate",
+            "endDate",
+            "endDateRep",
+            "actPubtime"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "fdmtisalllatestget",
+          "file": "year_2022.csv",
+          "date_columns": [
+            "publishDate",
+            "endDate",
+            "endDateRep",
+            "actPubtime"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "fdmtisalllatestget",
+          "file": "year_2020.csv",
+          "date_columns": [
+            "publishDate",
+            "endDate",
+            "endDateRep",
+            "actPubtime"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "fdmtindigrowthget",
+          "file": "year_2023.csv",
+          "date_columns": [
+            "endDate"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "fdmtindigrowthget",
+          "file": "year_2022.csv",
+          "date_columns": [
+            "endDate"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "fdmtindigrowthget",
+          "file": "year_2020.csv",
+          "date_columns": [
+            "endDate"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "fdmtbsalllatestget",
+          "file": "year_2002.backup.csv",
+          "date_columns": [
+            "publishDate",
+            "endDate",
+            "endDateRep",
+            "actPubtime",
+            "updateTime"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "fdmtbsalllatestget",
+          "file": "year_2023.csv",
+          "date_columns": [
+            "publishDate",
+            "endDate",
+            "endDateRep",
+            "actPubtime",
+            "updateTime"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "fdmtbsalllatestget",
+          "file": "year_2005.backup.csv",
+          "date_columns": [
+            "publishDate",
+            "endDate",
+            "endDateRep",
+            "actPubtime",
+            "updateTime"
+          ],
+          "row_count": 100
+        }
+      ],
+      "special_trading": [
+        {
+          "api": "mktconsbondpremiumget",
+          "file": "year_2021.backup.csv",
+          "date_columns": [
+            "tradeDate"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "mktconsbondpremiumget",
+          "file": "year_2024.backup.csv",
+          "date_columns": [
+            "tradeDate"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "mktconsbondpremiumget",
+          "file": "year_2019.backup.csv",
+          "date_columns": [
+            "tradeDate"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "mktrankinstr",
+          "file": "20140930.csv",
+          "date_columns": [
+            "tradeDate"
+          ],
+          "row_count": 84
+        },
+        {
+          "api": "mktrankinstr",
+          "file": "20090331.csv",
+          "date_columns": [
+            "tradeDate"
+          ],
+          "row_count": 84
+        },
+        {
+          "api": "mktrankinstr",
+          "file": "20141231.csv",
+          "date_columns": [
+            "tradeDate"
+          ],
+          "row_count": 84
+        },
+        {
+          "api": "mktrankdivyieldget",
+          "file": "year_2023.csv",
+          "date_columns": [
+            "tradeDate",
+            "updateTime"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "mktrankdivyieldget",
+          "file": "year_2022.csv",
+          "date_columns": [
+            "tradeDate",
+            "updateTime"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "mktrankdivyieldget",
+          "file": "year_2020.csv",
+          "date_columns": [
+            "tradeDate",
+            "updateTime"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "fsttotalget",
+          "file": "year_2023.csv",
+          "date_columns": [
+            "tradeDate"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "fsttotalget",
+          "file": "year_2022.csv",
+          "date_columns": [
+            "tradeDate"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "fsttotalget",
+          "file": "year_2020.csv",
+          "date_columns": [
+            "tradeDate"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "mktblockdget",
+          "file": "year_2023.csv",
+          "date_columns": [
+            "tradeDate"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "mktblockdget",
+          "file": "year_2022.csv",
+          "date_columns": [
+            "tradeDate"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "mktblockdget",
+          "file": "year_2020.csv",
+          "date_columns": [
+            "tradeDate"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "mktranklistsalesget",
+          "file": "year_2023.csv",
+          "date_columns": [
+            "tradeDate",
+            "updateTime"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "mktranklistsalesget",
+          "file": "year_2022.csv",
+          "date_columns": [
+            "tradeDate",
+            "updateTime"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "mktranklistsalesget",
+          "file": "year_2020.csv",
+          "date_columns": [
+            "tradeDate",
+            "updateTime"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "equisactivityget",
+          "file": "year_2023.csv",
+          "date_columns": [
+            "surveyDate",
+            "publishDate",
+            "updateTime"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "equisactivityget",
+          "file": "year_2022.csv",
+          "date_columns": [
+            "surveyDate",
+            "publishDate",
+            "updateTime"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "equisactivityget",
+          "file": "year_2020.csv",
+          "date_columns": [
+            "surveyDate",
+            "publishDate",
+            "updateTime"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "sechaltget",
+          "file": "year_2023.csv",
+          "date_columns": [
+            "haltBeginTime",
+            "haltEndTime",
+            "delistDate"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "sechaltget",
+          "file": "year_2022.csv",
+          "date_columns": [
+            "haltBeginTime",
+            "haltEndTime",
+            "delistDate"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "sechaltget",
+          "file": "year_2020.csv",
+          "date_columns": [
+            "haltBeginTime",
+            "haltEndTime",
+            "delistDate"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "vfsttargetget",
+          "file": "static_data.csv",
+          "date_columns": [
+            "intoDate",
+            "outDate",
+            "updateTime"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "fstdetailget",
+          "file": "year_2023.csv",
+          "date_columns": [
+            "tradeDate",
+            "updateTime"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "fstdetailget",
+          "file": "year_2022.csv",
+          "date_columns": [
+            "tradeDate",
+            "updateTime"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "fstdetailget",
+          "file": "year_2020.csv",
+          "date_columns": [
+            "tradeDate",
+            "updateTime"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "fdmtee",
+          "file": "year_2023.csv",
+          "date_columns": [
+            "publishDate",
+            "endDate",
+            "actPubtime",
+            "updateTime"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "fdmtee",
+          "file": "year_2022.csv",
+          "date_columns": [
+            "publishDate",
+            "endDate",
+            "actPubtime",
+            "updateTime"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "fdmtee",
+          "file": "year_2020.csv",
+          "date_columns": [
+            "publishDate",
+            "endDate",
+            "actPubtime",
+            "updateTime"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "mktequdstatsget",
+          "file": "year_2023.csv",
+          "date_columns": [
+            "tradeDate",
+            "updateTime"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "mktequdstatsget",
+          "file": "year_2022.csv",
+          "date_columns": [
+            "tradeDate",
+            "updateTime"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "mktequdstatsget",
+          "file": "year_2020.csv",
+          "date_columns": [
+            "tradeDate",
+            "updateTime"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "mktrankinsttrget",
+          "file": "2010_Q3.csv",
+          "date_columns": [
+            "tradeDate"
+          ],
+          "row_count": 84
+        },
+        {
+          "api": "mktrankinsttrget",
+          "file": "2010_Q2.csv",
+          "date_columns": [
+            "tradeDate"
+          ],
+          "row_count": 84
+        },
+        {
+          "api": "mktrankinsttrget",
+          "file": "2024_Q4.csv",
+          "date_columns": [
+            "tradeDate"
+          ],
+          "row_count": 84
+        },
+        {
+          "api": "mktlimitget",
+          "file": "year_2023.csv",
+          "date_columns": [
+            "tradeDate",
+            "upLimitReachedTimes",
+            "downLimitReachedTimes"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "mktlimitget",
+          "file": "year_2022.csv",
+          "date_columns": [
+            "tradeDate",
+            "upLimitReachedTimes",
+            "downLimitReachedTimes"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "mktlimitget",
+          "file": "year_2020.csv",
+          "date_columns": [
+            "tradeDate",
+            "upLimitReachedTimes",
+            "downLimitReachedTimes"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "mktrankliststocksget",
+          "file": "year_2023.csv",
+          "date_columns": [
+            "tradeDate",
+            "abnormalBeginDate",
+            "abnormalEndDate"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "mktrankliststocksget",
+          "file": "year_2022.csv",
+          "date_columns": [
+            "tradeDate",
+            "abnormalBeginDate",
+            "abnormalEndDate"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "mktrankliststocksget",
+          "file": "year_2020.csv",
+          "date_columns": [
+            "tradeDate",
+            "abnormalBeginDate",
+            "abnormalEndDate"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "mktipocontraddaysget",
+          "file": "year_2023.csv",
+          "date_columns": [
+            "listDate"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "mktipocontraddaysget",
+          "file": "year_2022.csv",
+          "date_columns": [
+            "listDate"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "mktipocontraddaysget",
+          "file": "year_2020.csv",
+          "date_columns": [
+            "listDate"
+          ],
+          "row_count": 100
+        }
+      ],
+      "basic_info": [
+        {
+          "api": "secidget",
+          "file": "static_data.csv",
+          "date_columns": [
+            "listDate",
+            "delistDate"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "equget",
+          "file": "static_data.csv",
+          "date_columns": [
+            "listDate",
+            "delistDate",
+            "endDate"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "mktidxdget",
+          "file": "year_2023.csv",
+          "date_columns": [
+            "tradeDate"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "mktidxdget",
+          "file": "year_2022.csv",
+          "date_columns": [
+            "tradeDate"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "mktidxdget",
+          "file": "year_2020.csv",
+          "date_columns": [
+            "tradeDate"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "equipoget",
+          "file": "static_data.csv",
+          "date_columns": [
+            "publishDate",
+            "onlineIssueDate",
+            "listDate"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "equindustryget",
+          "file": "static_data.csv",
+          "date_columns": [
+            "intoDate",
+            "outDate"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "equdivget",
+          "file": "year_2023.csv",
+          "date_columns": [
+            "endDate",
+            "newPubDate",
+            "publishDate",
+            "shcPublishDate",
+            "imPublishDate",
+            "recordDate",
+            "exDivDate",
+            "bLastTradeDate",
+            "payCashDate",
+            "bonusShareListDate"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "equdivget",
+          "file": "year_2022.csv",
+          "date_columns": [
+            "endDate",
+            "newPubDate",
+            "publishDate",
+            "shcPublishDate",
+            "imPublishDate",
+            "recordDate",
+            "exDivDate",
+            "bLastTradeDate",
+            "payCashDate",
+            "bonusShareListDate"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "equdivget",
+          "file": "year_2020.csv",
+          "date_columns": [
+            "endDate",
+            "newPubDate",
+            "publishDate",
+            "shcPublishDate",
+            "imPublishDate",
+            "recordDate",
+            "exDivDate",
+            "bLastTradeDate",
+            "payCashDate",
+            "bonusShareListDate"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "equsplitsget",
+          "file": "year_2008.csv",
+          "date_columns": [
+            "publishDate",
+            "splitsBaseDate",
+            "reTradeDate"
+          ],
+          "row_count": 1
+        },
+        {
+          "api": "equsplitsget",
+          "file": "year_2009.csv",
+          "date_columns": [
+            "publishDate",
+            "splitsBaseDate",
+            "reTradeDate"
+          ],
+          "row_count": 5
+        },
+        {
+          "api": "equsplitsget",
+          "file": "year_2014.csv",
+          "date_columns": [
+            "publishDate",
+            "splitsBaseDate",
+            "reTradeDate"
+          ],
+          "row_count": 1
+        }
+      ],
+      "governance": [
+        {
+          "api": "equshareholdersmeetingget",
+          "file": "year_2023.csv",
+          "date_columns": [
+            "hldMeetDate",
+            "publishDate",
+            "updateTime"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "equshareholdersmeetingget",
+          "file": "year_2022.csv",
+          "date_columns": [
+            "hldMeetDate",
+            "publishDate",
+            "updateTime"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "equshareholdersmeetingget",
+          "file": "year_2020.csv",
+          "date_columns": [
+            "hldMeetDate",
+            "publishDate",
+            "updateTime"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "equiposharefloatget",
+          "file": "year_2023.csv",
+          "date_columns": [
+            "publishDate",
+            "listedDate"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "equiposharefloatget",
+          "file": "year_2022.csv",
+          "date_columns": [
+            "publishDate",
+            "listedDate"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "equiposharefloatget",
+          "file": "year_2020.csv",
+          "date_columns": [
+            "publishDate",
+            "listedDate"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "equsharesexcitget",
+          "file": "year_2023.csv",
+          "date_columns": [
+            "publishDate",
+            "advanceDate",
+            "shcPublishDate",
+            "iniPublishDate"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "equsharesexcitget",
+          "file": "year_2022.csv",
+          "date_columns": [
+            "publishDate",
+            "advanceDate",
+            "shcPublishDate",
+            "iniPublishDate"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "equsharesexcitget",
+          "file": "year_2020.csv",
+          "date_columns": [
+            "publishDate",
+            "advanceDate",
+            "shcPublishDate",
+            "iniPublishDate"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "equpledgeget",
+          "file": "year_2023.csv",
+          "date_columns": [
+            "publishDate",
+            "beginDate",
+            "endDate",
+            "thawDate",
+            "updateTime"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "equpledgeget",
+          "file": "year_2022.csv",
+          "date_columns": [
+            "publishDate",
+            "beginDate",
+            "endDate",
+            "thawDate",
+            "updateTime"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "equpledgeget",
+          "file": "year_2020.csv",
+          "date_columns": [
+            "publishDate",
+            "beginDate",
+            "endDate",
+            "thawDate",
+            "updateTime"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "equshtenget",
+          "file": "year_2002_Q3.csv",
+          "date_columns": [
+            "endDate",
+            "updateTime",
+            "publishDate"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "equshtenget",
+          "file": "year_2010_Q3.csv",
+          "date_columns": [
+            "endDate",
+            "updateTime",
+            "publishDate"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "equshtenget",
+          "file": "year_2010_Q2.csv",
+          "date_columns": [
+            "endDate",
+            "updateTime",
+            "publishDate"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "equchangeplanget",
+          "file": "year_2023.csv",
+          "date_columns": [
+            "publishDate",
+            "firstPublishDate",
+            "beginDate",
+            "endDate"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "equchangeplanget",
+          "file": "year_2022.csv",
+          "date_columns": [
+            "publishDate",
+            "firstPublishDate",
+            "beginDate",
+            "endDate"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "equchangeplanget",
+          "file": "year_2020.csv",
+          "date_columns": [
+            "publishDate",
+            "firstPublishDate",
+            "beginDate",
+            "endDate"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "equfloatshtenget",
+          "file": "year_2010_Q3.csv",
+          "date_columns": [
+            "endDate",
+            "publishDate",
+            "updateTime"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "equfloatshtenget",
+          "file": "year_2010_Q2.csv",
+          "date_columns": [
+            "endDate",
+            "publishDate",
+            "updateTime"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "equfloatshtenget",
+          "file": "year_2024_Q4.csv",
+          "date_columns": [
+            "endDate",
+            "publishDate",
+            "updateTime"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "equactualcontrollerget",
+          "file": "static_data.csv",
+          "date_columns": [
+            "endDate",
+            "updateTime",
+            "publishDate"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "equstockpledgeget",
+          "file": "year_2023.csv",
+          "date_columns": [
+            "publishDate",
+            "updateTime"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "equstockpledgeget",
+          "file": "year_2022.csv",
+          "date_columns": [
+            "publishDate",
+            "updateTime"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "equstockpledgeget",
+          "file": "year_2020.csv",
+          "date_columns": [
+            "publishDate",
+            "updateTime"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "equallotget",
+          "file": "year_2023.csv",
+          "date_columns": [
+            "publishDate",
+            "recordDate",
+            "exRightsDate",
+            "payBeginDate",
+            "payEndDate",
+            "listDate"
+          ],
+          "row_count": 3
+        },
+        {
+          "api": "equallotget",
+          "file": "year_2022.csv",
+          "date_columns": [
+            "publishDate",
+            "recordDate",
+            "exRightsDate",
+            "payBeginDate",
+            "payEndDate",
+            "listDate"
+          ],
+          "row_count": 7
+        },
+        {
+          "api": "equallotget",
+          "file": "year_2020.csv",
+          "date_columns": [
+            "publishDate",
+            "recordDate",
+            "exRightsDate",
+            "payBeginDate",
+            "payEndDate",
+            "listDate"
+          ],
+          "row_count": 12
+        },
+        {
+          "api": "equreformsharefloatget",
+          "file": "year_2023.csv",
+          "date_columns": [
+            "floatDate"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "equreformsharefloatget",
+          "file": "year_2022.csv",
+          "date_columns": [
+            "floatDate"
+          ],
+          "row_count": 50
+        },
+        {
+          "api": "equreformsharefloatget",
+          "file": "year_2020.csv",
+          "date_columns": [
+            "floatDate"
+          ],
+          "row_count": 51
+        },
+        {
+          "api": "equexecsholdingsget",
+          "file": "year_2023.csv",
+          "date_columns": [
+            "endDate",
+            "publishDate",
+            "updateTime"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "equexecsholdingsget",
+          "file": "year_2022.csv",
+          "date_columns": [
+            "endDate",
+            "publishDate",
+            "updateTime"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "equexecsholdingsget",
+          "file": "year_2020.csv",
+          "date_columns": [
+            "endDate",
+            "publishDate",
+            "updateTime"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "equspopubresultget",
+          "file": "year_2020.csv",
+          "date_columns": [
+            "proPublishDate",
+            "lotRatPublishDate",
+            "updateTime"
+          ],
+          "row_count": 2
+        },
+        {
+          "api": "equspopubresultget",
+          "file": "year_2008.csv",
+          "date_columns": [
+            "proPublishDate",
+            "lotRatPublishDate",
+            "updateTime"
+          ],
+          "row_count": 26
+        },
+        {
+          "api": "equspopubresultget",
+          "file": "year_2009.csv",
+          "date_columns": [
+            "proPublishDate",
+            "lotRatPublishDate",
+            "updateTime"
+          ],
+          "row_count": 13
+        },
+        {
+          "api": "equallotmentsubscriptionresultsget",
+          "file": "year_2023.csv",
+          "date_columns": [
+            "proPublishDate",
+            "resultDate",
+            "updateTime"
+          ],
+          "row_count": 4
+        },
+        {
+          "api": "equallotmentsubscriptionresultsget",
+          "file": "year_2022.csv",
+          "date_columns": [
+            "proPublishDate",
+            "resultDate",
+            "updateTime"
+          ],
+          "row_count": 9
+        },
+        {
+          "api": "equallotmentsubscriptionresultsget",
+          "file": "year_2020.csv",
+          "date_columns": [
+            "proPublishDate",
+            "resultDate",
+            "updateTime"
+          ],
+          "row_count": 15
+        },
+        {
+          "api": "equspoget",
+          "file": "year_2023.csv",
+          "date_columns": [
+            "planPublishDate",
+            "shcPublishDate",
+            "vldBeginDate",
+            "vldEndDate",
+            "listPublishDate",
+            "issueBeginDate",
+            "issueEndDate",
+            "recordDate",
+            "exRightsDate",
+            "listDate",
+            "publishDate",
+            "sasacResolDate",
+            "iecPublishDate",
+            "csrcPublishDate",
+            "issPublishDate",
+            "priceBaseDate",
+            "priceBaseDateType",
+            "expListDate",
+            "actListDate",
+            "lshActListDate",
+            "lshExpListDate",
+            "updateTime"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "equspoget",
+          "file": "year_2022.csv",
+          "date_columns": [
+            "planPublishDate",
+            "shcPublishDate",
+            "vldBeginDate",
+            "vldEndDate",
+            "listPublishDate",
+            "issueBeginDate",
+            "issueEndDate",
+            "recordDate",
+            "exRightsDate",
+            "listDate",
+            "publishDate",
+            "sasacResolDate",
+            "iecPublishDate",
+            "csrcPublishDate",
+            "issPublishDate",
+            "priceBaseDate",
+            "priceBaseDateType",
+            "expListDate",
+            "actListDate",
+            "lshActListDate",
+            "lshExpListDate",
+            "updateTime"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "equspoget",
+          "file": "year_2020.csv",
+          "date_columns": [
+            "planPublishDate",
+            "shcPublishDate",
+            "vldBeginDate",
+            "vldEndDate",
+            "listPublishDate",
+            "issueBeginDate",
+            "issueEndDate",
+            "recordDate",
+            "exRightsDate",
+            "listDate",
+            "publishDate",
+            "sasacResolDate",
+            "iecPublishDate",
+            "csrcPublishDate",
+            "issPublishDate",
+            "priceBaseDate",
+            "priceBaseDateType",
+            "expListDate",
+            "actListDate",
+            "lshActListDate",
+            "lshExpListDate",
+            "updateTime"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "equoldshofferget",
+          "file": "year_2019.csv",
+          "date_columns": [
+            "publishDate",
+            "updateTime"
+          ],
+          "row_count": 1
+        },
+        {
+          "api": "equoldshofferget",
+          "file": "year_2018.csv",
+          "date_columns": [
+            "publishDate",
+            "updateTime"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "equoldshofferget",
+          "file": "year_2016.csv",
+          "date_columns": [
+            "publishDate",
+            "updateTime"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "equmschangesget",
+          "file": "year_2023.csv",
+          "date_columns": [
+            "changeDate",
+            "fillDate"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "equmschangesget",
+          "file": "year_2022.csv",
+          "date_columns": [
+            "changeDate",
+            "fillDate"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "equmschangesget",
+          "file": "year_2020.csv",
+          "date_columns": [
+            "changeDate",
+            "fillDate"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "equmanagersget",
+          "file": "static_data.csv",
+          "date_columns": [
+            "beginDate",
+            "endDate"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "equrelatedtransactionget",
+          "file": "year_2023.csv",
+          "date_columns": [
+            "publishDate",
+            "begainDate",
+            "endDate",
+            "updateTime"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "equrelatedtransactionget",
+          "file": "year_2022.csv",
+          "date_columns": [
+            "publishDate",
+            "begainDate",
+            "endDate",
+            "updateTime"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "equrelatedtransactionget",
+          "file": "year_2020.csv",
+          "date_columns": [
+            "publishDate",
+            "begainDate",
+            "endDate",
+            "updateTime"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "equsharesfloatget",
+          "file": "year_2023.csv",
+          "date_columns": [
+            "publishDate",
+            "floatDate"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "equsharesfloatget",
+          "file": "year_2022.csv",
+          "date_columns": [
+            "publishDate",
+            "floatDate"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "equsharesfloatget",
+          "file": "year_2020.csv",
+          "date_columns": [
+            "publishDate",
+            "floatDate"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "equshareholdernumget",
+          "file": "year_2002_Q3.csv",
+          "date_columns": [
+            "publishDate",
+            "endDate",
+            "updateTime"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "equshareholdernumget",
+          "file": "year_2010_Q3.csv",
+          "date_columns": [
+            "publishDate",
+            "endDate",
+            "updateTime"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "equshareholdernumget",
+          "file": "year_2010_Q2.csv",
+          "date_columns": [
+            "publishDate",
+            "endDate",
+            "updateTime"
+          ],
+          "row_count": 100
+        }
+      ],
+      "additional_apis": [
+        {
+          "api": "fst_total",
+          "file": "2024_Q4.csv",
+          "date_columns": [
+            "tradeDate"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "fst_total",
+          "file": "2024_Q1.csv",
+          "date_columns": [
+            "tradeDate"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "fst_total",
+          "file": "2024_Q2.csv",
+          "date_columns": [
+            "tradeDate"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "equ_fancy_factors_lite",
+          "file": "2024_Q4.csv",
+          "date_columns": [
+            "tradeDate"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "equ_fancy_factors_lite",
+          "file": "2024_Q1.csv",
+          "date_columns": [
+            "tradeDate"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "equ_fancy_factors_lite",
+          "file": "2024_Q2.csv",
+          "date_columns": [
+            "tradeDate"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "fst_detail",
+          "file": "2024_Q4.csv",
+          "date_columns": [
+            "tradeDate",
+            "updateTime"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "fst_detail",
+          "file": "2024_Q3.csv",
+          "date_columns": [
+            "tradeDate",
+            "updateTime"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "fst_detail",
+          "file": "2020_Q1.csv",
+          "date_columns": [
+            "tradeDate",
+            "updateTime"
+          ],
+          "row_count": 100
+        },
+        {
+          "api": "industry",
+          "file": "snapshot.csv",
+          "date_columns": [
+            "beginDate",
+            "endDate",
+            "updateTime"
+          ],
+          "row_count": 100
+        }
+      ]
+    },
+    "stock_coverage": {},
+    "data_completeness": {}
+  }
+}

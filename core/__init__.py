@@ -172,17 +172,17 @@ except ImportError as e:
 
 # 6. 工具模块 (待开发)
 try:
-    from .utils import Logger, get_logger, validate_data, create_dirs
+    from .utils import Logger, get_logger, validate_dataframe, create_dirs
     imported_modules['utils'] = {
         'Logger': Logger,
         'get_logger': get_logger,
-        'validate_data': validate_data,
+        'validate_dataframe': validate_dataframe,
         'create_dirs': create_dirs
     }
     print("✅ utils        - 工具模块 (已导入)")
 except ImportError as e:
     failed_imports['utils'] = str(e)
-    print(f"📋 utils        - 工具模块 (待开发)")
+    print(f"❌ utils        - 工具模块导入失败: {e}")
 
 # ===========================================
 # 🔧 核心功能函数

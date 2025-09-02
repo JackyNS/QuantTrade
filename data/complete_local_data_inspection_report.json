@@ -1,0 +1,755 @@
+{
+  "inspection_time": "2025-09-02T10:10:22.080231",
+  "total_size": "220G",
+  "directory_structure": {
+    "optimized_data": {
+      "path": "/Users/jackstudio/QuantTrade/data/optimized_data",
+      "size": "5.5G",
+      "file_count": 2555,
+      "subdirs": [
+        "financial",
+        "special_trading",
+        "basic_info",
+        "governance"
+      ]
+    },
+    "smart_download": {
+      "path": "/Users/jackstudio/QuantTrade/data/smart_download",
+      "size": "1.3G",
+      "file_count": 848,
+      "subdirs": [
+        "year_2016",
+        "year_2011",
+        "year_2018",
+        "year_2020",
+        "year_2021",
+        "year_2019",
+        "year_2010",
+        "year_2017",
+        "year_2004",
+        "year_2003",
+        "year_2005",
+        "year_2012",
+        "year_2015",
+        "year_2023",
+        "year_2024",
+        "year_2025",
+        "year_2022",
+        "year_2014",
+        "year_2013",
+        "year_2009",
+        "year_2007",
+        "year_2006",
+        "year_2008"
+      ]
+    },
+    "final_comprehensive_download": {
+      "path": "/Users/jackstudio/QuantTrade/data/final_comprehensive_download",
+      "size": "204G",
+      "file_count": 1493,
+      "subdirs": [
+        "financial",
+        "special_trading",
+        "basic_info",
+        "governance",
+        "additional_apis"
+      ]
+    },
+    "cache": {
+      "path": "/Users/jackstudio/QuantTrade/data/cache",
+      "size": "20K",
+      "file_count": 1,
+      "subdirs": [
+        "memory",
+        "features",
+        "models",
+        "sqlite",
+        "api",
+        "disk",
+        "compressed"
+      ]
+    },
+    "mktequd_complete": {
+      "path": "/Users/jackstudio/QuantTrade/data/mktequd_complete",
+      "size": "0B",
+      "file_count": 0,
+      "subdirs": [
+        "year_2016",
+        "year_2011",
+        "year_2018",
+        "year_2020",
+        "year_2021",
+        "year_2019",
+        "year_2010",
+        "year_2017",
+        "year_2004",
+        "year_2003",
+        "year_2002",
+        "year_2005",
+        "year_2012",
+        "year_2015",
+        "year_2023",
+        "year_2024",
+        "year_2022",
+        "year_2014",
+        "year_2013",
+        "year_2009",
+        "year_2000",
+        "year_2007",
+        "year_2006",
+        "year_2001",
+        "year_2008"
+      ]
+    },
+    "test_api_download": {
+      "path": "/Users/jackstudio/QuantTrade/data/test_api_download",
+      "size": "100K",
+      "file_count": 5,
+      "subdirs": []
+    },
+    "comprehensive_api_download": {
+      "path": "/Users/jackstudio/QuantTrade/data/comprehensive_api_download",
+      "size": "4.0K",
+      "file_count": 1,
+      "subdirs": [
+        "financial_data",
+        "basic_stock_info"
+      ]
+    },
+    "priority_download": {
+      "path": "/Users/jackstudio/QuantTrade/data/priority_download",
+      "size": "3.0G",
+      "file_count": 4177,
+      "subdirs": [
+        "market_data",
+        "flow_data"
+      ]
+    },
+    "historical_download": {
+      "path": "/Users/jackstudio/QuantTrade/data/historical_download",
+      "size": "1.4G",
+      "file_count": 1671,
+      "subdirs": [
+        "basics",
+        "market_data"
+      ]
+    },
+    "comprehensive_complete": {
+      "path": "/Users/jackstudio/QuantTrade/data/comprehensive_complete",
+      "size": "51M",
+      "file_count": 141,
+      "subdirs": [
+        "weekly_adj",
+        "monthly_adj",
+        "daily_adj",
+        "daily",
+        "monthly",
+        "weekly"
+      ]
+    },
+    "backtest": {
+      "path": "/Users/jackstudio/QuantTrade/data/backtest",
+      "size": "0B",
+      "file_count": 0,
+      "subdirs": [
+        "results",
+        "reports"
+      ]
+    },
+    "mktequd_daily": {
+      "path": "/Users/jackstudio/QuantTrade/data/mktequd_daily",
+      "size": "0B",
+      "file_count": 0,
+      "subdirs": []
+    },
+    "backup": {
+      "path": "/Users/jackstudio/QuantTrade/data/backup",
+      "size": "0B",
+      "file_count": 0,
+      "subdirs": [
+        "original"
+      ]
+    },
+    "processed": {
+      "path": "/Users/jackstudio/QuantTrade/data/processed",
+      "size": "0B",
+      "file_count": 0,
+      "subdirs": [
+        "indicators",
+        "signals",
+        "features",
+        "factors"
+      ]
+    },
+    "realistic_complete": {
+      "path": "/Users/jackstudio/QuantTrade/data/realistic_complete",
+      "size": "16M",
+      "file_count": 16,
+      "subdirs": [
+        "weekly_adj",
+        "monthly_adj",
+        "daily_adj",
+        "daily",
+        "monthly",
+        "weekly"
+      ]
+    },
+    "metadata": {
+      "path": "/Users/jackstudio/QuantTrade/data/metadata",
+      "size": "84K",
+      "file_count": 4,
+      "subdirs": []
+    },
+    "raw": {
+      "path": "/Users/jackstudio/QuantTrade/data/raw",
+      "size": "871M",
+      "file_count": 5152,
+      "subdirs": [
+        "minute",
+        "financial",
+        "daily",
+        "basic_info",
+        "index"
+      ]
+    },
+    "csv_complete": {
+      "path": "/Users/jackstudio/QuantTrade/data/csv_complete",
+      "size": "4.1G",
+      "file_count": 61674,
+      "subdirs": [
+        "daily",
+        "monthly",
+        "weekly"
+      ]
+    },
+    "reports": {
+      "path": "/Users/jackstudio/QuantTrade/data/reports",
+      "size": "4.0K",
+      "file_count": 1,
+      "subdirs": [
+        "weekly"
+      ]
+    },
+    "strategy": {
+      "path": "/Users/jackstudio/QuantTrade/data/strategy",
+      "size": "6.9M",
+      "file_count": 155,
+      "subdirs": [
+        "updates",
+        "dragon_tiger",
+        "capital_flow",
+        "pattern",
+        "market_sentiment",
+        "technical"
+      ]
+    },
+    "professional_complete": {
+      "path": "/Users/jackstudio/QuantTrade/data/professional_complete",
+      "size": "201M",
+      "file_count": 476,
+      "subdirs": [
+        "weekly_adj",
+        "monthly_adj",
+        "daily_adj",
+        "factors",
+        "daily",
+        "basic_info",
+        "monthly",
+        "yearly",
+        "quarterly",
+        "weekly"
+      ]
+    }
+  },
+  "file_inventory": {
+    "batch_files": {
+      "daily": {
+        "exists": true,
+        "total_files": 713,
+        "year_distribution": {
+          "2022": 51,
+          "2023": 54,
+          "2020": 41,
+          "2021": 46,
+          "2008": 16,
+          "2024": 55,
+          "2019": 37,
+          "2018": 35,
+          "2025": 56,
+          "2009": 17,
+          "2005": 13,
+          "2011": 22,
+          "2013": 24,
+          "2006": 14,
+          "2012": 24,
+          "2001": 11,
+          "2015": 27,
+          "2017": 34,
+          "2016": 30,
+          "2002": 11,
+          "2004": 13,
+          "2010": 20,
+          "2000": 10,
+          "2014": 25,
+          "2007": 15,
+          "2003": 12
+        },
+        "year_range": "2000 - 2025"
+      },
+      "weekly": {
+        "exists": true,
+        "total_files": 713,
+        "year_distribution": {
+          "2022": 51,
+          "2023": 54,
+          "2020": 41,
+          "2021": 46,
+          "2008": 16,
+          "2024": 55,
+          "2019": 37,
+          "2018": 35,
+          "2025": 56,
+          "2009": 17,
+          "2005": 13,
+          "2011": 22,
+          "2013": 24,
+          "2006": 14,
+          "2012": 24,
+          "2001": 11,
+          "2015": 27,
+          "2017": 34,
+          "2016": 30,
+          "2002": 11,
+          "2004": 13,
+          "2010": 20,
+          "2000": 10,
+          "2014": 25,
+          "2007": 15,
+          "2003": 12
+        },
+        "year_range": "2000 - 2025"
+      },
+      "monthly": {
+        "exists": true,
+        "total_files": 713,
+        "year_distribution": {
+          "2022": 51,
+          "2023": 54,
+          "2020": 41,
+          "2021": 46,
+          "2008": 16,
+          "2024": 55,
+          "2019": 37,
+          "2018": 35,
+          "2025": 56,
+          "2009": 17,
+          "2005": 13,
+          "2011": 22,
+          "2013": 24,
+          "2006": 14,
+          "2012": 24,
+          "2001": 11,
+          "2015": 27,
+          "2017": 34,
+          "2016": 30,
+          "2002": 11,
+          "2004": 13,
+          "2010": 20,
+          "2000": 10,
+          "2014": 25,
+          "2007": 15,
+          "2003": 12
+        },
+        "year_range": "2000 - 2025"
+      }
+    },
+    "csv_complete": {
+      "exists": true,
+      "daily": {
+        "file_count": 50658,
+        "directory_levels": {
+          "level_1": 3386,
+          "level_2": 47272
+        },
+        "sample_files": [
+          "002182_XSHE.csv",
+          "600300_XSHG.csv",
+          "600166_XSHG.csv",
+          "301358_XSHE.csv",
+          "300190_XSHE.csv"
+        ]
+      },
+      "weekly": {
+        "file_count": 5507,
+        "directory_levels": {
+          "level_1": 5507
+        },
+        "sample_files": [
+          "002182_XSHE.csv",
+          "600300_XSHG.csv",
+          "600166_XSHG.csv",
+          "301358_XSHE.csv",
+          "300190_XSHE.csv"
+        ]
+      },
+      "monthly": {
+        "file_count": 5507,
+        "directory_levels": {
+          "level_1": 5507
+        },
+        "sample_files": [
+          "002182_XSHE.csv",
+          "600300_XSHG.csv",
+          "600166_XSHG.csv",
+          "301358_XSHE.csv",
+          "300190_XSHE.csv"
+        ]
+      }
+    }
+  },
+  "data_content_analysis": {
+    "batch_samples": {
+      "sample_files": [
+        {
+          "filename": "2022_batch_039.csv",
+          "records": 22759,
+          "columns": [
+            "secID",
+            "ticker",
+            "tradeDate",
+            "preClosePrice",
+            "openPrice",
+            "highestPrice",
+            "lowestPrice",
+            "closePrice",
+            "turnoverVol",
+            "marketValue",
+            "dealAmount",
+            "turnoverRate"
+          ],
+          "stock_count": 100,
+          "date_range": {
+            "start": "2022-01-04",
+            "end": "2022-12-30"
+          },
+          "sample_stocks": [
+            "603171.XSHG",
+            "603176.XSHG",
+            "603177.XSHG",
+            "603178.XSHG",
+            "603179.XSHG"
+          ]
+        },
+        {
+          "filename": "2022_batch_011.csv",
+          "records": 24200,
+          "columns": [
+            "secID",
+            "ticker",
+            "tradeDate",
+            "preClosePrice",
+            "openPrice",
+            "highestPrice",
+            "lowestPrice",
+            "closePrice",
+            "turnoverVol",
+            "marketValue",
+            "dealAmount",
+            "turnoverRate"
+          ],
+          "stock_count": 100,
+          "date_range": {
+            "start": "2022-01-04",
+            "end": "2022-12-30"
+          },
+          "sample_stocks": [
+            "002555.XSHE",
+            "002556.XSHE",
+            "002557.XSHE",
+            "002558.XSHE",
+            "002559.XSHE"
+          ]
+        },
+        {
+          "filename": "2022_batch_005.csv",
+          "records": 18777,
+          "columns": [
+            "secID",
+            "ticker",
+            "tradeDate",
+            "preClosePrice",
+            "openPrice",
+            "highestPrice",
+            "lowestPrice",
+            "closePrice",
+            "turnoverVol",
+            "marketValue",
+            "dealAmount",
+            "turnoverRate"
+          ],
+          "stock_count": 100,
+          "date_range": {
+            "start": "2022-01-04",
+            "end": "2022-12-30"
+          },
+          "sample_stocks": [
+            "000973.XSHE",
+            "000975.XSHE",
+            "000977.XSHE",
+            "000978.XSHE",
+            "000980.XSHE"
+          ]
+        },
+        {
+          "filename": "2023_batch_037.csv",
+          "records": 23493,
+          "columns": [
+            "secID",
+            "ticker",
+            "tradeDate",
+            "preClosePrice",
+            "openPrice",
+            "highestPrice",
+            "lowestPrice",
+            "closePrice",
+            "turnoverVol",
+            "marketValue",
+            "dealAmount",
+            "turnoverRate"
+          ],
+          "stock_count": 100,
+          "date_range": {
+            "start": "2023-01-03",
+            "end": "2023-12-29"
+          },
+          "sample_stocks": [
+            "600999.XSHG",
+            "601000.XSHG",
+            "601001.XSHG",
+            "601002.XSHG",
+            "601003.XSHG"
+          ]
+        },
+        {
+          "filename": "2023_batch_023.csv",
+          "records": 24086,
+          "columns": [
+            "secID",
+            "ticker",
+            "tradeDate",
+            "preClosePrice",
+            "openPrice",
+            "highestPrice",
+            "lowestPrice",
+            "closePrice",
+            "turnoverVol",
+            "marketValue",
+            "dealAmount",
+            "turnoverRate"
+          ],
+          "stock_count": 100,
+          "date_range": {
+            "start": "2023-01-03",
+            "end": "2023-12-29"
+          },
+          "sample_stocks": [
+            "300737.XSHE",
+            "300738.XSHE",
+            "300739.XSHE",
+            "300740.XSHE",
+            "300741.XSHE"
+          ]
+        }
+      ],
+      "total_unique_stocks": 500,
+      "sample_stock_list": [
+        "002611.XSHE",
+        "001216.XSHE",
+        "001965.XSHE",
+        "601311.XSHG",
+        "603227.XSHG",
+        "603223.XSHG",
+        "002650.XSHE",
+        "002647.XSHE",
+        "300812.XSHE",
+        "300824.XSHE",
+        "300807.XSHE",
+        "603192.XSHG",
+        "002007.XSHE",
+        "603177.XSHG",
+        "300828.XSHE",
+        "300746.XSHE",
+        "603309.XSHG",
+        "002628.XSHE",
+        "001203.XSHE",
+        "601186.XSHG"
+      ],
+      "overall_date_range": {
+        "earliest": "2022-01-04",
+        "latest": "2023-12-29"
+      }
+    },
+    "csv_complete_sample": {
+      "sample_file": "002182_XSHE.csv",
+      "records": 4328,
+      "columns": [
+        "secID",
+        "ticker",
+        "secShortName",
+        "exchangeCD",
+        "tradeDate",
+        "preClosePrice",
+        "openPrice",
+        "highPrice",
+        "lowPrice",
+        "closePrice",
+        "volume",
+        "amount",
+        "changePct",
+        "actPreClosePrice",
+        "dealAmount",
+        "turnoverRate",
+        "accumAdjFactor",
+        "negMarketValue",
+        "marketValue",
+        "PE",
+        "PE1",
+        "PB",
+        "isOpen",
+        "vwap"
+      ],
+      "structure": "individual_stock_files",
+      "date_range": {
+        "start": "2007-11-13",
+        "end": "2025-08-29"
+      }
+    }
+  },
+  "stock_universe": {
+    "batch_files": {
+      "total_batch_files": 713,
+      "estimated_stock_records": 71300,
+      "year_coverage": {
+        "2022": {
+          "files": 51,
+          "estimated_stocks": 5100
+        },
+        "2023": {
+          "files": 54,
+          "estimated_stocks": 5400
+        },
+        "2020": {
+          "files": 41,
+          "estimated_stocks": 4100
+        },
+        "2021": {
+          "files": 46,
+          "estimated_stocks": 4600
+        },
+        "2008": {
+          "files": 16,
+          "estimated_stocks": 1600
+        },
+        "2024": {
+          "files": 55,
+          "estimated_stocks": 5500
+        },
+        "2019": {
+          "files": 37,
+          "estimated_stocks": 3700
+        },
+        "2018": {
+          "files": 35,
+          "estimated_stocks": 3500
+        },
+        "2025": {
+          "files": 56,
+          "estimated_stocks": 5600
+        },
+        "2009": {
+          "files": 17,
+          "estimated_stocks": 1700
+        },
+        "2005": {
+          "files": 13,
+          "estimated_stocks": 1300
+        },
+        "2011": {
+          "files": 22,
+          "estimated_stocks": 2200
+        },
+        "2013": {
+          "files": 24,
+          "estimated_stocks": 2400
+        },
+        "2006": {
+          "files": 14,
+          "estimated_stocks": 1400
+        },
+        "2012": {
+          "files": 24,
+          "estimated_stocks": 2400
+        },
+        "2001": {
+          "files": 11,
+          "estimated_stocks": 1100
+        },
+        "2015": {
+          "files": 27,
+          "estimated_stocks": 2700
+        },
+        "2017": {
+          "files": 34,
+          "estimated_stocks": 3400
+        },
+        "2016": {
+          "files": 30,
+          "estimated_stocks": 3000
+        },
+        "2002": {
+          "files": 11,
+          "estimated_stocks": 1100
+        },
+        "2004": {
+          "files": 13,
+          "estimated_stocks": 1300
+        },
+        "2010": {
+          "files": 20,
+          "estimated_stocks": 2000
+        },
+        "2000": {
+          "files": 10,
+          "estimated_stocks": 1000
+        },
+        "2014": {
+          "files": 25,
+          "estimated_stocks": 2500
+        },
+        "2007": {
+          "files": 15,
+          "estimated_stocks": 1500
+        },
+        "2003": {
+          "files": 12,
+          "estimated_stocks": 1200
+        }
+      },
+      "time_span": "2000 - 2025"
+    },
+    "csv_complete": {
+      "individual_stock_files": 50658,
+      "estimated_unique_stocks": 50658,
+      "organization": "by_stock"
+    }
+  },
+  "time_coverage": {},
+  "data_quality": {},
+  "recommendations": [
+    "批次数据文件完整，适合进行大规模股票筛选和分析",
+    "个股CSV文件完整，适合单股票详细分析",
+    "时间覆盖完整(2000-2025)，满足长期历史分析需求",
+    "数据量庞大(220GB)，建议使用高效的分析策略",
+    "优先使用批次文件进行策略筛选，再用个股文件进行详细分析"
+  ]
+}

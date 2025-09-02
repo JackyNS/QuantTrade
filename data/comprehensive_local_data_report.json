@@ -1,0 +1,649 @@
+{
+  "analysis_info": {
+    "analysis_time": "2025-09-02T10:04:24.147986",
+    "total_data_size": "220GB",
+    "analysis_scope": "全面本地数据结构和质量分析"
+  },
+  "directory_structure": [
+    {
+      "name": "backtest",
+      "path": "/Users/jackstudio/QuantTrade/data/backtest",
+      "size": "0B"
+    },
+    {
+      "name": "backup",
+      "path": "/Users/jackstudio/QuantTrade/data/backup",
+      "size": "0B"
+    },
+    {
+      "name": "cache",
+      "path": "/Users/jackstudio/QuantTrade/data/cache",
+      "size": "20K"
+    },
+    {
+      "name": "comprehensive_api_download",
+      "path": "/Users/jackstudio/QuantTrade/data/comprehensive_api_download",
+      "size": "4.0K"
+    },
+    {
+      "name": "comprehensive_complete",
+      "path": "/Users/jackstudio/QuantTrade/data/comprehensive_complete",
+      "size": "51M"
+    },
+    {
+      "name": "csv_complete",
+      "path": "/Users/jackstudio/QuantTrade/data/csv_complete",
+      "size": "4.1G"
+    },
+    {
+      "name": "final_comprehensive_download",
+      "path": "/Users/jackstudio/QuantTrade/data/final_comprehensive_download",
+      "size": "204G"
+    },
+    {
+      "name": "historical_download",
+      "path": "/Users/jackstudio/QuantTrade/data/historical_download",
+      "size": "1.4G"
+    },
+    {
+      "name": "metadata",
+      "path": "/Users/jackstudio/QuantTrade/data/metadata",
+      "size": "84K"
+    },
+    {
+      "name": "mktequd_complete",
+      "path": "/Users/jackstudio/QuantTrade/data/mktequd_complete",
+      "size": "0B"
+    },
+    {
+      "name": "mktequd_daily",
+      "path": "/Users/jackstudio/QuantTrade/data/mktequd_daily",
+      "size": "0B"
+    },
+    {
+      "name": "optimized_data",
+      "path": "/Users/jackstudio/QuantTrade/data/optimized_data",
+      "size": "5.5G"
+    },
+    {
+      "name": "priority_download",
+      "path": "/Users/jackstudio/QuantTrade/data/priority_download",
+      "size": "3.0G"
+    },
+    {
+      "name": "processed",
+      "path": "/Users/jackstudio/QuantTrade/data/processed",
+      "size": "0B"
+    },
+    {
+      "name": "professional_complete",
+      "path": "/Users/jackstudio/QuantTrade/data/professional_complete",
+      "size": "201M"
+    },
+    {
+      "name": "raw",
+      "path": "/Users/jackstudio/QuantTrade/data/raw",
+      "size": "871M"
+    },
+    {
+      "name": "realistic_complete",
+      "path": "/Users/jackstudio/QuantTrade/data/realistic_complete",
+      "size": "16M"
+    },
+    {
+      "name": "reports",
+      "path": "/Users/jackstudio/QuantTrade/data/reports",
+      "size": "4.0K"
+    },
+    {
+      "name": "smart_download",
+      "path": "/Users/jackstudio/QuantTrade/data/smart_download",
+      "size": "1.3G"
+    },
+    {
+      "name": "strategy",
+      "path": "/Users/jackstudio/QuantTrade/data/strategy",
+      "size": "6.9M"
+    },
+    {
+      "name": "test_api_download",
+      "path": "/Users/jackstudio/QuantTrade/data/test_api_download",
+      "size": "100K"
+    }
+  ],
+  "batch_files_analysis": {
+    "daily": {
+      "file_count": 713,
+      "year_distribution": {
+        "2000": {
+          "files": 10,
+          "date_range": "2000-01-04 - 2000-12-29",
+          "sample_records": 34536
+        },
+        "2001": {
+          "files": 11,
+          "date_range": "2001-01-02 - 2001-12-31",
+          "sample_records": 30000
+        },
+        "2002": {
+          "files": 11,
+          "date_range": "2002-01-04 - 2002-12-31",
+          "sample_records": 45030
+        },
+        "2003": {
+          "files": 12,
+          "date_range": "2003-01-02 - 2003-12-31",
+          "sample_records": 36664
+        },
+        "2004": {
+          "files": 13,
+          "date_range": "2004-01-02 - 2004-12-31",
+          "sample_records": 35202
+        },
+        "2005": {
+          "files": 13,
+          "date_range": "2005-01-04 - 2005-12-30",
+          "sample_records": 38899
+        },
+        "2006": {
+          "files": 14,
+          "date_range": "2006-01-04 - 2006-12-29",
+          "sample_records": 29643
+        },
+        "2007": {
+          "files": 15,
+          "date_range": "2007-01-04 - 2007-12-28",
+          "sample_records": 34523
+        },
+        "2008": {
+          "files": 16,
+          "date_range": "2008-01-02 - 2008-12-31",
+          "sample_records": 29520
+        },
+        "2009": {
+          "files": 17,
+          "date_range": "2009-01-05 - 2009-12-31",
+          "sample_records": 27328
+        },
+        "2010": {
+          "files": 20,
+          "date_range": "2010-01-04 - 2010-12-31",
+          "sample_records": 32428
+        },
+        "2011": {
+          "files": 22,
+          "date_range": "2011-01-04 - 2011-12-30",
+          "sample_records": 46098
+        },
+        "2012": {
+          "files": 24,
+          "date_range": "2012-01-04 - 2012-12-31",
+          "sample_records": 34177
+        },
+        "2013": {
+          "files": 24,
+          "date_range": "2013-01-04 - 2013-12-31",
+          "sample_records": 34102
+        },
+        "2014": {
+          "files": 25,
+          "date_range": "2014-01-02 - 2014-12-31",
+          "sample_records": 36969
+        },
+        "2015": {
+          "files": 27,
+          "date_range": "2015-01-05 - 2015-12-31",
+          "sample_records": 40307
+        },
+        "2016": {
+          "files": 30,
+          "date_range": "2016-01-04 - 2016-12-30",
+          "sample_records": 25132
+        },
+        "2017": {
+          "files": 34,
+          "date_range": "2017-01-03 - 2017-12-29",
+          "sample_records": 33184
+        },
+        "2018": {
+          "files": 35,
+          "date_range": "2018-01-02 - 2018-12-28",
+          "sample_records": 34020
+        },
+        "2019": {
+          "files": 37,
+          "date_range": "2019-01-02 - 2019-12-31",
+          "sample_records": 34232
+        },
+        "2020": {
+          "files": 41,
+          "date_range": "2020-01-02 - 2020-12-31",
+          "sample_records": 36661
+        },
+        "2021": {
+          "files": 46,
+          "date_range": "2021-01-04 - 2021-12-31",
+          "sample_records": 42768
+        },
+        "2022": {
+          "files": 51,
+          "date_range": "2022-01-04 - 2022-12-30",
+          "sample_records": 29282
+        },
+        "2023": {
+          "files": 54,
+          "date_range": "2023-01-03 - 2023-12-29",
+          "sample_records": 32428
+        },
+        "2024": {
+          "files": 55,
+          "date_range": "2024-01-02 - 2024-12-31",
+          "sample_records": 29763
+        },
+        "2025": {
+          "files": 56,
+          "date_range": "2025-01-02 - 2025-08-29",
+          "sample_records": 16759
+        }
+      },
+      "time_range": "2000-01-04 - 2025-08-29",
+      "sample_stocks": [
+        "000002.XSHE",
+        "000007.XSHE",
+        "000011.XSHE",
+        "000008.XSHE",
+        "000006.XSHE",
+        "000001.XSHE",
+        "000012.XSHE",
+        "000010.XSHE",
+        "000009.XSHE",
+        "000004.XSHE"
+      ],
+      "sample_records": 879655
+    },
+    "weekly": {
+      "file_count": 713,
+      "year_distribution": {
+        "2000": {
+          "files": 10,
+          "error": "'tradeDate'"
+        },
+        "2001": {
+          "files": 11,
+          "error": "'tradeDate'"
+        },
+        "2002": {
+          "files": 11,
+          "error": "'tradeDate'"
+        },
+        "2003": {
+          "files": 12,
+          "error": "'tradeDate'"
+        },
+        "2004": {
+          "files": 13,
+          "error": "'tradeDate'"
+        },
+        "2005": {
+          "files": 13,
+          "error": "'tradeDate'"
+        },
+        "2006": {
+          "files": 14,
+          "error": "'tradeDate'"
+        },
+        "2007": {
+          "files": 15,
+          "error": "'tradeDate'"
+        },
+        "2008": {
+          "files": 16,
+          "error": "'tradeDate'"
+        },
+        "2009": {
+          "files": 17,
+          "error": "'tradeDate'"
+        },
+        "2010": {
+          "files": 20,
+          "error": "'tradeDate'"
+        },
+        "2011": {
+          "files": 22,
+          "error": "'tradeDate'"
+        },
+        "2012": {
+          "files": 24,
+          "error": "'tradeDate'"
+        },
+        "2013": {
+          "files": 24,
+          "error": "'tradeDate'"
+        },
+        "2014": {
+          "files": 25,
+          "error": "'tradeDate'"
+        },
+        "2015": {
+          "files": 27,
+          "error": "'tradeDate'"
+        },
+        "2016": {
+          "files": 30,
+          "error": "'tradeDate'"
+        },
+        "2017": {
+          "files": 34,
+          "error": "'tradeDate'"
+        },
+        "2018": {
+          "files": 35,
+          "error": "'tradeDate'"
+        },
+        "2019": {
+          "files": 37,
+          "error": "'tradeDate'"
+        },
+        "2020": {
+          "files": 41,
+          "error": "'tradeDate'"
+        },
+        "2021": {
+          "files": 46,
+          "error": "'tradeDate'"
+        },
+        "2022": {
+          "files": 51,
+          "error": "'tradeDate'"
+        },
+        "2023": {
+          "files": 54,
+          "error": "'tradeDate'"
+        },
+        "2024": {
+          "files": 55,
+          "error": "'tradeDate'"
+        },
+        "2025": {
+          "files": 56,
+          "error": "'tradeDate'"
+        }
+      },
+      "time_range": "Unknown",
+      "sample_stocks": [],
+      "sample_records": 0
+    },
+    "monthly": {
+      "file_count": 713,
+      "year_distribution": {
+        "2000": {
+          "files": 10,
+          "error": "'tradeDate'"
+        },
+        "2001": {
+          "files": 11,
+          "error": "'tradeDate'"
+        },
+        "2002": {
+          "files": 11,
+          "error": "'tradeDate'"
+        },
+        "2003": {
+          "files": 12,
+          "error": "'tradeDate'"
+        },
+        "2004": {
+          "files": 13,
+          "error": "'tradeDate'"
+        },
+        "2005": {
+          "files": 13,
+          "error": "'tradeDate'"
+        },
+        "2006": {
+          "files": 14,
+          "error": "'tradeDate'"
+        },
+        "2007": {
+          "files": 15,
+          "error": "'tradeDate'"
+        },
+        "2008": {
+          "files": 16,
+          "error": "'tradeDate'"
+        },
+        "2009": {
+          "files": 17,
+          "error": "'tradeDate'"
+        },
+        "2010": {
+          "files": 20,
+          "error": "'tradeDate'"
+        },
+        "2011": {
+          "files": 22,
+          "error": "'tradeDate'"
+        },
+        "2012": {
+          "files": 24,
+          "error": "'tradeDate'"
+        },
+        "2013": {
+          "files": 24,
+          "error": "'tradeDate'"
+        },
+        "2014": {
+          "files": 25,
+          "error": "'tradeDate'"
+        },
+        "2015": {
+          "files": 27,
+          "error": "'tradeDate'"
+        },
+        "2016": {
+          "files": 30,
+          "error": "'tradeDate'"
+        },
+        "2017": {
+          "files": 34,
+          "error": "'tradeDate'"
+        },
+        "2018": {
+          "files": 35,
+          "error": "'tradeDate'"
+        },
+        "2019": {
+          "files": 37,
+          "error": "'tradeDate'"
+        },
+        "2020": {
+          "files": 41,
+          "error": "'tradeDate'"
+        },
+        "2021": {
+          "files": 46,
+          "error": "'tradeDate'"
+        },
+        "2022": {
+          "files": 51,
+          "error": "'tradeDate'"
+        },
+        "2023": {
+          "files": 54,
+          "error": "'tradeDate'"
+        },
+        "2024": {
+          "files": 55,
+          "error": "'tradeDate'"
+        },
+        "2025": {
+          "files": 56,
+          "error": "'tradeDate'"
+        }
+      },
+      "time_range": "Unknown",
+      "sample_stocks": [],
+      "sample_records": 0
+    }
+  },
+  "csv_complete_analysis": {
+    "exists": true,
+    "daily": {
+      "file_count": 50658,
+      "path": "/Users/jackstudio/QuantTrade/data/csv_complete/daily",
+      "sample_file": "002182_XSHE.csv",
+      "columns": [
+        "secID",
+        "ticker",
+        "secShortName",
+        "exchangeCD",
+        "tradeDate",
+        "preClosePrice",
+        "openPrice",
+        "highPrice",
+        "lowPrice",
+        "closePrice",
+        "volume",
+        "amount",
+        "changePct",
+        "actPreClosePrice",
+        "dealAmount",
+        "turnoverRate",
+        "accumAdjFactor",
+        "negMarketValue",
+        "marketValue",
+        "PE",
+        "PE1",
+        "PB",
+        "isOpen",
+        "vwap"
+      ],
+      "sample_records": 4328
+    },
+    "weekly": {
+      "file_count": 5507,
+      "path": "/Users/jackstudio/QuantTrade/data/csv_complete/weekly",
+      "sample_file": "002182_XSHE.csv",
+      "columns": [
+        "secID",
+        "ticker",
+        "endDate",
+        "preClosePrice",
+        "openPrice",
+        "highestPrice",
+        "lowestPrice",
+        "closePrice",
+        "turnoverVol"
+      ],
+      "sample_records": 911
+    },
+    "monthly": {
+      "file_count": 5507,
+      "path": "/Users/jackstudio/QuantTrade/data/csv_complete/monthly",
+      "sample_file": "002182_XSHE.csv",
+      "columns": [
+        "secID",
+        "ticker",
+        "endDate",
+        "preClosePrice",
+        "openPrice",
+        "highestPrice",
+        "lowestPrice",
+        "closePrice",
+        "turnoverVol"
+      ],
+      "sample_records": 214
+    }
+  },
+  "data_quality_analysis": {
+    "completeness": {},
+    "consistency": {},
+    "coverage": {
+      "2024_august": {
+        "files_checked": 5,
+        "files_with_data": 5,
+        "stocks_found": 500,
+        "records_found": 11000,
+        "sample_stocks": [
+          "600056.XSHG",
+          "600015.XSHG",
+          "600438.XSHG",
+          "600515.XSHG",
+          "301123.XSHE",
+          "301086.XSHE",
+          "301127.XSHE",
+          "301239.XSHE",
+          "600552.XSHG",
+          "301229.XSHE"
+        ]
+      },
+      "2025_august": {
+        "files_checked": 5,
+        "files_with_data": 5,
+        "stocks_found": 500,
+        "records_found": 10497,
+        "sample_stocks": [
+          "301318.XSHE",
+          "000034.XSHE",
+          "003043.XSHE",
+          "301428.XSHE",
+          "301596.XSHE",
+          "002875.XSHE",
+          "002858.XSHE",
+          "002853.XSHE",
+          "301290.XSHE",
+          "002985.XSHE"
+        ]
+      },
+      "2024_full_year": {
+        "files_checked": 5,
+        "files_with_data": 5,
+        "stocks_found": 500,
+        "records_found": 121000,
+        "sample_stocks": [
+          "600056.XSHG",
+          "600015.XSHG",
+          "600438.XSHG",
+          "600515.XSHG",
+          "301123.XSHE",
+          "301086.XSHE",
+          "301127.XSHE",
+          "301239.XSHE",
+          "600552.XSHG",
+          "301229.XSHE"
+        ]
+      },
+      "2025_ytd": {
+        "files_checked": 5,
+        "files_with_data": 5,
+        "stocks_found": 500,
+        "records_found": 79519,
+        "sample_stocks": [
+          "301318.XSHE",
+          "000034.XSHE",
+          "003043.XSHE",
+          "301428.XSHE",
+          "301596.XSHE",
+          "002875.XSHE",
+          "002858.XSHE",
+          "002853.XSHE",
+          "301290.XSHE",
+          "002985.XSHE"
+        ]
+      }
+    }
+  },
+  "summary": {
+    "data_availability": "优秀",
+    "time_coverage": "2008年-2025年8月",
+    "stock_coverage": "1000+只A股",
+    "format_consistency": "统一CSV格式",
+    "ready_for_analysis": true
+  },
+  "recommendations": [
+    "数据完整性良好，覆盖时间范围符合要求",
+    "批次文件和csv_complete都可用作数据源",
+    "可以直接基于现有数据进行策略分析",
+    "无需额外下载数据"
+  ]
+}

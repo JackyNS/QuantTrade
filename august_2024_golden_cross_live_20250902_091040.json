@@ -1,0 +1,11 @@
+{
+  "screening_info": {
+    "timestamp": "2025-09-02T09:10:40.850933",
+    "strategy": "2024年8月A股黄金交叉实时筛选",
+    "method": "直接UQER API获取数据",
+    "total_analyzed": 31,
+    "qualified_count": 0,
+    "hit_rate": "0.0%"
+  },
+  "qualified_stocks": []
+}

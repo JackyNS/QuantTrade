@@ -1,0 +1,138 @@
+{
+  "analysis_time": "2025-09-02T10:15:41.482698",
+  "target_range": "2000-01-01 to 2025-08-31",
+  "summary": {
+    "total_types": 14,
+    "existing_data": 12,
+    "missing_data": 2,
+    "complete_data": 3
+  },
+  "detailed_results": [
+    {
+      "data_type": "日线行情数据",
+      "status": "✅ 存在",
+      "file_count": 713,
+      "time_range": "2000-01-04 - 2025-08-29",
+      "stock_sample": 99,
+      "completeness": "✅ 完整",
+      "path": "/Users/jackstudio/QuantTrade/data/priority_download/market_data/daily"
+    },
+    {
+      "data_type": "周线行情数据",
+      "status": "✅ 存在",
+      "file_count": 713,
+      "time_range": "无法确定",
+      "stock_sample": 0,
+      "completeness": "❓ 无法确定",
+      "path": "/Users/jackstudio/QuantTrade/data/priority_download/market_data/weekly"
+    },
+    {
+      "data_type": "月线行情数据",
+      "status": "✅ 存在",
+      "file_count": 713,
+      "time_range": "无法确定",
+      "stock_sample": 0,
+      "completeness": "❓ 无法确定",
+      "path": "/Users/jackstudio/QuantTrade/data/priority_download/market_data/monthly"
+    },
+    {
+      "data_type": "前复权日线",
+      "status": "✅ 存在",
+      "file_count": 713,
+      "time_range": "2000-01-04 - 2025-08-29",
+      "stock_sample": 99,
+      "completeness": "✅ 完整",
+      "path": "/Users/jackstudio/QuantTrade/data/priority_download/market_data/adj_daily"
+    },
+    {
+      "data_type": "前复权周线",
+      "status": "❌ 不存在",
+      "file_count": 0,
+      "time_range": "无数据",
+      "stock_sample": 0,
+      "completeness": "无数据",
+      "path": "/Users/jackstudio/QuantTrade/data/priority_download/market_data/adj_weekly"
+    },
+    {
+      "data_type": "前复权月线",
+      "status": "❌ 不存在",
+      "file_count": 0,
+      "time_range": "无数据",
+      "stock_sample": 0,
+      "completeness": "无数据",
+      "path": "/Users/jackstudio/QuantTrade/data/priority_download/market_data/adj_monthly"
+    },
+    {
+      "data_type": "日线(个股文件)",
+      "status": "✅ 存在",
+      "file_count": 50658,
+      "time_range": "2000-01-04 - 2025-08-29",
+      "stock_sample": 50658,
+      "completeness": "✅ 完整",
+      "path": "/Users/jackstudio/QuantTrade/data/csv_complete/daily"
+    },
+    {
+      "data_type": "周线(个股文件)",
+      "status": "✅ 存在",
+      "file_count": 5507,
+      "time_range": "无法确定",
+      "stock_sample": 5507,
+      "completeness": "❓ 无法确定",
+      "path": "/Users/jackstudio/QuantTrade/data/csv_complete/weekly"
+    },
+    {
+      "data_type": "月线(个股文件)",
+      "status": "✅ 存在",
+      "file_count": 5507,
+      "time_range": "无法确定",
+      "stock_sample": 5507,
+      "completeness": "❓ 无法确定",
+      "path": "/Users/jackstudio/QuantTrade/data/csv_complete/monthly"
+    },
+    {
+      "data_type": "financial数据",
+      "status": "✅ 存在",
+      "file_count": 302,
+      "time_range": "2023-04-21 - 2025-04-30",
+      "stock_sample": "不确定",
+      "completeness": "🟡 需要具体分析",
+      "path": "/Users/jackstudio/QuantTrade/data/final_comprehensive_download/financial"
+    },
+    {
+      "data_type": "special_trading数据",
+      "status": "✅ 存在",
+      "file_count": 425,
+      "time_range": "2020-12-31 - 2020-12-31",
+      "stock_sample": "不确定",
+      "completeness": "🟡 需要具体分析",
+      "path": "/Users/jackstudio/QuantTrade/data/final_comprehensive_download/special_trading"
+    },
+    {
+      "data_type": "basic_info数据",
+      "status": "✅ 存在",
+      "file_count": 64,
+      "time_range": "1900-01-01 - 2025-09-10",
+      "stock_sample": "不确定",
+      "completeness": "🟡 需要具体分析",
+      "path": "/Users/jackstudio/QuantTrade/data/final_comprehensive_download/basic_info"
+    },
+    {
+      "data_type": "governance数据",
+      "status": "✅ 存在",
+      "file_count": 627,
+      "time_range": "2023-01-03 - 2023-12-29",
+      "stock_sample": "不确定",
+      "completeness": "🟡 需要具体分析",
+      "path": "/Users/jackstudio/QuantTrade/data/final_comprehensive_download/governance"
+    },
+    {
+      "data_type": "additional_apis数据",
+      "status": "✅ 存在",
+      "file_count": 67,
+      "time_range": "数据存在",
+      "stock_sample": "不确定",
+      "completeness": "🟡 需要具体分析",
+      "path": "/Users/jackstudio/QuantTrade/data/final_comprehensive_download/additional_apis"
+    }
+  ]
+}

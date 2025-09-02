@@ -1,0 +1,6246 @@
+{
+  "summary": {
+    "analysis_time": "2025-09-02T10:46:39.650371",
+    "total_directories": 244,
+    "total_data_size_gb": 657.4189453124998,
+    "key_findings": [
+      "批次文件覆盖 26 个年份",
+      "个股日线文件 3386 个",
+      "发现 3 个一致性检查样本"
+    ],
+    "data_organization_status": {
+      "batch_files_status": "Complete",
+      "individual_files_status": "Partial",
+      "yearly_classification_status": "Exists"
+    },
+    "recommendations": [
+      "1. 统一数据存储结构，避免重复存储",
+      "2. 建立数据同步机制，确保批次文件与个股文件一致",
+      "3. 实施数据完整性检查，定期验证数据质量",
+      "4. 优化存储空间，删除冗余和过时数据"
+    ]
+  },
+  "directory_structure": {
+    ".": {
+      "csv_count": 1,
+      "json_count": 9,
+      "other_count": 2,
+      "total_files": 12,
+      "csv_files": [
+        "api_data_inventory.csv"
+      ],
+      "directory_size_mb": 224693.68
+    },
+    "optimized_data": {
+      "csv_count": 0,
+      "json_count": 1,
+      "other_count": 2,
+      "total_files": 3,
+      "csv_files": [],
+      "directory_size_mb": 5472.57
+    },
+    "optimized_data/financial/fdmtbsbankalllatestget": {
+      "csv_count": 24,
+      "json_count": 24,
+      "other_count": 0,
+      "total_files": 48,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2008.csv",
+        "year_2009.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2025.csv",
+        "year_2024.csv",
+        "year_2018.csv"
+      ],
+      "directory_size_mb": 1.36
+    },
+    "optimized_data/financial/fdmtisindualllatestget": {
+      "csv_count": 24,
+      "json_count": 24,
+      "other_count": 0,
+      "total_files": 48,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2008.csv",
+        "year_2009.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2025.csv",
+        "year_2024.csv",
+        "year_2018.csv"
+      ],
+      "directory_size_mb": 102.17
+    },
+    "optimized_data/financial/fdmtbsindualllatestget": {
+      "csv_count": 24,
+      "json_count": 24,
+      "other_count": 0,
+      "total_files": 48,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2008.csv",
+        "year_2009.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2025.csv",
+        "year_2024.csv",
+        "year_2018.csv"
+      ],
+      "directory_size_mb": 161.26
+    },
+    "optimized_data/financial/fdmtisbankalllatestget": {
+      "csv_count": 24,
+      "json_count": 24,
+      "other_count": 0,
+      "total_files": 48,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2008.csv",
+        "year_2009.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2025.csv",
+        "year_2024.csv",
+        "year_2018.csv"
+      ],
+      "directory_size_mb": 1.05
+    },
+    "optimized_data/financial/fdmtindipsget": {
+      "csv_count": 24,
+      "json_count": 24,
+      "other_count": 0,
+      "total_files": 48,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2008.csv",
+        "year_2009.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2025.csv",
+        "year_2024.csv",
+        "year_2018.csv"
+      ],
+      "directory_size_mb": 41.52
+    },
+    "optimized_data/financial/fdmtcfbankalllatestget": {
+      "csv_count": 24,
+      "json_count": 24,
+      "other_count": 0,
+      "total_files": 48,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2008.csv",
+        "year_2009.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2025.csv",
+        "year_2024.csv",
+        "year_2018.csv"
+      ],
+      "directory_size_mb": 1.22
+    },
+    "optimized_data/financial/fdmtcfindualllatestget": {
+      "csv_count": 24,
+      "json_count": 24,
+      "other_count": 0,
+      "total_files": 48,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2008.csv",
+        "year_2009.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2025.csv",
+        "year_2024.csv",
+        "year_2018.csv"
+      ],
+      "directory_size_mb": 117.13
+    },
+    "optimized_data/financial/fdmtcfalllatestget": {
+      "csv_count": 24,
+      "json_count": 24,
+      "other_count": 0,
+      "total_files": 48,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2008.csv",
+        "year_2009.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2025.csv",
+        "year_2024.csv",
+        "year_2018.csv"
+      ],
+      "directory_size_mb": 119.48
+    },
+    "optimized_data/financial/fdmtderget": {
+      "csv_count": 24,
+      "json_count": 24,
+      "other_count": 0,
+      "total_files": 48,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2008.csv",
+        "year_2009.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2025.csv",
+        "year_2024.csv",
+        "year_2018.csv"
+      ],
+      "directory_size_mb": 80.3
+    },
+    "optimized_data/financial/fdmtisalllatestget": {
+      "csv_count": 24,
+      "json_count": 24,
+      "other_count": 0,
+      "total_files": 48,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2008.csv",
+        "year_2009.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2025.csv",
+        "year_2024.csv",
+        "year_2018.csv"
+      ],
+      "directory_size_mb": 104.13
+    },
+    "optimized_data/financial/fdmtindigrowthget": {
+      "csv_count": 18,
+      "json_count": 18,
+      "other_count": 0,
+      "total_files": 36,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2008.csv",
+        "year_2009.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2025.csv",
+        "year_2024.csv",
+        "year_2018.csv"
+      ],
+      "directory_size_mb": 39.53
+    },
+    "optimized_data/financial/fdmtbsalllatestget": {
+      "csv_count": 24,
+      "json_count": 24,
+      "other_count": 0,
+      "total_files": 48,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2008.csv",
+        "year_2009.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2025.csv",
+        "year_2024.csv",
+        "year_2018.csv"
+      ],
+      "directory_size_mb": 164.44
+    },
+    "optimized_data/special_trading/mktconsbondpremiumget": {
+      "csv_count": 26,
+      "json_count": 26,
+      "other_count": 0,
+      "total_files": 52,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2008.csv",
+        "year_2009.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2025.csv",
+        "year_2024.csv",
+        "year_2018.csv"
+      ],
+      "directory_size_mb": 0.62
+    },
+    "optimized_data/special_trading/mktrankinstr": {
+      "csv_count": 50,
+      "json_count": 50,
+      "other_count": 0,
+      "total_files": 100,
+      "csv_files": [
+        "20140930.csv",
+        "20090331.csv",
+        "20141231.csv",
+        "20220930.csv",
+        "20100331.csv",
+        "20151231.csv",
+        "20110331.csv",
+        "20150930.csv",
+        "20050930.csv",
+        "20080331.csv"
+      ],
+      "directory_size_mb": 0.42
+    },
+    "optimized_data/special_trading/mktrankdivyieldget": {
+      "csv_count": 20,
+      "json_count": 20,
+      "other_count": 0,
+      "total_files": 40,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2008.csv",
+        "year_2009.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2025.csv",
+        "year_2024.csv",
+        "year_2018.csv"
+      ],
+      "directory_size_mb": 885.18
+    },
+    "optimized_data/special_trading/fsttotalget": {
+      "csv_count": 16,
+      "json_count": 16,
+      "other_count": 0,
+      "total_files": 32,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2025.csv",
+        "year_2024.csv",
+        "year_2018.csv",
+        "year_2016.csv",
+        "year_2017.csv"
+      ],
+      "directory_size_mb": 0.34
+    },
+    "optimized_data/special_trading/mktblockdget": {
+      "csv_count": 24,
+      "json_count": 24,
+      "other_count": 0,
+      "total_files": 48,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2008.csv",
+        "year_2009.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2025.csv",
+        "year_2024.csv",
+        "year_2018.csv"
+      ],
+      "directory_size_mb": 29.2
+    },
+    "optimized_data/special_trading/mktranklistsalesget": {
+      "csv_count": 20,
+      "json_count": 20,
+      "other_count": 0,
+      "total_files": 40,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2008.csv",
+        "year_2009.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2025.csv",
+        "year_2024.csv",
+        "year_2018.csv"
+      ],
+      "directory_size_mb": 24.94
+    },
+    "optimized_data/special_trading/equisactivityget": {
+      "csv_count": 26,
+      "json_count": 26,
+      "other_count": 0,
+      "total_files": 52,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2008.csv",
+        "year_2009.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2025.csv",
+        "year_2024.csv",
+        "year_2018.csv"
+      ],
+      "directory_size_mb": 178.06
+    },
+    "optimized_data/special_trading/sechaltget": {
+      "csv_count": 23,
+      "json_count": 23,
+      "other_count": 0,
+      "total_files": 46,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2008.csv",
+        "year_2009.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2025.csv",
+        "year_2024.csv",
+        "year_2018.csv"
+      ],
+      "directory_size_mb": 1.93
+    },
+    "optimized_data/special_trading/vfsttargetget": {
+      "csv_count": 1,
+      "json_count": 1,
+      "other_count": 0,
+      "total_files": 2,
+      "csv_files": [
+        "static_data.csv"
+      ],
+      "directory_size_mb": 0.29
+    },
+    "optimized_data/special_trading/fstdetailget": {
+      "csv_count": 16,
+      "json_count": 16,
+      "other_count": 0,
+      "total_files": 32,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2025.csv",
+        "year_2024.csv",
+        "year_2018.csv",
+        "year_2016.csv",
+        "year_2017.csv"
+      ],
+      "directory_size_mb": 633.3
+    },
+    "optimized_data/special_trading/fdmtee": {
+      "csv_count": 20,
+      "json_count": 20,
+      "other_count": 0,
+      "total_files": 40,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2008.csv",
+        "year_2009.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2025.csv",
+        "year_2024.csv",
+        "year_2018.csv"
+      ],
+      "directory_size_mb": 23.33
+    },
+    "optimized_data/special_trading/mktequdstatsget": {
+      "csv_count": 16,
+      "json_count": 16,
+      "other_count": 0,
+      "total_files": 32,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2025.csv",
+        "year_2024.csv",
+        "year_2018.csv",
+        "year_2016.csv",
+        "year_2017.csv"
+      ],
+      "directory_size_mb": 0.3
+    },
+    "optimized_data/special_trading/mktlimitget": {
+      "csv_count": 19,
+      "json_count": 19,
+      "other_count": 0,
+      "total_files": 38,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2008.csv",
+        "year_2009.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2025.csv",
+        "year_2024.csv",
+        "year_2018.csv"
+      ],
+      "directory_size_mb": 1046.96
+    },
+    "optimized_data/special_trading/mktrankliststocksget": {
+      "csv_count": 20,
+      "json_count": 20,
+      "other_count": 0,
+      "total_files": 40,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2008.csv",
+        "year_2009.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2025.csv",
+        "year_2024.csv",
+        "year_2018.csv"
+      ],
+      "directory_size_mb": 28.13
+    },
+    "optimized_data/special_trading/mktipocontraddaysget": {
+      "csv_count": 16,
+      "json_count": 16,
+      "other_count": 0,
+      "total_files": 32,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2025.csv",
+        "year_2024.csv",
+        "year_2018.csv",
+        "year_2016.csv",
+        "year_2017.csv"
+      ],
+      "directory_size_mb": 0.33
+    },
+    "optimized_data/basic_info/secidget": {
+      "csv_count": 1,
+      "json_count": 1,
+      "other_count": 0,
+      "total_files": 2,
+      "csv_files": [
+        "static_data.csv"
+      ],
+      "directory_size_mb": 9.62
+    },
+    "optimized_data/basic_info/equget": {
+      "csv_count": 1,
+      "json_count": 1,
+      "other_count": 0,
+      "total_files": 2,
+      "csv_files": [
+        "static_data.csv"
+      ],
+      "directory_size_mb": 2.55
+    },
+    "optimized_data/basic_info/mktidxdget": {
+      "csv_count": 26,
+      "json_count": 26,
+      "other_count": 0,
+      "total_files": 52,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2008.csv",
+        "year_2009.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2025.csv",
+        "year_2024.csv",
+        "year_2018.csv"
+      ],
+      "directory_size_mb": 395.21
+    },
+    "optimized_data/basic_info/equipoget": {
+      "csv_count": 1,
+      "json_count": 1,
+      "other_count": 0,
+      "total_files": 2,
+      "csv_files": [
+        "static_data.csv"
+      ],
+      "directory_size_mb": 1.18
+    },
+    "optimized_data/basic_info/equindustryget": {
+      "csv_count": 1,
+      "json_count": 1,
+      "other_count": 0,
+      "total_files": 2,
+      "csv_files": [
+        "static_data.csv"
+      ],
+      "directory_size_mb": 1.42
+    },
+    "optimized_data/basic_info/equdivget": {
+      "csv_count": 26,
+      "json_count": 26,
+      "other_count": 0,
+      "total_files": 52,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2008.csv",
+        "year_2009.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2025.csv",
+        "year_2024.csv",
+        "year_2018.csv"
+      ],
+      "directory_size_mb": 11.63
+    },
+    "optimized_data/basic_info/equsplitsget": {
+      "csv_count": 7,
+      "json_count": 7,
+      "other_count": 0,
+      "total_files": 14,
+      "csv_files": [
+        "year_2008.csv",
+        "year_2009.csv",
+        "year_2014.csv",
+        "year_2005.csv",
+        "year_2007.csv",
+        "year_2006.csv",
+        "year_2012.csv"
+      ],
+      "directory_size_mb": 0.0
+    },
+    "optimized_data/governance/equshareholdersmeetingget": {
+      "csv_count": 26,
+      "json_count": 26,
+      "other_count": 0,
+      "total_files": 52,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2008.csv",
+        "year_2009.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2025.csv",
+        "year_2024.csv",
+        "year_2018.csv"
+      ],
+      "directory_size_mb": 104.34
+    },
+    "optimized_data/governance/equiposharefloatget": {
+      "csv_count": 19,
+      "json_count": 19,
+      "other_count": 0,
+      "total_files": 38,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2008.csv",
+        "year_2009.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2025.csv",
+        "year_2024.csv",
+        "year_2018.csv"
+      ],
+      "directory_size_mb": 1.12
+    },
+    "optimized_data/governance/equsharesexcitget": {
+      "csv_count": 20,
+      "json_count": 20,
+      "other_count": 0,
+      "total_files": 40,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2008.csv",
+        "year_2009.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2025.csv",
+        "year_2024.csv",
+        "year_2018.csv"
+      ],
+      "directory_size_mb": 31.9
+    },
+    "optimized_data/governance/equpledgeget": {
+      "csv_count": 23,
+      "json_count": 23,
+      "other_count": 0,
+      "total_files": 46,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2008.csv",
+        "year_2009.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2025.csv",
+        "year_2024.csv",
+        "year_2018.csv"
+      ],
+      "directory_size_mb": 46.52
+    },
+    "optimized_data/governance/equshtenget": {
+      "csv_count": 104,
+      "json_count": 104,
+      "other_count": 0,
+      "total_files": 208,
+      "csv_files": [
+        "year_2002_Q3.csv",
+        "year_2010_Q3.csv",
+        "year_2010_Q2.csv",
+        "year_2002_Q2.csv",
+        "year_2024_Q4.csv",
+        "year_2010_Q1.csv",
+        "year_2000_Q4.csv",
+        "year_2002_Q1.csv",
+        "year_2012_Q4.csv",
+        "year_2024_Q1.csv"
+      ],
+      "directory_size_mb": 163.68
+    },
+    "optimized_data/governance/equchangeplanget": {
+      "csv_count": 15,
+      "json_count": 15,
+      "other_count": 0,
+      "total_files": 30,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2025.csv",
+        "year_2024.csv",
+        "year_2018.csv",
+        "year_2016.csv",
+        "year_2017.csv"
+      ],
+      "directory_size_mb": 3.38
+    },
+    "optimized_data/governance/equfloatshtenget": {
+      "csv_count": 89,
+      "json_count": 89,
+      "other_count": 0,
+      "total_files": 178,
+      "csv_files": [
+        "year_2010_Q3.csv",
+        "year_2010_Q2.csv",
+        "year_2024_Q4.csv",
+        "year_2010_Q1.csv",
+        "year_2012_Q4.csv",
+        "year_2024_Q1.csv",
+        "year_2010_Q4.csv",
+        "year_2012_Q1.csv",
+        "year_2012_Q3.csv",
+        "year_2024_Q2.csv"
+      ],
+      "directory_size_mb": 109.97
+    },
+    "optimized_data/governance/equstockpledgeget": {
+      "csv_count": 12,
+      "json_count": 12,
+      "other_count": 0,
+      "total_files": 24,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2025.csv",
+        "year_2024.csv",
+        "year_2018.csv",
+        "year_2016.csv",
+        "year_2017.csv"
+      ],
+      "directory_size_mb": 127.71
+    },
+    "optimized_data/governance/equallotget": {
+      "csv_count": 26,
+      "json_count": 26,
+      "other_count": 0,
+      "total_files": 52,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2008.csv",
+        "year_2009.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2025.csv",
+        "year_2024.csv",
+        "year_2018.csv"
+      ],
+      "directory_size_mb": 0.1
+    },
+    "optimized_data/governance/equreformsharefloatget": {
+      "csv_count": 20,
+      "json_count": 20,
+      "other_count": 0,
+      "total_files": 40,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2008.csv",
+        "year_2009.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2025.csv",
+        "year_2024.csv",
+        "year_2018.csv"
+      ],
+      "directory_size_mb": 0.37
+    },
+    "optimized_data/governance/equpartynatureget": {
+      "csv_count": 1,
+      "json_count": 1,
+      "other_count": 0,
+      "total_files": 2,
+      "csv_files": [
+        "static_data.csv"
+      ],
+      "directory_size_mb": 8.39
+    },
+    "optimized_data/governance/equexecsholdingsget": {
+      "csv_count": 25,
+      "json_count": 25,
+      "other_count": 0,
+      "total_files": 50,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2008.csv",
+        "year_2009.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2024.csv",
+        "year_2018.csv",
+        "year_2016.csv"
+      ],
+      "directory_size_mb": 7.86
+    },
+    "optimized_data/governance/equspopubresultget": {
+      "csv_count": 17,
+      "json_count": 17,
+      "other_count": 0,
+      "total_files": 34,
+      "csv_files": [
+        "year_2020.csv",
+        "year_2008.csv",
+        "year_2009.csv",
+        "year_2019.csv",
+        "year_2002.csv",
+        "year_2003.csv",
+        "year_2001.csv",
+        "year_2014.csv",
+        "year_2000.csv",
+        "year_2004.csv"
+      ],
+      "directory_size_mb": 0.06
+    },
+    "optimized_data/governance/equallotmentsubscriptionresultsget": {
+      "csv_count": 23,
+      "json_count": 23,
+      "other_count": 0,
+      "total_files": 46,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2008.csv",
+        "year_2009.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2018.csv",
+        "year_2016.csv",
+        "year_2002.csv"
+      ],
+      "directory_size_mb": 0.08
+    },
+    "optimized_data/governance/equspoget": {
+      "csv_count": 17,
+      "json_count": 17,
+      "other_count": 0,
+      "total_files": 34,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2025.csv",
+        "year_2024.csv",
+        "year_2018.csv",
+        "year_2016.csv",
+        "year_2017.csv"
+      ],
+      "directory_size_mb": 8.33
+    },
+    "optimized_data/governance/equoldshofferget": {
+      "csv_count": 6,
+      "json_count": 6,
+      "other_count": 0,
+      "total_files": 12,
+      "csv_files": [
+        "year_2019.csv",
+        "year_2018.csv",
+        "year_2016.csv",
+        "year_2017.csv",
+        "year_2015.csv",
+        "year_2014.csv"
+      ],
+      "directory_size_mb": 0.01
+    },
+    "optimized_data/governance/equmschangesget": {
+      "csv_count": 22,
+      "json_count": 22,
+      "other_count": 0,
+      "total_files": 44,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2008.csv",
+        "year_2009.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2025.csv",
+        "year_2024.csv",
+        "year_2018.csv"
+      ],
+      "directory_size_mb": 3.16
+    },
+    "optimized_data/governance/equmanagersget": {
+      "csv_count": 1,
+      "json_count": 1,
+      "other_count": 0,
+      "total_files": 2,
+      "csv_files": [
+        "static_data.csv"
+      ],
+      "directory_size_mb": 1.78
+    },
+    "optimized_data/governance/equrelatedtransactionget": {
+      "csv_count": 22,
+      "json_count": 22,
+      "other_count": 0,
+      "total_files": 44,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2008.csv",
+        "year_2009.csv",
+        "year_2021.csv",
+        "year_2025.csv",
+        "year_2024.csv",
+        "year_2016.csv",
+        "year_2002.csv",
+        "year_2003.csv"
+      ],
+      "directory_size_mb": 53.04
+    },
+    "optimized_data/governance/equsharesfloatget": {
+      "csv_count": 26,
+      "json_count": 26,
+      "other_count": 0,
+      "total_files": 52,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2008.csv",
+        "year_2009.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2025.csv",
+        "year_2024.csv",
+        "year_2018.csv"
+      ],
+      "directory_size_mb": 2.7
+    },
+    "optimized_data/governance/equshareholdernumget": {
+      "csv_count": 104,
+      "json_count": 104,
+      "other_count": 0,
+      "total_files": 208,
+      "csv_files": [
+        "year_2002_Q3.csv",
+        "year_2010_Q3.csv",
+        "year_2010_Q2.csv",
+        "year_2002_Q2.csv",
+        "year_2024_Q4.csv",
+        "year_2010_Q1.csv",
+        "year_2000_Q4.csv",
+        "year_2002_Q1.csv",
+        "year_2012_Q4.csv",
+        "year_2024_Q1.csv"
+      ],
+      "directory_size_mb": 588.94
+    },
+    "smart_download": {
+      "csv_count": 0,
+      "json_count": 0,
+      "other_count": 1,
+      "total_files": 1,
+      "csv_files": [],
+      "directory_size_mb": 1301.69
+    },
+    "smart_download/year_2016": {
+      "csv_count": 37,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 37,
+      "csv_files": [
+        "batch_015.csv",
+        "batch_001.csv",
+        "batch_029.csv",
+        "batch_028.csv",
+        "batch_014.csv",
+        "batch_002.csv",
+        "batch_016.csv",
+        "batch_017.csv",
+        "batch_003.csv",
+        "batch_007.csv"
+      ],
+      "directory_size_mb": 57.0
+    },
+    "smart_download/year_2011": {
+      "csv_count": 28,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 28,
+      "csv_files": [
+        "batch_015.csv",
+        "batch_001.csv",
+        "batch_028.csv",
+        "batch_014.csv",
+        "batch_002.csv",
+        "batch_016.csv",
+        "batch_017.csv",
+        "batch_003.csv",
+        "batch_007.csv",
+        "batch_013.csv"
+      ],
+      "directory_size_mb": 43.83
+    },
+    "smart_download/year_2018": {
+      "csv_count": 44,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 44,
+      "csv_files": [
+        "batch_015.csv",
+        "batch_001.csv",
+        "batch_029.csv",
+        "batch_028.csv",
+        "batch_014.csv",
+        "batch_002.csv",
+        "batch_016.csv",
+        "batch_017.csv",
+        "batch_003.csv",
+        "batch_007.csv"
+      ],
+      "directory_size_mb": 69.18
+    },
+    "smart_download/year_2020": {
+      "csv_count": 51,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 51,
+      "csv_files": [
+        "batch_049.csv",
+        "batch_048.csv",
+        "batch_015.csv",
+        "batch_001.csv",
+        "batch_029.csv",
+        "batch_028.csv",
+        "batch_014.csv",
+        "batch_002.csv",
+        "batch_016.csv",
+        "batch_017.csv"
+      ],
+      "directory_size_mb": 80.09
+    },
+    "smart_download/year_2021": {
+      "csv_count": 58,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 58,
+      "csv_files": [
+        "batch_049.csv",
+        "batch_048.csv",
+        "batch_058.csv",
+        "batch_015.csv",
+        "batch_001.csv",
+        "batch_029.csv",
+        "batch_028.csv",
+        "batch_014.csv",
+        "batch_002.csv",
+        "batch_016.csv"
+      ],
+      "directory_size_mb": 91.34
+    },
+    "smart_download/year_2019": {
+      "csv_count": 46,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 46,
+      "csv_files": [
+        "batch_015.csv",
+        "batch_001.csv",
+        "batch_029.csv",
+        "batch_028.csv",
+        "batch_014.csv",
+        "batch_002.csv",
+        "batch_016.csv",
+        "batch_017.csv",
+        "batch_003.csv",
+        "batch_007.csv"
+      ],
+      "directory_size_mb": 73.59
+    },
+    "smart_download/year_2010": {
+      "csv_count": 25,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 25,
+      "csv_files": [
+        "batch_015.csv",
+        "batch_001.csv",
+        "batch_014.csv",
+        "batch_002.csv",
+        "batch_016.csv",
+        "batch_017.csv",
+        "batch_003.csv",
+        "batch_007.csv",
+        "batch_013.csv",
+        "batch_012.csv"
+      ],
+      "directory_size_mb": 37.4
+    },
+    "smart_download/year_2017": {
+      "csv_count": 42,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 42,
+      "csv_files": [
+        "batch_015.csv",
+        "batch_001.csv",
+        "batch_029.csv",
+        "batch_028.csv",
+        "batch_014.csv",
+        "batch_002.csv",
+        "batch_016.csv",
+        "batch_017.csv",
+        "batch_003.csv",
+        "batch_007.csv"
+      ],
+      "directory_size_mb": 64.76
+    },
+    "smart_download/year_2004": {
+      "csv_count": 16,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 16,
+      "csv_files": [
+        "batch_015.csv",
+        "batch_001.csv",
+        "batch_014.csv",
+        "batch_002.csv",
+        "batch_016.csv",
+        "batch_003.csv",
+        "batch_007.csv",
+        "batch_013.csv",
+        "batch_012.csv",
+        "batch_006.csv"
+      ],
+      "directory_size_mb": 24.72
+    },
+    "smart_download/year_2003": {
+      "csv_count": 15,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 15,
+      "csv_files": [
+        "batch_015.csv",
+        "batch_001.csv",
+        "batch_014.csv",
+        "batch_002.csv",
+        "batch_003.csv",
+        "batch_007.csv",
+        "batch_013.csv",
+        "batch_012.csv",
+        "batch_006.csv",
+        "batch_010.csv"
+      ],
+      "directory_size_mb": 22.13
+    },
+    "smart_download/year_2005": {
+      "csv_count": 16,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 16,
+      "csv_files": [
+        "batch_015.csv",
+        "batch_001.csv",
+        "batch_014.csv",
+        "batch_002.csv",
+        "batch_016.csv",
+        "batch_003.csv",
+        "batch_007.csv",
+        "batch_013.csv",
+        "batch_012.csv",
+        "batch_006.csv"
+      ],
+      "directory_size_mb": 25.14
+    },
+    "smart_download/year_2012": {
+      "csv_count": 30,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 30,
+      "csv_files": [
+        "batch_015.csv",
+        "batch_001.csv",
+        "batch_029.csv",
+        "batch_028.csv",
+        "batch_014.csv",
+        "batch_002.csv",
+        "batch_016.csv",
+        "batch_017.csv",
+        "batch_003.csv",
+        "batch_007.csv"
+      ],
+      "directory_size_mb": 47.18
+    },
+    "smart_download/year_2015": {
+      "csv_count": 34,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 34,
+      "csv_files": [
+        "batch_015.csv",
+        "batch_001.csv",
+        "batch_029.csv",
+        "batch_028.csv",
+        "batch_014.csv",
+        "batch_002.csv",
+        "batch_016.csv",
+        "batch_017.csv",
+        "batch_003.csv",
+        "batch_007.csv"
+      ],
+      "directory_size_mb": 54.3
+    },
+    "smart_download/year_2023": {
+      "csv_count": 67,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 67,
+      "csv_files": [
+        "batch_062.csv",
+        "batch_063.csv",
+        "batch_061.csv",
+        "batch_049.csv",
+        "batch_048.csv",
+        "batch_060.csv",
+        "batch_058.csv",
+        "batch_064.csv",
+        "batch_065.csv",
+        "batch_059.csv"
+      ],
+      "directory_size_mb": 109.02
+    },
+    "smart_download/year_2024": {
+      "csv_count": 68,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 68,
+      "csv_files": [
+        "batch_062.csv",
+        "batch_063.csv",
+        "batch_061.csv",
+        "batch_049.csv",
+        "batch_048.csv",
+        "batch_060.csv",
+        "batch_058.csv",
+        "batch_064.csv",
+        "batch_065.csv",
+        "batch_059.csv"
+      ],
+      "directory_size_mb": 112.88
+    },
+    "smart_download/year_2025": {
+      "csv_count": 69,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 69,
+      "csv_files": [
+        "batch_062.csv",
+        "batch_063.csv",
+        "batch_061.csv",
+        "batch_049.csv",
+        "batch_048.csv",
+        "batch_060.csv",
+        "batch_058.csv",
+        "batch_064.csv",
+        "batch_065.csv",
+        "batch_059.csv"
+      ],
+      "directory_size_mb": 76.9
+    },
+    "smart_download/year_2022": {
+      "csv_count": 63,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 63,
+      "csv_files": [
+        "batch_062.csv",
+        "batch_063.csv",
+        "batch_061.csv",
+        "batch_049.csv",
+        "batch_048.csv",
+        "batch_060.csv",
+        "batch_058.csv",
+        "batch_059.csv",
+        "batch_015.csv",
+        "batch_001.csv"
+      ],
+      "directory_size_mb": 100.66
+    },
+    "smart_download/year_2014": {
+      "csv_count": 31,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 31,
+      "csv_files": [
+        "batch_015.csv",
+        "batch_001.csv",
+        "batch_029.csv",
+        "batch_028.csv",
+        "batch_014.csv",
+        "batch_002.csv",
+        "batch_016.csv",
+        "batch_017.csv",
+        "batch_003.csv",
+        "batch_007.csv"
+      ],
+      "directory_size_mb": 50.11
+    },
+    "smart_download/year_2013": {
+      "csv_count": 30,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 30,
+      "csv_files": [
+        "batch_015.csv",
+        "batch_001.csv",
+        "batch_029.csv",
+        "batch_028.csv",
+        "batch_014.csv",
+        "batch_002.csv",
+        "batch_016.csv",
+        "batch_017.csv",
+        "batch_003.csv",
+        "batch_007.csv"
+      ],
+      "directory_size_mb": 47.41
+    },
+    "smart_download/year_2009": {
+      "csv_count": 21,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 21,
+      "csv_files": [
+        "batch_015.csv",
+        "batch_001.csv",
+        "batch_014.csv",
+        "batch_002.csv",
+        "batch_016.csv",
+        "batch_017.csv",
+        "batch_003.csv",
+        "batch_007.csv",
+        "batch_013.csv",
+        "batch_012.csv"
+      ],
+      "directory_size_mb": 31.31
+    },
+    "smart_download/year_2007": {
+      "csv_count": 19,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 19,
+      "csv_files": [
+        "batch_015.csv",
+        "batch_001.csv",
+        "batch_014.csv",
+        "batch_002.csv",
+        "batch_016.csv",
+        "batch_017.csv",
+        "batch_003.csv",
+        "batch_007.csv",
+        "batch_013.csv",
+        "batch_012.csv"
+      ],
+      "directory_size_mb": 27.97
+    },
+    "smart_download/year_2006": {
+      "csv_count": 17,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 17,
+      "csv_files": [
+        "batch_015.csv",
+        "batch_001.csv",
+        "batch_014.csv",
+        "batch_002.csv",
+        "batch_016.csv",
+        "batch_017.csv",
+        "batch_003.csv",
+        "batch_007.csv",
+        "batch_013.csv",
+        "batch_012.csv"
+      ],
+      "directory_size_mb": 24.45
+    },
+    "smart_download/year_2008": {
+      "csv_count": 20,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 20,
+      "csv_files": [
+        "batch_015.csv",
+        "batch_001.csv",
+        "batch_014.csv",
+        "batch_002.csv",
+        "batch_016.csv",
+        "batch_017.csv",
+        "batch_003.csv",
+        "batch_007.csv",
+        "batch_013.csv",
+        "batch_012.csv"
+      ],
+      "directory_size_mb": 30.22
+    },
+    "final_comprehensive_download": {
+      "csv_count": 0,
+      "json_count": 3,
+      "other_count": 5,
+      "total_files": 8,
+      "csv_files": [],
+      "directory_size_mb": 208260.37
+    },
+    "final_comprehensive_download/financial/fdmtbsbankalllatestget": {
+      "csv_count": 24,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 24,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2008.csv",
+        "year_2009.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2025.csv",
+        "year_2024.csv",
+        "year_2018.csv"
+      ],
+      "directory_size_mb": 1.35
+    },
+    "final_comprehensive_download/financial/fdmtisindualllatestget": {
+      "csv_count": 24,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 24,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2008.csv",
+        "year_2009.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2025.csv",
+        "year_2024.csv",
+        "year_2018.csv"
+      ],
+      "directory_size_mb": 115.07
+    },
+    "final_comprehensive_download/financial/fdmtbsindualllatestget": {
+      "csv_count": 34,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 34,
+      "csv_files": [
+        "year_2007.backup.csv",
+        "year_2002.backup.csv",
+        "year_2023.csv",
+        "year_2005.backup.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2008.csv",
+        "year_2009.csv",
+        "year_2021.csv",
+        "year_2008.backup.csv"
+      ],
+      "directory_size_mb": 201.16
+    },
+    "final_comprehensive_download/financial/fdmtisbankalllatestget": {
+      "csv_count": 24,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 24,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2008.csv",
+        "year_2009.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2025.csv",
+        "year_2024.csv",
+        "year_2018.csv"
+      ],
+      "directory_size_mb": 1.2
+    },
+    "final_comprehensive_download/financial/fdmtindipsget_enhanced": {
+      "csv_count": 5,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 5,
+      "csv_files": [
+        "2020_Q1.csv",
+        "2020_Q3.csv",
+        "2020_Q2.csv",
+        "2020_Q4.csv",
+        "2021_Q1.csv"
+      ],
+      "directory_size_mb": 79.55
+    },
+    "final_comprehensive_download/financial/fdmtindipsget": {
+      "csv_count": 24,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 24,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2008.csv",
+        "year_2009.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2025.csv",
+        "year_2024.csv",
+        "year_2018.csv"
+      ],
+      "directory_size_mb": 41.73
+    },
+    "final_comprehensive_download/financial/fdmtcfbankalllatestget": {
+      "csv_count": 24,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 24,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2008.csv",
+        "year_2009.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2025.csv",
+        "year_2024.csv",
+        "year_2018.csv"
+      ],
+      "directory_size_mb": 1.21
+    },
+    "final_comprehensive_download/financial/fdmtcfindualllatestget": {
+      "csv_count": 24,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 24,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2008.csv",
+        "year_2009.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2025.csv",
+        "year_2024.csv",
+        "year_2018.csv"
+      ],
+      "directory_size_mb": 117.35
+    },
+    "final_comprehensive_download/financial/fdmtcfalllatestget": {
+      "csv_count": 24,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 24,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2008.csv",
+        "year_2009.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2025.csv",
+        "year_2024.csv",
+        "year_2018.csv"
+      ],
+      "directory_size_mb": 119.69
+    },
+    "final_comprehensive_download/financial/fdmtderget": {
+      "csv_count": 24,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 24,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2008.csv",
+        "year_2009.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2025.csv",
+        "year_2024.csv",
+        "year_2018.csv"
+      ],
+      "directory_size_mb": 80.52
+    },
+    "final_comprehensive_download/financial/fdmtisalllatestget": {
+      "csv_count": 24,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 24,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2008.csv",
+        "year_2009.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2025.csv",
+        "year_2024.csv",
+        "year_2018.csv"
+      ],
+      "directory_size_mb": 117.3
+    },
+    "final_comprehensive_download/financial/fdmtindigrowthget": {
+      "csv_count": 18,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 18,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2008.csv",
+        "year_2009.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2025.csv",
+        "year_2024.csv",
+        "year_2018.csv"
+      ],
+      "directory_size_mb": 39.72
+    },
+    "final_comprehensive_download/financial/fdmtbsalllatestget": {
+      "csv_count": 29,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 29,
+      "csv_files": [
+        "year_2002.backup.csv",
+        "year_2023.csv",
+        "year_2005.backup.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2008.csv",
+        "year_2009.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2025.csv"
+      ],
+      "directory_size_mb": 181.61
+    },
+    "final_comprehensive_download/special_trading/mktfunddget": {
+      "csv_count": 3,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 3,
+      "csv_files": [
+        "year_2020.csv",
+        "year_2021.csv",
+        "year_2024.csv"
+      ],
+      "directory_size_mb": 0.53
+    },
+    "final_comprehensive_download/special_trading/mktconsbondpremiumget": {
+      "csv_count": 36,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 36,
+      "csv_files": [
+        "year_2021.backup.csv",
+        "year_2024.backup.csv",
+        "year_2019.backup.csv",
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2008.csv",
+        "year_2023.backup.csv",
+        "year_2009.csv",
+        "year_2021.csv"
+      ],
+      "directory_size_mb": 3637.87
+    },
+    "final_comprehensive_download/special_trading/mktbonddget": {
+      "csv_count": 3,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 3,
+      "csv_files": [
+        "year_2020.csv",
+        "year_2021.csv",
+        "year_2024.csv"
+      ],
+      "directory_size_mb": 8.8
+    },
+    "final_comprehensive_download/special_trading/mktrankinstr": {
+      "csv_count": 50,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 50,
+      "csv_files": [
+        "20140930.csv",
+        "20090331.csv",
+        "20141231.csv",
+        "20220930.csv",
+        "20100331.csv",
+        "20151231.csv",
+        "20110331.csv",
+        "20150930.csv",
+        "20050930.csv",
+        "20080331.csv"
+      ],
+      "directory_size_mb": 0.41
+    },
+    "final_comprehensive_download/special_trading/mktrankdivyieldget": {
+      "csv_count": 20,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 20,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2008.csv",
+        "year_2009.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2025.csv",
+        "year_2024.csv",
+        "year_2018.csv"
+      ],
+      "directory_size_mb": 972.44
+    },
+    "final_comprehensive_download/special_trading/fsttotalget": {
+      "csv_count": 16,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 16,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2025.csv",
+        "year_2024.csv",
+        "year_2018.csv",
+        "year_2016.csv",
+        "year_2017.csv"
+      ],
+      "directory_size_mb": 26.88
+    },
+    "final_comprehensive_download/special_trading/mktblockdget": {
+      "csv_count": 24,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 24,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2008.csv",
+        "year_2009.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2025.csv",
+        "year_2024.csv",
+        "year_2018.csv"
+      ],
+      "directory_size_mb": 49.37
+    },
+    "final_comprehensive_download/special_trading/mktranklistsalesget": {
+      "csv_count": 20,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 20,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2008.csv",
+        "year_2009.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2025.csv",
+        "year_2024.csv",
+        "year_2018.csv"
+      ],
+      "directory_size_mb": 309.48
+    },
+    "final_comprehensive_download/special_trading/equisactivityget": {
+      "csv_count": 26,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 26,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2008.csv",
+        "year_2009.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2025.csv",
+        "year_2024.csv",
+        "year_2018.csv"
+      ],
+      "directory_size_mb": 316.97
+    },
+    "final_comprehensive_download/special_trading/sechaltget": {
+      "csv_count": 23,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 23,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2008.csv",
+        "year_2009.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2025.csv",
+        "year_2024.csv",
+        "year_2018.csv"
+      ],
+      "directory_size_mb": 6.38
+    },
+    "final_comprehensive_download/special_trading/vfsttargetget": {
+      "csv_count": 1,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 1,
+      "csv_files": [
+        "static_data.csv"
+      ],
+      "directory_size_mb": 0.72
+    },
+    "final_comprehensive_download/special_trading/fstdetailget": {
+      "csv_count": 17,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 17,
+      "csv_files": [
+        "update_20250902.csv",
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2025.csv",
+        "year_2024.csv",
+        "year_2018.csv",
+        "year_2016.csv"
+      ],
+      "directory_size_mb": 694.83
+    },
+    "final_comprehensive_download/special_trading/fdmtee": {
+      "csv_count": 20,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 20,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2008.csv",
+        "year_2009.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2025.csv",
+        "year_2024.csv",
+        "year_2018.csv"
+      ],
+      "directory_size_mb": 24.42
+    },
+    "final_comprehensive_download/special_trading/mktequdstatsget": {
+      "csv_count": 16,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 16,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2025.csv",
+        "year_2024.csv",
+        "year_2018.csv",
+        "year_2016.csv",
+        "year_2017.csv"
+      ],
+      "directory_size_mb": 1.76
+    },
+    "final_comprehensive_download/special_trading/mktrankinsttrget": {
+      "csv_count": 66,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 66,
+      "csv_files": [
+        "2010_Q3.csv",
+        "2010_Q2.csv",
+        "2024_Q4.csv",
+        "2010_Q1.csv",
+        "2012_Q4.csv",
+        "2010_Q4.csv",
+        "2000_Q1.csv",
+        "2002_Q4.csv",
+        "2000_Q2.csv",
+        "2024_Q3.csv"
+      ],
+      "directory_size_mb": 0.54
+    },
+    "final_comprehensive_download/special_trading/mktlimitget": {
+      "csv_count": 19,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 19,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2008.csv",
+        "year_2009.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2025.csv",
+        "year_2024.csv",
+        "year_2018.csv"
+      ],
+      "directory_size_mb": 1058.75
+    },
+    "final_comprehensive_download/special_trading/mktoptdget": {
+      "csv_count": 3,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 3,
+      "csv_files": [
+        "year_2020.csv",
+        "year_2021.csv",
+        "year_2024.csv"
+      ],
+      "directory_size_mb": 3.9
+    },
+    "final_comprehensive_download/special_trading/mktrankliststocksget": {
+      "csv_count": 20,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 20,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2008.csv",
+        "year_2009.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2025.csv",
+        "year_2024.csv",
+        "year_2018.csv"
+      ],
+      "directory_size_mb": 33.2
+    },
+    "final_comprehensive_download/special_trading/equisparticipantqaget": {
+      "csv_count": 26,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 26,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2008.csv",
+        "year_2009.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2025.csv",
+        "year_2024.csv",
+        "year_2018.csv"
+      ],
+      "directory_size_mb": 195493.09
+    },
+    "final_comprehensive_download/special_trading/mktipocontraddaysget": {
+      "csv_count": 16,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 16,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2025.csv",
+        "year_2024.csv",
+        "year_2018.csv",
+        "year_2016.csv",
+        "year_2017.csv"
+      ],
+      "directory_size_mb": 0.32
+    },
+    "final_comprehensive_download/basic_info/secidget": {
+      "csv_count": 1,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 1,
+      "csv_files": [
+        "static_data.csv"
+      ],
+      "directory_size_mb": 9.67
+    },
+    "final_comprehensive_download/basic_info/equget": {
+      "csv_count": 1,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 1,
+      "csv_files": [
+        "static_data.csv"
+      ],
+      "directory_size_mb": 2.55
+    },
+    "final_comprehensive_download/basic_info/mktidxdget": {
+      "csv_count": 26,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 26,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2008.csv",
+        "year_2009.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2025.csv",
+        "year_2024.csv",
+        "year_2018.csv"
+      ],
+      "directory_size_mb": 401.19
+    },
+    "final_comprehensive_download/basic_info/equipoget": {
+      "csv_count": 1,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 1,
+      "csv_files": [
+        "static_data.csv"
+      ],
+      "directory_size_mb": 1.17
+    },
+    "final_comprehensive_download/basic_info/equindustryget": {
+      "csv_count": 1,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 1,
+      "csv_files": [
+        "static_data.csv"
+      ],
+      "directory_size_mb": 15.55
+    },
+    "final_comprehensive_download/basic_info/equdivget": {
+      "csv_count": 26,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 26,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2008.csv",
+        "year_2009.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2025.csv",
+        "year_2024.csv",
+        "year_2018.csv"
+      ],
+      "directory_size_mb": 11.68
+    },
+    "final_comprehensive_download/basic_info/sectypeget_enhanced": {
+      "csv_count": 1,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 1,
+      "csv_files": [
+        "snapshot.csv"
+      ],
+      "directory_size_mb": 0.04
+    },
+    "final_comprehensive_download/basic_info/equsplitsget": {
+      "csv_count": 7,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 7,
+      "csv_files": [
+        "year_2008.csv",
+        "year_2009.csv",
+        "year_2014.csv",
+        "year_2005.csv",
+        "year_2007.csv",
+        "year_2006.csv",
+        "year_2012.csv"
+      ],
+      "directory_size_mb": 0.0
+    },
+    "final_comprehensive_download/governance/equshareholdersmeetingget": {
+      "csv_count": 26,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 26,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2008.csv",
+        "year_2009.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2025.csv",
+        "year_2024.csv",
+        "year_2018.csv"
+      ],
+      "directory_size_mb": 106.3
+    },
+    "final_comprehensive_download/governance/equiposharefloatget": {
+      "csv_count": 19,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 19,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2008.csv",
+        "year_2009.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2025.csv",
+        "year_2024.csv",
+        "year_2018.csv"
+      ],
+      "directory_size_mb": 11.15
+    },
+    "final_comprehensive_download/governance/equsharesexcitget": {
+      "csv_count": 20,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 20,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2008.csv",
+        "year_2009.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2025.csv",
+        "year_2024.csv",
+        "year_2018.csv"
+      ],
+      "directory_size_mb": 34.53
+    },
+    "final_comprehensive_download/governance/equpledgeget": {
+      "csv_count": 23,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 23,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2008.csv",
+        "year_2009.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2025.csv",
+        "year_2024.csv",
+        "year_2018.csv"
+      ],
+      "directory_size_mb": 69.18
+    },
+    "final_comprehensive_download/governance/equshtenget": {
+      "csv_count": 104,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 104,
+      "csv_files": [
+        "year_2002_Q3.csv",
+        "year_2010_Q3.csv",
+        "year_2010_Q2.csv",
+        "year_2002_Q2.csv",
+        "year_2024_Q4.csv",
+        "year_2010_Q1.csv",
+        "year_2000_Q4.csv",
+        "year_2002_Q1.csv",
+        "year_2012_Q4.csv",
+        "year_2024_Q1.csv"
+      ],
+      "directory_size_mb": 1490.59
+    },
+    "final_comprehensive_download/governance/equchangeplanget": {
+      "csv_count": 15,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 15,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2025.csv",
+        "year_2024.csv",
+        "year_2018.csv",
+        "year_2016.csv",
+        "year_2017.csv"
+      ],
+      "directory_size_mb": 5.12
+    },
+    "final_comprehensive_download/governance/equfloatshtenget": {
+      "csv_count": 89,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 89,
+      "csv_files": [
+        "year_2010_Q3.csv",
+        "year_2010_Q2.csv",
+        "year_2024_Q4.csv",
+        "year_2010_Q1.csv",
+        "year_2012_Q4.csv",
+        "year_2024_Q1.csv",
+        "year_2010_Q4.csv",
+        "year_2012_Q1.csv",
+        "year_2012_Q3.csv",
+        "year_2024_Q2.csv"
+      ],
+      "directory_size_mb": 1154.14
+    },
+    "final_comprehensive_download/governance/equactualcontrollerget": {
+      "csv_count": 1,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 1,
+      "csv_files": [
+        "static_data.csv"
+      ],
+      "directory_size_mb": 50.66
+    },
+    "final_comprehensive_download/governance/equstockpledgeget": {
+      "csv_count": 12,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 12,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2025.csv",
+        "year_2024.csv",
+        "year_2018.csv",
+        "year_2016.csv",
+        "year_2017.csv"
+      ],
+      "directory_size_mb": 142.37
+    },
+    "final_comprehensive_download/governance/equallotget": {
+      "csv_count": 26,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 26,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2008.csv",
+        "year_2009.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2025.csv",
+        "year_2024.csv",
+        "year_2018.csv"
+      ],
+      "directory_size_mb": 0.09
+    },
+    "final_comprehensive_download/governance/equreformsharefloatget": {
+      "csv_count": 20,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 20,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2008.csv",
+        "year_2009.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2025.csv",
+        "year_2024.csv",
+        "year_2018.csv"
+      ],
+      "directory_size_mb": 2.48
+    },
+    "final_comprehensive_download/governance/equpartynatureget": {
+      "csv_count": 1,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 1,
+      "csv_files": [
+        "static_data.csv"
+      ],
+      "directory_size_mb": 8.38
+    },
+    "final_comprehensive_download/governance/equexecsholdingsget": {
+      "csv_count": 25,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 25,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2008.csv",
+        "year_2009.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2024.csv",
+        "year_2018.csv",
+        "year_2016.csv"
+      ],
+      "directory_size_mb": 153.53
+    },
+    "final_comprehensive_download/governance/equspopubresultget": {
+      "csv_count": 17,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 17,
+      "csv_files": [
+        "year_2020.csv",
+        "year_2008.csv",
+        "year_2009.csv",
+        "year_2019.csv",
+        "year_2002.csv",
+        "year_2003.csv",
+        "year_2001.csv",
+        "year_2014.csv",
+        "year_2000.csv",
+        "year_2004.csv"
+      ],
+      "directory_size_mb": 0.05
+    },
+    "final_comprehensive_download/governance/equallotmentsubscriptionresultsget": {
+      "csv_count": 23,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 23,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2008.csv",
+        "year_2009.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2018.csv",
+        "year_2016.csv",
+        "year_2002.csv"
+      ],
+      "directory_size_mb": 0.08
+    },
+    "final_comprehensive_download/governance/equspoget": {
+      "csv_count": 21,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 21,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2008.csv",
+        "year_2009.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2025.csv",
+        "year_2024.csv",
+        "year_2018.csv"
+      ],
+      "directory_size_mb": 11.61
+    },
+    "final_comprehensive_download/governance/equoldshofferget": {
+      "csv_count": 6,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 6,
+      "csv_files": [
+        "year_2019.csv",
+        "year_2018.csv",
+        "year_2016.csv",
+        "year_2017.csv",
+        "year_2015.csv",
+        "year_2014.csv"
+      ],
+      "directory_size_mb": 0.12
+    },
+    "final_comprehensive_download/governance/equmschangesget": {
+      "csv_count": 22,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 22,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2008.csv",
+        "year_2009.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2025.csv",
+        "year_2024.csv",
+        "year_2018.csv"
+      ],
+      "directory_size_mb": 24.1
+    },
+    "final_comprehensive_download/governance/equmanagersget": {
+      "csv_count": 1,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 1,
+      "csv_files": [
+        "static_data.csv"
+      ],
+      "directory_size_mb": 8.08
+    },
+    "final_comprehensive_download/governance/equrelatedtransactionget": {
+      "csv_count": 26,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 26,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2008.csv",
+        "year_2009.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2025.csv",
+        "year_2024.csv",
+        "year_2018.csv"
+      ],
+      "directory_size_mb": 106.19
+    },
+    "final_comprehensive_download/governance/equsharesfloatget": {
+      "csv_count": 26,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 26,
+      "csv_files": [
+        "year_2023.csv",
+        "year_2022.csv",
+        "year_2020.csv",
+        "year_2008.csv",
+        "year_2009.csv",
+        "year_2021.csv",
+        "year_2019.csv",
+        "year_2025.csv",
+        "year_2024.csv",
+        "year_2018.csv"
+      ],
+      "directory_size_mb": 2.81
+    },
+    "final_comprehensive_download/governance/equshareholdernumget": {
+      "csv_count": 104,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 104,
+      "csv_files": [
+        "year_2002_Q3.csv",
+        "year_2010_Q3.csv",
+        "year_2010_Q2.csv",
+        "year_2002_Q2.csv",
+        "year_2024_Q4.csv",
+        "year_2010_Q1.csv",
+        "year_2000_Q4.csv",
+        "year_2002_Q1.csv",
+        "year_2012_Q4.csv",
+        "year_2024_Q1.csv"
+      ],
+      "directory_size_mb": 659.95
+    },
+    "final_comprehensive_download/additional_apis/sec_type_region": {
+      "csv_count": 1,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 1,
+      "csv_files": [
+        "snapshot.csv"
+      ],
+      "directory_size_mb": 0.02
+    },
+    "final_comprehensive_download/additional_apis/mktstockfactorsonedayget": {
+      "csv_count": 1,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 1,
+      "csv_files": [
+        "year_2020.csv"
+      ],
+      "directory_size_mb": 7.21
+    },
+    "final_comprehensive_download/additional_apis/fst_total": {
+      "csv_count": 23,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 23,
+      "csv_files": [
+        "2024_Q4.csv",
+        "2024_Q1.csv",
+        "2024_Q2.csv",
+        "2024_Q3.csv",
+        "2022_Q4.csv",
+        "2020_Q1.csv",
+        "2020_Q3.csv",
+        "2020_Q2.csv",
+        "2022_Q3.csv",
+        "2022_Q2.csv"
+      ],
+      "directory_size_mb": 1.42
+    },
+    "final_comprehensive_download/additional_apis/equ_fancy_factors_lite": {
+      "csv_count": 22,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 22,
+      "csv_files": [
+        "2024_Q4.csv",
+        "2024_Q1.csv",
+        "2024_Q2.csv",
+        "2024_Q3.csv",
+        "2022_Q4.csv",
+        "2020_Q1.csv",
+        "2020_Q3.csv",
+        "2020_Q2.csv",
+        "2022_Q3.csv",
+        "2022_Q2.csv"
+      ],
+      "directory_size_mb": 18.9
+    },
+    "final_comprehensive_download/additional_apis/fst_detail": {
+      "csv_count": 17,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 17,
+      "csv_files": [
+        "2024_Q4.csv",
+        "2024_Q3.csv",
+        "2020_Q1.csv",
+        "2020_Q3.csv",
+        "2020_Q2.csv",
+        "2022_Q3.csv",
+        "2022_Q2.csv",
+        "2022_Q1.csv",
+        "2020_Q4.csv",
+        "2025_Q2.csv"
+      ],
+      "directory_size_mb": 6.12
+    },
+    "final_comprehensive_download/additional_apis/sec_type": {
+      "csv_count": 1,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 1,
+      "csv_files": [
+        "snapshot.csv"
+      ],
+      "directory_size_mb": 0.04
+    },
+    "final_comprehensive_download/additional_apis/industry": {
+      "csv_count": 1,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 1,
+      "csv_files": [
+        "snapshot.csv"
+      ],
+      "directory_size_mb": 0.36
+    },
+    "final_comprehensive_download/additional_apis/sec_type_rel": {
+      "csv_count": 1,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 1,
+      "csv_files": [
+        "snapshot.csv"
+      ],
+      "directory_size_mb": 4.52
+    },
+    "cache/sqlite": {
+      "csv_count": 0,
+      "json_count": 0,
+      "other_count": 1,
+      "total_files": 1,
+      "csv_files": [],
+      "directory_size_mb": 0.02
+    },
+    "test_api_download": {
+      "csv_count": 5,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 5,
+      "csv_files": [
+        "fsttotalget_test.csv",
+        "mktidxdget_test.csv",
+        "equshareholdernumget_test.csv",
+        "equget_test.csv",
+        "mktblockdget_test.csv"
+      ],
+      "directory_size_mb": 0.08
+    },
+    "comprehensive_api_download": {
+      "csv_count": 0,
+      "json_count": 0,
+      "other_count": 1,
+      "total_files": 1,
+      "csv_files": [],
+      "directory_size_mb": 0.0
+    },
+    "priority_download": {
+      "csv_count": 0,
+      "json_count": 0,
+      "other_count": 1,
+      "total_files": 1,
+      "csv_files": [],
+      "directory_size_mb": 3095.93
+    },
+    "priority_download/market_data/adj_factor": {
+      "csv_count": 713,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 713,
+      "csv_files": [
+        "2022_batch_039.csv",
+        "2022_batch_011.csv",
+        "2022_batch_005.csv",
+        "2023_batch_037.csv",
+        "2023_batch_023.csv",
+        "2020_batch_032.csv",
+        "2020_batch_026.csv",
+        "2021_batch_028.csv",
+        "2008_batch_004.csv",
+        "2021_batch_014.csv"
+      ],
+      "directory_size_mb": 2.12
+    },
+    "priority_download/market_data/daily": {
+      "csv_count": 713,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 713,
+      "csv_files": [
+        "2022_batch_039.csv",
+        "2022_batch_011.csv",
+        "2022_batch_005.csv",
+        "2023_batch_037.csv",
+        "2023_batch_023.csv",
+        "2020_batch_032.csv",
+        "2020_batch_026.csv",
+        "2021_batch_028.csv",
+        "2008_batch_004.csv",
+        "2021_batch_014.csv"
+      ],
+      "directory_size_mb": 1361.95
+    },
+    "priority_download/market_data/monthly": {
+      "csv_count": 713,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 713,
+      "csv_files": [
+        "2022_batch_039.csv",
+        "2022_batch_011.csv",
+        "2022_batch_005.csv",
+        "2023_batch_037.csv",
+        "2023_batch_023.csv",
+        "2020_batch_032.csv",
+        "2020_batch_026.csv",
+        "2021_batch_028.csv",
+        "2008_batch_004.csv",
+        "2021_batch_014.csv"
+      ],
+      "directory_size_mb": 49.97
+    },
+    "priority_download/market_data/weekly": {
+      "csv_count": 713,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 713,
+      "csv_files": [
+        "2022_batch_039.csv",
+        "2022_batch_011.csv",
+        "2022_batch_005.csv",
+        "2023_batch_037.csv",
+        "2023_batch_023.csv",
+        "2020_batch_032.csv",
+        "2020_batch_026.csv",
+        "2021_batch_028.csv",
+        "2008_batch_004.csv",
+        "2021_batch_014.csv"
+      ],
+      "directory_size_mb": 209.06
+    },
+    "priority_download/market_data/adj_daily": {
+      "csv_count": 713,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 713,
+      "csv_files": [
+        "2022_batch_039.csv",
+        "2022_batch_011.csv",
+        "2022_batch_005.csv",
+        "2023_batch_037.csv",
+        "2023_batch_023.csv",
+        "2020_batch_032.csv",
+        "2020_batch_026.csv",
+        "2021_batch_028.csv",
+        "2008_batch_004.csv",
+        "2021_batch_014.csv"
+      ],
+      "directory_size_mb": 1040.05
+    },
+    "priority_download/flow_data/industry_flow": {
+      "csv_count": 17,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 17,
+      "csv_files": [
+        "2017_data.csv",
+        "2016_data.csv",
+        "2023_data.csv",
+        "2022_data.csv",
+        "2010_data.csv",
+        "2011_data.csv",
+        "2024_data.csv",
+        "2025_data.csv",
+        "2020_data.csv",
+        "2021_data.csv"
+      ],
+      "directory_size_mb": 55.66
+    },
+    "priority_download/flow_data/stock_flow": {
+      "csv_count": 594,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 594,
+      "csv_files": [
+        "2022_batch_039.csv",
+        "2022_batch_011.csv",
+        "2022_batch_005.csv",
+        "2023_batch_037.csv",
+        "2023_batch_023.csv",
+        "2020_batch_032.csv",
+        "2020_batch_026.csv",
+        "2021_batch_028.csv",
+        "2021_batch_014.csv",
+        "2024_batch_027.csv"
+      ],
+      "directory_size_mb": 376.41
+    },
+    "historical_download": {
+      "csv_count": 1,
+      "json_count": 0,
+      "other_count": 1,
+      "total_files": 2,
+      "csv_files": [
+        "stock_universe.csv"
+      ],
+      "directory_size_mb": 1384.75
+    },
+    "historical_download/basics": {
+      "csv_count": 4,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 4,
+      "csv_files": [
+        "EquGet.csv",
+        "EquIndustryGet.csv",
+        "EquIPOGet.csv",
+        "EquDivGet.csv"
+      ],
+      "directory_size_mb": 24.41
+    },
+    "historical_download/market_data/year_2016": {
+      "csv_count": 73,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 73,
+      "csv_files": [
+        "batch_089.csv",
+        "batch_076.csv",
+        "batch_062.csv",
+        "batch_063.csv",
+        "batch_077.csv",
+        "batch_088.csv",
+        "batch_061.csv",
+        "batch_075.csv",
+        "batch_074.csv",
+        "batch_060.csv"
+      ],
+      "directory_size_mb": 56.81
+    },
+    "historical_download/market_data/year_2011": {
+      "csv_count": 52,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 52,
+      "csv_files": [
+        "batch_076.csv",
+        "batch_062.csv",
+        "batch_063.csv",
+        "batch_077.csv",
+        "batch_061.csv",
+        "batch_075.csv",
+        "batch_074.csv",
+        "batch_060.csv",
+        "batch_064.csv",
+        "batch_070.csv"
+      ],
+      "directory_size_mb": 43.76
+    },
+    "historical_download/market_data/year_2018": {
+      "csv_count": 78,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 78,
+      "csv_files": [
+        "batch_089.csv",
+        "batch_076.csv",
+        "batch_062.csv",
+        "batch_063.csv",
+        "batch_077.csv",
+        "batch_088.csv",
+        "batch_061.csv",
+        "batch_075.csv",
+        "batch_074.csv",
+        "batch_060.csv"
+      ],
+      "directory_size_mb": 69.02
+    },
+    "historical_download/market_data/year_2020": {
+      "csv_count": 100,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 100,
+      "csv_files": [
+        "batch_089.csv",
+        "batch_076.csv",
+        "batch_062.csv",
+        "batch_102.csv",
+        "batch_103.csv",
+        "batch_063.csv",
+        "batch_077.csv",
+        "batch_088.csv",
+        "batch_061.csv",
+        "batch_075.csv"
+      ],
+      "directory_size_mb": 79.96
+    },
+    "historical_download/market_data/year_2021": {
+      "csv_count": 106,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 106,
+      "csv_files": [
+        "batch_089.csv",
+        "batch_076.csv",
+        "batch_062.csv",
+        "batch_102.csv",
+        "batch_103.csv",
+        "batch_063.csv",
+        "batch_077.csv",
+        "batch_088.csv",
+        "batch_061.csv",
+        "batch_075.csv"
+      ],
+      "directory_size_mb": 91.24
+    },
+    "historical_download/market_data/year_2019": {
+      "csv_count": 88,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 88,
+      "csv_files": [
+        "batch_089.csv",
+        "batch_076.csv",
+        "batch_062.csv",
+        "batch_063.csv",
+        "batch_077.csv",
+        "batch_088.csv",
+        "batch_061.csv",
+        "batch_075.csv",
+        "batch_100.csv",
+        "batch_074.csv"
+      ],
+      "directory_size_mb": 73.28
+    },
+    "historical_download/market_data/year_2010": {
+      "csv_count": 48,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 48,
+      "csv_files": [
+        "batch_076.csv",
+        "batch_062.csv",
+        "batch_063.csv",
+        "batch_077.csv",
+        "batch_061.csv",
+        "batch_075.csv",
+        "batch_074.csv",
+        "batch_060.csv",
+        "batch_064.csv",
+        "batch_070.csv"
+      ],
+      "directory_size_mb": 37.39
+    },
+    "historical_download/market_data/year_2017": {
+      "csv_count": 78,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 78,
+      "csv_files": [
+        "batch_089.csv",
+        "batch_076.csv",
+        "batch_062.csv",
+        "batch_063.csv",
+        "batch_077.csv",
+        "batch_088.csv",
+        "batch_061.csv",
+        "batch_075.csv",
+        "batch_074.csv",
+        "batch_060.csv"
+      ],
+      "directory_size_mb": 64.64
+    },
+    "historical_download/market_data/year_2004": {
+      "csv_count": 32,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 32,
+      "csv_files": [
+        "batch_062.csv",
+        "batch_063.csv",
+        "batch_077.csv",
+        "batch_061.csv",
+        "batch_074.csv",
+        "batch_060.csv",
+        "batch_064.csv",
+        "batch_070.csv",
+        "batch_110.csv",
+        "batch_071.csv"
+      ],
+      "directory_size_mb": 24.67
+    },
+    "historical_download/market_data/year_2003": {
+      "csv_count": 30,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 30,
+      "csv_files": [
+        "batch_062.csv",
+        "batch_063.csv",
+        "batch_077.csv",
+        "batch_061.csv",
+        "batch_060.csv",
+        "batch_064.csv",
+        "batch_070.csv",
+        "batch_110.csv",
+        "batch_071.csv",
+        "batch_065.csv"
+      ],
+      "directory_size_mb": 22.05
+    },
+    "historical_download/market_data/year_2002": {
+      "csv_count": 30,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 30,
+      "csv_files": [
+        "batch_062.csv",
+        "batch_063.csv",
+        "batch_077.csv",
+        "batch_061.csv",
+        "batch_060.csv",
+        "batch_064.csv",
+        "batch_070.csv",
+        "batch_110.csv",
+        "batch_071.csv",
+        "batch_065.csv"
+      ],
+      "directory_size_mb": 21.22
+    },
+    "historical_download/market_data/year_2005": {
+      "csv_count": 32,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 32,
+      "csv_files": [
+        "batch_062.csv",
+        "batch_063.csv",
+        "batch_077.csv",
+        "batch_061.csv",
+        "batch_074.csv",
+        "batch_060.csv",
+        "batch_064.csv",
+        "batch_070.csv",
+        "batch_110.csv",
+        "batch_071.csv"
+      ],
+      "directory_size_mb": 25.12
+    },
+    "historical_download/market_data/year_2012": {
+      "csv_count": 61,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 61,
+      "csv_files": [
+        "batch_076.csv",
+        "batch_062.csv",
+        "batch_063.csv",
+        "batch_077.csv",
+        "batch_088.csv",
+        "batch_061.csv",
+        "batch_075.csv",
+        "batch_074.csv",
+        "batch_060.csv",
+        "batch_064.csv"
+      ],
+      "directory_size_mb": 47.16
+    },
+    "historical_download/market_data/year_2015": {
+      "csv_count": 70,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 70,
+      "csv_files": [
+        "batch_089.csv",
+        "batch_076.csv",
+        "batch_062.csv",
+        "batch_063.csv",
+        "batch_077.csv",
+        "batch_088.csv",
+        "batch_061.csv",
+        "batch_075.csv",
+        "batch_074.csv",
+        "batch_060.csv"
+      ],
+      "directory_size_mb": 54.25
+    },
+    "historical_download/market_data/year_2023": {
+      "csv_count": 110,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 110,
+      "csv_files": [
+        "batch_089.csv",
+        "batch_076.csv",
+        "batch_062.csv",
+        "batch_102.csv",
+        "batch_103.csv",
+        "batch_063.csv",
+        "batch_077.csv",
+        "batch_088.csv",
+        "batch_061.csv",
+        "batch_075.csv"
+      ],
+      "directory_size_mb": 108.95
+    },
+    "historical_download/market_data/year_2024": {
+      "csv_count": 111,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 111,
+      "csv_files": [
+        "batch_089.csv",
+        "batch_076.csv",
+        "batch_062.csv",
+        "batch_102.csv",
+        "batch_103.csv",
+        "batch_063.csv",
+        "batch_077.csv",
+        "batch_088.csv",
+        "batch_061.csv",
+        "batch_075.csv"
+      ],
+      "directory_size_mb": 112.75
+    },
+    "historical_download/market_data/year_2025": {
+      "csv_count": 111,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 111,
+      "csv_files": [
+        "batch_089.csv",
+        "batch_076.csv",
+        "batch_062.csv",
+        "batch_102.csv",
+        "batch_103.csv",
+        "batch_063.csv",
+        "batch_077.csv",
+        "batch_088.csv",
+        "batch_061.csv",
+        "batch_075.csv"
+      ],
+      "directory_size_mb": 76.83
+    },
+    "historical_download/market_data/year_2022": {
+      "csv_count": 109,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 109,
+      "csv_files": [
+        "batch_089.csv",
+        "batch_076.csv",
+        "batch_062.csv",
+        "batch_102.csv",
+        "batch_103.csv",
+        "batch_063.csv",
+        "batch_077.csv",
+        "batch_088.csv",
+        "batch_061.csv",
+        "batch_075.csv"
+      ],
+      "directory_size_mb": 100.6
+    },
+    "historical_download/market_data/year_2014": {
+      "csv_count": 69,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 69,
+      "csv_files": [
+        "batch_089.csv",
+        "batch_076.csv",
+        "batch_062.csv",
+        "batch_063.csv",
+        "batch_077.csv",
+        "batch_088.csv",
+        "batch_061.csv",
+        "batch_075.csv",
+        "batch_074.csv",
+        "batch_060.csv"
+      ],
+      "directory_size_mb": 50.11
+    },
+    "historical_download/market_data/year_2013": {
+      "csv_count": 61,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 61,
+      "csv_files": [
+        "batch_076.csv",
+        "batch_062.csv",
+        "batch_063.csv",
+        "batch_077.csv",
+        "batch_088.csv",
+        "batch_061.csv",
+        "batch_075.csv",
+        "batch_074.csv",
+        "batch_060.csv",
+        "batch_064.csv"
+      ],
+      "directory_size_mb": 47.41
+    },
+    "historical_download/market_data/year_2009": {
+      "csv_count": 42,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 42,
+      "csv_files": [
+        "batch_076.csv",
+        "batch_062.csv",
+        "batch_063.csv",
+        "batch_077.csv",
+        "batch_061.csv",
+        "batch_075.csv",
+        "batch_074.csv",
+        "batch_060.csv",
+        "batch_064.csv",
+        "batch_070.csv"
+      ],
+      "directory_size_mb": 31.31
+    },
+    "historical_download/market_data/year_2000": {
+      "csv_count": 29,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 29,
+      "csv_files": [
+        "batch_062.csv",
+        "batch_063.csv",
+        "batch_077.csv",
+        "batch_061.csv",
+        "batch_060.csv",
+        "batch_064.csv",
+        "batch_070.csv",
+        "batch_110.csv",
+        "batch_071.csv",
+        "batch_065.csv"
+      ],
+      "directory_size_mb": 17.84
+    },
+    "historical_download/market_data/year_2007": {
+      "csv_count": 39,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 39,
+      "csv_files": [
+        "batch_076.csv",
+        "batch_062.csv",
+        "batch_063.csv",
+        "batch_077.csv",
+        "batch_061.csv",
+        "batch_075.csv",
+        "batch_074.csv",
+        "batch_060.csv",
+        "batch_064.csv",
+        "batch_070.csv"
+      ],
+      "directory_size_mb": 27.96
+    },
+    "historical_download/market_data/year_2006": {
+      "csv_count": 36,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 36,
+      "csv_files": [
+        "batch_076.csv",
+        "batch_062.csv",
+        "batch_063.csv",
+        "batch_077.csv",
+        "batch_061.csv",
+        "batch_075.csv",
+        "batch_074.csv",
+        "batch_060.csv",
+        "batch_064.csv",
+        "batch_070.csv"
+      ],
+      "directory_size_mb": 24.46
+    },
+    "historical_download/market_data/year_2001": {
+      "csv_count": 30,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 30,
+      "csv_files": [
+        "batch_062.csv",
+        "batch_063.csv",
+        "batch_077.csv",
+        "batch_061.csv",
+        "batch_060.csv",
+        "batch_064.csv",
+        "batch_070.csv",
+        "batch_110.csv",
+        "batch_071.csv",
+        "batch_065.csv"
+      ],
+      "directory_size_mb": 20.7
+    },
+    "historical_download/market_data/year_2008": {
+      "csv_count": 40,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 40,
+      "csv_files": [
+        "batch_076.csv",
+        "batch_062.csv",
+        "batch_063.csv",
+        "batch_077.csv",
+        "batch_061.csv",
+        "batch_075.csv",
+        "batch_074.csv",
+        "batch_060.csv",
+        "batch_064.csv",
+        "batch_070.csv"
+      ],
+      "directory_size_mb": 30.19
+    },
+    "comprehensive_complete": {
+      "csv_count": 0,
+      "json_count": 1,
+      "other_count": 0,
+      "total_files": 1,
+      "csv_files": [],
+      "directory_size_mb": 51.02
+    },
+    "comprehensive_complete/weekly_adj/stocks": {
+      "csv_count": 24,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 24,
+      "csv_files": [
+        "000017_XSHE.csv",
+        "000016_XSHE.csv",
+        "000023_XSHE.csv",
+        "000022_XSHE.csv",
+        "000001_XSHE.csv",
+        "000007_XSHE.csv",
+        "000006_XSHE.csv",
+        "000010_XSHE.csv",
+        "000011_XSHE.csv",
+        "000024_XSHE.csv"
+      ],
+      "directory_size_mb": 4.5
+    },
+    "comprehensive_complete/monthly_adj/stocks": {
+      "csv_count": 23,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 23,
+      "csv_files": [
+        "000017_XSHE.csv",
+        "000016_XSHE.csv",
+        "000023_XSHE.csv",
+        "000022_XSHE.csv",
+        "000001_XSHE.csv",
+        "000007_XSHE.csv",
+        "000006_XSHE.csv",
+        "000010_XSHE.csv",
+        "000011_XSHE.csv",
+        "000009_XSHE.csv"
+      ],
+      "directory_size_mb": 1.25
+    },
+    "comprehensive_complete/daily_adj/stocks": {
+      "csv_count": 24,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 24,
+      "csv_files": [
+        "000017_XSHE.csv",
+        "000016_XSHE.csv",
+        "000023_XSHE.csv",
+        "000022_XSHE.csv",
+        "000001_XSHE.csv",
+        "000007_XSHE.csv",
+        "000006_XSHE.csv",
+        "000010_XSHE.csv",
+        "000011_XSHE.csv",
+        "000024_XSHE.csv"
+      ],
+      "directory_size_mb": 18.55
+    },
+    "comprehensive_complete/daily/stocks": {
+      "csv_count": 24,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 24,
+      "csv_files": [
+        "000017_XSHE.csv",
+        "000016_XSHE.csv",
+        "000023_XSHE.csv",
+        "000022_XSHE.csv",
+        "000001_XSHE.csv",
+        "000007_XSHE.csv",
+        "000006_XSHE.csv",
+        "000010_XSHE.csv",
+        "000011_XSHE.csv",
+        "000024_XSHE.csv"
+      ],
+      "directory_size_mb": 21.21
+    },
+    "comprehensive_complete/monthly/stocks": {
+      "csv_count": 22,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 22,
+      "csv_files": [
+        "000017_XSHE.csv",
+        "000016_XSHE.csv",
+        "000023_XSHE.csv",
+        "000001_XSHE.csv",
+        "000007_XSHE.csv",
+        "000006_XSHE.csv",
+        "000010_XSHE.csv",
+        "000011_XSHE.csv",
+        "000009_XSHE.csv",
+        "000008_XSHE.csv"
+      ],
+      "directory_size_mb": 1.18
+    },
+    "comprehensive_complete/weekly/stocks": {
+      "csv_count": 23,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 23,
+      "csv_files": [
+        "000017_XSHE.csv",
+        "000016_XSHE.csv",
+        "000023_XSHE.csv",
+        "000001_XSHE.csv",
+        "000007_XSHE.csv",
+        "000006_XSHE.csv",
+        "000010_XSHE.csv",
+        "000011_XSHE.csv",
+        "000024_XSHE.csv",
+        "000009_XSHE.csv"
+      ],
+      "directory_size_mb": 4.24
+    },
+    "realistic_complete/daily_adj/stocks": {
+      "csv_count": 8,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 8,
+      "csv_files": [
+        "600654_XSHG.csv",
+        "000001_XSHE.csv",
+        "600601_XSHG.csv",
+        "600653_XSHG.csv",
+        "600602_XSHG.csv",
+        "000002_XSHE.csv",
+        "600651_XSHG.csv",
+        "000004_XSHE.csv"
+      ],
+      "directory_size_mb": 7.24
+    },
+    "realistic_complete/daily/stocks": {
+      "csv_count": 8,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 8,
+      "csv_files": [
+        "600654_XSHG.csv",
+        "000001_XSHE.csv",
+        "600601_XSHG.csv",
+        "600653_XSHG.csv",
+        "600602_XSHG.csv",
+        "000002_XSHE.csv",
+        "600651_XSHG.csv",
+        "000004_XSHE.csv"
+      ],
+      "directory_size_mb": 8.26
+    },
+    "metadata": {
+      "csv_count": 0,
+      "json_count": 4,
+      "other_count": 0,
+      "total_files": 4,
+      "csv_files": [],
+      "directory_size_mb": 0.07
+    },
+    "raw/daily": {
+      "csv_count": 5152,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 5152,
+      "csv_files": [
+        "300268.csv",
+        "600935.csv",
+        "301176.csv",
+        "603596.csv",
+        "301162.csv",
+        "300254.csv",
+        "600909.csv",
+        "300532.csv",
+        "688599.csv",
+        "300240.csv"
+      ],
+      "directory_size_mb": 858.86
+    },
+    "csv_complete": {
+      "csv_count": 1,
+      "json_count": 1,
+      "other_count": 0,
+      "total_files": 2,
+      "csv_files": [
+        "a_stock_list.csv"
+      ],
+      "directory_size_mb": 4046.31
+    },
+    "csv_complete/daily/stocks": {
+      "csv_count": 3386,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 3386,
+      "csv_files": [
+        "002182_XSHE.csv",
+        "600300_XSHG.csv",
+        "600166_XSHG.csv",
+        "301358_XSHE.csv",
+        "300190_XSHE.csv",
+        "600167_XSHG.csv",
+        "301359_XSHE.csv",
+        "002183_XSHE.csv",
+        "600301_XSHG.csv",
+        "300191_XSHE.csv"
+      ],
+      "directory_size_mb": 1892.47
+    },
+    "csv_complete/daily/yearly/year_2016": {
+      "csv_count": 2169,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 2169,
+      "csv_files": [
+        "002182_XSHE.csv",
+        "600300_XSHG.csv",
+        "600166_XSHG.csv",
+        "300190_XSHE.csv",
+        "600167_XSHG.csv",
+        "002183_XSHE.csv",
+        "600301_XSHG.csv",
+        "300191_XSHE.csv",
+        "200530_XSHE.csv",
+        "002018_XSHE.csv"
+      ],
+      "directory_size_mb": 91.34
+    },
+    "csv_complete/daily/yearly/year_2011": {
+      "csv_count": 1719,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 1719,
+      "csv_files": [
+        "002182_XSHE.csv",
+        "600300_XSHG.csv",
+        "600166_XSHG.csv",
+        "300190_XSHE.csv",
+        "600167_XSHG.csv",
+        "002183_XSHE.csv",
+        "600301_XSHG.csv",
+        "300191_XSHE.csv",
+        "200530_XSHE.csv",
+        "002018_XSHE.csv"
+      ],
+      "directory_size_mb": 69.96
+    },
+    "csv_complete/daily/yearly/year_2018": {
+      "csv_count": 2436,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 2436,
+      "csv_files": [
+        "002182_XSHE.csv",
+        "600300_XSHG.csv",
+        "600166_XSHG.csv",
+        "300190_XSHE.csv",
+        "600167_XSHG.csv",
+        "002183_XSHE.csv",
+        "600301_XSHG.csv",
+        "300191_XSHE.csv",
+        "300738_XSHE.csv",
+        "200530_XSHE.csv"
+      ],
+      "directory_size_mb": 103.59
+    },
+    "csv_complete/daily/yearly/year_2020": {
+      "csv_count": 2660,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 2660,
+      "csv_files": [
+        "002182_XSHE.csv",
+        "600300_XSHG.csv",
+        "600166_XSHG.csv",
+        "300190_XSHE.csv",
+        "600167_XSHG.csv",
+        "002183_XSHE.csv",
+        "600301_XSHG.csv",
+        "300191_XSHE.csv",
+        "300738_XSHE.csv",
+        "200530_XSHE.csv"
+      ],
+      "directory_size_mb": 110.99
+    },
+    "csv_complete/daily/yearly/year_2021": {
+      "csv_count": 2877,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 2877,
+      "csv_files": [
+        "002182_XSHE.csv",
+        "600300_XSHG.csv",
+        "600166_XSHG.csv",
+        "300190_XSHE.csv",
+        "600167_XSHG.csv",
+        "002183_XSHE.csv",
+        "600301_XSHG.csv",
+        "300191_XSHE.csv",
+        "300738_XSHE.csv",
+        "200530_XSHE.csv"
+      ],
+      "directory_size_mb": 119.45
+    },
+    "csv_complete/daily/yearly/year_2019": {
+      "csv_count": 2507,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 2507,
+      "csv_files": [
+        "002182_XSHE.csv",
+        "600300_XSHG.csv",
+        "600166_XSHG.csv",
+        "300190_XSHE.csv",
+        "600167_XSHG.csv",
+        "002183_XSHE.csv",
+        "600301_XSHG.csv",
+        "300191_XSHE.csv",
+        "300738_XSHE.csv",
+        "200530_XSHE.csv"
+      ],
+      "directory_size_mb": 106.77
+    },
+    "csv_complete/daily/yearly/year_2010": {
+      "csv_count": 1477,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 1477,
+      "csv_files": [
+        "002182_XSHE.csv",
+        "600300_XSHG.csv",
+        "600166_XSHG.csv",
+        "600167_XSHG.csv",
+        "002183_XSHE.csv",
+        "600301_XSHG.csv",
+        "200530_XSHE.csv",
+        "002018_XSHE.csv",
+        "002019_XSHE.csv",
+        "600208_XSHG.csv"
+      ],
+      "directory_size_mb": 56.99
+    },
+    "csv_complete/daily/yearly/year_2017": {
+      "csv_count": 2393,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 2393,
+      "csv_files": [
+        "002182_XSHE.csv",
+        "600300_XSHG.csv",
+        "600166_XSHG.csv",
+        "300190_XSHE.csv",
+        "600167_XSHG.csv",
+        "002183_XSHE.csv",
+        "600301_XSHG.csv",
+        "300191_XSHE.csv",
+        "200530_XSHE.csv",
+        "002018_XSHE.csv"
+      ],
+      "directory_size_mb": 99.75
+    },
+    "csv_complete/daily/yearly/year_2004": {
+      "csv_count": 859,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 859,
+      "csv_files": [
+        "600300_XSHG.csv",
+        "600166_XSHG.csv",
+        "600167_XSHG.csv",
+        "600301_XSHG.csv",
+        "200530_XSHE.csv",
+        "002018_XSHE.csv",
+        "002019_XSHE.csv",
+        "600208_XSHG.csv",
+        "600209_XSHG.csv",
+        "000543_XSHE.csv"
+      ],
+      "directory_size_mb": 32.12
+    },
+    "csv_complete/daily/yearly/year_2003": {
+      "csv_count": 817,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 817,
+      "csv_files": [
+        "600300_XSHG.csv",
+        "600166_XSHG.csv",
+        "600167_XSHG.csv",
+        "600301_XSHG.csv",
+        "200530_XSHE.csv",
+        "600208_XSHG.csv",
+        "600209_XSHG.csv",
+        "000543_XSHE.csv",
+        "000725_XSHE.csv",
+        "000542_XSHE.csv"
+      ],
+      "directory_size_mb": 29.86
+    },
+    "csv_complete/daily/yearly/year_2002": {
+      "csv_count": 812,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 812,
+      "csv_files": [
+        "600300_XSHG.csv",
+        "600166_XSHG.csv",
+        "600167_XSHG.csv",
+        "600301_XSHG.csv",
+        "200530_XSHE.csv",
+        "600208_XSHG.csv",
+        "600209_XSHG.csv",
+        "000543_XSHE.csv",
+        "000725_XSHE.csv",
+        "000542_XSHE.csv"
+      ],
+      "directory_size_mb": 29.61
+    },
+    "csv_complete/daily/yearly/year_2005": {
+      "csv_count": 865,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 865,
+      "csv_files": [
+        "600300_XSHG.csv",
+        "600166_XSHG.csv",
+        "600167_XSHG.csv",
+        "600301_XSHG.csv",
+        "200530_XSHE.csv",
+        "002018_XSHE.csv",
+        "002019_XSHE.csv",
+        "600208_XSHG.csv",
+        "600209_XSHG.csv",
+        "000543_XSHE.csv"
+      ],
+      "directory_size_mb": 33.07
+    },
+    "csv_complete/daily/yearly/year_2012": {
+      "csv_count": 1846,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 1846,
+      "csv_files": [
+        "002182_XSHE.csv",
+        "600300_XSHG.csv",
+        "600166_XSHG.csv",
+        "300190_XSHE.csv",
+        "600167_XSHG.csv",
+        "002183_XSHE.csv",
+        "600301_XSHG.csv",
+        "300191_XSHE.csv",
+        "200530_XSHE.csv",
+        "002018_XSHE.csv"
+      ],
+      "directory_size_mb": 77.05
+    },
+    "csv_complete/daily/yearly/year_2015": {
+      "csv_count": 2051,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 2051,
+      "csv_files": [
+        "002182_XSHE.csv",
+        "600300_XSHG.csv",
+        "600166_XSHG.csv",
+        "300190_XSHE.csv",
+        "600167_XSHG.csv",
+        "002183_XSHE.csv",
+        "600301_XSHG.csv",
+        "300191_XSHE.csv",
+        "200530_XSHE.csv",
+        "002018_XSHE.csv"
+      ],
+      "directory_size_mb": 86.79
+    },
+    "csv_complete/daily/yearly/year_2023": {
+      "csv_count": 3154,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 3154,
+      "csv_files": [
+        "002182_XSHE.csv",
+        "600300_XSHG.csv",
+        "600166_XSHG.csv",
+        "301358_XSHE.csv",
+        "300190_XSHE.csv",
+        "600167_XSHG.csv",
+        "301359_XSHE.csv",
+        "002183_XSHE.csv",
+        "600301_XSHG.csv",
+        "300191_XSHE.csv"
+      ],
+      "directory_size_mb": 133.13
+    },
+    "csv_complete/daily/yearly/year_2024": {
+      "csv_count": 3162,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 3162,
+      "csv_files": [
+        "002182_XSHE.csv",
+        "600300_XSHG.csv",
+        "600166_XSHG.csv",
+        "301358_XSHE.csv",
+        "300190_XSHE.csv",
+        "600167_XSHG.csv",
+        "301359_XSHE.csv",
+        "002183_XSHE.csv",
+        "600301_XSHG.csv",
+        "300191_XSHE.csv"
+      ],
+      "directory_size_mb": 130.94
+    },
+    "csv_complete/daily/yearly/year_2025": {
+      "csv_count": 2892,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 2892,
+      "csv_files": [
+        "002182_XSHE.csv",
+        "600300_XSHG.csv",
+        "600166_XSHG.csv",
+        "301358_XSHE.csv",
+        "300190_XSHE.csv",
+        "600167_XSHG.csv",
+        "301359_XSHE.csv",
+        "002183_XSHE.csv",
+        "600301_XSHG.csv",
+        "300191_XSHE.csv"
+      ],
+      "directory_size_mb": 82.3
+    },
+    "csv_complete/daily/yearly/year_2022": {
+      "csv_count": 3055,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 3055,
+      "csv_files": [
+        "002182_XSHE.csv",
+        "600300_XSHG.csv",
+        "600166_XSHG.csv",
+        "300190_XSHE.csv",
+        "600167_XSHG.csv",
+        "301359_XSHE.csv",
+        "002183_XSHE.csv",
+        "600301_XSHG.csv",
+        "300191_XSHE.csv",
+        "300738_XSHE.csv"
+      ],
+      "directory_size_mb": 127.33
+    },
+    "csv_complete/daily/yearly/year_2014": {
+      "csv_count": 1921,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 1921,
+      "csv_files": [
+        "002182_XSHE.csv",
+        "600300_XSHG.csv",
+        "600166_XSHG.csv",
+        "300190_XSHE.csv",
+        "600167_XSHG.csv",
+        "002183_XSHE.csv",
+        "600301_XSHG.csv",
+        "300191_XSHE.csv",
+        "200530_XSHE.csv",
+        "002018_XSHE.csv"
+      ],
+      "directory_size_mb": 82.0
+    },
+    "csv_complete/daily/yearly/year_2013": {
+      "csv_count": 1845,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 1845,
+      "csv_files": [
+        "002182_XSHE.csv",
+        "600300_XSHG.csv",
+        "600166_XSHG.csv",
+        "300190_XSHE.csv",
+        "600167_XSHG.csv",
+        "002183_XSHE.csv",
+        "600301_XSHG.csv",
+        "300191_XSHE.csv",
+        "200530_XSHE.csv",
+        "002018_XSHE.csv"
+      ],
+      "directory_size_mb": 77.55
+    },
+    "csv_complete/daily/yearly/year_2009": {
+      "csv_count": 1160,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 1160,
+      "csv_files": [
+        "002182_XSHE.csv",
+        "600300_XSHG.csv",
+        "600166_XSHG.csv",
+        "600167_XSHG.csv",
+        "002183_XSHE.csv",
+        "600301_XSHG.csv",
+        "200530_XSHE.csv",
+        "002018_XSHE.csv",
+        "002019_XSHE.csv",
+        "600208_XSHG.csv"
+      ],
+      "directory_size_mb": 46.5
+    },
+    "csv_complete/daily/yearly/year_2000": {
+      "csv_count": 798,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 798,
+      "csv_files": [
+        "600300_XSHG.csv",
+        "600166_XSHG.csv",
+        "600167_XSHG.csv",
+        "600301_XSHG.csv",
+        "200530_XSHE.csv",
+        "600208_XSHG.csv",
+        "600209_XSHG.csv",
+        "000543_XSHE.csv",
+        "000542_XSHE.csv",
+        "000017_XSHE.csv"
+      ],
+      "directory_size_mb": 27.45
+    },
+    "csv_complete/daily/yearly/year_2007": {
+      "csv_count": 1004,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 1004,
+      "csv_files": [
+        "002182_XSHE.csv",
+        "600300_XSHG.csv",
+        "600166_XSHG.csv",
+        "600167_XSHG.csv",
+        "002183_XSHE.csv",
+        "600301_XSHG.csv",
+        "200530_XSHE.csv",
+        "002018_XSHE.csv",
+        "002019_XSHE.csv",
+        "600208_XSHG.csv"
+      ],
+      "directory_size_mb": 37.34
+    },
+    "csv_complete/daily/yearly/year_2006": {
+      "csv_count": 912,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 912,
+      "csv_files": [
+        "600300_XSHG.csv",
+        "600166_XSHG.csv",
+        "600167_XSHG.csv",
+        "600301_XSHG.csv",
+        "200530_XSHE.csv",
+        "002018_XSHE.csv",
+        "002019_XSHE.csv",
+        "600208_XSHG.csv",
+        "600209_XSHG.csv",
+        "000543_XSHE.csv"
+      ],
+      "directory_size_mb": 32.17
+    },
+    "csv_complete/daily/yearly/year_2001": {
+      "csv_count": 811,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 811,
+      "csv_files": [
+        "600300_XSHG.csv",
+        "600166_XSHG.csv",
+        "600167_XSHG.csv",
+        "600301_XSHG.csv",
+        "200530_XSHE.csv",
+        "600208_XSHG.csv",
+        "600209_XSHG.csv",
+        "000543_XSHE.csv",
+        "000725_XSHE.csv",
+        "000542_XSHE.csv"
+      ],
+      "directory_size_mb": 30.44
+    },
+    "csv_complete/daily/yearly/year_2008": {
+      "csv_count": 1070,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 1070,
+      "csv_files": [
+        "002182_XSHE.csv",
+        "600300_XSHG.csv",
+        "600166_XSHG.csv",
+        "600167_XSHG.csv",
+        "002183_XSHE.csv",
+        "600301_XSHG.csv",
+        "200530_XSHE.csv",
+        "002018_XSHE.csv",
+        "002019_XSHE.csv",
+        "600208_XSHG.csv"
+      ],
+      "directory_size_mb": 42.82
+    },
+    "csv_complete/monthly/stocks": {
+      "csv_count": 5507,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 5507,
+      "csv_files": [
+        "002182_XSHE.csv",
+        "600300_XSHG.csv",
+        "600166_XSHG.csv",
+        "301358_XSHE.csv",
+        "300190_XSHE.csv",
+        "900913_XSHG.csv",
+        "600167_XSHG.csv",
+        "301359_XSHE.csv",
+        "002183_XSHE.csv",
+        "600301_XSHG.csv"
+      ],
+      "directory_size_mb": 49.71
+    },
+    "csv_complete/weekly/stocks": {
+      "csv_count": 5507,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 5507,
+      "csv_files": [
+        "002182_XSHE.csv",
+        "600300_XSHG.csv",
+        "600166_XSHG.csv",
+        "301358_XSHE.csv",
+        "300190_XSHE.csv",
+        "900913_XSHG.csv",
+        "600167_XSHG.csv",
+        "301359_XSHE.csv",
+        "002183_XSHE.csv",
+        "600301_XSHG.csv"
+      ],
+      "directory_size_mb": 206.55
+    },
+    "reports/weekly": {
+      "csv_count": 0,
+      "json_count": 0,
+      "other_count": 1,
+      "total_files": 1,
+      "csv_files": [],
+      "directory_size_mb": 0.0
+    },
+    "strategy/capital_flow": {
+      "csv_count": 154,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 154,
+      "csv_files": [
+        "300888_strategy.csv",
+        "300877_strategy.csv",
+        "600458_strategy.csv",
+        "603233_strategy.csv",
+        "688610_strategy.csv",
+        "688016_strategy.csv",
+        "600841_strategy.csv",
+        "300268_strategy.csv",
+        "002404_strategy.csv",
+        "601222_strategy.csv"
+      ],
+      "directory_size_mb": 6.56
+    },
+    "strategy/market_sentiment": {
+      "csv_count": 1,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 1,
+      "csv_files": [
+        "market_index.csv"
+      ],
+      "directory_size_mb": 0.02
+    },
+    "professional_complete": {
+      "csv_count": 0,
+      "json_count": 1,
+      "other_count": 0,
+      "total_files": 1,
+      "csv_files": [],
+      "directory_size_mb": 199.83
+    },
+    "professional_complete/weekly_adj/stocks": {
+      "csv_count": 79,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 79,
+      "csv_files": [
+        "000017_XSHE.csv",
+        "000016_XSHE.csv",
+        "000156_XSHE.csv",
+        "000157_XSHE.csv",
+        "000402_XSHE.csv",
+        "000403_XSHE.csv",
+        "000029_XSHE.csv",
+        "000028_XSHE.csv",
+        "000060_XSHE.csv",
+        "000061_XSHE.csv"
+      ],
+      "directory_size_mb": 17.33
+    },
+    "professional_complete/monthly_adj/stocks": {
+      "csv_count": 79,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 79,
+      "csv_files": [
+        "000017_XSHE.csv",
+        "000016_XSHE.csv",
+        "000156_XSHE.csv",
+        "000157_XSHE.csv",
+        "000402_XSHE.csv",
+        "000403_XSHE.csv",
+        "000029_XSHE.csv",
+        "000028_XSHE.csv",
+        "000060_XSHE.csv",
+        "000061_XSHE.csv"
+      ],
+      "directory_size_mb": 4.93
+    },
+    "professional_complete/daily_adj/stocks": {
+      "csv_count": 79,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 79,
+      "csv_files": [
+        "000017_XSHE.csv",
+        "000016_XSHE.csv",
+        "000156_XSHE.csv",
+        "000157_XSHE.csv",
+        "000402_XSHE.csv",
+        "000403_XSHE.csv",
+        "000029_XSHE.csv",
+        "000028_XSHE.csv",
+        "000060_XSHE.csv",
+        "000061_XSHE.csv"
+      ],
+      "directory_size_mb": 72.07
+    },
+    "professional_complete/daily/stocks": {
+      "csv_count": 79,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 79,
+      "csv_files": [
+        "000017_XSHE.csv",
+        "000016_XSHE.csv",
+        "000156_XSHE.csv",
+        "000157_XSHE.csv",
+        "000402_XSHE.csv",
+        "000403_XSHE.csv",
+        "000029_XSHE.csv",
+        "000028_XSHE.csv",
+        "000060_XSHE.csv",
+        "000061_XSHE.csv"
+      ],
+      "directory_size_mb": 81.87
+    },
+    "professional_complete/basic_info": {
+      "csv_count": 1,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 1,
+      "csv_files": [
+        "a_stock_info.csv"
+      ],
+      "directory_size_mb": 1.93
+    },
+    "professional_complete/monthly/stocks": {
+      "csv_count": 79,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 79,
+      "csv_files": [
+        "000017_XSHE.csv",
+        "000016_XSHE.csv",
+        "000156_XSHE.csv",
+        "000157_XSHE.csv",
+        "000402_XSHE.csv",
+        "000403_XSHE.csv",
+        "000029_XSHE.csv",
+        "000028_XSHE.csv",
+        "000060_XSHE.csv",
+        "000061_XSHE.csv"
+      ],
+      "directory_size_mb": 4.82
+    },
+    "professional_complete/weekly/stocks": {
+      "csv_count": 79,
+      "json_count": 0,
+      "other_count": 0,
+      "total_files": 79,
+      "csv_files": [
+        "000017_XSHE.csv",
+        "000016_XSHE.csv",
+        "000156_XSHE.csv",
+        "000157_XSHE.csv",
+        "000402_XSHE.csv",
+        "000403_XSHE.csv",
+        "000029_XSHE.csv",
+        "000028_XSHE.csv",
+        "000060_XSHE.csv",
+        "000061_XSHE.csv"
+      ],
+      "directory_size_mb": 16.88
+    }
+  },
+  "batch_files_analysis": {
+    "total_files": 713,
+    "year_range": "2000 - 2025",
+    "years_covered": 26,
+    "year_details": {
+      "2000": {
+        "file_count": 10,
+        "sample_stats": [
+          {
+            "file": "2000_batch_008.csv",
+            "stocks": 100,
+            "records": 23900,
+            "date_range": "2000-01-04 - 2000-12-29",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          },
+          {
+            "file": "2000_batch_009.csv",
+            "stocks": 100,
+            "records": 23900,
+            "date_range": "2000-01-04 - 2000-12-29",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          },
+          {
+            "file": "2000_batch_002.csv",
+            "stocks": 100,
+            "records": 23900,
+            "date_range": "2000-01-04 - 2000-12-29",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          }
+        ],
+        "total_size_mb": 1361.95
+      },
+      "2001": {
+        "file_count": 11,
+        "sample_stats": [
+          {
+            "file": "2001_batch_005.csv",
+            "stocks": 100,
+            "records": 23564,
+            "date_range": "2001-01-02 - 2001-12-31",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          },
+          {
+            "file": "2001_batch_011.csv",
+            "stocks": 26,
+            "records": 6240,
+            "date_range": "2001-01-02 - 2001-12-31",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          },
+          {
+            "file": "2001_batch_010.csv",
+            "stocks": 100,
+            "records": 24000,
+            "date_range": "2001-01-02 - 2001-12-31",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          }
+        ],
+        "total_size_mb": 1361.95
+      },
+      "2002": {
+        "file_count": 11,
+        "sample_stats": [
+          {
+            "file": "2002_batch_001.csv",
+            "stocks": 99,
+            "records": 23463,
+            "date_range": "2002-01-04 - 2002-12-31",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          },
+          {
+            "file": "2002_batch_003.csv",
+            "stocks": 100,
+            "records": 23700,
+            "date_range": "2002-01-04 - 2002-12-31",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          },
+          {
+            "file": "2002_batch_002.csv",
+            "stocks": 100,
+            "records": 23700,
+            "date_range": "2002-01-04 - 2002-12-31",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          }
+        ],
+        "total_size_mb": 1361.95
+      },
+      "2003": {
+        "file_count": 12,
+        "sample_stats": [
+          {
+            "file": "2003_batch_008.csv",
+            "stocks": 100,
+            "records": 19729,
+            "date_range": "2003-01-02 - 2003-12-31",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          },
+          {
+            "file": "2003_batch_009.csv",
+            "stocks": 100,
+            "records": 22858,
+            "date_range": "2003-01-02 - 2003-12-31",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          },
+          {
+            "file": "2003_batch_007.csv",
+            "stocks": 100,
+            "records": 23468,
+            "date_range": "2003-01-02 - 2003-12-31",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          }
+        ],
+        "total_size_mb": 1361.95
+      },
+      "2004": {
+        "file_count": 13,
+        "sample_stats": [
+          {
+            "file": "2004_batch_009.csv",
+            "stocks": 100,
+            "records": 23287,
+            "date_range": "2004-01-02 - 2004-12-31",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          },
+          {
+            "file": "2004_batch_008.csv",
+            "stocks": 100,
+            "records": 23928,
+            "date_range": "2004-01-02 - 2004-12-31",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          },
+          {
+            "file": "2004_batch_003.csv",
+            "stocks": 100,
+            "records": 24300,
+            "date_range": "2004-01-02 - 2004-12-31",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          }
+        ],
+        "total_size_mb": 1361.95
+      },
+      "2005": {
+        "file_count": 13,
+        "sample_stats": [
+          {
+            "file": "2005_batch_010.csv",
+            "stocks": 100,
+            "records": 24200,
+            "date_range": "2005-01-04 - 2005-12-30",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          },
+          {
+            "file": "2005_batch_004.csv",
+            "stocks": 100,
+            "records": 24200,
+            "date_range": "2005-01-04 - 2005-12-30",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          },
+          {
+            "file": "2005_batch_005.csv",
+            "stocks": 100,
+            "records": 23250,
+            "date_range": "2005-01-04 - 2005-12-30",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          }
+        ],
+        "total_size_mb": 1361.95
+      },
+      "2006": {
+        "file_count": 14,
+        "sample_stats": [
+          {
+            "file": "2006_batch_001.csv",
+            "stocks": 99,
+            "records": 23859,
+            "date_range": "2006-01-04 - 2006-12-29",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          },
+          {
+            "file": "2006_batch_014.csv",
+            "stocks": 24,
+            "records": 5784,
+            "date_range": "2006-01-04 - 2006-12-29",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          },
+          {
+            "file": "2006_batch_002.csv",
+            "stocks": 100,
+            "records": 24100,
+            "date_range": "2006-01-04 - 2006-12-29",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          }
+        ],
+        "total_size_mb": 1361.95
+      },
+      "2007": {
+        "file_count": 15,
+        "sample_stats": [
+          {
+            "file": "2007_batch_009.csv",
+            "stocks": 100,
+            "records": 24200,
+            "date_range": "2007-01-04 - 2007-12-28",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          },
+          {
+            "file": "2007_batch_008.csv",
+            "stocks": 100,
+            "records": 24200,
+            "date_range": "2007-01-04 - 2007-12-28",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          },
+          {
+            "file": "2007_batch_012.csv",
+            "stocks": 100,
+            "records": 24200,
+            "date_range": "2007-01-04 - 2007-12-28",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          }
+        ],
+        "total_size_mb": 1361.95
+      },
+      "2008": {
+        "file_count": 16,
+        "sample_stats": [
+          {
+            "file": "2008_batch_004.csv",
+            "stocks": 100,
+            "records": 24600,
+            "date_range": "2008-01-02 - 2008-12-31",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          },
+          {
+            "file": "2008_batch_010.csv",
+            "stocks": 100,
+            "records": 24600,
+            "date_range": "2008-01-02 - 2008-12-31",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          },
+          {
+            "file": "2008_batch_011.csv",
+            "stocks": 100,
+            "records": 24600,
+            "date_range": "2008-01-02 - 2008-12-31",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          }
+        ],
+        "total_size_mb": 1361.95
+      },
+      "2009": {
+        "file_count": 17,
+        "sample_stats": [
+          {
+            "file": "2009_batch_009.csv",
+            "stocks": 100,
+            "records": 24161,
+            "date_range": "2009-01-05 - 2009-12-31",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          },
+          {
+            "file": "2009_batch_008.csv",
+            "stocks": 100,
+            "records": 11400,
+            "date_range": "2009-01-05 - 2009-12-31",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          },
+          {
+            "file": "2009_batch_003.csv",
+            "stocks": 100,
+            "records": 24400,
+            "date_range": "2009-01-05 - 2009-12-31",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          }
+        ],
+        "total_size_mb": 1361.95
+      },
+      "2010": {
+        "file_count": 20,
+        "sample_stats": [
+          {
+            "file": "2010_batch_018.csv",
+            "stocks": 100,
+            "records": 24200,
+            "date_range": "2010-01-04 - 2010-12-31",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          },
+          {
+            "file": "2010_batch_019.csv",
+            "stocks": 100,
+            "records": 21006,
+            "date_range": "2010-01-04 - 2010-12-31",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          },
+          {
+            "file": "2010_batch_009.csv",
+            "stocks": 100,
+            "records": 9163,
+            "date_range": "2010-05-11 - 2010-12-31",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          }
+        ],
+        "total_size_mb": 1361.95
+      },
+      "2011": {
+        "file_count": 22,
+        "sample_stats": [
+          {
+            "file": "2011_batch_015.csv",
+            "stocks": 100,
+            "records": 24400,
+            "date_range": "2011-01-04 - 2011-12-30",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          },
+          {
+            "file": "2011_batch_001.csv",
+            "stocks": 99,
+            "records": 24156,
+            "date_range": "2011-01-04 - 2011-12-30",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          },
+          {
+            "file": "2011_batch_014.csv",
+            "stocks": 99,
+            "records": 19580,
+            "date_range": "2011-01-04 - 2011-12-30",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          }
+        ],
+        "total_size_mb": 1361.95
+      },
+      "2012": {
+        "file_count": 24,
+        "sample_stats": [
+          {
+            "file": "2012_batch_010.csv",
+            "stocks": 100,
+            "records": 24300,
+            "date_range": "2012-01-04 - 2012-12-31",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          },
+          {
+            "file": "2012_batch_004.csv",
+            "stocks": 100,
+            "records": 24300,
+            "date_range": "2012-01-04 - 2012-12-31",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          },
+          {
+            "file": "2012_batch_005.csv",
+            "stocks": 100,
+            "records": 24300,
+            "date_range": "2012-01-04 - 2012-12-31",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          }
+        ],
+        "total_size_mb": 1361.95
+      },
+      "2013": {
+        "file_count": 24,
+        "sample_stats": [
+          {
+            "file": "2013_batch_022.csv",
+            "stocks": 100,
+            "records": 23800,
+            "date_range": "2013-01-04 - 2013-12-31",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          },
+          {
+            "file": "2013_batch_023.csv",
+            "stocks": 100,
+            "records": 23800,
+            "date_range": "2013-01-04 - 2013-12-31",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          },
+          {
+            "file": "2013_batch_021.csv",
+            "stocks": 100,
+            "records": 23800,
+            "date_range": "2013-01-04 - 2013-12-31",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          }
+        ],
+        "total_size_mb": 1361.95
+      },
+      "2014": {
+        "file_count": 25,
+        "sample_stats": [
+          {
+            "file": "2014_batch_025.csv",
+            "stocks": 64,
+            "records": 12714,
+            "date_range": "2014-01-02 - 2014-12-31",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          },
+          {
+            "file": "2014_batch_019.csv",
+            "stocks": 100,
+            "records": 24500,
+            "date_range": "2014-01-02 - 2014-12-31",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          },
+          {
+            "file": "2014_batch_018.csv",
+            "stocks": 100,
+            "records": 24500,
+            "date_range": "2014-01-02 - 2014-12-31",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          }
+        ],
+        "total_size_mb": 1361.95
+      },
+      "2015": {
+        "file_count": 27,
+        "sample_stats": [
+          {
+            "file": "2015_batch_014.csv",
+            "stocks": 100,
+            "records": 24400,
+            "date_range": "2015-01-05 - 2015-12-31",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          },
+          {
+            "file": "2015_batch_015.csv",
+            "stocks": 100,
+            "records": 24400,
+            "date_range": "2015-01-05 - 2015-12-31",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          },
+          {
+            "file": "2015_batch_001.csv",
+            "stocks": 99,
+            "records": 24141,
+            "date_range": "2015-01-05 - 2015-12-31",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          }
+        ],
+        "total_size_mb": 1361.95
+      },
+      "2016": {
+        "file_count": 30,
+        "sample_stats": [
+          {
+            "file": "2016_batch_005.csv",
+            "stocks": 100,
+            "records": 24400,
+            "date_range": "2016-01-04 - 2016-12-30",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          },
+          {
+            "file": "2016_batch_011.csv",
+            "stocks": 100,
+            "records": 24400,
+            "date_range": "2016-01-04 - 2016-12-30",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          },
+          {
+            "file": "2016_batch_010.csv",
+            "stocks": 100,
+            "records": 24400,
+            "date_range": "2016-01-04 - 2016-12-30",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          }
+        ],
+        "total_size_mb": 1361.95
+      },
+      "2017": {
+        "file_count": 34,
+        "sample_stats": [
+          {
+            "file": "2017_batch_023.csv",
+            "stocks": 100,
+            "records": 24400,
+            "date_range": "2017-01-03 - 2017-12-29",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          },
+          {
+            "file": "2017_batch_022.csv",
+            "stocks": 100,
+            "records": 24400,
+            "date_range": "2017-01-03 - 2017-12-29",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          },
+          {
+            "file": "2017_batch_034.csv",
+            "stocks": 37,
+            "records": 9028,
+            "date_range": "2017-01-03 - 2017-12-29",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          }
+        ],
+        "total_size_mb": 1361.95
+      },
+      "2018": {
+        "file_count": 35,
+        "sample_stats": [
+          {
+            "file": "2018_batch_014.csv",
+            "stocks": 100,
+            "records": 24300,
+            "date_range": "2018-01-02 - 2018-12-28",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          },
+          {
+            "file": "2018_batch_028.csv",
+            "stocks": 100,
+            "records": 23935,
+            "date_range": "2018-01-02 - 2018-12-28",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          },
+          {
+            "file": "2018_batch_029.csv",
+            "stocks": 100,
+            "records": 23363,
+            "date_range": "2018-01-02 - 2018-12-28",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          }
+        ],
+        "total_size_mb": 1361.95
+      },
+      "2019": {
+        "file_count": 37,
+        "sample_stats": [
+          {
+            "file": "2019_batch_032.csv",
+            "stocks": 100,
+            "records": 23245,
+            "date_range": "2019-01-02 - 2019-12-31",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          },
+          {
+            "file": "2019_batch_026.csv",
+            "stocks": 100,
+            "records": 24400,
+            "date_range": "2019-01-02 - 2019-12-31",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          },
+          {
+            "file": "2019_batch_027.csv",
+            "stocks": 100,
+            "records": 24400,
+            "date_range": "2019-01-02 - 2019-12-31",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          }
+        ],
+        "total_size_mb": 1361.95
+      },
+      "2020": {
+        "file_count": 41,
+        "sample_stats": [
+          {
+            "file": "2020_batch_032.csv",
+            "stocks": 100,
+            "records": 23177,
+            "date_range": "2020-01-02 - 2020-12-31",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          },
+          {
+            "file": "2020_batch_026.csv",
+            "stocks": 100,
+            "records": 24300,
+            "date_range": "2020-01-02 - 2020-12-31",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          },
+          {
+            "file": "2020_batch_027.csv",
+            "stocks": 100,
+            "records": 24300,
+            "date_range": "2020-01-02 - 2020-12-31",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          }
+        ],
+        "total_size_mb": 1361.95
+      },
+      "2021": {
+        "file_count": 46,
+        "sample_stats": [
+          {
+            "file": "2021_batch_028.csv",
+            "stocks": 100,
+            "records": 24300,
+            "date_range": "2021-01-04 - 2021-12-31",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          },
+          {
+            "file": "2021_batch_014.csv",
+            "stocks": 100,
+            "records": 24235,
+            "date_range": "2021-01-04 - 2021-12-31",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          },
+          {
+            "file": "2021_batch_001.csv",
+            "stocks": 100,
+            "records": 24300,
+            "date_range": "2021-01-04 - 2021-12-31",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          }
+        ],
+        "total_size_mb": 1361.95
+      },
+      "2022": {
+        "file_count": 51,
+        "sample_stats": [
+          {
+            "file": "2022_batch_039.csv",
+            "stocks": 100,
+            "records": 22759,
+            "date_range": "2022-01-04 - 2022-12-30",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          },
+          {
+            "file": "2022_batch_011.csv",
+            "stocks": 100,
+            "records": 24200,
+            "date_range": "2022-01-04 - 2022-12-30",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          },
+          {
+            "file": "2022_batch_005.csv",
+            "stocks": 100,
+            "records": 18777,
+            "date_range": "2022-01-04 - 2022-12-30",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          }
+        ],
+        "total_size_mb": 1361.95
+      },
+      "2023": {
+        "file_count": 54,
+        "sample_stats": [
+          {
+            "file": "2023_batch_037.csv",
+            "stocks": 100,
+            "records": 23493,
+            "date_range": "2023-01-03 - 2023-12-29",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          },
+          {
+            "file": "2023_batch_023.csv",
+            "stocks": 100,
+            "records": 24086,
+            "date_range": "2023-01-03 - 2023-12-29",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          },
+          {
+            "file": "2023_batch_022.csv",
+            "stocks": 100,
+            "records": 24200,
+            "date_range": "2023-01-03 - 2023-12-29",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          }
+        ],
+        "total_size_mb": 1361.95
+      },
+      "2024": {
+        "file_count": 55,
+        "sample_stats": [
+          {
+            "file": "2024_batch_027.csv",
+            "stocks": 100,
+            "records": 24200,
+            "date_range": "2024-01-02 - 2024-12-31",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          },
+          {
+            "file": "2024_batch_033.csv",
+            "stocks": 100,
+            "records": 24200,
+            "date_range": "2024-01-02 - 2024-12-31",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          },
+          {
+            "file": "2024_batch_032.csv",
+            "stocks": 100,
+            "records": 24200,
+            "date_range": "2024-01-02 - 2024-12-31",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          }
+        ],
+        "total_size_mb": 1361.95
+      },
+      "2025": {
+        "file_count": 56,
+        "sample_stats": [
+          {
+            "file": "2025_batch_029.csv",
+            "stocks": 100,
+            "records": 15119,
+            "date_range": "2025-01-02 - 2025-08-29",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          },
+          {
+            "file": "2025_batch_001.csv",
+            "stocks": 100,
+            "records": 16100,
+            "date_range": "2025-01-02 - 2025-08-29",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          },
+          {
+            "file": "2025_batch_015.csv",
+            "stocks": 100,
+            "records": 16100,
+            "date_range": "2025-01-02 - 2025-08-29",
+            "columns": [
+              "secID",
+              "ticker",
+              "tradeDate",
+              "preClosePrice",
+              "openPrice",
+              "highestPrice",
+              "lowestPrice",
+              "closePrice",
+              "turnoverVol",
+              "marketValue",
+              "dealAmount",
+              "turnoverRate"
+            ]
+          }
+        ],
+        "total_size_mb": 1361.95
+      }
+    }
+  },
+  "individual_files_analysis": {
+    "daily_stocks": {
+      "total_files": 3386,
+      "sample_analysis": [
+        {
+          "stock_id": "002182.XSHE",
+          "records": 4328,
+          "date_range": "2007-11-13 - 2025-08-29",
+          "years": 17.8
+        },
+        {
+          "stock_id": "600300.XSHG",
+          "records": 6106,
+          "date_range": "2000-06-30 - 2025-08-29",
+          "years": 25.2
+        },
+        {
+          "stock_id": "600166.XSHG",
+          "records": 6219,
+          "date_range": "2000-01-04 - 2025-08-29",
+          "years": 25.7
+        },
+        {
+          "stock_id": "301358.XSHE",
+          "records": 623,
+          "date_range": "2023-02-09 - 2025-08-29",
+          "years": 2.6
+        },
+        {
+          "stock_id": "300190.XSHE",
+          "records": 3516,
+          "date_range": "2011-03-16 - 2025-08-29",
+          "years": 14.5
+        },
+        {
+          "stock_id": "600167.XSHG",
+          "records": 6219,
+          "date_range": "2000-01-04 - 2025-08-29",
+          "years": 25.7
+        },
+        {
+          "stock_id": "301359.XSHE",
+          "records": 683,
+          "date_range": "2022-11-09 - 2025-08-29",
+          "years": 2.8
+        },
+        {
+          "stock_id": "002183.XSHE",
+          "records": 4328,
+          "date_range": "2007-11-13 - 2025-08-29",
+          "years": 17.8
+        },
+        {
+          "stock_id": "600301.XSHG",
+          "records": 6098,
+          "date_range": "2000-07-12 - 2025-08-29",
+          "years": 25.1
+        },
+        {
+          "stock_id": "300191.XSHE",
+          "records": 3516,
+          "date_range": "2011-03-16 - 2025-08-29",
+          "years": 14.5
+        }
+      ]
+    },
+    "weekly_stocks": {
+      "total_files": 5507,
+      "sample_analysis": []
+    },
+    "monthly_stocks": {
+      "total_files": 5507,
+      "sample_analysis": []
+    },
+    "yearly_classification": {
+      "2000": {
+        "file_count": 798,
+        "size_mb": 27.45
+      },
+      "2001": {
+        "file_count": 811,
+        "size_mb": 30.44
+      },
+      "2002": {
+        "file_count": 812,
+        "size_mb": 29.61
+      },
+      "2003": {
+        "file_count": 817,
+        "size_mb": 29.86
+      },
+      "2004": {
+        "file_count": 859,
+        "size_mb": 32.12
+      },
+      "2005": {
+        "file_count": 865,
+        "size_mb": 33.07
+      },
+      "2006": {
+        "file_count": 912,
+        "size_mb": 32.17
+      },
+      "2007": {
+        "file_count": 1004,
+        "size_mb": 37.34
+      },
+      "2008": {
+        "file_count": 1070,
+        "size_mb": 42.82
+      },
+      "2009": {
+        "file_count": 1160,
+        "size_mb": 46.5
+      },
+      "2010": {
+        "file_count": 1477,
+        "size_mb": 56.99
+      },
+      "2011": {
+        "file_count": 1719,
+        "size_mb": 69.96
+      },
+      "2012": {
+        "file_count": 1846,
+        "size_mb": 77.05
+      },
+      "2013": {
+        "file_count": 1845,
+        "size_mb": 77.55
+      },
+      "2014": {
+        "file_count": 1921,
+        "size_mb": 82.0
+      },
+      "2015": {
+        "file_count": 2051,
+        "size_mb": 86.79
+      },
+      "2016": {
+        "file_count": 2169,
+        "size_mb": 91.34
+      },
+      "2017": {
+        "file_count": 2393,
+        "size_mb": 99.75
+      },
+      "2018": {
+        "file_count": 2436,
+        "size_mb": 103.59
+      },
+      "2019": {
+        "file_count": 2507,
+        "size_mb": 106.77
+      },
+      "2020": {
+        "file_count": 2660,
+        "size_mb": 110.99
+      },
+      "2021": {
+        "file_count": 2877,
+        "size_mb": 119.45
+      },
+      "2022": {
+        "file_count": 3055,
+        "size_mb": 127.33
+      },
+      "2023": {
+        "file_count": 3154,
+        "size_mb": 133.13
+      },
+      "2024": {
+        "file_count": 3162,
+        "size_mb": 130.94
+      },
+      "2025": {
+        "file_count": 2892,
+        "size_mb": 82.3
+      }
+    }
+  },
+  "consistency_analysis": [
+    {
+      "stock": "000001_XSHE",
+      "locations": {
+        "main_file": {
+          "records": 5979,
+          "date_range": "2000-01-04 - 2024-09-02"
+        },
+        "year_2024": {
+          "records": 163,
+          "date_range": "2024-01-02 - 2024-09-02"
+        }
+      }
+    },
+    {
+      "stock": "000002_XSHE",
+      "locations": {
+        "main_file": {
+          "records": 5979,
+          "date_range": "2000-01-04 - 2024-09-02"
+        },
+        "year_2024": {
+          "records": 163,
+          "date_range": "2024-01-02 - 2024-09-02"
+        }
+      }
+    },
+    {
+      "stock": "600000_XSHG",
+      "locations": {
+        "main_file": {
+          "records": 6219,
+          "date_range": "2000-01-04 - 2025-08-29"
+        },
+        "year_2024": {
+          "records": 242,
+          "date_range": "2024-01-02 - 2024-12-31"
+        }
+      }
+    }
+  ],
+  "data_gaps_analysis": {
+    "batch_files": {
+      "covered_years": [
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "missing_years": [],
+      "year_range": "2000-2025"
+    },
+    "stock_coverage": {
+      "batch_stocks_sample": 952,
+      "individual_files": 3386,
+      "missing_individual_files": 308
+    }
+  }
+}

@@ -1,0 +1,1959 @@
+{
+  "analysis_time": "2025-09-02T05:57:11.730644",
+  "data_sources": {
+    "scanned": [
+      "final_comprehensive_download",
+      "optimized_data",
+      "priority_download",
+      "historical_download",
+      "smart_download"
+    ],
+    "stats": {
+      "final_comprehensive_download": {
+        "categories": 4,
+        "apis": 57,
+        "files": 1311,
+        "size_mb": 208020.13519573212
+      },
+      "optimized_data": {
+        "categories": 4,
+        "apis": 55,
+        "files": 1276,
+        "size_mb": 5471.547987937927
+      },
+      "priority_download": {
+        "categories": 2,
+        "apis": 7,
+        "files": 4176,
+        "size_mb": 3095.2245740890503
+      },
+      "historical_download": {
+        "categories": 2,
+        "apis": 26,
+        "files": 1665,
+        "size_mb": 1359.678635597229
+      },
+      "smart_download": {
+        "categories": 23,
+        "apis": 0,
+        "files": 0,
+        "size_mb": 0
+      }
+    }
+  },
+  "api_completeness": {
+    "expected_total": 59,
+    "found_total": 57,
+    "categories": {
+      "basic_info": {
+        "expected": 7,
+        "found": 7,
+        "missing": [],
+        "extra": [],
+        "completeness": 100.0
+      },
+      "financial": {
+        "expected": 12,
+        "found": 12,
+        "missing": [],
+        "extra": [],
+        "completeness": 100.0
+      },
+      "special_trading": {
+        "expected": 18,
+        "found": 16,
+        "missing": [
+          "mktrankinsttrget",
+          "equmarginsecget"
+        ],
+        "extra": [],
+        "completeness": 88.88888888888889
+      },
+      "governance": {
+        "expected": 22,
+        "found": 22,
+        "missing": [],
+        "extra": [],
+        "completeness": 100.0
+      }
+    },
+    "missing_apis": [
+      "special_trading/mktrankinsttrget",
+      "special_trading/equmarginsecget"
+    ],
+    "extra_apis": [],
+    "overall_completeness": 96.61016949152543
+  },
+  "overlap_analysis": {
+    "multiple_sources": {
+      "financial/fdmtbsbankalllatestget": {
+        "sources": [
+          "final_comprehensive_download",
+          "optimized_data"
+        ],
+        "recommended": "final_comprehensive_download",
+        "files": 24,
+        "size_mb": 1.3540287017822266
+      },
+      "financial/fdmtisindualllatestget": {
+        "sources": [
+          "final_comprehensive_download",
+          "optimized_data"
+        ],
+        "recommended": "final_comprehensive_download",
+        "files": 24,
+        "size_mb": 115.07050800323486
+      },
+      "financial/fdmtbsindualllatestget": {
+        "sources": [
+          "final_comprehensive_download",
+          "optimized_data"
+        ],
+        "recommended": "final_comprehensive_download",
+        "files": 24,
+        "size_mb": 161.47248077392578
+      },
+      "financial/fdmtisbankalllatestget": {
+        "sources": [
+          "final_comprehensive_download",
+          "optimized_data"
+        ],
+        "recommended": "final_comprehensive_download",
+        "files": 24,
+        "size_mb": 1.1996259689331055
+      },
+      "financial/fdmtindipsget": {
+        "sources": [
+          "final_comprehensive_download",
+          "optimized_data"
+        ],
+        "recommended": "final_comprehensive_download",
+        "files": 24,
+        "size_mb": 41.73101043701172
+      },
+      "financial/fdmtcfbankalllatestget": {
+        "sources": [
+          "final_comprehensive_download",
+          "optimized_data"
+        ],
+        "recommended": "final_comprehensive_download",
+        "files": 24,
+        "size_mb": 1.211989402770996
+      },
+      "financial/fdmtcfindualllatestget": {
+        "sources": [
+          "final_comprehensive_download",
+          "optimized_data"
+        ],
+        "recommended": "final_comprehensive_download",
+        "files": 24,
+        "size_mb": 117.34615421295166
+      },
+      "financial/fdmtcfalllatestget": {
+        "sources": [
+          "final_comprehensive_download",
+          "optimized_data"
+        ],
+        "recommended": "final_comprehensive_download",
+        "files": 24,
+        "size_mb": 119.69077205657959
+      },
+      "financial/fdmtderget": {
+        "sources": [
+          "final_comprehensive_download",
+          "optimized_data"
+        ],
+        "recommended": "final_comprehensive_download",
+        "files": 24,
+        "size_mb": 80.51586055755615
+      },
+      "financial/fdmtisalllatestget": {
+        "sources": [
+          "final_comprehensive_download",
+          "optimized_data"
+        ],
+        "recommended": "final_comprehensive_download",
+        "files": 24,
+        "size_mb": 117.30327796936035
+      },
+      "financial/fdmtindigrowthget": {
+        "sources": [
+          "final_comprehensive_download",
+          "optimized_data"
+        ],
+        "recommended": "final_comprehensive_download",
+        "files": 18,
+        "size_mb": 39.71772766113281
+      },
+      "financial/fdmtbsalllatestget": {
+        "sources": [
+          "final_comprehensive_download",
+          "optimized_data"
+        ],
+        "recommended": "final_comprehensive_download",
+        "files": 24,
+        "size_mb": 166.87149238586426
+      },
+      "special_trading/mktconsbondpremiumget": {
+        "sources": [
+          "final_comprehensive_download",
+          "optimized_data"
+        ],
+        "recommended": "final_comprehensive_download",
+        "files": 26,
+        "size_mb": 3597.041003227234
+      },
+      "special_trading/mktrankinstr": {
+        "sources": [
+          "final_comprehensive_download",
+          "optimized_data"
+        ],
+        "recommended": "final_comprehensive_download",
+        "files": 50,
+        "size_mb": 0.40845775604248047
+      },
+      "special_trading/mktrankdivyieldget": {
+        "sources": [
+          "final_comprehensive_download",
+          "optimized_data"
+        ],
+        "recommended": "final_comprehensive_download",
+        "files": 20,
+        "size_mb": 972.4439706802368
+      },
+      "special_trading/fsttotalget": {
+        "sources": [
+          "final_comprehensive_download",
+          "optimized_data"
+        ],
+        "recommended": "final_comprehensive_download",
+        "files": 16,
+        "size_mb": 26.877305030822754
+      },
+      "special_trading/mktblockdget": {
+        "sources": [
+          "final_comprehensive_download",
+          "optimized_data"
+        ],
+        "recommended": "final_comprehensive_download",
+        "files": 24,
+        "size_mb": 49.371155738830566
+      },
+      "special_trading/mktranklistsalesget": {
+        "sources": [
+          "final_comprehensive_download",
+          "optimized_data"
+        ],
+        "recommended": "final_comprehensive_download",
+        "files": 20,
+        "size_mb": 309.4760437011719
+      },
+      "special_trading/equisactivityget": {
+        "sources": [
+          "final_comprehensive_download",
+          "optimized_data"
+        ],
+        "recommended": "final_comprehensive_download",
+        "files": 26,
+        "size_mb": 316.96536350250244
+      },
+      "special_trading/sechaltget": {
+        "sources": [
+          "final_comprehensive_download",
+          "optimized_data"
+        ],
+        "recommended": "final_comprehensive_download",
+        "files": 23,
+        "size_mb": 6.380127906799316
+      },
+      "special_trading/vfsttargetget": {
+        "sources": [
+          "final_comprehensive_download",
+          "optimized_data"
+        ],
+        "recommended": "final_comprehensive_download",
+        "files": 1,
+        "size_mb": 0.7226457595825195
+      },
+      "special_trading/fstdetailget": {
+        "sources": [
+          "final_comprehensive_download",
+          "optimized_data"
+        ],
+        "recommended": "final_comprehensive_download",
+        "files": 16,
+        "size_mb": 682.1216220855713
+      },
+      "special_trading/fdmtee": {
+        "sources": [
+          "final_comprehensive_download",
+          "optimized_data"
+        ],
+        "recommended": "final_comprehensive_download",
+        "files": 20,
+        "size_mb": 24.417522430419922
+      },
+      "special_trading/mktequdstatsget": {
+        "sources": [
+          "final_comprehensive_download",
+          "optimized_data"
+        ],
+        "recommended": "final_comprehensive_download",
+        "files": 16,
+        "size_mb": 1.758467674255371
+      },
+      "special_trading/mktlimitget": {
+        "sources": [
+          "final_comprehensive_download",
+          "optimized_data"
+        ],
+        "recommended": "final_comprehensive_download",
+        "files": 19,
+        "size_mb": 1058.7500982284546
+      },
+      "special_trading/mktrankliststocksget": {
+        "sources": [
+          "final_comprehensive_download",
+          "optimized_data"
+        ],
+        "recommended": "final_comprehensive_download",
+        "files": 20,
+        "size_mb": 33.200263023376465
+      },
+      "special_trading/mktipocontraddaysget": {
+        "sources": [
+          "final_comprehensive_download",
+          "optimized_data"
+        ],
+        "recommended": "final_comprehensive_download",
+        "files": 16,
+        "size_mb": 0.3218955993652344
+      },
+      "basic_info/secidget": {
+        "sources": [
+          "final_comprehensive_download",
+          "optimized_data"
+        ],
+        "recommended": "final_comprehensive_download",
+        "files": 1,
+        "size_mb": 9.672097206115723
+      },
+      "basic_info/equget": {
+        "sources": [
+          "final_comprehensive_download",
+          "optimized_data"
+        ],
+        "recommended": "final_comprehensive_download",
+        "files": 1,
+        "size_mb": 2.546992301940918
+      },
+      "basic_info/mktidxdget": {
+        "sources": [
+          "final_comprehensive_download",
+          "optimized_data"
+        ],
+        "recommended": "final_comprehensive_download",
+        "files": 26,
+        "size_mb": 401.18582916259766
+      },
+      "basic_info/equipoget": {
+        "sources": [
+          "final_comprehensive_download",
+          "optimized_data"
+        ],
+        "recommended": "final_comprehensive_download",
+        "files": 1,
+        "size_mb": 1.1744365692138672
+      },
+      "basic_info/equindustryget": {
+        "sources": [
+          "final_comprehensive_download",
+          "optimized_data"
+        ],
+        "recommended": "final_comprehensive_download",
+        "files": 1,
+        "size_mb": 15.55281925201416
+      },
+      "basic_info/equdivget": {
+        "sources": [
+          "final_comprehensive_download",
+          "optimized_data"
+        ],
+        "recommended": "final_comprehensive_download",
+        "files": 26,
+        "size_mb": 11.681827545166016
+      },
+      "basic_info/equsplitsget": {
+        "sources": [
+          "final_comprehensive_download",
+          "optimized_data"
+        ],
+        "recommended": "final_comprehensive_download",
+        "files": 7,
+        "size_mb": 0.0024042129516601562
+      },
+      "governance/equshareholdersmeetingget": {
+        "sources": [
+          "final_comprehensive_download",
+          "optimized_data"
+        ],
+        "recommended": "final_comprehensive_download",
+        "files": 26,
+        "size_mb": 106.29524040222168
+      },
+      "governance/equiposharefloatget": {
+        "sources": [
+          "final_comprehensive_download",
+          "optimized_data"
+        ],
+        "recommended": "final_comprehensive_download",
+        "files": 19,
+        "size_mb": 11.14620590209961
+      },
+      "governance/equsharesexcitget": {
+        "sources": [
+          "final_comprehensive_download",
+          "optimized_data"
+        ],
+        "recommended": "final_comprehensive_download",
+        "files": 20,
+        "size_mb": 34.52873992919922
+      },
+      "governance/equpledgeget": {
+        "sources": [
+          "final_comprehensive_download",
+          "optimized_data"
+        ],
+        "recommended": "final_comprehensive_download",
+        "files": 23,
+        "size_mb": 69.17804050445557
+      },
+      "governance/equshtenget": {
+        "sources": [
+          "final_comprehensive_download",
+          "optimized_data"
+        ],
+        "recommended": "final_comprehensive_download",
+        "files": 104,
+        "size_mb": 1490.5869626998901
+      },
+      "governance/equchangeplanget": {
+        "sources": [
+          "final_comprehensive_download",
+          "optimized_data"
+        ],
+        "recommended": "final_comprehensive_download",
+        "files": 15,
+        "size_mb": 5.116238594055176
+      },
+      "governance/equfloatshtenget": {
+        "sources": [
+          "final_comprehensive_download",
+          "optimized_data"
+        ],
+        "recommended": "final_comprehensive_download",
+        "files": 89,
+        "size_mb": 1154.1426525115967
+      },
+      "governance/equstockpledgeget": {
+        "sources": [
+          "final_comprehensive_download",
+          "optimized_data"
+        ],
+        "recommended": "final_comprehensive_download",
+        "files": 12,
+        "size_mb": 142.3693037033081
+      },
+      "governance/equallotget": {
+        "sources": [
+          "final_comprehensive_download",
+          "optimized_data"
+        ],
+        "recommended": "final_comprehensive_download",
+        "files": 26,
+        "size_mb": 0.09266185760498047
+      },
+      "governance/equreformsharefloatget": {
+        "sources": [
+          "final_comprehensive_download",
+          "optimized_data"
+        ],
+        "recommended": "final_comprehensive_download",
+        "files": 20,
+        "size_mb": 2.475879669189453
+      },
+      "governance/equpartynatureget": {
+        "sources": [
+          "final_comprehensive_download",
+          "optimized_data"
+        ],
+        "recommended": "final_comprehensive_download",
+        "files": 1,
+        "size_mb": 8.379364967346191
+      },
+      "governance/equexecsholdingsget": {
+        "sources": [
+          "final_comprehensive_download",
+          "optimized_data"
+        ],
+        "recommended": "final_comprehensive_download",
+        "files": 25,
+        "size_mb": 153.52752113342285
+      },
+      "governance/equspopubresultget": {
+        "sources": [
+          "final_comprehensive_download",
+          "optimized_data"
+        ],
+        "recommended": "final_comprehensive_download",
+        "files": 17,
+        "size_mb": 0.05316352844238281
+      },
+      "governance/equallotmentsubscriptionresultsget": {
+        "sources": [
+          "final_comprehensive_download",
+          "optimized_data"
+        ],
+        "recommended": "final_comprehensive_download",
+        "files": 23,
+        "size_mb": 0.08141708374023438
+      },
+      "governance/equspoget": {
+        "sources": [
+          "final_comprehensive_download",
+          "optimized_data"
+        ],
+        "recommended": "final_comprehensive_download",
+        "files": 21,
+        "size_mb": 11.609848976135254
+      },
+      "governance/equoldshofferget": {
+        "sources": [
+          "final_comprehensive_download",
+          "optimized_data"
+        ],
+        "recommended": "final_comprehensive_download",
+        "files": 6,
+        "size_mb": 0.11657905578613281
+      },
+      "governance/equmschangesget": {
+        "sources": [
+          "final_comprehensive_download",
+          "optimized_data"
+        ],
+        "recommended": "final_comprehensive_download",
+        "files": 22,
+        "size_mb": 24.0992488861084
+      },
+      "governance/equmanagersget": {
+        "sources": [
+          "final_comprehensive_download",
+          "optimized_data"
+        ],
+        "recommended": "final_comprehensive_download",
+        "files": 1,
+        "size_mb": 8.084567070007324
+      },
+      "governance/equrelatedtransactionget": {
+        "sources": [
+          "final_comprehensive_download",
+          "optimized_data"
+        ],
+        "recommended": "final_comprehensive_download",
+        "files": 26,
+        "size_mb": 106.19295597076416
+      },
+      "governance/equsharesfloatget": {
+        "sources": [
+          "final_comprehensive_download",
+          "optimized_data"
+        ],
+        "recommended": "final_comprehensive_download",
+        "files": 26,
+        "size_mb": 2.809330940246582
+      },
+      "governance/equshareholdernumget": {
+        "sources": [
+          "final_comprehensive_download",
+          "optimized_data"
+        ],
+        "recommended": "final_comprehensive_download",
+        "files": 104,
+        "size_mb": 659.9492225646973
+      }
+    },
+    "single_source": {
+      "special_trading/equisparticipantqaget": {
+        "source": "final_comprehensive_download",
+        "files": 26,
+        "size_mb": 195493.0866613388
+      },
+      "governance/equactualcontrollerget": {
+        "source": "final_comprehensive_download",
+        "files": 1,
+        "size_mb": 50.65611171722412
+      },
+      "market_data/adj_factor": {
+        "source": "priority_download",
+        "files": 713,
+        "size_mb": 2.123281478881836
+      },
+      "market_data/daily": {
+        "source": "priority_download",
+        "files": 713,
+        "size_mb": 1361.9501237869263
+      },
+      "market_data/monthly": {
+        "source": "priority_download",
+        "files": 713,
+        "size_mb": 49.97231674194336
+      },
+      "market_data/weekly": {
+        "source": "priority_download",
+        "files": 713,
+        "size_mb": 209.05542278289795
+      },
+      "market_data/adj_daily": {
+        "source": "priority_download",
+        "files": 713,
+        "size_mb": 1040.0512409210205
+      },
+      "market_data/year_2016": {
+        "source": "historical_download",
+        "files": 73,
+        "size_mb": 56.80738925933838
+      },
+      "market_data/year_2011": {
+        "source": "historical_download",
+        "files": 52,
+        "size_mb": 43.76417350769043
+      },
+      "market_data/year_2018": {
+        "source": "historical_download",
+        "files": 78,
+        "size_mb": 69.01939487457275
+      },
+      "market_data/year_2020": {
+        "source": "historical_download",
+        "files": 100,
+        "size_mb": 79.96085166931152
+      },
+      "market_data/year_2021": {
+        "source": "historical_download",
+        "files": 106,
+        "size_mb": 91.24444389343262
+      },
+      "market_data/year_2019": {
+        "source": "historical_download",
+        "files": 88,
+        "size_mb": 73.2843713760376
+      },
+      "market_data/year_2010": {
+        "source": "historical_download",
+        "files": 48,
+        "size_mb": 37.394412994384766
+      },
+      "market_data/year_2017": {
+        "source": "historical_download",
+        "files": 78,
+        "size_mb": 64.63898754119873
+      },
+      "market_data/year_2004": {
+        "source": "historical_download",
+        "files": 32,
+        "size_mb": 24.666711807250977
+      },
+      "market_data/year_2003": {
+        "source": "historical_download",
+        "files": 30,
+        "size_mb": 22.053879737854004
+      },
+      "market_data/year_2002": {
+        "source": "historical_download",
+        "files": 30,
+        "size_mb": 21.21565532684326
+      },
+      "market_data/year_2005": {
+        "source": "historical_download",
+        "files": 32,
+        "size_mb": 25.116877555847168
+      },
+      "market_data/year_2012": {
+        "source": "historical_download",
+        "files": 61,
+        "size_mb": 47.15572547912598
+      },
+      "market_data/year_2015": {
+        "source": "historical_download",
+        "files": 70,
+        "size_mb": 54.24715709686279
+      },
+      "market_data/year_2023": {
+        "source": "historical_download",
+        "files": 110,
+        "size_mb": 108.94698143005371
+      },
+      "market_data/year_2024": {
+        "source": "historical_download",
+        "files": 111,
+        "size_mb": 112.74579524993896
+      },
+      "market_data/year_2025": {
+        "source": "historical_download",
+        "files": 111,
+        "size_mb": 76.83466529846191
+      },
+      "market_data/year_2022": {
+        "source": "historical_download",
+        "files": 109,
+        "size_mb": 100.59997940063477
+      },
+      "market_data/year_2014": {
+        "source": "historical_download",
+        "files": 69,
+        "size_mb": 50.10947608947754
+      },
+      "market_data/year_2013": {
+        "source": "historical_download",
+        "files": 61,
+        "size_mb": 47.408392906188965
+      },
+      "market_data/year_2009": {
+        "source": "historical_download",
+        "files": 42,
+        "size_mb": 31.30755043029785
+      },
+      "market_data/year_2000": {
+        "source": "historical_download",
+        "files": 29,
+        "size_mb": 17.843689918518066
+      },
+      "market_data/year_2007": {
+        "source": "historical_download",
+        "files": 39,
+        "size_mb": 27.96392059326172
+      },
+      "market_data/year_2006": {
+        "source": "historical_download",
+        "files": 36,
+        "size_mb": 24.456159591674805
+      },
+      "market_data/year_2001": {
+        "source": "historical_download",
+        "files": 30,
+        "size_mb": 20.699048042297363
+      },
+      "market_data/year_2008": {
+        "source": "historical_download",
+        "files": 40,
+        "size_mb": 30.192944526672363
+      },
+      "flow_data/industry_flow": {
+        "source": "priority_download",
+        "files": 17,
+        "size_mb": 55.65837383270264
+      },
+      "flow_data/stock_flow": {
+        "source": "priority_download",
+        "files": 594,
+        "size_mb": 376.41381454467773
+      }
+    },
+    "recommended_consolidation": {}
+  },
+  "consolidation_plan": {
+    "target_structure": {
+      "financial": {
+        "fdmtbsbankalllatestget": {
+          "source_path": "data/final_comprehensive_download/financial/fdmtbsbankalllatestget",
+          "target_path": "data/consolidated_csv/financial/fdmtbsbankalllatestget",
+          "files": 24,
+          "size_mb": 1.3540287017822266,
+          "source_name": "final_comprehensive_download"
+        },
+        "fdmtisindualllatestget": {
+          "source_path": "data/final_comprehensive_download/financial/fdmtisindualllatestget",
+          "target_path": "data/consolidated_csv/financial/fdmtisindualllatestget",
+          "files": 24,
+          "size_mb": 115.07050800323486,
+          "source_name": "final_comprehensive_download"
+        },
+        "fdmtbsindualllatestget": {
+          "source_path": "data/final_comprehensive_download/financial/fdmtbsindualllatestget",
+          "target_path": "data/consolidated_csv/financial/fdmtbsindualllatestget",
+          "files": 24,
+          "size_mb": 161.47248077392578,
+          "source_name": "final_comprehensive_download"
+        },
+        "fdmtisbankalllatestget": {
+          "source_path": "data/final_comprehensive_download/financial/fdmtisbankalllatestget",
+          "target_path": "data/consolidated_csv/financial/fdmtisbankalllatestget",
+          "files": 24,
+          "size_mb": 1.1996259689331055,
+          "source_name": "final_comprehensive_download"
+        },
+        "fdmtindipsget": {
+          "source_path": "data/final_comprehensive_download/financial/fdmtindipsget",
+          "target_path": "data/consolidated_csv/financial/fdmtindipsget",
+          "files": 24,
+          "size_mb": 41.73101043701172,
+          "source_name": "final_comprehensive_download"
+        },
+        "fdmtcfbankalllatestget": {
+          "source_path": "data/final_comprehensive_download/financial/fdmtcfbankalllatestget",
+          "target_path": "data/consolidated_csv/financial/fdmtcfbankalllatestget",
+          "files": 24,
+          "size_mb": 1.211989402770996,
+          "source_name": "final_comprehensive_download"
+        },
+        "fdmtcfindualllatestget": {
+          "source_path": "data/final_comprehensive_download/financial/fdmtcfindualllatestget",
+          "target_path": "data/consolidated_csv/financial/fdmtcfindualllatestget",
+          "files": 24,
+          "size_mb": 117.34615421295166,
+          "source_name": "final_comprehensive_download"
+        },
+        "fdmtcfalllatestget": {
+          "source_path": "data/final_comprehensive_download/financial/fdmtcfalllatestget",
+          "target_path": "data/consolidated_csv/financial/fdmtcfalllatestget",
+          "files": 24,
+          "size_mb": 119.69077205657959,
+          "source_name": "final_comprehensive_download"
+        },
+        "fdmtderget": {
+          "source_path": "data/final_comprehensive_download/financial/fdmtderget",
+          "target_path": "data/consolidated_csv/financial/fdmtderget",
+          "files": 24,
+          "size_mb": 80.51586055755615,
+          "source_name": "final_comprehensive_download"
+        },
+        "fdmtisalllatestget": {
+          "source_path": "data/final_comprehensive_download/financial/fdmtisalllatestget",
+          "target_path": "data/consolidated_csv/financial/fdmtisalllatestget",
+          "files": 24,
+          "size_mb": 117.30327796936035,
+          "source_name": "final_comprehensive_download"
+        },
+        "fdmtindigrowthget": {
+          "source_path": "data/final_comprehensive_download/financial/fdmtindigrowthget",
+          "target_path": "data/consolidated_csv/financial/fdmtindigrowthget",
+          "files": 18,
+          "size_mb": 39.71772766113281,
+          "source_name": "final_comprehensive_download"
+        },
+        "fdmtbsalllatestget": {
+          "source_path": "data/final_comprehensive_download/financial/fdmtbsalllatestget",
+          "target_path": "data/consolidated_csv/financial/fdmtbsalllatestget",
+          "files": 24,
+          "size_mb": 166.87149238586426,
+          "source_name": "final_comprehensive_download"
+        }
+      },
+      "special_trading": {
+        "mktconsbondpremiumget": {
+          "source_path": "data/final_comprehensive_download/special_trading/mktconsbondpremiumget",
+          "target_path": "data/consolidated_csv/special_trading/mktconsbondpremiumget",
+          "files": 26,
+          "size_mb": 3597.041003227234,
+          "source_name": "final_comprehensive_download"
+        },
+        "mktrankinstr": {
+          "source_path": "data/final_comprehensive_download/special_trading/mktrankinstr",
+          "target_path": "data/consolidated_csv/special_trading/mktrankinstr",
+          "files": 50,
+          "size_mb": 0.40845775604248047,
+          "source_name": "final_comprehensive_download"
+        },
+        "mktrankdivyieldget": {
+          "source_path": "data/final_comprehensive_download/special_trading/mktrankdivyieldget",
+          "target_path": "data/consolidated_csv/special_trading/mktrankdivyieldget",
+          "files": 20,
+          "size_mb": 972.4439706802368,
+          "source_name": "final_comprehensive_download"
+        },
+        "fsttotalget": {
+          "source_path": "data/final_comprehensive_download/special_trading/fsttotalget",
+          "target_path": "data/consolidated_csv/special_trading/fsttotalget",
+          "files": 16,
+          "size_mb": 26.877305030822754,
+          "source_name": "final_comprehensive_download"
+        },
+        "mktblockdget": {
+          "source_path": "data/final_comprehensive_download/special_trading/mktblockdget",
+          "target_path": "data/consolidated_csv/special_trading/mktblockdget",
+          "files": 24,
+          "size_mb": 49.371155738830566,
+          "source_name": "final_comprehensive_download"
+        },
+        "mktranklistsalesget": {
+          "source_path": "data/final_comprehensive_download/special_trading/mktranklistsalesget",
+          "target_path": "data/consolidated_csv/special_trading/mktranklistsalesget",
+          "files": 20,
+          "size_mb": 309.4760437011719,
+          "source_name": "final_comprehensive_download"
+        },
+        "equisactivityget": {
+          "source_path": "data/final_comprehensive_download/special_trading/equisactivityget",
+          "target_path": "data/consolidated_csv/special_trading/equisactivityget",
+          "files": 26,
+          "size_mb": 316.96536350250244,
+          "source_name": "final_comprehensive_download"
+        },
+        "sechaltget": {
+          "source_path": "data/final_comprehensive_download/special_trading/sechaltget",
+          "target_path": "data/consolidated_csv/special_trading/sechaltget",
+          "files": 23,
+          "size_mb": 6.380127906799316,
+          "source_name": "final_comprehensive_download"
+        },
+        "vfsttargetget": {
+          "source_path": "data/final_comprehensive_download/special_trading/vfsttargetget",
+          "target_path": "data/consolidated_csv/special_trading/vfsttargetget",
+          "files": 1,
+          "size_mb": 0.7226457595825195,
+          "source_name": "final_comprehensive_download"
+        },
+        "fstdetailget": {
+          "source_path": "data/final_comprehensive_download/special_trading/fstdetailget",
+          "target_path": "data/consolidated_csv/special_trading/fstdetailget",
+          "files": 16,
+          "size_mb": 682.1216220855713,
+          "source_name": "final_comprehensive_download"
+        },
+        "fdmtee": {
+          "source_path": "data/final_comprehensive_download/special_trading/fdmtee",
+          "target_path": "data/consolidated_csv/special_trading/fdmtee",
+          "files": 20,
+          "size_mb": 24.417522430419922,
+          "source_name": "final_comprehensive_download"
+        },
+        "mktequdstatsget": {
+          "source_path": "data/final_comprehensive_download/special_trading/mktequdstatsget",
+          "target_path": "data/consolidated_csv/special_trading/mktequdstatsget",
+          "files": 16,
+          "size_mb": 1.758467674255371,
+          "source_name": "final_comprehensive_download"
+        },
+        "mktlimitget": {
+          "source_path": "data/final_comprehensive_download/special_trading/mktlimitget",
+          "target_path": "data/consolidated_csv/special_trading/mktlimitget",
+          "files": 19,
+          "size_mb": 1058.7500982284546,
+          "source_name": "final_comprehensive_download"
+        },
+        "mktrankliststocksget": {
+          "source_path": "data/final_comprehensive_download/special_trading/mktrankliststocksget",
+          "target_path": "data/consolidated_csv/special_trading/mktrankliststocksget",
+          "files": 20,
+          "size_mb": 33.200263023376465,
+          "source_name": "final_comprehensive_download"
+        },
+        "equisparticipantqaget": {
+          "source_path": "data/final_comprehensive_download/special_trading/equisparticipantqaget",
+          "target_path": "data/consolidated_csv/special_trading/equisparticipantqaget",
+          "files": 26,
+          "size_mb": 195493.0866613388,
+          "source_name": "final_comprehensive_download"
+        },
+        "mktipocontraddaysget": {
+          "source_path": "data/final_comprehensive_download/special_trading/mktipocontraddaysget",
+          "target_path": "data/consolidated_csv/special_trading/mktipocontraddaysget",
+          "files": 16,
+          "size_mb": 0.3218955993652344,
+          "source_name": "final_comprehensive_download"
+        }
+      },
+      "basic_info": {
+        "secidget": {
+          "source_path": "data/final_comprehensive_download/basic_info/secidget",
+          "target_path": "data/consolidated_csv/basic_info/secidget",
+          "files": 1,
+          "size_mb": 9.672097206115723,
+          "source_name": "final_comprehensive_download"
+        },
+        "equget": {
+          "source_path": "data/final_comprehensive_download/basic_info/equget",
+          "target_path": "data/consolidated_csv/basic_info/equget",
+          "files": 1,
+          "size_mb": 2.546992301940918,
+          "source_name": "final_comprehensive_download"
+        },
+        "mktidxdget": {
+          "source_path": "data/final_comprehensive_download/basic_info/mktidxdget",
+          "target_path": "data/consolidated_csv/basic_info/mktidxdget",
+          "files": 26,
+          "size_mb": 401.18582916259766,
+          "source_name": "final_comprehensive_download"
+        },
+        "equipoget": {
+          "source_path": "data/final_comprehensive_download/basic_info/equipoget",
+          "target_path": "data/consolidated_csv/basic_info/equipoget",
+          "files": 1,
+          "size_mb": 1.1744365692138672,
+          "source_name": "final_comprehensive_download"
+        },
+        "equindustryget": {
+          "source_path": "data/final_comprehensive_download/basic_info/equindustryget",
+          "target_path": "data/consolidated_csv/basic_info/equindustryget",
+          "files": 1,
+          "size_mb": 15.55281925201416,
+          "source_name": "final_comprehensive_download"
+        },
+        "equdivget": {
+          "source_path": "data/final_comprehensive_download/basic_info/equdivget",
+          "target_path": "data/consolidated_csv/basic_info/equdivget",
+          "files": 26,
+          "size_mb": 11.681827545166016,
+          "source_name": "final_comprehensive_download"
+        },
+        "equsplitsget": {
+          "source_path": "data/final_comprehensive_download/basic_info/equsplitsget",
+          "target_path": "data/consolidated_csv/basic_info/equsplitsget",
+          "files": 7,
+          "size_mb": 0.0024042129516601562,
+          "source_name": "final_comprehensive_download"
+        }
+      },
+      "governance": {
+        "equshareholdersmeetingget": {
+          "source_path": "data/final_comprehensive_download/governance/equshareholdersmeetingget",
+          "target_path": "data/consolidated_csv/governance/equshareholdersmeetingget",
+          "files": 26,
+          "size_mb": 106.29524040222168,
+          "source_name": "final_comprehensive_download"
+        },
+        "equiposharefloatget": {
+          "source_path": "data/final_comprehensive_download/governance/equiposharefloatget",
+          "target_path": "data/consolidated_csv/governance/equiposharefloatget",
+          "files": 19,
+          "size_mb": 11.14620590209961,
+          "source_name": "final_comprehensive_download"
+        },
+        "equsharesexcitget": {
+          "source_path": "data/final_comprehensive_download/governance/equsharesexcitget",
+          "target_path": "data/consolidated_csv/governance/equsharesexcitget",
+          "files": 20,
+          "size_mb": 34.52873992919922,
+          "source_name": "final_comprehensive_download"
+        },
+        "equpledgeget": {
+          "source_path": "data/final_comprehensive_download/governance/equpledgeget",
+          "target_path": "data/consolidated_csv/governance/equpledgeget",
+          "files": 23,
+          "size_mb": 69.17804050445557,
+          "source_name": "final_comprehensive_download"
+        },
+        "equshtenget": {
+          "source_path": "data/final_comprehensive_download/governance/equshtenget",
+          "target_path": "data/consolidated_csv/governance/equshtenget",
+          "files": 104,
+          "size_mb": 1490.5869626998901,
+          "source_name": "final_comprehensive_download"
+        },
+        "equchangeplanget": {
+          "source_path": "data/final_comprehensive_download/governance/equchangeplanget",
+          "target_path": "data/consolidated_csv/governance/equchangeplanget",
+          "files": 15,
+          "size_mb": 5.116238594055176,
+          "source_name": "final_comprehensive_download"
+        },
+        "equfloatshtenget": {
+          "source_path": "data/final_comprehensive_download/governance/equfloatshtenget",
+          "target_path": "data/consolidated_csv/governance/equfloatshtenget",
+          "files": 89,
+          "size_mb": 1154.1426525115967,
+          "source_name": "final_comprehensive_download"
+        },
+        "equactualcontrollerget": {
+          "source_path": "data/final_comprehensive_download/governance/equactualcontrollerget",
+          "target_path": "data/consolidated_csv/governance/equactualcontrollerget",
+          "files": 1,
+          "size_mb": 50.65611171722412,
+          "source_name": "final_comprehensive_download"
+        },
+        "equstockpledgeget": {
+          "source_path": "data/final_comprehensive_download/governance/equstockpledgeget",
+          "target_path": "data/consolidated_csv/governance/equstockpledgeget",
+          "files": 12,
+          "size_mb": 142.3693037033081,
+          "source_name": "final_comprehensive_download"
+        },
+        "equallotget": {
+          "source_path": "data/final_comprehensive_download/governance/equallotget",
+          "target_path": "data/consolidated_csv/governance/equallotget",
+          "files": 26,
+          "size_mb": 0.09266185760498047,
+          "source_name": "final_comprehensive_download"
+        },
+        "equreformsharefloatget": {
+          "source_path": "data/final_comprehensive_download/governance/equreformsharefloatget",
+          "target_path": "data/consolidated_csv/governance/equreformsharefloatget",
+          "files": 20,
+          "size_mb": 2.475879669189453,
+          "source_name": "final_comprehensive_download"
+        },
+        "equpartynatureget": {
+          "source_path": "data/final_comprehensive_download/governance/equpartynatureget",
+          "target_path": "data/consolidated_csv/governance/equpartynatureget",
+          "files": 1,
+          "size_mb": 8.379364967346191,
+          "source_name": "final_comprehensive_download"
+        },
+        "equexecsholdingsget": {
+          "source_path": "data/final_comprehensive_download/governance/equexecsholdingsget",
+          "target_path": "data/consolidated_csv/governance/equexecsholdingsget",
+          "files": 25,
+          "size_mb": 153.52752113342285,
+          "source_name": "final_comprehensive_download"
+        },
+        "equspopubresultget": {
+          "source_path": "data/final_comprehensive_download/governance/equspopubresultget",
+          "target_path": "data/consolidated_csv/governance/equspopubresultget",
+          "files": 17,
+          "size_mb": 0.05316352844238281,
+          "source_name": "final_comprehensive_download"
+        },
+        "equallotmentsubscriptionresultsget": {
+          "source_path": "data/final_comprehensive_download/governance/equallotmentsubscriptionresultsget",
+          "target_path": "data/consolidated_csv/governance/equallotmentsubscriptionresultsget",
+          "files": 23,
+          "size_mb": 0.08141708374023438,
+          "source_name": "final_comprehensive_download"
+        },
+        "equspoget": {
+          "source_path": "data/final_comprehensive_download/governance/equspoget",
+          "target_path": "data/consolidated_csv/governance/equspoget",
+          "files": 21,
+          "size_mb": 11.609848976135254,
+          "source_name": "final_comprehensive_download"
+        },
+        "equoldshofferget": {
+          "source_path": "data/final_comprehensive_download/governance/equoldshofferget",
+          "target_path": "data/consolidated_csv/governance/equoldshofferget",
+          "files": 6,
+          "size_mb": 0.11657905578613281,
+          "source_name": "final_comprehensive_download"
+        },
+        "equmschangesget": {
+          "source_path": "data/final_comprehensive_download/governance/equmschangesget",
+          "target_path": "data/consolidated_csv/governance/equmschangesget",
+          "files": 22,
+          "size_mb": 24.0992488861084,
+          "source_name": "final_comprehensive_download"
+        },
+        "equmanagersget": {
+          "source_path": "data/final_comprehensive_download/governance/equmanagersget",
+          "target_path": "data/consolidated_csv/governance/equmanagersget",
+          "files": 1,
+          "size_mb": 8.084567070007324,
+          "source_name": "final_comprehensive_download"
+        },
+        "equrelatedtransactionget": {
+          "source_path": "data/final_comprehensive_download/governance/equrelatedtransactionget",
+          "target_path": "data/consolidated_csv/governance/equrelatedtransactionget",
+          "files": 26,
+          "size_mb": 106.19295597076416,
+          "source_name": "final_comprehensive_download"
+        },
+        "equsharesfloatget": {
+          "source_path": "data/final_comprehensive_download/governance/equsharesfloatget",
+          "target_path": "data/consolidated_csv/governance/equsharesfloatget",
+          "files": 26,
+          "size_mb": 2.809330940246582,
+          "source_name": "final_comprehensive_download"
+        },
+        "equshareholdernumget": {
+          "source_path": "data/final_comprehensive_download/governance/equshareholdernumget",
+          "target_path": "data/consolidated_csv/governance/equshareholdernumget",
+          "files": 104,
+          "size_mb": 659.9492225646973,
+          "source_name": "final_comprehensive_download"
+        }
+      },
+      "market_data": {
+        "adj_factor": {
+          "source_path": "data/priority_download/market_data/adj_factor",
+          "target_path": "data/consolidated_csv/market_data/adj_factor",
+          "files": 713,
+          "size_mb": 2.123281478881836,
+          "source_name": "priority_download"
+        },
+        "daily": {
+          "source_path": "data/priority_download/market_data/daily",
+          "target_path": "data/consolidated_csv/market_data/daily",
+          "files": 713,
+          "size_mb": 1361.9501237869263,
+          "source_name": "priority_download"
+        },
+        "monthly": {
+          "source_path": "data/priority_download/market_data/monthly",
+          "target_path": "data/consolidated_csv/market_data/monthly",
+          "files": 713,
+          "size_mb": 49.97231674194336,
+          "source_name": "priority_download"
+        },
+        "weekly": {
+          "source_path": "data/priority_download/market_data/weekly",
+          "target_path": "data/consolidated_csv/market_data/weekly",
+          "files": 713,
+          "size_mb": 209.05542278289795,
+          "source_name": "priority_download"
+        },
+        "adj_daily": {
+          "source_path": "data/priority_download/market_data/adj_daily",
+          "target_path": "data/consolidated_csv/market_data/adj_daily",
+          "files": 713,
+          "size_mb": 1040.0512409210205,
+          "source_name": "priority_download"
+        },
+        "year_2016": {
+          "source_path": "data/historical_download/market_data/year_2016",
+          "target_path": "data/consolidated_csv/market_data/year_2016",
+          "files": 73,
+          "size_mb": 56.80738925933838,
+          "source_name": "historical_download"
+        },
+        "year_2011": {
+          "source_path": "data/historical_download/market_data/year_2011",
+          "target_path": "data/consolidated_csv/market_data/year_2011",
+          "files": 52,
+          "size_mb": 43.76417350769043,
+          "source_name": "historical_download"
+        },
+        "year_2018": {
+          "source_path": "data/historical_download/market_data/year_2018",
+          "target_path": "data/consolidated_csv/market_data/year_2018",
+          "files": 78,
+          "size_mb": 69.01939487457275,
+          "source_name": "historical_download"
+        },
+        "year_2020": {
+          "source_path": "data/historical_download/market_data/year_2020",
+          "target_path": "data/consolidated_csv/market_data/year_2020",
+          "files": 100,
+          "size_mb": 79.96085166931152,
+          "source_name": "historical_download"
+        },
+        "year_2021": {
+          "source_path": "data/historical_download/market_data/year_2021",
+          "target_path": "data/consolidated_csv/market_data/year_2021",
+          "files": 106,
+          "size_mb": 91.24444389343262,
+          "source_name": "historical_download"
+        },
+        "year_2019": {
+          "source_path": "data/historical_download/market_data/year_2019",
+          "target_path": "data/consolidated_csv/market_data/year_2019",
+          "files": 88,
+          "size_mb": 73.2843713760376,
+          "source_name": "historical_download"
+        },
+        "year_2010": {
+          "source_path": "data/historical_download/market_data/year_2010",
+          "target_path": "data/consolidated_csv/market_data/year_2010",
+          "files": 48,
+          "size_mb": 37.394412994384766,
+          "source_name": "historical_download"
+        },
+        "year_2017": {
+          "source_path": "data/historical_download/market_data/year_2017",
+          "target_path": "data/consolidated_csv/market_data/year_2017",
+          "files": 78,
+          "size_mb": 64.63898754119873,
+          "source_name": "historical_download"
+        },
+        "year_2004": {
+          "source_path": "data/historical_download/market_data/year_2004",
+          "target_path": "data/consolidated_csv/market_data/year_2004",
+          "files": 32,
+          "size_mb": 24.666711807250977,
+          "source_name": "historical_download"
+        },
+        "year_2003": {
+          "source_path": "data/historical_download/market_data/year_2003",
+          "target_path": "data/consolidated_csv/market_data/year_2003",
+          "files": 30,
+          "size_mb": 22.053879737854004,
+          "source_name": "historical_download"
+        },
+        "year_2002": {
+          "source_path": "data/historical_download/market_data/year_2002",
+          "target_path": "data/consolidated_csv/market_data/year_2002",
+          "files": 30,
+          "size_mb": 21.21565532684326,
+          "source_name": "historical_download"
+        },
+        "year_2005": {
+          "source_path": "data/historical_download/market_data/year_2005",
+          "target_path": "data/consolidated_csv/market_data/year_2005",
+          "files": 32,
+          "size_mb": 25.116877555847168,
+          "source_name": "historical_download"
+        },
+        "year_2012": {
+          "source_path": "data/historical_download/market_data/year_2012",
+          "target_path": "data/consolidated_csv/market_data/year_2012",
+          "files": 61,
+          "size_mb": 47.15572547912598,
+          "source_name": "historical_download"
+        },
+        "year_2015": {
+          "source_path": "data/historical_download/market_data/year_2015",
+          "target_path": "data/consolidated_csv/market_data/year_2015",
+          "files": 70,
+          "size_mb": 54.24715709686279,
+          "source_name": "historical_download"
+        },
+        "year_2023": {
+          "source_path": "data/historical_download/market_data/year_2023",
+          "target_path": "data/consolidated_csv/market_data/year_2023",
+          "files": 110,
+          "size_mb": 108.94698143005371,
+          "source_name": "historical_download"
+        },
+        "year_2024": {
+          "source_path": "data/historical_download/market_data/year_2024",
+          "target_path": "data/consolidated_csv/market_data/year_2024",
+          "files": 111,
+          "size_mb": 112.74579524993896,
+          "source_name": "historical_download"
+        },
+        "year_2025": {
+          "source_path": "data/historical_download/market_data/year_2025",
+          "target_path": "data/consolidated_csv/market_data/year_2025",
+          "files": 111,
+          "size_mb": 76.83466529846191,
+          "source_name": "historical_download"
+        },
+        "year_2022": {
+          "source_path": "data/historical_download/market_data/year_2022",
+          "target_path": "data/consolidated_csv/market_data/year_2022",
+          "files": 109,
+          "size_mb": 100.59997940063477,
+          "source_name": "historical_download"
+        },
+        "year_2014": {
+          "source_path": "data/historical_download/market_data/year_2014",
+          "target_path": "data/consolidated_csv/market_data/year_2014",
+          "files": 69,
+          "size_mb": 50.10947608947754,
+          "source_name": "historical_download"
+        },
+        "year_2013": {
+          "source_path": "data/historical_download/market_data/year_2013",
+          "target_path": "data/consolidated_csv/market_data/year_2013",
+          "files": 61,
+          "size_mb": 47.408392906188965,
+          "source_name": "historical_download"
+        },
+        "year_2009": {
+          "source_path": "data/historical_download/market_data/year_2009",
+          "target_path": "data/consolidated_csv/market_data/year_2009",
+          "files": 42,
+          "size_mb": 31.30755043029785,
+          "source_name": "historical_download"
+        },
+        "year_2000": {
+          "source_path": "data/historical_download/market_data/year_2000",
+          "target_path": "data/consolidated_csv/market_data/year_2000",
+          "files": 29,
+          "size_mb": 17.843689918518066,
+          "source_name": "historical_download"
+        },
+        "year_2007": {
+          "source_path": "data/historical_download/market_data/year_2007",
+          "target_path": "data/consolidated_csv/market_data/year_2007",
+          "files": 39,
+          "size_mb": 27.96392059326172,
+          "source_name": "historical_download"
+        },
+        "year_2006": {
+          "source_path": "data/historical_download/market_data/year_2006",
+          "target_path": "data/consolidated_csv/market_data/year_2006",
+          "files": 36,
+          "size_mb": 24.456159591674805,
+          "source_name": "historical_download"
+        },
+        "year_2001": {
+          "source_path": "data/historical_download/market_data/year_2001",
+          "target_path": "data/consolidated_csv/market_data/year_2001",
+          "files": 30,
+          "size_mb": 20.699048042297363,
+          "source_name": "historical_download"
+        },
+        "year_2008": {
+          "source_path": "data/historical_download/market_data/year_2008",
+          "target_path": "data/consolidated_csv/market_data/year_2008",
+          "files": 40,
+          "size_mb": 30.192944526672363,
+          "source_name": "historical_download"
+        }
+      },
+      "flow_data": {
+        "industry_flow": {
+          "source_path": "data/priority_download/flow_data/industry_flow",
+          "target_path": "data/consolidated_csv/flow_data/industry_flow",
+          "files": 17,
+          "size_mb": 55.65837383270264,
+          "source_name": "priority_download"
+        },
+        "stock_flow": {
+          "source_path": "data/priority_download/flow_data/stock_flow",
+          "target_path": "data/consolidated_csv/flow_data/stock_flow",
+          "files": 594,
+          "size_mb": 376.41381454467773,
+          "source_name": "priority_download"
+        }
+      }
+    },
+    "copy_operations": [
+      {
+        "source": "data/final_comprehensive_download/financial/fdmtbsbankalllatestget",
+        "target": "data/consolidated_csv/financial/fdmtbsbankalllatestget",
+        "files": 24,
+        "size_mb": 1.3540287017822266
+      },
+      {
+        "source": "data/final_comprehensive_download/financial/fdmtisindualllatestget",
+        "target": "data/consolidated_csv/financial/fdmtisindualllatestget",
+        "files": 24,
+        "size_mb": 115.07050800323486
+      },
+      {
+        "source": "data/final_comprehensive_download/financial/fdmtbsindualllatestget",
+        "target": "data/consolidated_csv/financial/fdmtbsindualllatestget",
+        "files": 24,
+        "size_mb": 161.47248077392578
+      },
+      {
+        "source": "data/final_comprehensive_download/financial/fdmtisbankalllatestget",
+        "target": "data/consolidated_csv/financial/fdmtisbankalllatestget",
+        "files": 24,
+        "size_mb": 1.1996259689331055
+      },
+      {
+        "source": "data/final_comprehensive_download/financial/fdmtindipsget",
+        "target": "data/consolidated_csv/financial/fdmtindipsget",
+        "files": 24,
+        "size_mb": 41.73101043701172
+      },
+      {
+        "source": "data/final_comprehensive_download/financial/fdmtcfbankalllatestget",
+        "target": "data/consolidated_csv/financial/fdmtcfbankalllatestget",
+        "files": 24,
+        "size_mb": 1.211989402770996
+      },
+      {
+        "source": "data/final_comprehensive_download/financial/fdmtcfindualllatestget",
+        "target": "data/consolidated_csv/financial/fdmtcfindualllatestget",
+        "files": 24,
+        "size_mb": 117.34615421295166
+      },
+      {
+        "source": "data/final_comprehensive_download/financial/fdmtcfalllatestget",
+        "target": "data/consolidated_csv/financial/fdmtcfalllatestget",
+        "files": 24,
+        "size_mb": 119.69077205657959
+      },
+      {
+        "source": "data/final_comprehensive_download/financial/fdmtderget",
+        "target": "data/consolidated_csv/financial/fdmtderget",
+        "files": 24,
+        "size_mb": 80.51586055755615
+      },
+      {
+        "source": "data/final_comprehensive_download/financial/fdmtisalllatestget",
+        "target": "data/consolidated_csv/financial/fdmtisalllatestget",
+        "files": 24,
+        "size_mb": 117.30327796936035
+      },
+      {
+        "source": "data/final_comprehensive_download/financial/fdmtindigrowthget",
+        "target": "data/consolidated_csv/financial/fdmtindigrowthget",
+        "files": 18,
+        "size_mb": 39.71772766113281
+      },
+      {
+        "source": "data/final_comprehensive_download/financial/fdmtbsalllatestget",
+        "target": "data/consolidated_csv/financial/fdmtbsalllatestget",
+        "files": 24,
+        "size_mb": 166.87149238586426
+      },
+      {
+        "source": "data/final_comprehensive_download/special_trading/mktconsbondpremiumget",
+        "target": "data/consolidated_csv/special_trading/mktconsbondpremiumget",
+        "files": 26,
+        "size_mb": 3597.041003227234
+      },
+      {
+        "source": "data/final_comprehensive_download/special_trading/mktrankinstr",
+        "target": "data/consolidated_csv/special_trading/mktrankinstr",
+        "files": 50,
+        "size_mb": 0.40845775604248047
+      },
+      {
+        "source": "data/final_comprehensive_download/special_trading/mktrankdivyieldget",
+        "target": "data/consolidated_csv/special_trading/mktrankdivyieldget",
+        "files": 20,
+        "size_mb": 972.4439706802368
+      },
+      {
+        "source": "data/final_comprehensive_download/special_trading/fsttotalget",
+        "target": "data/consolidated_csv/special_trading/fsttotalget",
+        "files": 16,
+        "size_mb": 26.877305030822754
+      },
+      {
+        "source": "data/final_comprehensive_download/special_trading/mktblockdget",
+        "target": "data/consolidated_csv/special_trading/mktblockdget",
+        "files": 24,
+        "size_mb": 49.371155738830566
+      },
+      {
+        "source": "data/final_comprehensive_download/special_trading/mktranklistsalesget",
+        "target": "data/consolidated_csv/special_trading/mktranklistsalesget",
+        "files": 20,
+        "size_mb": 309.4760437011719
+      },
+      {
+        "source": "data/final_comprehensive_download/special_trading/equisactivityget",
+        "target": "data/consolidated_csv/special_trading/equisactivityget",
+        "files": 26,
+        "size_mb": 316.96536350250244
+      },
+      {
+        "source": "data/final_comprehensive_download/special_trading/sechaltget",
+        "target": "data/consolidated_csv/special_trading/sechaltget",
+        "files": 23,
+        "size_mb": 6.380127906799316
+      },
+      {
+        "source": "data/final_comprehensive_download/special_trading/vfsttargetget",
+        "target": "data/consolidated_csv/special_trading/vfsttargetget",
+        "files": 1,
+        "size_mb": 0.7226457595825195
+      },
+      {
+        "source": "data/final_comprehensive_download/special_trading/fstdetailget",
+        "target": "data/consolidated_csv/special_trading/fstdetailget",
+        "files": 16,
+        "size_mb": 682.1216220855713
+      },
+      {
+        "source": "data/final_comprehensive_download/special_trading/fdmtee",
+        "target": "data/consolidated_csv/special_trading/fdmtee",
+        "files": 20,
+        "size_mb": 24.417522430419922
+      },
+      {
+        "source": "data/final_comprehensive_download/special_trading/mktequdstatsget",
+        "target": "data/consolidated_csv/special_trading/mktequdstatsget",
+        "files": 16,
+        "size_mb": 1.758467674255371
+      },
+      {
+        "source": "data/final_comprehensive_download/special_trading/mktlimitget",
+        "target": "data/consolidated_csv/special_trading/mktlimitget",
+        "files": 19,
+        "size_mb": 1058.7500982284546
+      },
+      {
+        "source": "data/final_comprehensive_download/special_trading/mktrankliststocksget",
+        "target": "data/consolidated_csv/special_trading/mktrankliststocksget",
+        "files": 20,
+        "size_mb": 33.200263023376465
+      },
+      {
+        "source": "data/final_comprehensive_download/special_trading/equisparticipantqaget",
+        "target": "data/consolidated_csv/special_trading/equisparticipantqaget",
+        "files": 26,
+        "size_mb": 195493.0866613388
+      },
+      {
+        "source": "data/final_comprehensive_download/special_trading/mktipocontraddaysget",
+        "target": "data/consolidated_csv/special_trading/mktipocontraddaysget",
+        "files": 16,
+        "size_mb": 0.3218955993652344
+      },
+      {
+        "source": "data/final_comprehensive_download/basic_info/secidget",
+        "target": "data/consolidated_csv/basic_info/secidget",
+        "files": 1,
+        "size_mb": 9.672097206115723
+      },
+      {
+        "source": "data/final_comprehensive_download/basic_info/equget",
+        "target": "data/consolidated_csv/basic_info/equget",
+        "files": 1,
+        "size_mb": 2.546992301940918
+      },
+      {
+        "source": "data/final_comprehensive_download/basic_info/mktidxdget",
+        "target": "data/consolidated_csv/basic_info/mktidxdget",
+        "files": 26,
+        "size_mb": 401.18582916259766
+      },
+      {
+        "source": "data/final_comprehensive_download/basic_info/equipoget",
+        "target": "data/consolidated_csv/basic_info/equipoget",
+        "files": 1,
+        "size_mb": 1.1744365692138672
+      },
+      {
+        "source": "data/final_comprehensive_download/basic_info/equindustryget",
+        "target": "data/consolidated_csv/basic_info/equindustryget",
+        "files": 1,
+        "size_mb": 15.55281925201416
+      },
+      {
+        "source": "data/final_comprehensive_download/basic_info/equdivget",
+        "target": "data/consolidated_csv/basic_info/equdivget",
+        "files": 26,
+        "size_mb": 11.681827545166016
+      },
+      {
+        "source": "data/final_comprehensive_download/basic_info/equsplitsget",
+        "target": "data/consolidated_csv/basic_info/equsplitsget",
+        "files": 7,
+        "size_mb": 0.0024042129516601562
+      },
+      {
+        "source": "data/final_comprehensive_download/governance/equshareholdersmeetingget",
+        "target": "data/consolidated_csv/governance/equshareholdersmeetingget",
+        "files": 26,
+        "size_mb": 106.29524040222168
+      },
+      {
+        "source": "data/final_comprehensive_download/governance/equiposharefloatget",
+        "target": "data/consolidated_csv/governance/equiposharefloatget",
+        "files": 19,
+        "size_mb": 11.14620590209961
+      },
+      {
+        "source": "data/final_comprehensive_download/governance/equsharesexcitget",
+        "target": "data/consolidated_csv/governance/equsharesexcitget",
+        "files": 20,
+        "size_mb": 34.52873992919922
+      },
+      {
+        "source": "data/final_comprehensive_download/governance/equpledgeget",
+        "target": "data/consolidated_csv/governance/equpledgeget",
+        "files": 23,
+        "size_mb": 69.17804050445557
+      },
+      {
+        "source": "data/final_comprehensive_download/governance/equshtenget",
+        "target": "data/consolidated_csv/governance/equshtenget",
+        "files": 104,
+        "size_mb": 1490.5869626998901
+      },
+      {
+        "source": "data/final_comprehensive_download/governance/equchangeplanget",
+        "target": "data/consolidated_csv/governance/equchangeplanget",
+        "files": 15,
+        "size_mb": 5.116238594055176
+      },
+      {
+        "source": "data/final_comprehensive_download/governance/equfloatshtenget",
+        "target": "data/consolidated_csv/governance/equfloatshtenget",
+        "files": 89,
+        "size_mb": 1154.1426525115967
+      },
+      {
+        "source": "data/final_comprehensive_download/governance/equactualcontrollerget",
+        "target": "data/consolidated_csv/governance/equactualcontrollerget",
+        "files": 1,
+        "size_mb": 50.65611171722412
+      },
+      {
+        "source": "data/final_comprehensive_download/governance/equstockpledgeget",
+        "target": "data/consolidated_csv/governance/equstockpledgeget",
+        "files": 12,
+        "size_mb": 142.3693037033081
+      },
+      {
+        "source": "data/final_comprehensive_download/governance/equallotget",
+        "target": "data/consolidated_csv/governance/equallotget",
+        "files": 26,
+        "size_mb": 0.09266185760498047
+      },
+      {
+        "source": "data/final_comprehensive_download/governance/equreformsharefloatget",
+        "target": "data/consolidated_csv/governance/equreformsharefloatget",
+        "files": 20,
+        "size_mb": 2.475879669189453
+      },
+      {
+        "source": "data/final_comprehensive_download/governance/equpartynatureget",
+        "target": "data/consolidated_csv/governance/equpartynatureget",
+        "files": 1,
+        "size_mb": 8.379364967346191
+      },
+      {
+        "source": "data/final_comprehensive_download/governance/equexecsholdingsget",
+        "target": "data/consolidated_csv/governance/equexecsholdingsget",
+        "files": 25,
+        "size_mb": 153.52752113342285
+      },
+      {
+        "source": "data/final_comprehensive_download/governance/equspopubresultget",
+        "target": "data/consolidated_csv/governance/equspopubresultget",
+        "files": 17,
+        "size_mb": 0.05316352844238281
+      },
+      {
+        "source": "data/final_comprehensive_download/governance/equallotmentsubscriptionresultsget",
+        "target": "data/consolidated_csv/governance/equallotmentsubscriptionresultsget",
+        "files": 23,
+        "size_mb": 0.08141708374023438
+      },
+      {
+        "source": "data/final_comprehensive_download/governance/equspoget",
+        "target": "data/consolidated_csv/governance/equspoget",
+        "files": 21,
+        "size_mb": 11.609848976135254
+      },
+      {
+        "source": "data/final_comprehensive_download/governance/equoldshofferget",
+        "target": "data/consolidated_csv/governance/equoldshofferget",
+        "files": 6,
+        "size_mb": 0.11657905578613281
+      },
+      {
+        "source": "data/final_comprehensive_download/governance/equmschangesget",
+        "target": "data/consolidated_csv/governance/equmschangesget",
+        "files": 22,
+        "size_mb": 24.0992488861084
+      },
+      {
+        "source": "data/final_comprehensive_download/governance/equmanagersget",
+        "target": "data/consolidated_csv/governance/equmanagersget",
+        "files": 1,
+        "size_mb": 8.084567070007324
+      },
+      {
+        "source": "data/final_comprehensive_download/governance/equrelatedtransactionget",
+        "target": "data/consolidated_csv/governance/equrelatedtransactionget",
+        "files": 26,
+        "size_mb": 106.19295597076416
+      },
+      {
+        "source": "data/final_comprehensive_download/governance/equsharesfloatget",
+        "target": "data/consolidated_csv/governance/equsharesfloatget",
+        "files": 26,
+        "size_mb": 2.809330940246582
+      },
+      {
+        "source": "data/final_comprehensive_download/governance/equshareholdernumget",
+        "target": "data/consolidated_csv/governance/equshareholdernumget",
+        "files": 104,
+        "size_mb": 659.9492225646973
+      },
+      {
+        "source": "data/priority_download/market_data/adj_factor",
+        "target": "data/consolidated_csv/market_data/adj_factor",
+        "files": 713,
+        "size_mb": 2.123281478881836
+      },
+      {
+        "source": "data/priority_download/market_data/daily",
+        "target": "data/consolidated_csv/market_data/daily",
+        "files": 713,
+        "size_mb": 1361.9501237869263
+      },
+      {
+        "source": "data/priority_download/market_data/monthly",
+        "target": "data/consolidated_csv/market_data/monthly",
+        "files": 713,
+        "size_mb": 49.97231674194336
+      },
+      {
+        "source": "data/priority_download/market_data/weekly",
+        "target": "data/consolidated_csv/market_data/weekly",
+        "files": 713,
+        "size_mb": 209.05542278289795
+      },
+      {
+        "source": "data/priority_download/market_data/adj_daily",
+        "target": "data/consolidated_csv/market_data/adj_daily",
+        "files": 713,
+        "size_mb": 1040.0512409210205
+      },
+      {
+        "source": "data/historical_download/market_data/year_2016",
+        "target": "data/consolidated_csv/market_data/year_2016",
+        "files": 73,
+        "size_mb": 56.80738925933838
+      },
+      {
+        "source": "data/historical_download/market_data/year_2011",
+        "target": "data/consolidated_csv/market_data/year_2011",
+        "files": 52,
+        "size_mb": 43.76417350769043
+      },
+      {
+        "source": "data/historical_download/market_data/year_2018",
+        "target": "data/consolidated_csv/market_data/year_2018",
+        "files": 78,
+        "size_mb": 69.01939487457275
+      },
+      {
+        "source": "data/historical_download/market_data/year_2020",
+        "target": "data/consolidated_csv/market_data/year_2020",
+        "files": 100,
+        "size_mb": 79.96085166931152
+      },
+      {
+        "source": "data/historical_download/market_data/year_2021",
+        "target": "data/consolidated_csv/market_data/year_2021",
+        "files": 106,
+        "size_mb": 91.24444389343262
+      },
+      {
+        "source": "data/historical_download/market_data/year_2019",
+        "target": "data/consolidated_csv/market_data/year_2019",
+        "files": 88,
+        "size_mb": 73.2843713760376
+      },
+      {
+        "source": "data/historical_download/market_data/year_2010",
+        "target": "data/consolidated_csv/market_data/year_2010",
+        "files": 48,
+        "size_mb": 37.394412994384766
+      },
+      {
+        "source": "data/historical_download/market_data/year_2017",
+        "target": "data/consolidated_csv/market_data/year_2017",
+        "files": 78,
+        "size_mb": 64.63898754119873
+      },
+      {
+        "source": "data/historical_download/market_data/year_2004",
+        "target": "data/consolidated_csv/market_data/year_2004",
+        "files": 32,
+        "size_mb": 24.666711807250977
+      },
+      {
+        "source": "data/historical_download/market_data/year_2003",
+        "target": "data/consolidated_csv/market_data/year_2003",
+        "files": 30,
+        "size_mb": 22.053879737854004
+      },
+      {
+        "source": "data/historical_download/market_data/year_2002",
+        "target": "data/consolidated_csv/market_data/year_2002",
+        "files": 30,
+        "size_mb": 21.21565532684326
+      },
+      {
+        "source": "data/historical_download/market_data/year_2005",
+        "target": "data/consolidated_csv/market_data/year_2005",
+        "files": 32,
+        "size_mb": 25.116877555847168
+      },
+      {
+        "source": "data/historical_download/market_data/year_2012",
+        "target": "data/consolidated_csv/market_data/year_2012",
+        "files": 61,
+        "size_mb": 47.15572547912598
+      },
+      {
+        "source": "data/historical_download/market_data/year_2015",
+        "target": "data/consolidated_csv/market_data/year_2015",
+        "files": 70,
+        "size_mb": 54.24715709686279
+      },
+      {
+        "source": "data/historical_download/market_data/year_2023",
+        "target": "data/consolidated_csv/market_data/year_2023",
+        "files": 110,
+        "size_mb": 108.94698143005371
+      },
+      {
+        "source": "data/historical_download/market_data/year_2024",
+        "target": "data/consolidated_csv/market_data/year_2024",
+        "files": 111,
+        "size_mb": 112.74579524993896
+      },
+      {
+        "source": "data/historical_download/market_data/year_2025",
+        "target": "data/consolidated_csv/market_data/year_2025",
+        "files": 111,
+        "size_mb": 76.83466529846191
+      },
+      {
+        "source": "data/historical_download/market_data/year_2022",
+        "target": "data/consolidated_csv/market_data/year_2022",
+        "files": 109,
+        "size_mb": 100.59997940063477
+      },
+      {
+        "source": "data/historical_download/market_data/year_2014",
+        "target": "data/consolidated_csv/market_data/year_2014",
+        "files": 69,
+        "size_mb": 50.10947608947754
+      },
+      {
+        "source": "data/historical_download/market_data/year_2013",
+        "target": "data/consolidated_csv/market_data/year_2013",
+        "files": 61,
+        "size_mb": 47.408392906188965
+      },
+      {
+        "source": "data/historical_download/market_data/year_2009",
+        "target": "data/consolidated_csv/market_data/year_2009",
+        "files": 42,
+        "size_mb": 31.30755043029785
+      },
+      {
+        "source": "data/historical_download/market_data/year_2000",
+        "target": "data/consolidated_csv/market_data/year_2000",
+        "files": 29,
+        "size_mb": 17.843689918518066
+      },
+      {
+        "source": "data/historical_download/market_data/year_2007",
+        "target": "data/consolidated_csv/market_data/year_2007",
+        "files": 39,
+        "size_mb": 27.96392059326172
+      },
+      {
+        "source": "data/historical_download/market_data/year_2006",
+        "target": "data/consolidated_csv/market_data/year_2006",
+        "files": 36,
+        "size_mb": 24.456159591674805
+      },
+      {
+        "source": "data/historical_download/market_data/year_2001",
+        "target": "data/consolidated_csv/market_data/year_2001",
+        "files": 30,
+        "size_mb": 20.699048042297363
+      },
+      {
+        "source": "data/historical_download/market_data/year_2008",
+        "target": "data/consolidated_csv/market_data/year_2008",
+        "files": 40,
+        "size_mb": 30.192944526672363
+      },
+      {
+        "source": "data/priority_download/flow_data/industry_flow",
+        "target": "data/consolidated_csv/flow_data/industry_flow",
+        "files": 17,
+        "size_mb": 55.65837383270264
+      },
+      {
+        "source": "data/priority_download/flow_data/stock_flow",
+        "target": "data/consolidated_csv/flow_data/stock_flow",
+        "files": 594,
+        "size_mb": 376.41381454467773
+      }
+    ],
+    "total_files": 7152,
+    "total_size_gb": 207.4951546927914
+  },
+  "recommendations": [
+    "✅ API下载完整性良好，数据收集基本完成",
+    "🔄 发现 55 个API有多个数据源，建议整合",
+    "💾 建议创建统一数据目录，整合后大小约 207.5 GB"
+  ]
+}

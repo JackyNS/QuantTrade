@@ -1,0 +1,1117 @@
+====================================================================================================
+📊 QuantTrade 数据完整性验证报告
+====================================================================================================
+🕐 验证时间: 2025-09-02T09:48:21.686340
+📅 目标时间范围: 2000-01-01 - 2025-08-31
+
+📈 总体统计
+--------------------------------------------------
+数据类别数量: 12
+数据文件总数: 78151
+有效文件数量: 860
+无效文件数量: 77291
+数据有效率: 1.1%
+数据总大小: 54.75 GB
+
+📋 各类别数据明细
+====================================================================================================
+
+📊 其他数据
+--------------------------------------------------------------------------------
+目录数量: 43
+文件总数: 1910
+有效文件: 181
+数据大小: 48.9 MB
+
+📂 目录明细:
+   📁 .
+      文件数: 4
+      有效文件: 4
+      数据大小: 0.0 MB
+   📁 optimized_data
+      文件数: 1
+      有效文件: 1
+      数据大小: 0.0 MB
+   📁 optimized_data/special_trading/mktconsbondpremiumget
+      文件数: 52
+      有效文件: 5
+      数据大小: 0.0 MB
+   📁 optimized_data/special_trading/mktrankinstr
+      文件数: 100
+      有效文件: 5
+      数据大小: 0.0 MB
+   📁 optimized_data/special_trading/mktrankdivyieldget
+      文件数: 40
+      有效文件: 5
+      数据大小: 0.0 MB
+   📁 optimized_data/special_trading/fsttotalget
+      文件数: 32
+      有效文件: 5
+      数据大小: 0.0 MB
+   📁 optimized_data/special_trading/mktblockdget
+      文件数: 48
+      有效文件: 5
+      数据大小: 0.0 MB
+   📁 optimized_data/special_trading/mktranklistsalesget
+      文件数: 40
+      有效文件: 5
+      数据大小: 0.0 MB
+   📁 optimized_data/special_trading/equisactivityget
+      文件数: 52
+      有效文件: 5
+      数据大小: 0.0 MB
+   📁 optimized_data/special_trading/sechaltget
+      文件数: 46
+      有效文件: 5
+      数据大小: 0.0 MB
+   📁 optimized_data/special_trading/vfsttargetget
+      文件数: 2
+      有效文件: 2
+      数据大小: 0.3 MB
+   📁 optimized_data/special_trading/fstdetailget
+      文件数: 32
+      有效文件: 5
+      数据大小: 0.0 MB
+   📁 optimized_data/special_trading/mktlimitget
+      文件数: 38
+      有效文件: 5
+      数据大小: 0.0 MB
+   📁 optimized_data/special_trading/mktipocontraddaysget
+      文件数: 32
+      有效文件: 5
+      数据大小: 0.0 MB
+   📁 optimized_data/basic_info/secidget
+      文件数: 2
+      有效文件: 2
+      数据大小: 9.6 MB
+   📁 optimized_data/basic_info/equget
+      文件数: 2
+      有效文件: 2
+      数据大小: 2.5 MB
+   📁 optimized_data/basic_info/equipoget
+      文件数: 2
+      有效文件: 2
+      数据大小: 1.2 MB
+   📁 optimized_data/basic_info/equindustryget
+      文件数: 2
+      有效文件: 2
+      数据大小: 1.4 MB
+   📁 optimized_data/basic_info/equdivget
+      文件数: 52
+      有效文件: 5
+      数据大小: 0.0 MB
+   📁 optimized_data/basic_info/equsplitsget
+      文件数: 14
+      有效文件: 5
+      数据大小: 0.0 MB
+   📁 optimized_data/governance/equshareholdersmeetingget
+      文件数: 52
+      有效文件: 5
+      数据大小: 0.0 MB
+   📁 optimized_data/governance/equiposharefloatget
+      文件数: 38
+      有效文件: 5
+      数据大小: 0.0 MB
+   📁 optimized_data/governance/equsharesexcitget
+      文件数: 40
+      有效文件: 5
+      数据大小: 0.0 MB
+   📁 optimized_data/governance/equpledgeget
+      文件数: 46
+      有效文件: 5
+      数据大小: 0.0 MB
+   📁 optimized_data/governance/equshtenget
+      文件数: 208
+      有效文件: 5
+      数据大小: 3.1 MB
+   📁 optimized_data/governance/equchangeplanget
+      文件数: 30
+      有效文件: 5
+      数据大小: 0.0 MB
+   📁 optimized_data/governance/equfloatshtenget
+      文件数: 178
+      有效文件: 5
+      数据大小: 2.5 MB
+   📁 optimized_data/governance/equstockpledgeget
+      文件数: 24
+      有效文件: 5
+      数据大小: 9.8 MB
+   📁 optimized_data/governance/equallotget
+      文件数: 52
+      有效文件: 5
+      数据大小: 0.0 MB
+   📁 optimized_data/governance/equreformsharefloatget
+      文件数: 40
+      有效文件: 5
+      数据大小: 0.0 MB
+   📁 optimized_data/governance/equpartynatureget
+      文件数: 2
+      有效文件: 2
+      数据大小: 8.4 MB
+   📁 optimized_data/governance/equexecsholdingsget
+      文件数: 50
+      有效文件: 5
+      数据大小: 0.0 MB
+   📁 optimized_data/governance/equspoget
+      文件数: 34
+      有效文件: 5
+      数据大小: 0.0 MB
+   📁 optimized_data/governance/equoldshofferget
+      文件数: 12
+      有效文件: 5
+      数据大小: 0.0 MB
+   📁 optimized_data/governance/equmschangesget
+      文件数: 44
+      有效文件: 5
+      数据大小: 0.0 MB
+   📁 optimized_data/governance/equmanagersget
+      文件数: 2
+      有效文件: 2
+      数据大小: 1.8 MB
+   📁 optimized_data/governance/equrelatedtransactionget
+      文件数: 44
+      有效文件: 5
+      数据大小: 0.0 MB
+   📁 optimized_data/governance/equsharesfloatget
+      文件数: 52
+      有效文件: 5
+      数据大小: 0.0 MB
+   📁 optimized_data/governance/equshareholdernumget
+      文件数: 208
+      有效文件: 5
+      数据大小: 5.7 MB
+   📁 metadata
+      文件数: 4
+      有效文件: 4
+      数据大小: 0.1 MB
+   📁 csv_complete
+      文件数: 2
+      有效文件: 2
+      数据大小: 0.3 MB
+   📁 strategy/capital_flow
+      文件数: 154
+      有效文件: 5
+      数据大小: 0.2 MB
+   📁 professional_complete/basic_info
+      文件数: 1
+      有效文件: 1
+      数据大小: 1.9 MB
+
+📋 样本文件:
+   ✅ download_progress.json (0 行, 0.0 MB)
+   ✅ data_quality_report.json (0 行, 0.0 MB)
+   ✅ optimization_report.json (0 行, 0.0 MB)
+
+📊 财务报表数据
+--------------------------------------------------------------------------------
+目录数量: 27
+文件总数: 926
+有效文件: 135
+数据大小: 334.0 MB
+
+📂 目录明细:
+   📁 optimized_data/financial/fdmtbsbankalllatestget
+      文件数: 48
+      有效文件: 5
+      数据大小: 0.0 MB
+   📁 optimized_data/financial/fdmtisindualllatestget
+      文件数: 48
+      有效文件: 5
+      数据大小: 0.0 MB
+   📁 optimized_data/financial/fdmtbsindualllatestget
+      文件数: 48
+      有效文件: 5
+      数据大小: 0.0 MB
+   📁 optimized_data/financial/fdmtisbankalllatestget
+      文件数: 48
+      有效文件: 5
+      数据大小: 0.0 MB
+   📁 optimized_data/financial/fdmtindipsget
+      文件数: 48
+      有效文件: 5
+      数据大小: 0.0 MB
+   📁 optimized_data/financial/fdmtcfbankalllatestget
+      文件数: 48
+      有效文件: 5
+      数据大小: 0.0 MB
+   📁 optimized_data/financial/fdmtcfindualllatestget
+      文件数: 48
+      有效文件: 5
+      数据大小: 0.0 MB
+   📁 optimized_data/financial/fdmtcfalllatestget
+      文件数: 48
+      有效文件: 5
+      数据大小: 0.0 MB
+   📁 optimized_data/financial/fdmtderget
+      文件数: 48
+      有效文件: 5
+      数据大小: 0.0 MB
+   📁 optimized_data/financial/fdmtisalllatestget
+      文件数: 48
+      有效文件: 5
+      数据大小: 0.0 MB
+   📁 optimized_data/financial/fdmtindigrowthget
+      文件数: 36
+      有效文件: 5
+      数据大小: 0.0 MB
+   📁 optimized_data/financial/fdmtbsalllatestget
+      文件数: 48
+      有效文件: 5
+      数据大小: 0.0 MB
+   📁 optimized_data/special_trading/fdmtee
+      文件数: 40
+      有效文件: 5
+      数据大小: 0.0 MB
+   📁 final_comprehensive_download/financial/fdmtbsbankalllatestget
+      文件数: 24
+      有效文件: 5
+      数据大小: 0.4 MB
+   📁 final_comprehensive_download/financial/fdmtisindualllatestget
+      文件数: 24
+      有效文件: 5
+      数据大小: 30.6 MB
+   📁 final_comprehensive_download/financial/fdmtbsindualllatestget
+      文件数: 34
+      有效文件: 5
+      数据大小: 34.8 MB
+   📁 final_comprehensive_download/financial/fdmtisbankalllatestget
+      文件数: 24
+      有效文件: 5
+      数据大小: 0.4 MB
+   📁 final_comprehensive_download/financial/fdmtindipsget_enhanced
+      文件数: 5
+      有效文件: 5
+      数据大小: 79.5 MB
+   📁 final_comprehensive_download/financial/fdmtindipsget
+      文件数: 24
+      有效文件: 5
+      数据大小: 11.3 MB
+   📁 final_comprehensive_download/financial/fdmtcfbankalllatestget
+      文件数: 24
+      有效文件: 5
+      数据大小: 0.4 MB
+   📁 final_comprehensive_download/financial/fdmtcfindualllatestget
+      文件数: 24
+      有效文件: 5
+      数据大小: 32.3 MB
+   📁 final_comprehensive_download/financial/fdmtcfalllatestget
+      文件数: 24
+      有效文件: 5
+      数据大小: 33.0 MB
+   📁 final_comprehensive_download/financial/fdmtderget
+      文件数: 24
+      有效文件: 5
+      数据大小: 22.0 MB
+   📁 final_comprehensive_download/financial/fdmtisalllatestget
+      文件数: 24
+      有效文件: 5
+      数据大小: 31.2 MB
+   📁 final_comprehensive_download/financial/fdmtindigrowthget
+      文件数: 18
+      有效文件: 5
+      数据大小: 12.2 MB
+   📁 final_comprehensive_download/financial/fdmtbsalllatestget
+      文件数: 29
+      有效文件: 5
+      数据大小: 43.0 MB
+   📁 final_comprehensive_download/special_trading/fdmtee
+      文件数: 20
+      有效文件: 5
+      数据大小: 3.0 MB
+
+📋 样本文件:
+   ✅ year_2008_metadata.json (0 行, 0.0 MB)
+   ✅ year_2022_metadata.json (0 行, 0.0 MB)
+   ✅ year_2008_metadata.json (0 行, 0.0 MB)
+
+📊 股票日线数据
+--------------------------------------------------------------------------------
+目录数量: 38
+文件总数: 67856
+有效文件: 22
+数据大小: 35.8 MB
+
+📂 目录明细:
+   📁 optimized_data/special_trading/mktequdstatsget
+      文件数: 32
+      有效文件: 5
+      数据大小: 0.0 MB
+   📁 optimized_data/special_trading/mktrankliststocksget
+      文件数: 40
+      有效文件: 5
+      数据大小: 0.0 MB
+   📁 final_comprehensive_download/special_trading/mktequdstatsget
+      文件数: 16
+      有效文件: 0
+      数据大小: 0.6 MB
+   📁 final_comprehensive_download/special_trading/mktrankliststocksget
+      文件数: 20
+      有效文件: 0
+      数据大小: 8.9 MB
+   📁 priority_download/market_data/daily
+      文件数: 713
+      有效文件: 0
+      数据大小: 9.9 MB
+   📁 raw/daily
+      文件数: 5152
+      有效文件: 0
+      数据大小: 0.7 MB
+   📁 csv_complete/daily/stocks
+      文件数: 3386
+      有效文件: 0
+      数据大小: 3.6 MB
+   📁 csv_complete/daily/yearly/year_2016
+      文件数: 2169
+      有效文件: 0
+      数据大小: 0.2 MB
+   📁 csv_complete/daily/yearly/year_2011
+      文件数: 1719
+      有效文件: 0
+      数据大小: 0.2 MB
+   📁 csv_complete/daily/yearly/year_2018
+      文件数: 2436
+      有效文件: 0
+      数据大小: 0.2 MB
+   📁 csv_complete/daily/yearly/year_2020
+      文件数: 2660
+      有效文件: 0
+      数据大小: 0.2 MB
+   📁 csv_complete/daily/yearly/year_2021
+      文件数: 2877
+      有效文件: 0
+      数据大小: 0.2 MB
+   📁 csv_complete/daily/yearly/year_2019
+      文件数: 2507
+      有效文件: 0
+      数据大小: 0.2 MB
+   📁 csv_complete/daily/yearly/year_2010
+      文件数: 1477
+      有效文件: 0
+      数据大小: 0.2 MB
+   📁 csv_complete/daily/yearly/year_2017
+      文件数: 2393
+      有效文件: 0
+      数据大小: 0.2 MB
+   📁 csv_complete/daily/yearly/year_2004
+      文件数: 859
+      有效文件: 0
+      数据大小: 0.2 MB
+   📁 csv_complete/daily/yearly/year_2003
+      文件数: 817
+      有效文件: 0
+      数据大小: 0.2 MB
+   📁 csv_complete/daily/yearly/year_2002
+      文件数: 812
+      有效文件: 0
+      数据大小: 0.2 MB
+   📁 csv_complete/daily/yearly/year_2005
+      文件数: 865
+      有效文件: 0
+      数据大小: 0.2 MB
+   📁 csv_complete/daily/yearly/year_2012
+      文件数: 1846
+      有效文件: 0
+      数据大小: 0.2 MB
+   📁 csv_complete/daily/yearly/year_2015
+      文件数: 2051
+      有效文件: 0
+      数据大小: 0.2 MB
+   📁 csv_complete/daily/yearly/year_2023
+      文件数: 3154
+      有效文件: 0
+      数据大小: 0.2 MB
+   📁 csv_complete/daily/yearly/year_2024
+      文件数: 3162
+      有效文件: 5
+      数据大小: 0.2 MB
+   📁 csv_complete/daily/yearly/year_2025
+      文件数: 2892
+      有效文件: 5
+      数据大小: 0.1 MB
+   📁 csv_complete/daily/yearly/year_2022
+      文件数: 3055
+      有效文件: 0
+      数据大小: 0.2 MB
+   📁 csv_complete/daily/yearly/year_2014
+      文件数: 1921
+      有效文件: 0
+      数据大小: 0.2 MB
+   📁 csv_complete/daily/yearly/year_2013
+      文件数: 1845
+      有效文件: 0
+      数据大小: 0.2 MB
+   📁 csv_complete/daily/yearly/year_2009
+      文件数: 1160
+      有效文件: 0
+      数据大小: 0.2 MB
+   📁 csv_complete/daily/yearly/year_2000
+      文件数: 798
+      有效文件: 0
+      数据大小: 0.1 MB
+   📁 csv_complete/daily/yearly/year_2007
+      文件数: 1004
+      有效文件: 0
+      数据大小: 0.1 MB
+   📁 csv_complete/daily/yearly/year_2006
+      文件数: 912
+      有效文件: 0
+      数据大小: 0.2 MB
+   📁 csv_complete/daily/yearly/year_2001
+      文件数: 811
+      有效文件: 0
+      数据大小: 0.2 MB
+   📁 csv_complete/daily/yearly/year_2008
+      文件数: 1070
+      有效文件: 0
+      数据大小: 0.2 MB
+   📁 csv_complete/monthly/stocks
+      文件数: 5507
+      有效文件: 1
+      数据大小: 0.1 MB
+   📁 csv_complete/weekly/stocks
+      文件数: 5507
+      有效文件: 1
+      数据大小: 0.3 MB
+   📁 professional_complete/daily/stocks
+      文件数: 71
+      有效文件: 0
+      数据大小: 5.2 MB
+   📁 professional_complete/monthly/stocks
+      文件数: 70
+      有效文件: 0
+      数据大小: 0.3 MB
+   📁 professional_complete/weekly/stocks
+      文件数: 70
+      有效文件: 0
+      数据大小: 1.1 MB
+
+📋 样本文件:
+   ✅ year_2022_metadata.json (0 行, 0.0 MB)
+   ✅ year_2025_metadata.json (0 行, 0.0 MB)
+   ✅ year_2008_metadata.json (0 行, 0.0 MB)
+
+📊 指数数据
+--------------------------------------------------------------------------------
+目录数量: 2
+文件总数: 78
+有效文件: 10
+数据大小: 76.3 MB
+
+📂 目录明细:
+   📁 optimized_data/basic_info/mktidxdget
+      文件数: 52
+      有效文件: 5
+      数据大小: 0.0 MB
+   📁 final_comprehensive_download/basic_info/mktidxdget
+      文件数: 26
+      有效文件: 5
+      数据大小: 76.3 MB
+
+📋 样本文件:
+   ✅ year_2008_metadata.json (0 行, 0.0 MB)
+   ✅ year_2022_metadata.json (0 行, 0.0 MB)
+   ✅ year_2023.csv (100 行, 15.2 MB)
+      时间: 2023-01-03 - 2023-06-02
+
+📊 输出报告数据
+--------------------------------------------------------------------------------
+目录数量: 4
+文件总数: 120
+有效文件: 20
+数据大小: 0.0 MB
+
+📂 目录明细:
+   📁 optimized_data/governance/equspopubresultget
+      文件数: 34
+      有效文件: 5
+      数据大小: 0.0 MB
+   📁 optimized_data/governance/equallotmentsubscriptionresultsget
+      文件数: 46
+      有效文件: 5
+      数据大小: 0.0 MB
+   📁 final_comprehensive_download/governance/equspopubresultget
+      文件数: 17
+      有效文件: 5
+      数据大小: 0.0 MB
+   📁 final_comprehensive_download/governance/equallotmentsubscriptionresultsget
+      文件数: 23
+      有效文件: 5
+      数据大小: 0.0 MB
+
+📋 样本文件:
+   ✅ year_2008_metadata.json (0 行, 0.0 MB)
+   ✅ year_2012_metadata.json (0 行, 0.0 MB)
+   ✅ year_2008_metadata.json (0 行, 0.0 MB)
+
+📊 原始备份数据
+--------------------------------------------------------------------------------
+目录数量: 104
+文件总数: 4171
+有效文件: 457
+数据大小: 55537.4 MB
+
+📂 目录明细:
+   📁 smart_download/year_2016
+      文件数: 37
+      有效文件: 5
+      数据大小: 7.7 MB
+   📁 smart_download/year_2011
+      文件数: 28
+      有效文件: 5
+      数据大小: 7.5 MB
+   📁 smart_download/year_2018
+      文件数: 44
+      有效文件: 5
+      数据大小: 8.1 MB
+   📁 smart_download/year_2020
+      文件数: 51
+      有效文件: 5
+      数据大小: 6.6 MB
+   📁 smart_download/year_2021
+      文件数: 58
+      有效文件: 5
+      数据大小: 7.4 MB
+   📁 smart_download/year_2019
+      文件数: 46
+      有效文件: 5
+      数据大小: 8.3 MB
+   📁 smart_download/year_2010
+      文件数: 25
+      有效文件: 5
+      数据大小: 7.5 MB
+   📁 smart_download/year_2017
+      文件数: 42
+      有效文件: 5
+      数据大小: 8.2 MB
+   📁 smart_download/year_2004
+      文件数: 16
+      有效文件: 5
+      数据大小: 7.3 MB
+   📁 smart_download/year_2003
+      文件数: 15
+      有效文件: 5
+      数据大小: 7.1 MB
+   📁 smart_download/year_2005
+      文件数: 16
+      有效文件: 5
+      数据大小: 7.6 MB
+   📁 smart_download/year_2012
+      文件数: 30
+      有效文件: 5
+      数据大小: 7.7 MB
+   📁 smart_download/year_2015
+      文件数: 34
+      有效文件: 5
+      数据大小: 8.0 MB
+   📁 smart_download/year_2023
+      文件数: 67
+      有效文件: 5
+      数据大小: 7.9 MB
+   📁 smart_download/year_2024
+      文件数: 68
+      有效文件: 5
+      数据大小: 8.4 MB
+   📁 smart_download/year_2025
+      文件数: 69
+      有效文件: 5
+      数据大小: 5.6 MB
+   📁 smart_download/year_2022
+      文件数: 63
+      有效文件: 5
+      数据大小: 6.6 MB
+   📁 smart_download/year_2014
+      文件数: 31
+      有效文件: 5
+      数据大小: 8.0 MB
+   📁 smart_download/year_2013
+      文件数: 30
+      有效文件: 5
+      数据大小: 8.1 MB
+   📁 smart_download/year_2009
+      文件数: 21
+      有效文件: 5
+      数据大小: 8.1 MB
+   📁 smart_download/year_2007
+      文件数: 19
+      有效文件: 5
+      数据大小: 8.1 MB
+   📁 smart_download/year_2006
+      文件数: 17
+      有效文件: 5
+      数据大小: 7.5 MB
+   📁 smart_download/year_2008
+      文件数: 20
+      有效文件: 5
+      数据大小: 8.0 MB
+   📁 final_comprehensive_download
+      文件数: 3
+      有效文件: 3
+      数据大小: 0.2 MB
+   📁 final_comprehensive_download/special_trading/mktconsbondpremiumget
+      文件数: 36
+      有效文件: 5
+      数据大小: 1265.3 MB
+   📁 final_comprehensive_download/special_trading/mktbonddget
+      文件数: 3
+      有效文件: 3
+      数据大小: 8.8 MB
+   📁 final_comprehensive_download/special_trading/mktrankinstr
+      文件数: 50
+      有效文件: 5
+      数据大小: 0.0 MB
+   📁 final_comprehensive_download/special_trading/mktrankdivyieldget
+      文件数: 20
+      有效文件: 5
+      数据大小: 269.1 MB
+   📁 final_comprehensive_download/special_trading/fsttotalget
+      文件数: 16
+      有效文件: 5
+      数据大小: 11.1 MB
+   📁 final_comprehensive_download/special_trading/mktblockdget
+      文件数: 24
+      有效文件: 5
+      数据大小: 17.9 MB
+   📁 final_comprehensive_download/special_trading/mktranklistsalesget
+      文件数: 20
+      有效文件: 5
+      数据大小: 82.8 MB
+   📁 final_comprehensive_download/special_trading/equisactivityget
+      文件数: 26
+      有效文件: 5
+      数据大小: 73.4 MB
+   📁 final_comprehensive_download/special_trading/sechaltget
+      文件数: 23
+      有效文件: 5
+      数据大小: 1.5 MB
+   📁 final_comprehensive_download/special_trading/vfsttargetget
+      文件数: 1
+      有效文件: 1
+      数据大小: 0.7 MB
+   📁 final_comprehensive_download/special_trading/fstdetailget
+      文件数: 17
+      有效文件: 5
+      数据大小: 311.0 MB
+   📁 final_comprehensive_download/special_trading/mktrankinsttrget
+      文件数: 66
+      有效文件: 5
+      数据大小: 0.0 MB
+   📁 final_comprehensive_download/special_trading/mktlimitget
+      文件数: 19
+      有效文件: 5
+      数据大小: 308.0 MB
+   📁 final_comprehensive_download/special_trading/mktoptdget
+      文件数: 3
+      有效文件: 3
+      数据大小: 3.9 MB
+   📁 final_comprehensive_download/special_trading/equisparticipantqaget
+      文件数: 26
+      有效文件: 5
+      数据大小: 52398.6 MB
+   📁 final_comprehensive_download/special_trading/mktipocontraddaysget
+      文件数: 16
+      有效文件: 5
+      数据大小: 0.2 MB
+   📁 final_comprehensive_download/basic_info/secidget
+      文件数: 1
+      有效文件: 1
+      数据大小: 9.7 MB
+   📁 final_comprehensive_download/basic_info/equget
+      文件数: 1
+      有效文件: 1
+      数据大小: 2.5 MB
+   📁 final_comprehensive_download/basic_info/equipoget
+      文件数: 1
+      有效文件: 1
+      数据大小: 1.2 MB
+   📁 final_comprehensive_download/basic_info/equindustryget
+      文件数: 1
+      有效文件: 1
+      数据大小: 15.6 MB
+   📁 final_comprehensive_download/basic_info/equdivget
+      文件数: 26
+      有效文件: 5
+      数据大小: 3.6 MB
+   📁 final_comprehensive_download/basic_info/sectypeget_enhanced
+      文件数: 1
+      有效文件: 1
+      数据大小: 0.0 MB
+   📁 final_comprehensive_download/basic_info/equsplitsget
+      文件数: 7
+      有效文件: 5
+      数据大小: 0.0 MB
+   📁 final_comprehensive_download/governance/equshareholdersmeetingget
+      文件数: 26
+      有效文件: 5
+      数据大小: 28.1 MB
+   📁 final_comprehensive_download/governance/equiposharefloatget
+      文件数: 19
+      有效文件: 5
+      数据大小: 4.2 MB
+   📁 final_comprehensive_download/governance/equsharesexcitget
+      文件数: 20
+      有效文件: 5
+      数据大小: 11.2 MB
+   📁 final_comprehensive_download/governance/equpledgeget
+      文件数: 23
+      有效文件: 5
+      数据大小: 16.5 MB
+   📁 final_comprehensive_download/governance/equshtenget
+      文件数: 104
+      有效文件: 5
+      数据大小: 71.9 MB
+   📁 final_comprehensive_download/governance/equchangeplanget
+      文件数: 15
+      有效文件: 5
+      数据大小: 2.9 MB
+   📁 final_comprehensive_download/governance/equfloatshtenget
+      文件数: 89
+      有效文件: 5
+      数据大小: 67.1 MB
+   📁 final_comprehensive_download/governance/equactualcontrollerget
+      文件数: 1
+      有效文件: 1
+      数据大小: 50.7 MB
+   📁 final_comprehensive_download/governance/equstockpledgeget
+      文件数: 12
+      有效文件: 5
+      数据大小: 61.1 MB
+   📁 final_comprehensive_download/governance/equallotget
+      文件数: 26
+      有效文件: 5
+      数据大小: 0.0 MB
+   📁 final_comprehensive_download/governance/equreformsharefloatget
+      文件数: 20
+      有效文件: 5
+      数据大小: 0.7 MB
+   📁 final_comprehensive_download/governance/equpartynatureget
+      文件数: 1
+      有效文件: 1
+      数据大小: 8.4 MB
+   📁 final_comprehensive_download/governance/equexecsholdingsget
+      文件数: 25
+      有效文件: 5
+      数据大小: 41.2 MB
+   📁 final_comprehensive_download/governance/equspoget
+      文件数: 21
+      有效文件: 5
+      数据大小: 3.0 MB
+   📁 final_comprehensive_download/governance/equoldshofferget
+      文件数: 6
+      有效文件: 5
+      数据大小: 0.0 MB
+   📁 final_comprehensive_download/governance/equmschangesget
+      文件数: 22
+      有效文件: 5
+      数据大小: 6.9 MB
+   📁 final_comprehensive_download/governance/equmanagersget
+      文件数: 1
+      有效文件: 1
+      数据大小: 8.1 MB
+   📁 final_comprehensive_download/governance/equrelatedtransactionget
+      文件数: 26
+      有效文件: 5
+      数据大小: 22.2 MB
+   📁 final_comprehensive_download/governance/equsharesfloatget
+      文件数: 26
+      有效文件: 5
+      数据大小: 0.9 MB
+   📁 final_comprehensive_download/governance/equshareholdernumget
+      文件数: 104
+      有效文件: 5
+      数据大小: 22.1 MB
+   📁 final_comprehensive_download/additional_apis/sec_type_region
+      文件数: 1
+      有效文件: 1
+      数据大小: 0.0 MB
+   📁 final_comprehensive_download/additional_apis/fst_total
+      文件数: 23
+      有效文件: 5
+      数据大小: 0.3 MB
+   📁 final_comprehensive_download/additional_apis/fst_detail
+      文件数: 17
+      有效文件: 5
+      数据大小: 1.7 MB
+   📁 final_comprehensive_download/additional_apis/sec_type
+      文件数: 1
+      有效文件: 1
+      数据大小: 0.0 MB
+   📁 final_comprehensive_download/additional_apis/industry
+      文件数: 1
+      有效文件: 1
+      数据大小: 0.4 MB
+   📁 final_comprehensive_download/additional_apis/sec_type_rel
+      文件数: 1
+      有效文件: 1
+      数据大小: 4.5 MB
+   📁 test_api_download
+      文件数: 5
+      有效文件: 5
+      数据大小: 0.1 MB
+   📁 priority_download/flow_data/industry_flow
+      文件数: 17
+      有效文件: 5
+      数据大小: 17.0 MB
+   📁 priority_download/flow_data/stock_flow
+      文件数: 594
+      有效文件: 5
+      数据大小: 3.2 MB
+   📁 historical_download
+      文件数: 1
+      有效文件: 1
+      数据大小: 0.3 MB
+   📁 historical_download/basics
+      文件数: 4
+      有效文件: 4
+      数据大小: 24.4 MB
+   📁 historical_download/market_data/year_2016
+      文件数: 73
+      有效文件: 5
+      数据大小: 3.7 MB
+   📁 historical_download/market_data/year_2011
+      文件数: 52
+      有效文件: 5
+      数据大小: 4.1 MB
+   📁 historical_download/market_data/year_2018
+      文件数: 78
+      有效文件: 5
+      数据大小: 4.5 MB
+   📁 historical_download/market_data/year_2020
+      文件数: 100
+      有效文件: 5
+      数据大小: 3.2 MB
+   📁 historical_download/market_data/year_2021
+      文件数: 106
+      有效文件: 5
+      数据大小: 4.4 MB
+   📁 historical_download/market_data/year_2019
+      文件数: 88
+      有效文件: 5
+      数据大小: 4.8 MB
+   📁 historical_download/market_data/year_2010
+      文件数: 48
+      有效文件: 5
+      数据大小: 3.7 MB
+   📁 historical_download/market_data/year_2017
+      文件数: 78
+      有效文件: 5
+      数据大小: 4.3 MB
+   📁 historical_download/market_data/year_2004
+      文件数: 32
+      有效文件: 5
+      数据大小: 3.3 MB
+   📁 historical_download/market_data/year_2003
+      文件数: 30
+      有效文件: 5
+      数据大小: 3.7 MB
+   📁 historical_download/market_data/year_2002
+      文件数: 30
+      有效文件: 5
+      数据大小: 3.8 MB
+   📁 historical_download/market_data/year_2005
+      文件数: 32
+      有效文件: 5
+      数据大小: 3.5 MB
+   📁 historical_download/market_data/year_2012
+      文件数: 61
+      有效文件: 5
+      数据大小: 3.2 MB
+   📁 historical_download/market_data/year_2015
+      文件数: 70
+      有效文件: 5
+      数据大小: 3.6 MB
+   📁 historical_download/market_data/year_2023
+      文件数: 110
+      有效文件: 5
+      数据大小: 4.9 MB
+   📁 historical_download/market_data/year_2024
+      文件数: 111
+      有效文件: 5
+      数据大小: 5.1 MB
+   📁 historical_download/market_data/year_2025
+      文件数: 111
+      有效文件: 5
+      数据大小: 3.5 MB
+   📁 historical_download/market_data/year_2022
+      文件数: 109
+      有效文件: 5
+      数据大小: 4.6 MB
+   📁 historical_download/market_data/year_2014
+      文件数: 69
+      有效文件: 5
+      数据大小: 3.3 MB
+   📁 historical_download/market_data/year_2013
+      文件数: 61
+      有效文件: 5
+      数据大小: 3.2 MB
+   📁 historical_download/market_data/year_2009
+      文件数: 42
+      有效文件: 5
+      数据大小: 3.3 MB
+   📁 historical_download/market_data/year_2000
+      文件数: 29
+      有效文件: 5
+      数据大小: 3.1 MB
+   📁 historical_download/market_data/year_2007
+      文件数: 39
+      有效文件: 5
+      数据大小: 3.2 MB
+   📁 historical_download/market_data/year_2006
+      文件数: 36
+      有效文件: 5
+      数据大小: 2.9 MB
+   📁 historical_download/market_data/year_2001
+      文件数: 30
+      有效文件: 5
+      数据大小: 3.9 MB
+   📁 historical_download/market_data/year_2008
+      文件数: 40
+      有效文件: 5
+      数据大小: 3.3 MB
+
+📋 样本文件:
+   ✅ batch_015.csv (100 行, 1.1 MB)
+      时间: 2016-01-04 - 2016-05-31
+   ✅ batch_001.csv (100 行, 1.7 MB)
+      时间: 2016-01-04 - 2016-05-31
+   ✅ batch_015.csv (100 行, 1.7 MB)
+      时间: 2011-01-04 - 2011-06-02
+
+📊 基金数据
+--------------------------------------------------------------------------------
+目录数量: 1
+文件总数: 3
+有效文件: 3
+数据大小: 0.5 MB
+
+📂 目录明细:
+   📁 final_comprehensive_download/special_trading/mktfunddget
+      文件数: 3
+      有效文件: 3
+      数据大小: 0.5 MB
+
+📋 样本文件:
+   ✅ year_2020.csv (100 行, 0.1 MB)
+      时间: 2020-12-31 - 2020-12-31
+   ✅ year_2021.csv (100 行, 0.2 MB)
+      时间: 2021-12-31 - 2021-12-31
+
+📊 因子数据
+--------------------------------------------------------------------------------
+目录数量: 3
+文件总数: 736
+有效文件: 11
+数据大小: 12.1 MB
+
+📂 目录明细:
+   📁 final_comprehensive_download/additional_apis/mktstockfactorsonedayget
+      文件数: 1
+      有效文件: 1
+      数据大小: 7.2 MB
+   📁 final_comprehensive_download/additional_apis/equ_fancy_factors_lite
+      文件数: 22
+      有效文件: 5
+      数据大小: 4.8 MB
+   📁 priority_download/market_data/adj_factor
+      文件数: 713
+      有效文件: 5
+      数据大小: 0.0 MB
+
+📋 样本文件:
+   ✅ year_2020.csv (100 行, 7.2 MB)
+      时间: 2020-12-31 - 2020-12-31
+   ✅ 2024_Q4.csv (100 行, 1.0 MB)
+      时间: 2024-12-31 - 2024-12-31
+   ✅ 2024_Q1.csv (100 行, 1.0 MB)
+      时间: 2024-03-31 - 2024-03-31
+
+📊 股票月线数据
+--------------------------------------------------------------------------------
+目录数量: 1
+文件总数: 713
+有效文件: 0
+数据大小: 0.4 MB
+
+📂 目录明细:
+   📁 priority_download/market_data/monthly
+      文件数: 713
+      有效文件: 0
+      数据大小: 0.4 MB
+
+📋 样本文件:
+   ❌ 2022_batch_039.csv (100 行, 0.1 MB)
+      时间: 2022-01-28 - 2022-12-30
+      问题: 结束时间过早: 2022-12-30
+   ❌ 2022_batch_011.csv (100 行, 0.1 MB)
+      时间: 2022-01-28 - 2022-12-30
+      问题: 结束时间过早: 2022-12-30
+
+📊 股票周线数据
+--------------------------------------------------------------------------------
+目录数量: 1
+文件总数: 713
+有效文件: 0
+数据大小: 1.5 MB
+
+📂 目录明细:
+   📁 priority_download/market_data/weekly
+      文件数: 713
+      有效文件: 0
+      数据大小: 1.5 MB
+
+📋 样本文件:
+   ❌ 2022_batch_039.csv (100 行, 0.3 MB)
+      时间: 2022-01-07 - 2022-12-30
+      问题: 结束时间过早: 2022-12-30
+   ❌ 2022_batch_011.csv (100 行, 0.3 MB)
+      时间: 2022-01-07 - 2022-12-30
+      问题: 结束时间过早: 2022-12-30
+
+📊 股票日线复权数据
+--------------------------------------------------------------------------------
+目录数量: 4
+文件总数: 924
+有效文件: 20
+数据大小: 13.5 MB
+
+📂 目录明细:
+   📁 priority_download/market_data/adj_daily
+      文件数: 713
+      有效文件: 5
+      数据大小: 7.6 MB
+   📁 professional_complete/weekly_adj/stocks
+      文件数: 70
+      有效文件: 5
+      数据大小: 1.1 MB
+   📁 professional_complete/monthly_adj/stocks
+      文件数: 70
+      有效文件: 5
+      数据大小: 0.3 MB
+   📁 professional_complete/daily_adj/stocks
+      文件数: 71
+      有效文件: 5
+      数据大小: 4.5 MB
+
+📋 样本文件:
+   ✅ 2022_batch_039.csv (100 行, 1.5 MB)
+      时间: 2022-01-04 - 2022-06-07
+   ✅ 2022_batch_011.csv (100 行, 1.6 MB)
+      时间: 2022-01-04 - 2022-06-07
+   ✅ 000017_XSHE.csv (100 行, 0.2 MB)
+      时间: 2000-01-04 - 2002-01-14
+
+📊 资讯研究数据
+--------------------------------------------------------------------------------
+目录数量: 1
+文件总数: 1
+有效文件: 1
+数据大小: 0.0 MB
+
+📂 目录明细:
+   📁 strategy/market_sentiment
+      文件数: 1
+      有效文件: 1
+      数据大小: 0.0 MB
+
+📋 样本文件:
+   ✅ market_index.csv (100 行, 0.0 MB)
+      时间: 2024-01-02 - 2024-06-04

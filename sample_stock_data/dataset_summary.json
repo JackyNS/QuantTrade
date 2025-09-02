@@ -1,0 +1,90 @@
+{
+  "creation_time": "2025-09-02T07:25:53.433182",
+  "total_stocks": 10,
+  "dataset_info": {
+    "purpose": "十周线上穿百周线策略测试",
+    "data_type": "模拟股票日线数据",
+    "time_range": "2020-2025年",
+    "fields": [
+      "tradeDate",
+      "openPrice",
+      "highPrice",
+      "lowPrice",
+      "closePrice",
+      "volume",
+      "ticker"
+    ]
+  },
+  "stocks": [
+    {
+      "stock_code": "000001",
+      "file_path": "sample_stock_data/000001_daily.csv",
+      "records": 1428,
+      "date_range": "2020-01-01 - 2025-06-20",
+      "price_range": "3.78 - 96.24"
+    },
+    {
+      "stock_code": "000002",
+      "file_path": "sample_stock_data/000002_daily.csv",
+      "records": 1428,
+      "date_range": "2020-01-01 - 2025-06-20",
+      "price_range": "83.50 - 1632.72"
+    },
+    {
+      "stock_code": "000858",
+      "file_path": "sample_stock_data/000858_daily.csv",
+      "records": 1428,
+      "date_range": "2020-01-01 - 2025-06-20",
+      "price_range": "5.98 - 39.15"
+    },
+    {
+      "stock_code": "600036",
+      "file_path": "sample_stock_data/600036_daily.csv",
+      "records": 1428,
+      "date_range": "2020-01-01 - 2025-06-20",
+      "price_range": "13.21 - 33.53"
+    },
+    {
+      "stock_code": "600519",
+      "file_path": "sample_stock_data/600519_daily.csv",
+      "records": 1428,
+      "date_range": "2020-01-01 - 2025-06-20",
+      "price_range": "9.01 - 93.57"
+    },
+    {
+      "stock_code": "002415",
+      "file_path": "sample_stock_data/002415_daily.csv",
+      "records": 1428,
+      "date_range": "2020-01-01 - 2025-06-20",
+      "price_range": "10.14 - 67.60"
+    },
+    {
+      "stock_code": "000725",
+      "file_path": "sample_stock_data/000725_daily.csv",
+      "records": 1428,
+      "date_range": "2020-01-01 - 2025-06-20",
+      "price_range": "1.36 - 113.64"
+    },
+    {
+      "stock_code": "600887",
+      "file_path": "sample_stock_data/600887_daily.csv",
+      "records": 1428,
+      "date_range": "2020-01-01 - 2025-06-20",
+      "price_range": "54.25 - 142.32"
+    },
+    {
+      "stock_code": "000063",
+      "file_path": "sample_stock_data/000063_daily.csv",
+      "records": 1428,
+      "date_range": "2020-01-01 - 2025-06-20",
+      "price_range": "44.61 - 170.16"
+    },
+    {
+      "stock_code": "600276",
+      "file_path": "sample_stock_data/600276_daily.csv",
+      "records": 1428,
+      "date_range": "2020-01-01 - 2025-06-20",
+      "price_range": "73.31 - 236.55"
+    }
+  ]
+}

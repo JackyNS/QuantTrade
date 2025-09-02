@@ -1,0 +1,6 @@
+category,total_files,valid_files,quality_score,size_gb,api_count
+financial,297,297,100.0,0.9940579701215029,12
+special_trading,415,415,100.0,197.86592669319361,20
+basic_info,63,63,100.0,0.4314613342285156,7
+governance,627,627,100.0,3.9467688063159585,22
+additional_apis,66,66,100.0,0.030644984915852547,8

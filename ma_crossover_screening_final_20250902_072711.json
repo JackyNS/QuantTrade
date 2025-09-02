@@ -1,0 +1,524 @@
+{
+  "screening_info": {
+    "timestamp": "2025-09-02T07:27:11.543628",
+    "strategy": "十周线上穿百周线 (MA10/MA100交叉)",
+    "total_stocks": 10,
+    "analyzed_count": 10,
+    "qualified_count": 4,
+    "qualification_rate": "40.0%"
+  },
+  "qualified_stocks": [
+    {
+      "rank": 1,
+      "stock_code": "600887",
+      "golden_crosses": 5,
+      "current_position": "bullish",
+      "latest_price": 100.94,
+      "trend_strength": 0.2601173118387262,
+      "analysis_years": 3.6,
+      "latest_signal": {
+        "date": "2025-03-23 00:00:00",
+        "type": "golden_cross",
+        "signal_value": 1.0,
+        "days_ago": 163
+      }
+    },
+    {
+      "rank": 2,
+      "stock_code": "000063",
+      "golden_crosses": 3,
+      "current_position": "bullish",
+      "latest_price": 123.77,
+      "trend_strength": 0.1439946470391426,
+      "analysis_years": 3.6,
+      "latest_signal": {
+        "date": "2025-04-27 00:00:00",
+        "type": "golden_cross",
+        "signal_value": 1.0,
+        "days_ago": 128
+      }
+    },
+    {
+      "rank": 3,
+      "stock_code": "600036",
+      "golden_crosses": 2,
+      "current_position": "bullish",
+      "latest_price": 20.06,
+      "trend_strength": 0.22530324319674486,
+      "analysis_years": 3.6,
+      "latest_signal": {
+        "date": "2025-03-02 00:00:00",
+        "type": "golden_cross",
+        "signal_value": 1.0,
+        "days_ago": 184
+      }
+    },
+    {
+      "rank": 4,
+      "stock_code": "000002",
+      "golden_crosses": 1,
+      "current_position": "bullish",
+      "latest_price": 1631.51,
+      "trend_strength": 1.3138124562982705,
+      "analysis_years": 3.6,
+      "latest_signal": {
+        "date": "2022-09-04 00:00:00",
+        "type": "golden_cross",
+        "signal_value": 1.0,
+        "days_ago": 1094
+      }
+    }
+  ],
+  "all_results": [
+    {
+      "stock_code": "000002",
+      "file_path": "sample_stock_data/000002_daily.csv",
+      "analysis_time": "2025-09-02 07:27:11.515549",
+      "analysis": {
+        "status": "success",
+        "data_info": {
+          "daily_records": 1428,
+          "weekly_records": 286,
+          "valid_records": 187,
+          "analysis_period_weeks": 187,
+          "analysis_period_years": 3.6
+        },
+        "ma_values": {
+          "ma_short_latest": 1400.41,
+          "ma_long_latest": 605.24,
+          "ma_spread": 795.17,
+          "ma_spread_pct": 131.38
+        },
+        "signals": {
+          "golden_cross_count": 1,
+          "death_cross_count": 1,
+          "total_signals": 2,
+          "signal_frequency": 0.6,
+          "golden_cross_dates": [
+            "2022-09-04 00:00:00"
+          ],
+          "death_cross_dates": [
+            "2022-04-10 00:00:00"
+          ],
+          "latest_signal": {
+            "date": "2022-09-04 00:00:00",
+            "type": "golden_cross",
+            "signal_value": 1.0,
+            "days_ago": 1094
+          }
+        },
+        "current_status": {
+          "position": "bullish",
+          "latest_price": 1631.51,
+          "trend_strength": 1.3138124562982705
+        }
+      }
+    },
+    {
+      "stock_code": "600276",
+      "file_path": "sample_stock_data/600276_daily.csv",
+      "analysis_time": "2025-09-02 07:27:11.518892",
+      "analysis": {
+        "status": "success",
+        "data_info": {
+          "daily_records": 1428,
+          "weekly_records": 286,
+          "valid_records": 187,
+          "analysis_period_weeks": 187,
+          "analysis_period_years": 3.6
+        },
+        "ma_values": {
+          "ma_short_latest": 147.53,
+          "ma_long_latest": 157.95,
+          "ma_spread": -10.42,
+          "ma_spread_pct": -6.6
+        },
+        "signals": {
+          "golden_cross_count": 1,
+          "death_cross_count": 2,
+          "total_signals": 3,
+          "signal_frequency": 0.8,
+          "golden_cross_dates": [
+            "2023-10-01 00:00:00"
+          ],
+          "death_cross_dates": [
+            "2022-03-13 00:00:00",
+            "2025-04-13 00:00:00"
+          ],
+          "latest_signal": {
+            "date": "2025-04-13 00:00:00",
+            "type": "death_cross",
+            "signal_value": -1.0,
+            "days_ago": 142
+          }
+        },
+        "current_status": {
+          "position": "bearish",
+          "latest_price": 138.96,
+          "trend_strength": 0.06597302680478706
+        }
+      }
+    },
+    {
+      "stock_code": "600887",
+      "file_path": "sample_stock_data/600887_daily.csv",
+      "analysis_time": "2025-09-02 07:27:11.522010",
+      "analysis": {
+        "status": "success",
+        "data_info": {
+          "daily_records": 1428,
+          "weekly_records": 286,
+          "valid_records": 187,
+          "analysis_period_weeks": 187,
+          "analysis_period_years": 3.6
+        },
+        "ma_values": {
+          "ma_short_latest": 117.06,
+          "ma_long_latest": 92.9,
+          "ma_spread": 24.16,
+          "ma_spread_pct": 26.01
+        },
+        "signals": {
+          "golden_cross_count": 5,
+          "death_cross_count": 4,
+          "total_signals": 9,
+          "signal_frequency": 2.5,
+          "golden_cross_dates": [
+            "2021-12-19 00:00:00",
+            "2022-11-27 00:00:00",
+            "2024-05-26 00:00:00",
+            "2024-12-08 00:00:00",
+            "2025-03-23 00:00:00"
+          ],
+          "death_cross_dates": [
+            "2022-04-10 00:00:00",
+            "2023-09-24 00:00:00",
+            "2024-07-28 00:00:00",
+            "2025-02-16 00:00:00"
+          ],
+          "latest_signal": {
+            "date": "2025-03-23 00:00:00",
+            "type": "golden_cross",
+            "signal_value": 1.0,
+            "days_ago": 163
+          }
+        },
+        "current_status": {
+          "position": "bullish",
+          "latest_price": 100.94,
+          "trend_strength": 0.2601173118387262
+        }
+      }
+    },
+    {
+      "stock_code": "600036",
+      "file_path": "sample_stock_data/600036_daily.csv",
+      "analysis_time": "2025-09-02 07:27:11.525069",
+      "analysis": {
+        "status": "success",
+        "data_info": {
+          "daily_records": 1428,
+          "weekly_records": 286,
+          "valid_records": 187,
+          "analysis_period_weeks": 187,
+          "analysis_period_years": 3.6
+        },
+        "ma_values": {
+          "ma_short_latest": 21.36,
+          "ma_long_latest": 17.44,
+          "ma_spread": 3.93,
+          "ma_spread_pct": 22.53
+        },
+        "signals": {
+          "golden_cross_count": 2,
+          "death_cross_count": 1,
+          "total_signals": 3,
+          "signal_frequency": 0.8,
+          "golden_cross_dates": [
+            "2022-11-13 00:00:00",
+            "2025-03-02 00:00:00"
+          ],
+          "death_cross_dates": [
+            "2023-07-16 00:00:00"
+          ],
+          "latest_signal": {
+            "date": "2025-03-02 00:00:00",
+            "type": "golden_cross",
+            "signal_value": 1.0,
+            "days_ago": 184
+          }
+        },
+        "current_status": {
+          "position": "bullish",
+          "latest_price": 20.06,
+          "trend_strength": 0.22530324319674486
+        }
+      }
+    },
+    {
+      "stock_code": "600519",
+      "file_path": "sample_stock_data/600519_daily.csv",
+      "analysis_time": "2025-09-02 07:27:11.528110",
+      "analysis": {
+        "status": "success",
+        "data_info": {
+          "daily_records": 1428,
+          "weekly_records": 286,
+          "valid_records": 187,
+          "analysis_period_weeks": 187,
+          "analysis_period_years": 3.6
+        },
+        "ma_values": {
+          "ma_short_latest": 10.71,
+          "ma_long_latest": 22.0,
+          "ma_spread": -11.29,
+          "ma_spread_pct": -51.31
+        },
+        "signals": {
+          "golden_cross_count": 1,
+          "death_cross_count": 1,
+          "total_signals": 2,
+          "signal_frequency": 0.6,
+          "golden_cross_dates": [
+            "2023-05-14 00:00:00"
+          ],
+          "death_cross_dates": [
+            "2024-01-28 00:00:00"
+          ],
+          "latest_signal": {
+            "date": "2024-01-28 00:00:00",
+            "type": "death_cross",
+            "signal_value": -1.0,
+            "days_ago": 583
+          }
+        },
+        "current_status": {
+          "position": "bearish",
+          "latest_price": 9.44,
+          "trend_strength": 0.5131230851750548
+        }
+      }
+    },
+    {
+      "stock_code": "000063",
+      "file_path": "sample_stock_data/000063_daily.csv",
+      "analysis_time": "2025-09-02 07:27:11.531092",
+      "analysis": {
+        "status": "success",
+        "data_info": {
+          "daily_records": 1428,
+          "weekly_records": 286,
+          "valid_records": 187,
+          "analysis_period_weeks": 187,
+          "analysis_period_years": 3.6
+        },
+        "ma_values": {
+          "ma_short_latest": 119.68,
+          "ma_long_latest": 104.62,
+          "ma_spread": 15.06,
+          "ma_spread_pct": 14.4
+        },
+        "signals": {
+          "golden_cross_count": 3,
+          "death_cross_count": 2,
+          "total_signals": 5,
+          "signal_frequency": 1.4,
+          "golden_cross_dates": [
+            "2022-01-16 00:00:00",
+            "2024-09-29 00:00:00",
+            "2025-04-27 00:00:00"
+          ],
+          "death_cross_dates": [
+            "2023-11-26 00:00:00",
+            "2025-01-19 00:00:00"
+          ],
+          "latest_signal": {
+            "date": "2025-04-27 00:00:00",
+            "type": "golden_cross",
+            "signal_value": 1.0,
+            "days_ago": 128
+          }
+        },
+        "current_status": {
+          "position": "bullish",
+          "latest_price": 123.77,
+          "trend_strength": 0.1439946470391426
+        }
+      }
+    },
+    {
+      "stock_code": "002415",
+      "file_path": "sample_stock_data/002415_daily.csv",
+      "analysis_time": "2025-09-02 07:27:11.534251",
+      "analysis": {
+        "status": "success",
+        "data_info": {
+          "daily_records": 1428,
+          "weekly_records": 286,
+          "valid_records": 187,
+          "analysis_period_weeks": 187,
+          "analysis_period_years": 3.6
+        },
+        "ma_values": {
+          "ma_short_latest": 20.11,
+          "ma_long_latest": 28.25,
+          "ma_spread": -8.14,
+          "ma_spread_pct": -28.82
+        },
+        "signals": {
+          "golden_cross_count": 2,
+          "death_cross_count": 3,
+          "total_signals": 5,
+          "signal_frequency": 1.4,
+          "golden_cross_dates": [
+            "2022-06-19 00:00:00",
+            "2023-11-19 00:00:00"
+          ],
+          "death_cross_dates": [
+            "2022-03-06 00:00:00",
+            "2023-02-05 00:00:00",
+            "2024-03-03 00:00:00"
+          ],
+          "latest_signal": {
+            "date": "2024-03-03 00:00:00",
+            "type": "death_cross",
+            "signal_value": -1.0,
+            "days_ago": 548
+          }
+        },
+        "current_status": {
+          "position": "bearish",
+          "latest_price": 15.12,
+          "trend_strength": 0.2881544338123127
+        }
+      }
+    },
+    {
+      "stock_code": "000001",
+      "file_path": "sample_stock_data/000001_daily.csv",
+      "analysis_time": "2025-09-02 07:27:11.537502",
+      "analysis": {
+        "status": "success",
+        "data_info": {
+          "daily_records": 1428,
+          "weekly_records": 286,
+          "valid_records": 187,
+          "analysis_period_weeks": 187,
+          "analysis_period_years": 3.6
+        },
+        "ma_values": {
+          "ma_short_latest": 5.38,
+          "ma_long_latest": 6.79,
+          "ma_spread": -1.41,
+          "ma_spread_pct": -20.75
+        },
+        "signals": {
+          "golden_cross_count": 0,
+          "death_cross_count": 0,
+          "total_signals": 0,
+          "signal_frequency": 0.0,
+          "golden_cross_dates": [],
+          "death_cross_dates": [],
+          "latest_signal": {
+            "date": "2021-11-28 00:00:00",
+            "type": "death_cross",
+            "signal_value": NaN,
+            "days_ago": 1374
+          }
+        },
+        "current_status": {
+          "position": "bearish",
+          "latest_price": 3.78,
+          "trend_strength": 0.2075227168966537
+        }
+      }
+    },
+    {
+      "stock_code": "000725",
+      "file_path": "sample_stock_data/000725_daily.csv",
+      "analysis_time": "2025-09-02 07:27:11.540547",
+      "analysis": {
+        "status": "success",
+        "data_info": {
+          "daily_records": 1428,
+          "weekly_records": 286,
+          "valid_records": 187,
+          "analysis_period_weeks": 187,
+          "analysis_period_years": 3.6
+        },
+        "ma_values": {
+          "ma_short_latest": 1.66,
+          "ma_long_latest": 2.28,
+          "ma_spread": -0.62,
+          "ma_spread_pct": -27.23
+        },
+        "signals": {
+          "golden_cross_count": 0,
+          "death_cross_count": 0,
+          "total_signals": 0,
+          "signal_frequency": 0.0,
+          "golden_cross_dates": [],
+          "death_cross_dates": [],
+          "latest_signal": {
+            "date": "2021-11-28 00:00:00",
+            "type": "death_cross",
+            "signal_value": NaN,
+            "days_ago": 1374
+          }
+        },
+        "current_status": {
+          "position": "bearish",
+          "latest_price": 1.8,
+          "trend_strength": 0.2723210374134816
+        }
+      }
+    },
+    {
+      "stock_code": "000858",
+      "file_path": "sample_stock_data/000858_daily.csv",
+      "analysis_time": "2025-09-02 07:27:11.543574",
+      "analysis": {
+        "status": "success",
+        "data_info": {
+          "daily_records": 1428,
+          "weekly_records": 286,
+          "valid_records": 187,
+          "analysis_period_weeks": 187,
+          "analysis_period_years": 3.6
+        },
+        "ma_values": {
+          "ma_short_latest": 8.54,
+          "ma_long_latest": 16.28,
+          "ma_spread": -7.74,
+          "ma_spread_pct": -47.53
+        },
+        "signals": {
+          "golden_cross_count": 2,
+          "death_cross_count": 3,
+          "total_signals": 5,
+          "signal_frequency": 1.4,
+          "golden_cross_dates": [
+            "2023-12-03 00:00:00",
+            "2024-09-01 00:00:00"
+          ],
+          "death_cross_dates": [
+            "2023-01-01 00:00:00",
+            "2024-02-18 00:00:00",
+            "2024-12-15 00:00:00"
+          ],
+          "latest_signal": {
+            "date": "2024-12-15 00:00:00",
+            "type": "death_cross",
+            "signal_value": -1.0,
+            "days_ago": 261
+          }
+        },
+        "current_status": {
+          "position": "bearish",
+          "latest_price": 5.98,
+          "trend_strength": 0.47527848949021007
+        }
+      }
+    }
+  ]
+}

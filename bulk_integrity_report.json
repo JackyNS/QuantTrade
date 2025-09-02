@@ -1,0 +1,981 @@
+{
+  "verification_time": "2025-09-02T05:48:39.575573",
+  "directories": {
+    "original": "data/final_comprehensive_download",
+    "parquet": "data/parquet_bulk"
+  },
+  "structure_valid": true,
+  "file_counts": {
+    "categories": {
+      "basic_info": {
+        "original": {
+          "files": 63,
+          "apis": 7,
+          "size_mb": 441.81640625
+        },
+        "parquet": {
+          "files": 63,
+          "apis": 7,
+          "size_mb": 152.81253337860107
+        },
+        "match": true
+      },
+      "financial": {
+        "original": {
+          "files": 282,
+          "apis": 12,
+          "size_mb": 963.4849281311035
+        },
+        "parquet": {
+          "files": 282,
+          "apis": 12,
+          "size_mb": 533.9291820526123
+        },
+        "match": true
+      },
+      "special_trading": {
+        "original": {
+          "files": 339,
+          "apis": 16,
+          "size_mb": 202573.34260368347
+        },
+        "parquet": {
+          "files": 313,
+          "apis": 15,
+          "size_mb": 805.0555820465088
+        },
+        "match": false
+      },
+      "governance": {
+        "original": {
+          "files": 627,
+          "apis": 22,
+          "size_mb": 4041.4912576675415
+        },
+        "parquet": {
+          "files": 618,
+          "apis": 21,
+          "size_mb": 555.0070190429688
+        },
+        "match": false
+      }
+    },
+    "totals": {
+      "original_files": 1311,
+      "parquet_files": 1276,
+      "original_size_gb": 203.14466327708215,
+      "parquet_size_gb": 1.9988323403522372
+    }
+  },
+  "sample_verification": {
+    "verified": 100,
+    "mismatched": [],
+    "errors": [],
+    "performance_comparison": [
+      {
+        "file": "year_2021_Q3.csv",
+        "csv_size_mb": 14.917845726013184,
+        "parquet_size_mb": 1.5321197509765625,
+        "csv_read_time": 0.07933330535888672,
+        "parquet_read_time": 0.033174753189086914,
+        "speedup": 2.391375902835172,
+        "compression": 89.7296179413834
+      },
+      {
+        "file": "year_2023.csv",
+        "csv_size_mb": 102.43677425384521,
+        "parquet_size_mb": 31.432978630065918,
+        "csv_read_time": 0.4788038730621338,
+        "parquet_read_time": 0.03931093215942383,
+        "speedup": 12.179916546378623,
+        "compression": 69.31475160261013
+      },
+      {
+        "file": "year_2001.csv",
+        "csv_size_mb": 1.000117301940918,
+        "parquet_size_mb": 0.34985923767089844,
+        "csv_read_time": 0.01523900032043457,
+        "parquet_read_time": 0.006840705871582031,
+        "speedup": 2.2276941307681586,
+        "compression": 65.0181796683319
+      },
+      {
+        "file": "year_2016.csv",
+        "csv_size_mb": 12.861641883850098,
+        "parquet_size_mb": 1.2926530838012695,
+        "csv_read_time": 0.05853700637817383,
+        "parquet_read_time": 0.005819082260131836,
+        "speedup": 10.059491129593969,
+        "compression": 89.9495484676462
+      },
+      {
+        "file": "year_2009.csv",
+        "csv_size_mb": 0.00177764892578125,
+        "parquet_size_mb": 0.012254714965820312,
+        "csv_read_time": 0.0015628337860107422,
+        "parquet_read_time": 0.0016651153564453125,
+        "speedup": 0.938573883161512,
+        "compression": -589.3776824034335
+      },
+      {
+        "file": "year_2013.csv",
+        "csv_size_mb": 39.47623062133789,
+        "parquet_size_mb": 6.360125541687012,
+        "csv_read_time": 0.17383909225463867,
+        "parquet_read_time": 0.01517486572265625,
+        "speedup": 11.455725238813475,
+        "compression": 83.88872128472873
+      },
+      {
+        "file": "year_2012_Q3.csv",
+        "csv_size_mb": 14.677812576293945,
+        "parquet_size_mb": 1.6378154754638672,
+        "csv_read_time": 0.08185601234436035,
+        "parquet_read_time": 0.012170076370239258,
+        "speedup": 6.726006464883926,
+        "compression": 88.8415561450274
+      },
+      {
+        "file": "year_2011.csv",
+        "csv_size_mb": 5.205029487609863,
+        "parquet_size_mb": 2.6843996047973633,
+        "csv_read_time": 0.03226494789123535,
+        "parquet_read_time": 0.006459236145019531,
+        "speedup": 4.995164624243319,
+        "compression": 48.42681273588648
+      },
+      {
+        "file": "year_2025.csv",
+        "csv_size_mb": 1.1701478958129883,
+        "parquet_size_mb": 0.3376140594482422,
+        "csv_read_time": 0.010258913040161133,
+        "parquet_read_time": 0.0034151077270507812,
+        "speedup": 3.0039793353811786,
+        "compression": 71.14774460080736
+      },
+      {
+        "file": "year_2004.csv",
+        "csv_size_mb": 0.0037841796875,
+        "parquet_size_mb": 0.013367652893066406,
+        "csv_read_time": 0.0014200210571289062,
+        "parquet_read_time": 0.0013022422790527344,
+        "speedup": 1.090443061149762,
+        "compression": -253.25100806451616
+      },
+      {
+        "file": "year_2022.csv",
+        "csv_size_mb": 15.553617477416992,
+        "parquet_size_mb": 6.396401405334473,
+        "csv_read_time": 0.062439918518066406,
+        "parquet_read_time": 0.00746917724609375,
+        "speedup": 8.35967824310521,
+        "compression": 58.87515290496439
+      },
+      {
+        "file": "year_2018.csv",
+        "csv_size_mb": 28.714903831481934,
+        "parquet_size_mb": 9.871833801269531,
+        "csv_read_time": 0.13793206214904785,
+        "parquet_read_time": 0.012312889099121094,
+        "speedup": 11.202250019363333,
+        "compression": 65.62121935283507
+      },
+      {
+        "file": "year_2021_Q3.csv",
+        "csv_size_mb": 9.752799987792969,
+        "parquet_size_mb": 2.0339813232421875,
+        "csv_read_time": 0.04953289031982422,
+        "parquet_read_time": 0.004882097244262695,
+        "speedup": 10.14582214191532,
+        "compression": 79.14464229977025
+      },
+      {
+        "file": "year_2014.csv",
+        "csv_size_mb": 13.0428466796875,
+        "parquet_size_mb": 1.3369836807250977,
+        "csv_read_time": 0.06366491317749023,
+        "parquet_read_time": 0.008446216583251953,
+        "speedup": 7.537684186755491,
+        "compression": 89.74929542944584
+      },
+      {
+        "file": "year_2011.csv",
+        "csv_size_mb": 0.021729469299316406,
+        "parquet_size_mb": 0.022321701049804688,
+        "csv_read_time": 0.0026078224182128906,
+        "parquet_read_time": 0.001657247543334961,
+        "speedup": 1.5735865343116098,
+        "compression": -2.7254772876892597
+      },
+      {
+        "file": "year_2023_Q2.csv",
+        "csv_size_mb": 9.761481285095215,
+        "parquet_size_mb": 2.087228775024414,
+        "csv_read_time": 0.045166730880737305,
+        "parquet_read_time": 0.003358125686645508,
+        "speedup": 13.449982250621229,
+        "compression": 78.61770448495969
+      },
+      {
+        "file": "year_2013.csv",
+        "csv_size_mb": 11.519083023071289,
+        "parquet_size_mb": 1.197880744934082,
+        "csv_read_time": 0.05724191665649414,
+        "parquet_read_time": 0.007691144943237305,
+        "speedup": 7.442574165349205,
+        "compression": 89.60090189006472
+      },
+      {
+        "file": "year_2000.csv",
+        "csv_size_mb": 0.009402275085449219,
+        "parquet_size_mb": 0.010671615600585938,
+        "csv_read_time": 0.0022618770599365234,
+        "parquet_read_time": 0.0018613338470458984,
+        "speedup": 1.215191494812348,
+        "compression": -13.500355005578669
+      },
+      {
+        "file": "year_2021.csv",
+        "csv_size_mb": 3.1599159240722656,
+        "parquet_size_mb": 2.334775924682617,
+        "csv_read_time": 0.018683195114135742,
+        "parquet_read_time": 0.0031099319458007812,
+        "speedup": 6.007589696412143,
+        "compression": 26.112720060167582
+      },
+      {
+        "file": "year_2019_Q3.csv",
+        "csv_size_mb": 9.721959114074707,
+        "parquet_size_mb": 1.9256410598754883,
+        "csv_read_time": 0.044682979583740234,
+        "parquet_read_time": 0.0038728713989257812,
+        "speedup": 11.537429204629401,
+        "compression": 80.19287020979452
+      },
+      {
+        "file": "year_2023.csv",
+        "csv_size_mb": 10.148608207702637,
+        "parquet_size_mb": 5.401157379150391,
+        "csv_read_time": 0.06326580047607422,
+        "parquet_read_time": 0.006849050521850586,
+        "speedup": 9.237163643958645,
+        "compression": 46.77932906059971
+      },
+      {
+        "file": "year_2024.csv",
+        "csv_size_mb": 110.74607849121094,
+        "parquet_size_mb": 31.60902976989746,
+        "csv_read_time": 0.5222370624542236,
+        "parquet_read_time": 0.04036211967468262,
+        "speedup": 12.938791784560314,
+        "compression": 71.4581047017335
+      },
+      {
+        "file": "year_2004.csv",
+        "csv_size_mb": 0.7517566680908203,
+        "parquet_size_mb": 0.32026195526123047,
+        "csv_read_time": 0.013731956481933594,
+        "parquet_read_time": 0.006448268890380859,
+        "speedup": 2.129557050950233,
+        "compression": 57.398188954602084
+      },
+      {
+        "file": "year_2000_Q3.csv",
+        "csv_size_mb": 0.3965263366699219,
+        "parquet_size_mb": 0.10853862762451172,
+        "csv_read_time": 0.004252910614013672,
+        "parquet_read_time": 0.001567840576171875,
+        "speedup": 2.7125912408759123,
+        "compression": 72.62763716124563
+      },
+      {
+        "file": "year_2025_Q2.csv",
+        "csv_size_mb": 14.170526504516602,
+        "parquet_size_mb": 1.4485845565795898,
+        "csv_read_time": 0.07669878005981445,
+        "parquet_read_time": 0.010190010070800781,
+        "speedup": 7.526860084230229,
+        "compression": 89.77748246603343
+      },
+      {
+        "file": "year_2001_Q2.csv",
+        "csv_size_mb": 0.5137872695922852,
+        "parquet_size_mb": 0.13763046264648438,
+        "csv_read_time": 0.005258083343505859,
+        "parquet_read_time": 0.0020880699157714844,
+        "speedup": 2.5181548298698333,
+        "compression": 73.2125588172512
+      },
+      {
+        "file": "year_2021.csv",
+        "csv_size_mb": 8.752222061157227,
+        "parquet_size_mb": 4.65711784362793,
+        "csv_read_time": 0.05153822898864746,
+        "parquet_read_time": 0.006208896636962891,
+        "speedup": 8.300706550956148,
+        "compression": 46.78930891965781
+      },
+      {
+        "file": "year_2010.csv",
+        "csv_size_mb": 0.3791933059692383,
+        "parquet_size_mb": 0.12681198120117188,
+        "csv_read_time": 0.004096031188964844,
+        "parquet_read_time": 0.002106904983520508,
+        "speedup": 1.9440986760212742,
+        "compression": 66.55743147231101
+      },
+      {
+        "file": "year_2017.csv",
+        "csv_size_mb": 0.0028858184814453125,
+        "parquet_size_mb": 0.013156890869140625,
+        "csv_read_time": 0.0009031295776367188,
+        "parquet_read_time": 0.0010461807250976562,
+        "speedup": 0.8632634457611669,
+        "compression": -355.91539986781225
+      },
+      {
+        "file": "year_2011.csv",
+        "csv_size_mb": 0.00043582916259765625,
+        "parquet_size_mb": 0.013573646545410156,
+        "csv_read_time": 0.0013310909271240234,
+        "parquet_read_time": 0.0010929107666015625,
+        "speedup": 1.2179319371727748,
+        "compression": -3014.4420131291026
+      },
+      {
+        "file": "year_2016_Q2.csv",
+        "csv_size_mb": 9.665712356567383,
+        "parquet_size_mb": 1.8160648345947266,
+        "csv_read_time": 0.04491686820983887,
+        "parquet_read_time": 0.003551006317138672,
+        "speedup": 12.649053310057742,
+        "compression": 81.21126754448886
+      },
+      {
+        "file": "year_2011.csv",
+        "csv_size_mb": 0.2584199905395508,
+        "parquet_size_mb": 0.09053707122802734,
+        "csv_read_time": 0.004174232482910156,
+        "parquet_read_time": 0.003076791763305664,
+        "speedup": 1.3566834560247967,
+        "compression": 64.96514412875084
+      },
+      {
+        "file": "year_2003.csv",
+        "csv_size_mb": 2.534902572631836,
+        "parquet_size_mb": 1.2184009552001953,
+        "csv_read_time": 0.01622605323791504,
+        "parquet_read_time": 0.0039768218994140625,
+        "speedup": 4.08015587529976,
+        "compression": 51.93499867195277
+      },
+      {
+        "file": "year_2022.csv",
+        "csv_size_mb": 2.3035545349121094,
+        "parquet_size_mb": 0.05110931396484375,
+        "csv_read_time": 0.008401870727539062,
+        "parquet_read_time": 0.0016891956329345703,
+        "speedup": 4.9738884968242765,
+        "compression": 97.78128482785003
+      },
+      {
+        "file": "year_2016.csv",
+        "csv_size_mb": 5.941781997680664,
+        "parquet_size_mb": 1.3943357467651367,
+        "csv_read_time": 0.03825974464416504,
+        "parquet_read_time": 0.008524894714355469,
+        "speedup": 4.488002013648059,
+        "compression": 76.53337420811792
+      },
+      {
+        "file": "year_2009.csv",
+        "csv_size_mb": 8.318913459777832,
+        "parquet_size_mb": 1.5035429000854492,
+        "csv_read_time": 0.05228281021118164,
+        "parquet_read_time": 0.010193347930908203,
+        "speedup": 5.129110726481732,
+        "compression": 81.92621058801586
+      },
+      {
+        "file": "year_2005.csv",
+        "csv_size_mb": 2.835597038269043,
+        "parquet_size_mb": 1.40948486328125,
+        "csv_read_time": 0.019430160522460938,
+        "parquet_read_time": 0.004693031311035156,
+        "speedup": 4.140215403373298,
+        "compression": 50.293188903115315
+      },
+      {
+        "file": "year_2010.csv",
+        "csv_size_mb": 0.5090618133544922,
+        "parquet_size_mb": 0.07714462280273438,
+        "csv_read_time": 0.004127979278564453,
+        "parquet_read_time": 0.0018951892852783203,
+        "speedup": 2.1781356145427098,
+        "compression": 84.8457258472433
+      },
+      {
+        "file": "year_2007.csv",
+        "csv_size_mb": 15.17333984375,
+        "parquet_size_mb": 5.168180465698242,
+        "csv_read_time": 0.061303138732910156,
+        "parquet_read_time": 0.00739598274230957,
+        "speedup": 8.288707649656684,
+        "compression": 65.93907129927594
+      },
+      {
+        "file": "year_2019.csv",
+        "csv_size_mb": 61.77180862426758,
+        "parquet_size_mb": 3.332246780395508,
+        "csv_read_time": 0.29370594024658203,
+        "parquet_read_time": 0.0302121639251709,
+        "speedup": 9.721446665456641,
+        "compression": 94.60555412799359
+      },
+      {
+        "file": "year_2007.csv",
+        "csv_size_mb": 6.831743240356445,
+        "parquet_size_mb": 0.3670806884765625,
+        "csv_read_time": 0.03726005554199219,
+        "parquet_read_time": 0.007961034774780273,
+        "speedup": 4.680303075679075,
+        "compression": 94.6268371693458
+      },
+      {
+        "file": "year_2019.csv",
+        "csv_size_mb": 2.535243034362793,
+        "parquet_size_mb": 0.3420228958129883,
+        "csv_read_time": 0.014784812927246094,
+        "parquet_read_time": 0.004357099533081055,
+        "speedup": 3.3932694938440493,
+        "compression": 86.50926592925431
+      },
+      {
+        "file": "year_2024.csv",
+        "csv_size_mb": 3.5493526458740234,
+        "parquet_size_mb": 2.1068201065063477,
+        "csv_read_time": 0.019649028778076172,
+        "parquet_read_time": 0.0037848949432373047,
+        "speedup": 5.191433070866141,
+        "compression": 40.64213064443063
+      },
+      {
+        "file": "year_2025.csv",
+        "csv_size_mb": 0.3808298110961914,
+        "parquet_size_mb": 0.12755775451660156,
+        "csv_read_time": 0.0041599273681640625,
+        "parquet_read_time": 0.002042055130004883,
+        "speedup": 2.037127845884413,
+        "compression": 66.50531266199049
+      },
+      {
+        "file": "year_2024_Q4.csv",
+        "csv_size_mb": 14.13757610321045,
+        "parquet_size_mb": 1.4452543258666992,
+        "csv_read_time": 0.07734489440917969,
+        "parquet_read_time": 0.010467052459716797,
+        "speedup": 7.389367227005604,
+        "compression": 89.77721276040734
+      },
+      {
+        "file": "year_2024_Q1.csv",
+        "csv_size_mb": 14.100015640258789,
+        "parquet_size_mb": 1.4461030960083008,
+        "csv_read_time": 0.07751870155334473,
+        "parquet_read_time": 0.010868072509765625,
+        "speedup": 7.1327000702000705,
+        "compression": 89.7439610500903
+      },
+      {
+        "file": "year_2004.csv",
+        "csv_size_mb": 2.143429756164551,
+        "parquet_size_mb": 1.0529251098632812,
+        "csv_read_time": 0.016013145446777344,
+        "parquet_read_time": 0.004266977310180664,
+        "speedup": 3.7528077331396323,
+        "compression": 50.876621599796046
+      },
+      {
+        "file": "year_2002.csv",
+        "csv_size_mb": 0.006924629211425781,
+        "parquet_size_mb": 0.015378952026367188,
+        "csv_read_time": 0.0011801719665527344,
+        "parquet_read_time": 0.0012118816375732422,
+        "speedup": 0.9738343497934291,
+        "compression": -122.09062112656656
+      },
+      {
+        "file": "year_2006.csv",
+        "csv_size_mb": 0.0007390975952148438,
+        "parquet_size_mb": 0.011506080627441406,
+        "csv_read_time": 0.0007600784301757812,
+        "parquet_read_time": 0.0010628700256347656,
+        "speedup": 0.71511888739345,
+        "compression": -1456.774193548387
+      },
+      {
+        "file": "year_2014.csv",
+        "csv_size_mb": 0.07371902465820312,
+        "parquet_size_mb": 0.03175067901611328,
+        "csv_read_time": 0.0017962455749511719,
+        "parquet_read_time": 0.0009489059448242188,
+        "speedup": 1.892964824120603,
+        "compression": 56.93014230271669
+      },
+      {
+        "file": "20170630.csv",
+        "csv_size_mb": 0.008172035217285156,
+        "parquet_size_mb": 0.010440826416015625,
+        "csv_read_time": 0.0008671283721923828,
+        "parquet_read_time": 0.0009069442749023438,
+        "speedup": 0.9560988433228181,
+        "compression": -27.762866145407862
+      },
+      {
+        "file": "year_2004.csv",
+        "csv_size_mb": 1.1781435012817383,
+        "parquet_size_mb": 0.3905448913574219,
+        "csv_read_time": 0.008313894271850586,
+        "parquet_read_time": 0.0028791427612304688,
+        "speedup": 2.887628353759523,
+        "compression": 66.85082157372713
+      },
+      {
+        "file": "year_2011.csv",
+        "csv_size_mb": 0.10422611236572266,
+        "parquet_size_mb": 0.047837257385253906,
+        "csv_read_time": 0.0016450881958007812,
+        "parquet_read_time": 0.0022590160369873047,
+        "speedup": 0.7282321899736148,
+        "compression": 54.10242567870509
+      },
+      {
+        "file": "year_2014.csv",
+        "csv_size_mb": 0.04619026184082031,
+        "parquet_size_mb": 0.06117820739746094,
+        "csv_read_time": 0.0013513565063476562,
+        "parquet_read_time": 0.0021469593048095703,
+        "speedup": 0.6294280955024986,
+        "compression": -32.448280133790306
+      },
+      {
+        "file": "year_2016_Q4.csv",
+        "csv_size_mb": 14.857428550720215,
+        "parquet_size_mb": 1.591796875,
+        "csv_read_time": 0.0837712287902832,
+        "parquet_read_time": 0.010597944259643555,
+        "speedup": 7.904479089334323,
+        "compression": 89.2861885920169
+      },
+      {
+        "file": "year_2014_Q3.csv",
+        "csv_size_mb": 9.328155517578125,
+        "parquet_size_mb": 1.7469301223754883,
+        "csv_read_time": 0.04574298858642578,
+        "parquet_read_time": 0.005466938018798828,
+        "speedup": 8.367204535542957,
+        "compression": 81.27250216740549
+      },
+      {
+        "file": "year_2018_Q3.csv",
+        "csv_size_mb": 14.929213523864746,
+        "parquet_size_mb": 1.5562334060668945,
+        "csv_read_time": 0.08357715606689453,
+        "parquet_read_time": 0.01088094711303711,
+        "speedup": 7.681055260966739,
+        "compression": 89.57591835913384
+      },
+      {
+        "file": "year_2013.csv",
+        "csv_size_mb": 1.6214876174926758,
+        "parquet_size_mb": 1.2391357421875,
+        "csv_read_time": 0.013664007186889648,
+        "parquet_read_time": 0.0034286975860595703,
+        "speedup": 3.9851887907655934,
+        "compression": 23.580314223824338
+      },
+      {
+        "file": "year_2007.csv",
+        "csv_size_mb": 0.09765148162841797,
+        "parquet_size_mb": 0.048186302185058594,
+        "csv_read_time": 0.001889944076538086,
+        "parquet_read_time": 0.0012412071228027344,
+        "speedup": 1.5226661544371878,
+        "compression": 50.65481712974267
+      },
+      {
+        "file": "year_2014.csv",
+        "csv_size_mb": 4.431210517883301,
+        "parquet_size_mb": 2.2836685180664062,
+        "csv_read_time": 0.027340173721313477,
+        "parquet_read_time": 0.004233837127685547,
+        "speedup": 6.4575402635431915,
+        "compression": 48.464003033706724
+      },
+      {
+        "file": "year_2024.csv",
+        "csv_size_mb": 10.939488410949707,
+        "parquet_size_mb": 0.37596702575683594,
+        "csv_read_time": 0.05038714408874512,
+        "parquet_read_time": 0.005532979965209961,
+        "speedup": 9.106691946395484,
+        "compression": 96.56321199279742
+      },
+      {
+        "file": "year_2025.csv",
+        "csv_size_mb": 3.4737281799316406,
+        "parquet_size_mb": 2.2833290100097656,
+        "csv_read_time": 0.019989967346191406,
+        "parquet_read_time": 0.0036890506744384766,
+        "speedup": 5.418729399599302,
+        "compression": 34.26863324537099
+      },
+      {
+        "file": "year_2014_Q4.csv",
+        "csv_size_mb": 13.619464874267578,
+        "parquet_size_mb": 1.4441204071044922,
+        "csv_read_time": 0.07692527770996094,
+        "parquet_read_time": 0.010789871215820312,
+        "speedup": 7.129397207000177,
+        "compression": 89.3966435507096
+      },
+      {
+        "file": "year_2014.csv",
+        "csv_size_mb": 4.782435417175293,
+        "parquet_size_mb": 2.5309219360351562,
+        "csv_read_time": 0.031015872955322266,
+        "parquet_read_time": 0.005856037139892578,
+        "speedup": 5.296392801889097,
+        "compression": 47.07880577026119
+      },
+      {
+        "file": "year_2022.csv",
+        "csv_size_mb": 0.12579631805419922,
+        "parquet_size_mb": 0.059370994567871094,
+        "csv_read_time": 0.002273082733154297,
+        "parquet_read_time": 0.0013298988342285156,
+        "speedup": 1.7092147723198279,
+        "compression": 52.803869392829796
+      },
+      {
+        "file": "year_2014.csv",
+        "csv_size_mb": 6.225069999694824,
+        "parquet_size_mb": 0.9350185394287109,
+        "csv_read_time": 0.04157900810241699,
+        "parquet_read_time": 0.006863832473754883,
+        "speedup": 6.057695647643197,
+        "compression": 84.97979075778186
+      },
+      {
+        "file": "year_2014.csv",
+        "csv_size_mb": 0.07256507873535156,
+        "parquet_size_mb": 0.03940582275390625,
+        "csv_read_time": 0.003536224365234375,
+        "parquet_read_time": 0.001965045928955078,
+        "speedup": 1.7995632128124242,
+        "compression": 45.695886450256275
+      },
+      {
+        "file": "year_2023.csv",
+        "csv_size_mb": 3.463926315307617,
+        "parquet_size_mb": 2.070650100708008,
+        "csv_read_time": 0.018722057342529297,
+        "parquet_read_time": 0.003470897674560547,
+        "speedup": 5.3940101662316255,
+        "compression": 40.22245532309709
+      },
+      {
+        "file": "year_2015.csv",
+        "csv_size_mb": 0.050667762756347656,
+        "parquet_size_mb": 0.02374267578125,
+        "csv_read_time": 0.0016019344329833984,
+        "parquet_read_time": 0.00098419189453125,
+        "speedup": 1.6276647286821706,
+        "compression": 53.1404694234787
+      },
+      {
+        "file": "year_2005_Q3.csv",
+        "csv_size_mb": 14.236452102661133,
+        "parquet_size_mb": 1.5167388916015625,
+        "csv_read_time": 0.07896709442138672,
+        "parquet_read_time": 0.011158943176269531,
+        "speedup": 7.076574651739167,
+        "compression": 89.34608931590444
+      },
+      {
+        "file": "year_2005_Q4.csv",
+        "csv_size_mb": 14.295575141906738,
+        "parquet_size_mb": 1.5233020782470703,
+        "csv_read_time": 0.0823831558227539,
+        "parquet_read_time": 0.012279748916625977,
+        "speedup": 6.708863217163382,
+        "compression": 89.3442406959788
+      },
+      {
+        "file": "year_2005.csv",
+        "csv_size_mb": 0.0012292861938476562,
+        "parquet_size_mb": 0.018065452575683594,
+        "csv_read_time": 0.002525806427001953,
+        "parquet_read_time": 0.002372264862060547,
+        "speedup": 1.0647236180904522,
+        "compression": -1369.588828549263
+      },
+      {
+        "file": "year_2019.csv",
+        "csv_size_mb": 2.4946861267089844,
+        "parquet_size_mb": 1.8372125625610352,
+        "csv_read_time": 0.015125036239624023,
+        "parquet_read_time": 0.002699136734008789,
+        "speedup": 5.603656920766717,
+        "compression": 26.354961335969552
+      },
+      {
+        "file": "year_2022_Q2.csv",
+        "csv_size_mb": 9.757615089416504,
+        "parquet_size_mb": 2.0617427825927734,
+        "csv_read_time": 0.045480966567993164,
+        "parquet_read_time": 0.0039730072021484375,
+        "speedup": 11.447491598655786,
+        "compression": 78.87042311364564
+      },
+      {
+        "file": "year_2002.csv",
+        "csv_size_mb": 0.5982561111450195,
+        "parquet_size_mb": 0.3558340072631836,
+        "csv_read_time": 0.005567312240600586,
+        "parquet_read_time": 0.002872943878173828,
+        "speedup": 1.9378423236514524,
+        "compression": 40.52145884775958
+      },
+      {
+        "file": "year_2024.csv",
+        "csv_size_mb": 4.146195411682129,
+        "parquet_size_mb": 0.49544334411621094,
+        "csv_read_time": 0.019968032836914062,
+        "parquet_read_time": 0.0040760040283203125,
+        "speedup": 4.898923724847918,
+        "compression": 88.05065138222206
+      },
+      {
+        "file": "year_2025.csv",
+        "csv_size_mb": 6.4398088455200195,
+        "parquet_size_mb": 1.7952213287353516,
+        "csv_read_time": 0.037706851959228516,
+        "parquet_read_time": 0.009351968765258789,
+        "speedup": 4.031969407265774,
+        "compression": 72.12306495736698
+      },
+      {
+        "file": "year_2012.csv",
+        "csv_size_mb": 0.0022449493408203125,
+        "parquet_size_mb": 0.01607513427734375,
+        "csv_read_time": 0.001995086669921875,
+        "parquet_read_time": 0.0021219253540039062,
+        "speedup": 0.9402247191011236,
+        "compression": -616.0577740016993
+      },
+      {
+        "file": "year_2019_Q4.csv",
+        "csv_size_mb": 9.723429679870605,
+        "parquet_size_mb": 1.9380855560302734,
+        "csv_read_time": 0.04650616645812988,
+        "parquet_read_time": 0.0039310455322265625,
+        "speedup": 11.83048277535177,
+        "compression": 80.06788119173126
+      },
+      {
+        "file": "year_2009.csv",
+        "csv_size_mb": 0.9171066284179688,
+        "parquet_size_mb": 0.3740568161010742,
+        "csv_read_time": 0.01052713394165039,
+        "parquet_read_time": 0.0037059783935546875,
+        "speedup": 2.8405815748841996,
+        "compression": 59.213377756703025
+      },
+      {
+        "file": "year_2022.csv",
+        "csv_size_mb": 524.5552635192871,
+        "parquet_size_mb": 38.57510185241699,
+        "csv_read_time": 2.3935580253601074,
+        "parquet_read_time": 0.1639549732208252,
+        "speedup": 14.598874180756372,
+        "compression": 92.64613196451157
+      },
+      {
+        "file": "year_2004_Q1.csv",
+        "csv_size_mb": 14.0565824508667,
+        "parquet_size_mb": 1.5022830963134766,
+        "csv_read_time": 0.10876607894897461,
+        "parquet_read_time": 0.027652740478515625,
+        "speedup": 3.9332839012277554,
+        "compression": 89.31260068679889
+      },
+      {
+        "file": "year_2009.csv",
+        "csv_size_mb": 0.09305667877197266,
+        "parquet_size_mb": 0.03116893768310547,
+        "csv_read_time": 0.003850698471069336,
+        "parquet_read_time": 0.0038042068481445312,
+        "speedup": 1.0122211080471295,
+        "compression": 66.50542648370006
+      },
+      {
+        "file": "static_data.csv",
+        "csv_size_mb": 1.1744365692138672,
+        "parquet_size_mb": 0.5605945587158203,
+        "csv_read_time": 0.009550809860229492,
+        "parquet_read_time": 0.0032749176025390625,
+        "speedup": 2.9163511939429236,
+        "compression": 52.266936043121895
+      },
+      {
+        "file": "year_2014.csv",
+        "csv_size_mb": 23.04705047607422,
+        "parquet_size_mb": 8.38761043548584,
+        "csv_read_time": 0.10540223121643066,
+        "parquet_read_time": 0.011082887649536133,
+        "speedup": 9.510358180058084,
+        "compression": 63.60657757836192
+      },
+      {
+        "file": "year_2020.csv",
+        "csv_size_mb": 7.5249223709106445,
+        "parquet_size_mb": 3.949350357055664,
+        "csv_read_time": 0.04430580139160156,
+        "parquet_read_time": 0.005780935287475586,
+        "speedup": 7.664123396708871,
+        "compression": 47.51639734752872
+      },
+      {
+        "file": "year_2018_Q4.csv",
+        "csv_size_mb": 9.708891868591309,
+        "parquet_size_mb": 1.9228334426879883,
+        "csv_read_time": 0.04429483413696289,
+        "parquet_read_time": 0.005092144012451172,
+        "speedup": 8.698660923307425,
+        "compression": 80.19512969437389
+      },
+      {
+        "file": "year_2007.csv",
+        "csv_size_mb": 0.38796138763427734,
+        "parquet_size_mb": 0.12348365783691406,
+        "csv_read_time": 0.005522966384887695,
+        "parquet_read_time": 0.0028848648071289062,
+        "speedup": 1.9144628099173553,
+        "compression": 68.17114749746193
+      },
+      {
+        "file": "20081231.csv",
+        "csv_size_mb": 0.00814056396484375,
+        "parquet_size_mb": 0.010345458984375,
+        "csv_read_time": 0.0009810924530029297,
+        "parquet_read_time": 0.001094818115234375,
+        "speedup": 0.8961236933797909,
+        "compression": -27.085285848172447
+      },
+      {
+        "file": "year_2006_Q4.csv",
+        "csv_size_mb": 14.399291038513184,
+        "parquet_size_mb": 1.5890932083129883,
+        "csv_read_time": 0.08067989349365234,
+        "parquet_read_time": 0.010895729064941406,
+        "speedup": 7.40472647702407,
+        "compression": 88.9640871619116
+      },
+      {
+        "file": "year_2004.csv",
+        "csv_size_mb": 7.30946159362793,
+        "parquet_size_mb": 0.2379894256591797,
+        "csv_read_time": 0.0354769229888916,
+        "parquet_read_time": 0.004926919937133789,
+        "speedup": 7.200629082990564,
+        "compression": 96.74409089355296
+      },
+      {
+        "file": "year_2003.csv",
+        "csv_size_mb": 0.001522064208984375,
+        "parquet_size_mb": 0.005976676940917969,
+        "csv_read_time": 0.0013349056243896484,
+        "parquet_read_time": 0.0013110637664794922,
+        "speedup": 1.0181851245681033,
+        "compression": -292.6691729323308
+      },
+      {
+        "file": "year_2004_Q2.csv",
+        "csv_size_mb": 3.550847053527832,
+        "parquet_size_mb": 0.5369348526000977,
+        "csv_read_time": 0.021430015563964844,
+        "parquet_read_time": 0.004258871078491211,
+        "speedup": 5.031853552034932,
+        "compression": 84.87868262118914
+      },
+      {
+        "file": "year_2004.csv",
+        "csv_size_mb": 0.14473438262939453,
+        "parquet_size_mb": 0.0645914077758789,
+        "csv_read_time": 0.0028810501098632812,
+        "parquet_read_time": 0.0018658638000488281,
+        "speedup": 1.5440838231535905,
+        "compression": 55.372450828583666
+      },
+      {
+        "file": "20100930.csv",
+        "csv_size_mb": 0.008187294006347656,
+        "parquet_size_mb": 0.010441780090332031,
+        "csv_read_time": 0.0010318756103515625,
+        "parquet_read_time": 0.0008351802825927734,
+        "speedup": 1.2355124179274908,
+        "compression": -27.536400698893427
+      },
+      {
+        "file": "year_2004.csv",
+        "csv_size_mb": 0.004932403564453125,
+        "parquet_size_mb": 0.014133453369140625,
+        "csv_read_time": 0.0007250308990478516,
+        "parquet_read_time": 0.001010894775390625,
+        "speedup": 0.7172169811320754,
+        "compression": -186.54292343387473
+      },
+      {
+        "file": "year_2007_Q2.csv",
+        "csv_size_mb": 3.3114748001098633,
+        "parquet_size_mb": 0.6393098831176758,
+        "csv_read_time": 0.016752004623413086,
+        "parquet_read_time": 0.0023450851440429688,
+        "speedup": 7.143452623017486,
+        "compression": 80.69410393530805
+      },
+      {
+        "file": "year_2005.csv",
+        "csv_size_mb": 0.6120624542236328,
+        "parquet_size_mb": 0.06618881225585938,
+        "csv_read_time": 0.0052509307861328125,
+        "parquet_read_time": 0.0016901493072509766,
+        "speedup": 3.1067851601072083,
+        "compression": 89.18593816707542
+      },
+      {
+        "file": "year_2007.csv",
+        "csv_size_mb": 2.44626522064209,
+        "parquet_size_mb": 1.1759319305419922,
+        "csv_read_time": 0.016282081604003906,
+        "parquet_read_time": 0.003652811050415039,
+        "speedup": 4.457411396122969,
+        "compression": 51.929499687146084
+      },
+      {
+        "file": "year_2007.csv",
+        "csv_size_mb": 0.9247636795043945,
+        "parquet_size_mb": 0.5749721527099609,
+        "csv_read_time": 0.006617069244384766,
+        "parquet_read_time": 0.0027899742126464844,
+        "speedup": 2.3717313279781234,
+        "compression": 37.824963776896624
+      }
+    ]
+  },
+  "recommendations": [
+    "⚠️ 发现数据完整性问题，建议保留原始CSV数据"
+  ],
+  "overall_status": "KEEP_ORIGINAL"
+}
